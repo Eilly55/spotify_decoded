@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/container" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/narration_image_background" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" android:contentDescription="@null" />
+    <com.spotify.encoreconsumermobile.elements.jellyfish.JellyfishView android:layout_gravity="center_horizontal" android:id="@id/jellyfish" android:layout_width="@dimen/endless_narration_content_size" android:layout_height="@dimen/endless_narration_content_size" android:layout_marginTop="@dimen/endless_narration_content_margin_top" />
+</FrameLayout>

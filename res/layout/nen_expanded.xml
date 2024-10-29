@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/push_notification_margin">
+        <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:textSize="@dimen/nen_title_text_size" android:textStyle="bold" android:textColor="@color/notification_text" android:ellipsize="end" android:id="@id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="2" android:includeFontPadding="false" android:layout_marginEnd="@dimen/spacer_16" />
+            <TextView android:textSize="@dimen/nen_subtitle_text_size" android:textColor="@color/notification_muted" android:ellipsize="end" android:id="@id/subtitle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/spacer_8" android:maxLines="1" android:includeFontPadding="false" android:lineSpacingExtra="0.0dip" android:layout_marginEnd="@dimen/spacer_16" />
+        </LinearLayout>
+        <ImageView android:id="@id/image" android:layout_width="@dimen/nen_expanded_image_dimen" android:layout_height="@dimen/nen_expanded_image_dimen" android:contentDescription="@string/rich_notification_image_nen" style="@style/NenImage" />
+    </LinearLayout>
+    <TextView android:textSize="@dimen/nen_subtitle_text_size" android:textColor="@color/notification_text" android:ellipsize="end" android:id="@id/description" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/spacer_12" android:maxLines="3" />
+    <TextView android:textSize="@dimen/nen_subtitle_text_size" android:textColor="@color/notification_muted" android:id="@id/duration" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/spacer_12" />
+</LinearLayout>

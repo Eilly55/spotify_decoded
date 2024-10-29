@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:id="@id/gradient" android:layout_width="fill_parent" android:layout_height="340.0dip" />
+    <ScrollView android:id="@id/scroll_container" android:paddingLeft="@dimen/spacer_16" android:paddingRight="@dimen/spacer_16" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true" android:paddingHorizontal="@dimen/spacer_16">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/container" android:paddingTop="@dimen/spacer_32" android:paddingBottom="@dimen/spacer_32" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingVertical="@dimen/spacer_32">
+            <com.spotify.encoremobile.viewstub.EncoreViewStub android:id="@id/qr_card" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/spacer_32" />
+            <TextView android:textSize="16.0sp" android:textColor="?baseTextSubdued" android:id="@id/divider" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/spacer_16" android:text="@string/login_options_divider" style="@style/TextAppearance.Encore.BodyMedium" />
+            <com.spotify.encoremobile.viewstub.EncoreViewStub android:id="@id/details_card" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/spacer_16" />
+        </LinearLayout>
+    </ScrollView>
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/toolbar_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <View android:id="@id/toolbar" android:background="@color/opacity_black_30" android:layout_width="fill_parent" android:layout_height="0.0dip" android:alpha="0.0" android:importantForAccessibility="no" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        <View android:id="@id/toolbar_placeholder" android:layout_width="fill_parent" android:layout_height="?android:actionBarSize" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" />
+        <ImageButton android:layout_gravity="end" android:id="@id/close_button" android:background="@null" android:layout_width="48.0dip" android:layout_height="48.0dip" android:src="@drawable/encore_icon_x" android:contentDescription="@string/close_button_content_description" app:layout_constraintBottom_toBottomOf="@id/toolbar_placeholder" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="@id/toolbar_placeholder" app:tint="@color/white" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

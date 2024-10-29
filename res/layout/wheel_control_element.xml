@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.spotify.podcastplaybackspeed.uiusecases.wheelcontrol.WheelControlElementContainer android:layout_width="wrap_content" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/wheel_control_element_marker" android:background="?textBase" android:layout_width="@dimen/control_wheel_element_marker_width" android:layout_height="@dimen/control_wheel_element_marker_height" />
+    <TextView android:textAppearance="@style/TextAppearance.Encore.BodySmall" android:textColor="?textBase" android:id="@id/wheel_control_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/spacer_8" android:importantForAccessibility="no" />
+</com.spotify.podcastplaybackspeed.uiusecases.wheelcontrol.WheelControlElementContainer>

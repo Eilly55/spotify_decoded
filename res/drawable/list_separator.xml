@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape>
+            <solid android:color="?baseBackgroundHighlight" />
+        </shape>
+    </item>
+    <item android:left="@dimen/spacer_16" android:right="@dimen/spacer_16">
+        <shape>
+            <size android:height="1.0dip" android:width="1.0dip" />
+            <solid android:color="?baseBackgroundTintedHighlight" />
+        </shape>
+    </item>
+</layer-list>

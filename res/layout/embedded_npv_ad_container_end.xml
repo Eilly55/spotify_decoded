@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/ad_container" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:id="@id/ad_view_top_margin" android:layout_width="0.0dip" android:layout_height="0.0dip" app:layout_constraintDimensionRatio="100:6" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <FrameLayout android:id="@id/media_container" android:visibility="visible" android:layout_width="0.0dip" android:layout_height="0.0dip" app:layout_constraintBottom_toTopOf="@id/album_art_top_margin" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintHorizontal_bias="0.0" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/ad_view_top_margin">
+        <com.spotify.adsdisplay.embeddedad.mutedvideoview.MutedVideoAdView android:id="@id/muted_video_ad" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </FrameLayout>
+    <View android:id="@id/album_art_top_margin" android:layout_width="0.0dip" android:layout_height="0.0dip" app:layout_constraintBottom_toTopOf="@id/album_art_image" app:layout_constraintDimensionRatio="100:6" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" />
+    <ImageView android:id="@id/album_art_image" android:layout_width="@dimen/spacer_56" android:layout_height="@dimen/spacer_56" android:scaleType="centerCrop" app:layout_constraintBottom_toTopOf="@id/album_art_bottom_margin" app:layout_constraintDimensionRatio="1:1" app:layout_constraintStart_toStartOf="parent" />
+    <View android:id="@id/album_art_bottom_margin" android:layout_width="0.0dip" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintDimensionRatio="100:4" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

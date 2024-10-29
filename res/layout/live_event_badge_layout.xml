@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.airbnb.lottie.LottieAnimationView android:id="@id/live_event_badge_play_indicator_view" android:layout_width="12.0dip" android:layout_height="12.0dip" android:contentDescription="@null" android:importantForAccessibility="no" android:layout_marginEnd="3.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toStartOf="@id/event_badge_text_view" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:lottie_autoPlay="false" app:lottie_colorFilter="?brightAccentTextBase" app:lottie_loop="true" app:lottie_rawRes="@raw/play_indicator_playing" />
+    <androidx.appcompat.widget.AppCompatTextView android:textAppearance="@style/TextAppearance.Encore.MarginalBold" android:textSize="13.0sp" android:ellipsize="end" android:id="@id/event_badge_text_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:importantForAccessibility="no" android:textDirection="locale" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" />
+</merge>

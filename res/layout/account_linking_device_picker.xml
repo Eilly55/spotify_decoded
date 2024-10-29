@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textAppearance="@style/TextAppearance.Encore.BodyMediumBold" android:textColor="@color/white" android:id="@id/account_linking_device_picker_title" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <TextView android:textAppearance="@style/TextAppearance.Encore.Marginal" android:textColor="@color/white" android:id="@id/account_linking_device_picker_description" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/spacer_4" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/account_linking_device_picker_title" />
+    <Button android:textColor="@color/white" android:id="@id/account_linking_device_picker_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/std_16dp" android:filterTouchesWhenObscured="true" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/account_linking_device_picker_description" style="@style/Widget.Cat.Button.Small" />
+</merge>

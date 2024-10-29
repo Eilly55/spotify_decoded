@@ -1,0 +1,113 @@
+.class public final synthetic Lp/zms;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Lio/reactivex/rxjava3/functions/Consumer;
+
+
+# instance fields
+.field public final synthetic a:I
+
+.field public final synthetic b:Lp/eos;
+
+.field public final synthetic c:Lp/ils;
+
+
+# direct methods
+.method public synthetic constructor <init>(Lp/eos;Lp/ils;I)V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 2
+    .line 3
+    .line 4
+    iput p3, p0, Lp/zms;->a:I
+
+    .line 5
+    .line 6
+    iput-object p1, p0, Lp/zms;->b:Lp/eos;
+
+    .line 7
+    .line 8
+    iput-object p2, p0, Lp/zms;->c:Lp/ils;
+
+    .line 9
+    .line 10
+    return-void
+.end method
+
+
+# virtual methods
+.method public final accept(Ljava/lang/Object;)V
+    .locals 3
+
+    .line 1
+    iget-object v0, p0, Lp/zms;->b:Lp/eos;
+
+    .line 2
+    .line 3
+    iget-object v1, p0, Lp/zms;->c:Lp/ils;
+
+    .line 4
+    .line 5
+    iget v2, p0, Lp/zms;->a:I
+
+    .line 6
+    .line 7
+    packed-switch v2, :pswitch_data_0
+
+    .line 8
+    .line 9
+    .line 10
+    check-cast p1, Ljava/lang/Throwable;
+
+    .line 11
+    .line 12
+    iget-object p1, v1, Lp/ils;->b:Ljava/lang/String;
+
+    .line 13
+    .line 14
+    const-string v1, ""
+
+    .line 15
+    .line 16
+    const-string v2, "RESUME"
+
+    .line 17
+    .line 18
+    invoke-virtual {v0, p1, v1, v2, v2}, Lp/eos;->b(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+
+    .line 19
+    .line 20
+    .line 21
+    return-void
+
+    .line 22
+    :pswitch_0
+    check-cast p1, Lp/odc;
+
+    .line 23
+    .line 24
+    iget-object p1, v1, Lp/ils;->b:Ljava/lang/String;
+
+    .line 25
+    .line 26
+    const/4 v1, 0x1
+
+    .line 27
+    invoke-virtual {v0, p1, v1}, Lp/eos;->a(Ljava/lang/String;Z)V
+
+    .line 28
+    .line 29
+    .line 30
+    return-void
+
+    .line 31
+    :pswitch_data_0
+    .packed-switch 0x0
+        :pswitch_0
+    .end packed-switch
+.end method

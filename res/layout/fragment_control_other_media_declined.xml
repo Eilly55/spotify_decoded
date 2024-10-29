@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.spotify.superbird.setup.SetupView android:id="@id/control_other_media_declined" android:layout_width="fill_parent" android:layout_height="fill_parent" app:buttonText="@string/control_other_media_declined_got_it" app:description="@string/control_other_media_declined_description" app:title="@string/control_other_media_declined_title"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

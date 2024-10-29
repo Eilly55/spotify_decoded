@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/widget_reload_layout" android:background="@color/bg_widget" android:padding="@dimen/widget_padding" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/widget_spotify_logo" android:background="@drawable/ic_spotify_logo_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:contentDescription="@string/npv_widget_nonauth_logo_desc" android:layout_alignParentStart="true" />
+    <ImageView android:id="@id/guideline" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_centerVertical="true" />
+    <TextView android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/npv_widget_reload_title" android:layout_above="@id/guideline" android:layout_centerHorizontal="true" style="@style/WidgetTitleText" />
+    <TextView android:id="@id/body" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/npv_widget_reload_body" android:layout_below="@id/guideline" android:layout_centerHorizontal="true" style="@style/WidgetBodyText" />
+</RelativeLayout>

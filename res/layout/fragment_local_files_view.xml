@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:id="@id/header_layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/recycler_view" android:paddingLeft="@dimen/content_area_horizontal_margin" android:paddingTop="@dimen/local_files_recycler_vertical_padding" android:paddingRight="@dimen/content_area_horizontal_margin" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingHorizontal="@dimen/content_area_horizontal_margin" app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+    <com.spotify.legacyglue.recyclerview.RecyclerViewFastScroller android:layout_gravity="end|center" android:id="@id/recycler_scroll" android:paddingTop="@dimen/local_files_recycler_vertical_padding" android:paddingBottom="@dimen/local_files_recycler_vertical_padding" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingVertical="@dimen/local_files_recycler_vertical_padding" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

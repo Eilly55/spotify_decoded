@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="audiobook_nudge_action_button_margin_top">16.0dip</dimen>
+    <dimen name="audiobook_nudge_container_padding_bottom">36.0dip</dimen>
+    <dimen name="audiobook_nudge_title_margin_top">12.0dip</dimen>
+    <dimen name="library_chip_vertical_margin">8.0dip</dimen>
+    <dimen name="wrapped_music_evolution_era_descriptor_margin_bottom">16.0dip</dimen>
+    <dimen name="wrapped_music_evolution_era_descriptor_margin_horizontal">16.0dip</dimen>
+    <dimen name="wrapped_top_five_image_size">64.0dip</dimen>
+</resources>

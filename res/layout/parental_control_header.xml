@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="@drawable/encore_header_background_gradient" android:paddingTop="?actionBarSize" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.spotify.encoremobile.facepile.FaceView android:id="@id/face_view" android:layout_width="108.0dip" android:layout_height="112.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <com.spotify.encoremobile.component.buttons.EncoreButton android:textSize="13.0sp" android:id="@id/login_options_button" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/spacer_8" android:text="@string/login_options_button" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/face_view" style="@style/Encore.Button.Secondary.Small" />
+</androidx.constraintlayout.widget.ConstraintLayout>

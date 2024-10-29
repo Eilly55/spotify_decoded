@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="footer_button_margin">152.0dip</dimen>
+    <dimen name="header_title_margin_top">267.0dip</dimen>
+    <dimen name="mme_seek_bar_margin_horizontal">152.0dip</dimen>
+    <dimen name="mme_track_list_margin_horizontal">152.0dip</dimen>
+    <dimen name="onboarding_confirm_button_margin_bottom">32.0dip</dimen>
+    <dimen name="onboarding_jam_subtitle_margin_bottom">24.0dip</dimen>
+    <dimen name="onboarding_jam_summary_margin_bottom">24.0dip</dimen>
+    <dimen name="onboarding_settings_info_margin_bottom">24.0dip</dimen>
+    <dimen name="playback_controls_margin">152.0dip</dimen>
+    <dimen name="promo_card_max_width">466.0dip</dimen>
+    <dimen name="seekbar_margin_horizontal">144.0dip</dimen>
+    <dimen name="seekbar_margin_vertical">8.0dip</dimen>
+    <dimen name="social_listening_v2_onboarding_host_title_text_size">56.0sp</dimen>
+    <dimen name="subtitle_text_size">30.0sp</dimen>
+    <dimen name="tooltip_margin_top">203.0dip</dimen>
+    <dimen name="widgets_container_horizontal_padding">160.0dip</dimen>
+    <dimen name="footer_bottom_padding">8.0dip</dimen>
+    <dimen name="footer_top_padding">20.0dip</dimen>
+    <dimen name="header_button_margin">16.0dip</dimen>
+    <dimen name="header_top_margin">16.0dip</dimen>
+    <dimen name="peek_height">40.0dip</dimen>
+</resources>

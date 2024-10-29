@@ -1,0 +1,45 @@
+.class public final synthetic Lp/s711;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Lp/njj0;
+
+
+# static fields
+.field public static final synthetic a:Lp/s711;
+
+
+# direct methods
+.method static synthetic constructor <clinit>()V
+    .locals 1
+
+    .line 1
+    new-instance v0, Lp/s711;
+
+    .line 2
+    .line 3
+    invoke-direct {v0}, Ljava/lang/Object;-><init>()V
+
+    .line 4
+    .line 5
+    .line 6
+    sput-object v0, Lp/s711;->a:Lp/s711;
+
+    .line 7
+    .line 8
+    return-void
+.end method
+
+
+# virtual methods
+.method public final get()Ljava/lang/Object;
+    .locals 1
+
+    .line 1
+    invoke-static {}, Lcom/spotify/speech/v1/StreamingRecognitionConfig;->R()Lcom/spotify/speech/v1/StreamingRecognitionConfig;
+
+    move-result-object v0
+
+    return-object v0
+.end method

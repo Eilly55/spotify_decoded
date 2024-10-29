@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/button_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/spacer_32" android:importantForAccessibility="no" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <com.spotify.encoremobile.component.textview.EncoreTextView android:textAppearance="@style/TextAppearance.Encore.BodyMedium" android:id="@id/button_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/spacer_32" android:layout_marginStart="@dimen/std_16dp" app:layout_constraintStart_toEndOf="@id/button_icon" app:layout_constraintTop_toTopOf="parent" />
+</merge>

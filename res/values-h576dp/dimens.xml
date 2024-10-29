@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="start_activation_top_padding">48.0dip</dimen>
+    <dimen name="start_fragment_bottom_guideline">32.0dip</dimen>
+    <dimen name="start_fragment_side_guideline">32.0dip</dimen>
+    <dimen name="start_fragment_top_button_margin">64.0dip</dimen>
+    <dimen name="start_fragment_top_button_start_activation_margin">8.0dip</dimen>
+    <dimen name="start_fragment_top_guideline">48.0dip</dimen>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.spotify.lyrics.fullscreenview.ui.LoadingTextView android:textAppearance="@style/TextAppearance.Encore.TitleSmall" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="@dimen/skeleton_text_margin" android:layout_marginBottom="@dimen/paragraph_line_margin" android:maxLines="1" android:alpha="0.2" android:layout_marginEnd="@dimen/skeleton_text_margin" />
+    <com.spotify.lyrics.fullscreenview.ui.LoadingTextView android:textAppearance="@style/TextAppearance.Encore.TitleSmall" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="@dimen/skeleton_text_margin" android:layout_marginBottom="@dimen/paragraph_line_margin" android:maxLines="1" android:alpha="0.2" android:layout_marginEnd="@dimen/skeleton_text_margin" />
+    <com.spotify.lyrics.fullscreenview.ui.LoadingTextView android:textAppearance="@style/TextAppearance.Encore.TitleSmall" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="@dimen/skeleton_text_large_margin" android:layout_marginBottom="@dimen/paragraph_margin" android:maxLines="1" android:alpha="0.2" android:layout_marginEnd="@dimen/skeleton_text_large_margin" />
+</merge>

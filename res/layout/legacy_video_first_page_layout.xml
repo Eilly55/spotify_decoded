@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:id="@id/content" android:background="?pasteColorBackground" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.spotify.nowplaying.scroll.view.PeekScrollView android:id="@id/scroll_container" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.spotify.nowplaying.uiusecases.overlay.OverlayHidingGradientBackgroundView android:id="@id/overlay_controls_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <com.spotify.encoremobile.viewstub.EncoreViewStub android:id="@id/video_first_track_carousel" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <include layout="@layout/legacy_video_first_overlay" />
+        </com.spotify.nowplaying.uiusecases.overlay.OverlayHidingGradientBackgroundView>
+        <com.spotify.nowplaying.scroll.container.ScrollCardsContainer android:id="@id/widgets_container" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </com.spotify.nowplaying.scroll.view.PeekScrollView>
+    <com.spotify.encoremobile.viewstub.EncoreViewStub android:layout_gravity="top" android:id="@id/revised_template_sticky_header" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

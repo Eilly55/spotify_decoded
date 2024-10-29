@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:id="@id/listening_history_root" android:layout_width="fill_parent" android:layout_height="fill_parent" android:importantForAccessibility="no"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:spotify="http://schemas.android.com/apk/res-auto">
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/body" android:layout_width="fill_parent" android:layout_height="fill_parent" android:overScrollMode="never" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/overlay" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <FrameLayout android:id="@id/quickscroll_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.spotify.quickscroll.legacyquickscroll.QuickScrollView android:id="@id/quickscroll_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="@dimen/listening_history_quickscroll_vertical_margin" spotify:quickscroll_initialIndicatorPadding="80.0dip" spotify:quickscroll_initiallyVisible="false" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

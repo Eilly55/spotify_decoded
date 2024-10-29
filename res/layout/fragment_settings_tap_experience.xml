@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:padding="16.0dip" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="@style/TextAppearance.Encore.BodyMediumBold" android:textColor="@color/white" android:id="@id/tap_phones_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/tap_phones_title" />
+    <TextView android:textAppearance="@style/TextAppearance.Encore.BodySmall" android:textColor="@color/white" android:id="@id/tap_phones_subtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/spacer_8" android:text="@string/tap_phones_subtitle" />
+    <com.spotify.encoremobile.component.buttons.EncoreButton android:theme="@style/ThemeOverlay.Encore.Inverted" android:layout_gravity="center_horizontal" android:id="@id/action_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="16.0dip" android:text="@string/button_title_activate" style="@style/Encore.Button.Primary.Medium" />
+</LinearLayout>

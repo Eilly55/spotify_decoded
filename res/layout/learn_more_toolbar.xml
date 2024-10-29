@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="@color/marquee_toolbar" android:layout_width="fill_parent" android:layout_height="?android:actionBarSize" paste:layout_constraintLeft_toLeftOf="parent" paste:layout_constraintRight_toRightOf="parent" paste:layout_constraintTop_toTopOf="parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:paste="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/learn_more_close_button" android:background="?android:selectableItemBackground" android:layout_width="48.0dip" android:layout_height="fill_parent" android:scaleType="centerInside" android:contentDescription="@string/generic_content_description_close" android:layout_marginStart="4.0dip" paste:layout_constraintBottom_toBottomOf="parent" paste:layout_constraintStart_toStartOf="parent" paste:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

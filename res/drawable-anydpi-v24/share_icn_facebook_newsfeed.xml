@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="40.0dip" android:width="40.0dip" android:viewportWidth="40.0" android:viewportHeight="40.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <path android:fillColor="#ffffffff" android:pathData="M24.955 20.365h-2.9v10.35h-4.297v-10.35h-2.044V16.71h2.044v-2.366c0-1.695 0.803-4.343 4.336-4.343l3.184 0.014v3.55h-2.312c-0.375 0-0.911 0.186-0.911 0.996v2.15h3.277l-0.377 3.655z" android:fillType="evenOdd" />
+    <group>
+        <clip-path android:pathData="M0 0h40v40H0z" />
+        <path android:fillColor="@drawable/$share_icn_facebook_newsfeed__0" android:pathData="M16.667 39.725C7.208 38.138 0 29.908 0 20 0 8.958 8.958 0 20 0h0.017C31.058 0 40 8.958 40 20c0 9.908-7.208 18.138-16.667 19.725L20 36.945l-3.333 2.78z" />
+        <path android:fillColor="#ffffffff" android:pathData="M23.333 39.717V26.113h4.446L28.667 20h-5.334l-0.004-3.53c0-1.582 0.571-3.137 3.054-3.137h2.505V7.78s-2.271-0.42-4.459-0.42c-4.566 0-7.762 3.183-7.762 8.195V20h-5v6.113h5V39.72c1.083 0.183 2.195 0.283 3.333 0.283 1.137 0 2.25-0.104 3.333-0.287z" />
+    </group>
+</vector>

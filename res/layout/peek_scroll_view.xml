@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/root_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.spotify.nowplaying.scroll.view.FullScreenLayout android:id="@id/fullscreen_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <com.spotify.nowplaying.scroll.view.TouchBlockingFrameLayout android:id="@id/touch_blocking_container" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+</merge>

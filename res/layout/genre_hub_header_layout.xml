@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/content_container" android:background="@drawable/encore_header_background_gradient" android:paddingTop="?actionBarSize" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/title" android:paddingBottom="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/header_content_start_margin" android:layout_marginTop="8.0dip" android:layout_marginRight="@dimen/header_content_start_margin" android:layout_marginHorizontal="@dimen/header_content_start_margin" style="@style/Encore.Components.GenreHubHeader.Title" />
+    <TextView android:id="@id/subtitle" android:paddingBottom="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/header_content_start_margin" android:layout_marginRight="@dimen/header_content_start_margin" android:layout_marginHorizontal="@dimen/header_content_start_margin" style="@style/Encore.Components.GenreHubHeader.Subtitle" />
+</LinearLayout>

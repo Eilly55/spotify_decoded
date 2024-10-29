@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <corners android:radius="0.0dip" android:bottomLeftRadius="@dimen/fullscreen_story_gradient_corner_radius" android:bottomRightRadius="@dimen/fullscreen_story_gradient_corner_radius" />
+    <gradient android:startColor="@color/opacity_white_0" android:endColor="@color/opacity_black_70" android:angle="270.0" />
+</shape>

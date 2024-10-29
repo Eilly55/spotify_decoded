@@ -1,0 +1,32 @@
+.class public interface abstract Lp/gow;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# static fields
+.field public static final G:Lp/pf;
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 2
+
+    .line 1
+    new-instance v0, Lp/pf;
+
+    .line 2
+    .line 3
+    const/4 v1, 0x2
+
+    .line 4
+    invoke-direct {v0, v1}, Lp/pf;-><init>(I)V
+
+    .line 5
+    .line 6
+    .line 7
+    sput-object v0, Lp/gow;->G:Lp/pf;
+
+    .line 8
+    .line 9
+    return-void
+.end method

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="?overMediaBackgroundBase" />
+    <corners android:radius="@dimen/spacer_32" />
+    <padding android:left="@dimen/spacer_16" android:top="7.0dip" android:right="@dimen/spacer_16" android:bottom="7.0dip" />
+</shape>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="wrap_content" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:spotify="http://schemas.android.com/apk/res-auto">
+    <com.spotify.encoreconsumermobile.elements.thumb.ThumbButtonView android:id="@id/thumbs_up_button" android:layout_width="@dimen/spotify_icon_size" android:layout_height="@dimen/spotify_icon_size" spotify:layout_constraintBottom_toBottomOf="parent" spotify:layout_constraintStart_toStartOf="parent" spotify:layout_constraintTop_toTopOf="parent" />
+    <com.spotify.encoreconsumermobile.elements.thumb.ThumbButtonView android:id="@id/thumbs_down_button" android:layout_width="@dimen/spotify_icon_size" android:layout_height="@dimen/spotify_icon_size" android:layout_marginStart="@dimen/spacer_16" spotify:layout_constraintBottom_toBottomOf="parent" spotify:layout_constraintEnd_toEndOf="parent" spotify:layout_constraintStart_toEndOf="@id/thumbs_up_button" spotify:layout_constraintTop_toTopOf="parent" spotify:thumbButton_type="down" />
+</androidx.constraintlayout.widget.ConstraintLayout>

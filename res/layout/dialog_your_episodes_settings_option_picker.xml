@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="@color/gray_7" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/option_picker_toolbar" android:background="@color/gray_15" android:layout_width="fill_parent" android:layout_height="?android:actionBarSize" app:layout_constraintTop_toTopOf="parent">
+        <ImageView android:id="@id/option_picker_back" android:layout_width="@dimen/your_episodes_settings_option_picker_back_size" android:layout_height="@dimen/your_episodes_settings_option_picker_back_size" android:layout_marginLeft="@dimen/std_8dp" android:contentDescription="@null" android:layout_marginStart="@dimen/std_8dp" app:layout_constraintBottom_toBottomOf="@id/option_picker_title" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="@id/option_picker_title" />
+        <TextView android:textAppearance="@style/TextAppearance.Encore.BodyMediumBold" android:textColor="@color/white" android:id="@id/option_picker_title" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/option_picker_content" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toBottomOf="@id/option_picker_toolbar" />
+</androidx.constraintlayout.widget.ConstraintLayout>

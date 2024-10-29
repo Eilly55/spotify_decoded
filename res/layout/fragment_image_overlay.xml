@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/overlay_ad_background" android:background="@color/ad_overlay_background" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:focusable="true" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="0.12">
+        <TextView android:textAppearance="@style/TextAppearance.Cat.Metadata" android:id="@id/overlay_header" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="20.0dip" android:text="@string/display_advertisement_title" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" android:textAllCaps="true" />
+    </RelativeLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/overlay_image_container" android:paddingLeft="20.0dip" android:paddingTop="0.0dip" android:paddingRight="20.0dip" android:paddingBottom="0.0dip" android:focusable="true" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="0.76">
+        <ImageView android:id="@id/overlay_image" android:layout_width="0.0dip" android:layout_height="wrap_content" android:adjustViewBounds="true" android:importantForAccessibility="no" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="40.0dip" android:layout_marginRight="40.0dip" android:layout_marginBottom="30.0dip" android:layout_marginStart="40.0dip" android:layout_marginEnd="40.0dip" app:layout_constraintBottom_toBottomOf="@id/overlay_image" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent">
+            <Button android:textAppearance="@style/TextAppearance.Cat.Button.Info.Small" android:id="@id/overlay_cta" android:background="@drawable/overlay_ad_cta_background" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" android:filterTouchesWhenObscured="false" />
+        </RelativeLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <RelativeLayout android:focusable="true" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="0.12">
+        <TextView android:textAppearance="@style/TextAppearance.Cat.Metadata" android:textSize="12.0sp" android:gravity="center" android:id="@id/overlay_footer" android:padding="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="44.0dip" android:text="@string/overlay_ad_dismiss" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" android:contentDescription="@string/overlay_ad_dismiss_content_description" />
+    </RelativeLayout>
+</LinearLayout>

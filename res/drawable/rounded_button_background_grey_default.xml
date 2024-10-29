@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <size android:height="38.0dip" />
+    <corners android:radius="@dimen/poll_option_rounded_background_corners" />
+    <solid android:color="@color/gray_30" />
+    <padding android:left="@dimen/poll_option_left_right_padding" android:right="@dimen/poll_option_left_right_padding" />
+</shape>

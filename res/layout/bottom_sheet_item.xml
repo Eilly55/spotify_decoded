@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.spotify.encoremobile.component.textview.EncoreTextView android:textAppearance="@style/TextAppearance.Encore.BodyMedium" android:id="@id/report_type_title_text_view" android:padding="@dimen/spacer_16" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

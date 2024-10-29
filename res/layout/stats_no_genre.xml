@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/no_genre_tiles_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/encore_spacer_base"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/time_listened" android:layout_width="0.0dip" android:layout_height="wrap_content" app:layout_constraintBottom_toTopOf="@id/bottom_card_container" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:layout_constraintVertical_chainStyle="spread_inside" layout="@layout/stats_card_row" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/bottom_card_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/encore_spacer_tighter_2" android:baselineAligned="false" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/time_listened">
+        <include android:id="@id/top_artists" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" layout="@layout/stats_card" />
+        <include android:id="@id/top_songs" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" android:layout_marginStart="@dimen/encore_spacer_tighter_2" layout="@layout/stats_card" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

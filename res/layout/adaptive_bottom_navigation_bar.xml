@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.spotify.navigation.bottomnavigationbar.BottomNavigationView android:layout_width="fill_parent" style="@style/TransparentBottomNavigationBar.Adaptive"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

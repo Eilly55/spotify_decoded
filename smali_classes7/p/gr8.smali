@@ -1,0 +1,79 @@
+.class public final synthetic Lp/gr8;
+.super Lp/s4v;
+.source "SourceFile"
+
+# interfaces
+.implements Lp/w3v;
+
+
+# static fields
+.field public static final a:Lp/gr8;
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 7
+
+    .line 1
+    new-instance v6, Lp/gr8;
+
+    .line 2
+    .line 3
+    const/4 v1, 0x3
+
+    .line 4
+    const-class v2, Lp/mr8;
+
+    .line 5
+    .line 6
+    const-string v3, "registerSelectForReceive"
+
+    .line 7
+    .line 8
+    const-string v4, "registerSelectForReceive(Lkotlinx/coroutines/selects/SelectInstance;Ljava/lang/Object;)V"
+
+    .line 9
+    .line 10
+    const/4 v5, 0x0
+
+    .line 11
+    move-object v0, v6
+
+    .line 12
+    invoke-direct/range {v0 .. v5}, Lp/s4v;-><init>(ILjava/lang/Class;Ljava/lang/String;Ljava/lang/String;I)V
+
+    .line 13
+    .line 14
+    .line 15
+    sput-object v6, Lp/gr8;->a:Lp/gr8;
+
+    .line 16
+    .line 17
+    return-void
+.end method
+
+
+# virtual methods
+.method public final invoke(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 0
+
+    .line 1
+    check-cast p1, Lp/mr8;
+
+    .line 2
+    .line 3
+    check-cast p2, Lp/s4p0;
+
+    .line 4
+    .line 5
+    invoke-static {p1, p2}, Lp/mr8;->f(Lp/mr8;Lp/s4p0;)V
+
+    .line 6
+    .line 7
+    .line 8
+    sget-object p1, Lp/r7z0;->a:Lp/r7z0;
+
+    .line 9
+    .line 10
+    return-object p1
+.end method

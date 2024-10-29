@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.spotify.connect.destinationbutton.ConnectDestinationButton android:layout_gravity="center_vertical" android:id="@id/connect_entry_point_button" android:background="@null" android:visibility="gone" android:layout_width="@dimen/connect_device_icon_size" android:layout_height="@dimen/connect_device_icon_size" android:scaleType="centerInside" android:paddingStart="@dimen/connect_device_icon_padding_start" app:deviceIconSize="@dimen/connect_destination_button_icon_size_npv" app:devicesAvailableColor="@color/white" />
+    <com.spotify.connect.destinationbutton.ConnectLabel android:layout_gravity="center_vertical" android:id="@id/connect_entry_point_label" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</merge>

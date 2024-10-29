@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.spotify.encoremobile.facepile.FaceView android:layout_gravity="center_vertical" android:id="@id/faceheader_image" android:tag="faceheader_image" android:padding="@dimen/std_8dp" android:layout_width="@dimen/faceheader_image_size" android:layout_height="@dimen/faceheader_image_size" android:contentDescription="@string/faceheader_profile_content_description" android:layout_marginStart="@dimen/std_8dp" android:stateListAnimator="@animator/encore_button_state_animator" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <Space android:id="@id/gradient_anchor" android:layout_width="8.0dip" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="@id/faceheader_image" app:layout_constraintTop_toTopOf="parent" />
+    <FrameLayout android:layout_width="0.0dip" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="@id/gradient_anchor" app:layout_constraintTop_toTopOf="parent">
+        <androidx.compose.ui.platform.ComposeView android:layout_gravity="start|center" android:id="@id/filter_chips_container" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <View android:layout_gravity="start|center" android:id="@id/gradient" android:background="@drawable/filter_row_start_gradient" android:layout_width="12.0dip" android:layout_height="fill_parent" />
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

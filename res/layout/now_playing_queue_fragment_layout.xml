@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:id="@id/content" android:background="@color/spotify_black_7" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include android:id="@id/now_playing_queue_header" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="@dimen/header_top_margin" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" layout="@layout/now_playing_queue_header_layout" />
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/recycler_view" android:layout_width="0.0dip" android:layout_height="0.0dip" app:layout_constraintBottom_toTopOf="@id/footer" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/now_playing_queue_header" />
+        <FrameLayout android:id="@id/footer" android:layout_width="0.0dip" android:layout_height="wrap_content" android:importantForAccessibility="yes" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent">
+            <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/playback_controls_template" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layoutDirection="ltr" />
+            <include android:id="@id/add_remove_section" android:paddingBottom="@dimen/spacer_24" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/add_remove_section" />
+        </FrameLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge>
+    <include layout="@layout/paragraph_view_alternative_a" />
+    <include layout="@layout/paragraph_view_alternative_b" />
+    <include layout="@layout/paragraph_view_alternative_c" />
+    <include layout="@layout/paragraph_view_alternative_a" />
+</merge>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/quickscroll_handle_container" style="@style/QuickScroll.Handle.Container"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.Guideline android:id="@id/quickscroll_handle_vertical_bottom_guideline" app:layout_constraintGuide_percent="0.58" style="@style/QuickScroll.Handle.Guideline" />
+    <androidx.constraintlayout.widget.Guideline android:id="@id/quickscroll_handle_vertical_top_guideline" app:layout_constraintGuide_percent="0.43" style="@style/QuickScroll.Handle.Guideline" />
+    <ImageView android:id="@id/quickscroll_handle_arrow_up" app:layout_constraintBottom_toTopOf="@id/quickscroll_handle_vertical_bottom_guideline" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" style="@style/QuickScroll.Handle.Arrow.Up" />
+    <ImageView android:id="@id/quickscroll_handle_arrow_down" app:layout_constraintStart_toStartOf="@id/quickscroll_handle_arrow_up" app:layout_constraintTop_toBottomOf="@id/quickscroll_handle_vertical_top_guideline" style="@style/QuickScroll.Handle.Arrow.Down" />
+</androidx.constraintlayout.widget.ConstraintLayout>

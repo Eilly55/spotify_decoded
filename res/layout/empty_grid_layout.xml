@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:textSize="12.0sp" android:textColor="@color/text_secondary_light" android:gravity="center_vertical" android:id="@id/empty_grid_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/npv_widget_no_recs_body" style="@style/WidgetBodyText"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="dimen" name="card_margin">@dimen/encore_spacer_looser</item>
+    <item type="dimen" name="comment_horizontal_margin">@dimen/encore_spacer_looser</item>
+    <item type="dimen" name="reply_preview_horizontal_margin">@dimen/encore_spacer_looser</item>
+    <item type="dimen" name="widgets_spacer_base">@dimen/encore_spacer_looser</item>
+    <item type="dimen" name="widgets_spacer_tighter_4">@dimen/encore_spacer_tighter</item>
+</resources>

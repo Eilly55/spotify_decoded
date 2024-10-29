@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.spotify.encoremobile.facepile.FacePileView android:id="@id/face_pile" android:layout_width="wrap_content" android:layout_height="wrap_content" app:border_mask_thickness="2.0dip" app:face_view_count="3" app:show_additional_count="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

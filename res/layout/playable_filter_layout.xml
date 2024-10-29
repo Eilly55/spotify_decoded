@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textAppearance="@style/TextAppearance.Encore.BodyMediumBold" android:textColor="@color/white" android:id="@id/header" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/playable_filters_header" android:layout_marginStart="@dimen/std_16dp" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/filters_recycler" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/spacer_20" android:layout_marginBottom="@dimen/spacer_12" android:layout_marginStart="@dimen/spacer_12" android:layout_marginEnd="@dimen/spacer_12" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toBottomOf="@id/header" />
+</androidx.constraintlayout.widget.ConstraintLayout>

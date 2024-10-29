@@ -1,0 +1,843 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="ad_header_title_sponsored_session_end_card">
+        <item quantity="other">אתם מוזמנים ליהנות מ-%1$d דקות של האזנה ללא הפרעות</item>
+        <item quantity="one">אתם מוזמנים ליהנות מדקה %1$d של האזנה ללא הפרעות</item>
+        <item quantity="two">אתם מוזמנים ליהנות מ-%1$d דקות של האזנה ללא הפרעות</item>
+        <item quantity="many">אתם מוזמנים ליהנות מ-%1$d דקות של האזנה ללא הפרעות</item>
+    </plurals>
+    <plurals name="ad_header_title_sponsored_session_video_ad">
+        <item quantity="other">לאחר הסרטון הקצר הבא תקבלו %1$d דקות של האזנה ללא הפרעות</item>
+        <item quantity="one">לאחר הסרטון הקצר הבא תקבלו דקה %1$d של האזנה ללא הפרעות</item>
+        <item quantity="two">לאחר הסרטון הקצר הבא תקבלו %1$d דקות של האזנה ללא הפרעות</item>
+        <item quantity="many">לאחר הסרטון הקצר הבא תקבלו %1$d דקות של האזנה ללא הפרעות</item>
+    </plurals>
+    <plurals name="add_to_playlist_filter_items_count_changed_announcement">
+        <item quantity="other">נמצאו %1$d פריטים</item>
+        <item quantity="one">נמצא פריט %1$d</item>
+        <item quantity="two">נמצאו %1$d פריטים</item>
+        <item quantity="many">נמצאו %1$d פריטים</item>
+    </plurals>
+    <plurals name="add_to_playlist_subtitle_audiobooks_count">
+        <item quantity="other">%1$s ספרי אודיו</item>
+        <item quantity="one">ספר אודיו %1$s</item>
+        <item quantity="two">%1$s ספרי אודיו</item>
+        <item quantity="many">%1$s ספרי אודיו</item>
+    </plurals>
+    <plurals name="add_to_playlist_subtitle_episodes_count">
+        <item quantity="other">%1$s פרקים</item>
+        <item quantity="one">פרק %1$s</item>
+        <item quantity="two">%1$s פרקים</item>
+        <item quantity="many">%1$s פרקים</item>
+    </plurals>
+    <plurals name="add_to_playlist_subtitle_songs_count">
+        <item quantity="other">%1$s שירים</item>
+        <item quantity="one">שיר %1$s</item>
+        <item quantity="two">%1$s שירים</item>
+        <item quantity="many">%1$s שירים</item>
+    </plurals>
+    <plurals name="add_to_playlist_subtitle_tracks_count">
+        <item quantity="other">%1$s טראקים</item>
+        <item quantity="one">טראק %1$s</item>
+        <item quantity="two">%1$s טראקים</item>
+        <item quantity="many">%1$s טראקים</item>
+    </plurals>
+    <plurals name="album_track_count_and_duration">
+        <item quantity="other">%1$d שירים • %2$s</item>
+        <item quantity="one">שיר %1$d • %2$s</item>
+        <item quantity="two">%1$d שירים • %2$s</item>
+        <item quantity="many">%1$d שירים • %2$s</item>
+    </plurals>
+    <plurals name="allboarding_selected_nb_label">
+        <item quantity="other">נבחרו %1$d</item>
+        <item quantity="one">נבחר %1$d</item>
+        <item quantity="two">נבחרו %1$d</item>
+        <item quantity="many">נבחרו %1$d</item>
+    </plurals>
+    <plurals name="allboarding_selection_summary_content_desc">
+        <item quantity="other">נבחרו %1$d</item>
+        <item quantity="one">נבחרה %1$d</item>
+        <item quantity="two">נבחרו %1$d</item>
+        <item quantity="many">נבחרו %1$d</item>
+    </plurals>
+    <plurals name="allboarding_selection_summary_with_requirement_content_desc">
+        <item quantity="other">נבחרו %1$d. בחרו לפחות עוד %2$d כדי להמשיך.</item>
+        <item quantity="one">נבחר %1$d. בחרו לפחות עוד %2$d כדי להמשיך.</item>
+        <item quantity="two">נבחרו %1$d. בחרו לפחות עוד %2$d כדי להמשיך.</item>
+        <item quantity="many">נבחרו %1$d. בחרו לפחות עוד %2$d כדי להמשיך.</item>
+    </plurals>
+    <plurals name="android_auto_podcast_episode_time_format_hours">
+        <item quantity="other">%1$d שעות</item>
+        <item quantity="one">שעה %1$d</item>
+        <item quantity="two">%1$d שעות</item>
+        <item quantity="many">%1$d שעות</item>
+    </plurals>
+    <plurals name="android_auto_podcast_episode_time_format_min">
+        <item quantity="other">%1$d דקות</item>
+        <item quantity="one">דקה %1$d</item>
+        <item quantity="two">%1$d דקות</item>
+        <item quantity="many">%1$d דקות</item>
+    </plurals>
+    <plurals name="artist_number_of_liked_releases">
+        <item quantity="other">%1$,d ריליסים</item>
+        <item quantity="one">ריליס %1$,d</item>
+        <item quantity="two">%1$,d ריליסים</item>
+        <item quantity="many">%1$,d ריליסים</item>
+    </plurals>
+    <plurals name="artist_number_of_liked_songs">
+        <item quantity="other">%1$,d שירים</item>
+        <item quantity="one">שיר %1$,d</item>
+        <item quantity="two">%1$,d שירים</item>
+        <item quantity="many">%1$,d שירים</item>
+    </plurals>
+    <plurals name="artist_saved_songs_subtitle">
+        <item quantity="other">%1$d שירים • %2$s</item>
+        <item quantity="one">שיר %1$d • %2$s</item>
+        <item quantity="two">%1$d שירים • %2$s</item>
+        <item quantity="many">%1$d שירים • %2$s</item>
+    </plurals>
+    <plurals name="assisted_curation_search_filter_items_count_changed_announcement">
+        <item quantity="other">נמצאו %1$d פריטים</item>
+        <item quantity="one">נמצא פריט %1$d</item>
+        <item quantity="two">נמצאו %1$d פריטים</item>
+        <item quantity="many">נמצאו %1$d פריטים</item>
+    </plurals>
+    <plurals name="auto_download_limit_option">
+        <item quantity="other">%1$s פרקים חדשים לכל תוכנית</item>
+        <item quantity="one">פרק חדש %1$s לכל תוכנית</item>
+        <item quantity="two">%1$s פרקים חדשים לכל תוכנית</item>
+        <item quantity="many">%1$s פרקים חדשים לכל תוכנית</item>
+    </plurals>
+    <plurals name="campfire_chats_preview_days_content_description">
+        <item quantity="other">לפני %1$s ימים</item>
+        <item quantity="one">לפני יום %1$s</item>
+        <item quantity="two">לפני %1$s ימים</item>
+        <item quantity="many">לפני %1$s ימים</item>
+    </plurals>
+    <plurals name="campfire_chats_preview_hours_content_description">
+        <item quantity="other">לפני %1$s שעות</item>
+        <item quantity="one">לפני שעה %1$s</item>
+        <item quantity="two">לפני %1$s שעות</item>
+        <item quantity="many">לפני %1$s שעות</item>
+    </plurals>
+    <plurals name="campfire_chats_preview_minutes_content_description">
+        <item quantity="other">לפני %1$s דקות</item>
+        <item quantity="one">לפני דקה %1$s</item>
+        <item quantity="two">לפני %1$s דקות</item>
+        <item quantity="many">לפני %1$s דקות</item>
+    </plurals>
+    <plurals name="campfire_sharedbychip_label_multiple">
+        <item quantity="other">%1$s חברים</item>
+        <item quantity="one">חבר/ה %1$s</item>
+        <item quantity="two">%1$s חברים</item>
+        <item quantity="many">%1$s חברים</item>
+    </plurals>
+    <plurals name="chapters_added">
+        <item quantity="other">נוספו %1$d פרקים</item>
+        <item quantity="one">נוסף פרק %1$d</item>
+        <item quantity="two">נוספו %1$d פרקים</item>
+        <item quantity="many">נוספו %1$d פרקים</item>
+    </plurals>
+    <plurals name="chapters_played">
+        <item quantity="other">נוגנו %1$d פרקים</item>
+        <item quantity="one">נוגן פרק %1$d</item>
+        <item quantity="two">נוגנו %1$d פרקים</item>
+        <item quantity="many">נוגנו %1$d פרקים</item>
+    </plurals>
+    <plurals name="charts_header_new_entry_count">
+        <item quantity="other">%1$,d כניסות חדשות</item>
+        <item quantity="one">%1$,d כניסה חדשה</item>
+        <item quantity="two">%1$,d כניסות חדשות</item>
+        <item quantity="many">%1$,d כניסות חדשות</item>
+    </plurals>
+    <plurals name="comment_days_ago">
+        <item quantity="other">לפני %1$d ימים</item>
+        <item quantity="one">לפני יום %1$d</item>
+        <item quantity="two">לפני %1$d ימים</item>
+        <item quantity="many">לפני %1$d ימים</item>
+    </plurals>
+    <plurals name="comment_hours_ago">
+        <item quantity="other">לפני %1$d שעות</item>
+        <item quantity="one">לפני שעה %1$d</item>
+        <item quantity="two">לפני %1$d שעות</item>
+        <item quantity="many">לפני %1$d שעות</item>
+    </plurals>
+    <plurals name="comment_minutes_ago">
+        <item quantity="other">לפני %1$d דקות</item>
+        <item quantity="one">לפני דקה %1$d</item>
+        <item quantity="two">לפני %1$d דקות</item>
+        <item quantity="many">לפני %1$d דקות</item>
+    </plurals>
+    <plurals name="comment_months_ago">
+        <item quantity="other">לפני %1$d חודשים</item>
+        <item quantity="one">לפני חודש %1$d</item>
+        <item quantity="two">לפני %1$d חודשים</item>
+        <item quantity="many">לפני %1$d חודשים</item>
+    </plurals>
+    <plurals name="comment_reply_preview">
+        <item quantity="other">%1$s תשובות</item>
+        <item quantity="one">תשובה %1$s</item>
+        <item quantity="two">%1$s תשובות</item>
+        <item quantity="many">%1$s תשובות</item>
+    </plurals>
+    <plurals name="comment_weeks_ago">
+        <item quantity="other">לפני %1$d שבועות</item>
+        <item quantity="one">לפני שבוע %1$d</item>
+        <item quantity="two">לפני %1$d שבועות</item>
+        <item quantity="many">לפני %1$d שבועות</item>
+    </plurals>
+    <plurals name="comment_years_ago">
+        <item quantity="other">לפני %1$d שנים</item>
+        <item quantity="one">לפני שנה %1$d</item>
+        <item quantity="two">לפני %1$d שנים</item>
+        <item quantity="many">לפני %1$d שנים</item>
+    </plurals>
+    <plurals name="complex_playlist_number_of_songs">
+        <item quantity="other">%1$,d שירים</item>
+        <item quantity="one">שיר %1$,d</item>
+        <item quantity="two">%1$,d שירים</item>
+        <item quantity="many">%1$,d שירים</item>
+    </plurals>
+    <plurals name="connect_device_multiple_listeners">
+        <item quantity="other">%1$d מאזינים</item>
+        <item quantity="one">מאזין %1$d</item>
+        <item quantity="two">%1$d מאזינים</item>
+        <item quantity="many">%1$d מאזינים</item>
+    </plurals>
+    <plurals name="content_feed_timestamp_days_ago">
+        <item quantity="other">לפני %1$d ימים</item>
+        <item quantity="one">לפני יום %1$d</item>
+        <item quantity="two">לפני %1$d ימים</item>
+        <item quantity="many">לפני %1$d ימים</item>
+    </plurals>
+    <plurals name="content_feed_timestamp_hours_ago">
+        <item quantity="other">"לפני %1$d שע'"</item>
+        <item quantity="one">לפני שעה %1$d</item>
+        <item quantity="two">"לפני %1$d שע'"</item>
+        <item quantity="many">"לפני %1$d שע'"</item>
+    </plurals>
+    <plurals name="content_feed_timestamp_minutes_ago">
+        <item quantity="other">"לפני %1$d דק'"</item>
+        <item quantity="one">לפני דקה %1$d</item>
+        <item quantity="two">"לפני %1$d דק'"</item>
+        <item quantity="many">"לפני %1$d דק'"</item>
+    </plurals>
+    <plurals name="context_menu_sleep_timer_hours">
+        <item quantity="other">%1$d שעות</item>
+        <item quantity="one">שעה %1$d</item>
+        <item quantity="two">%1$d שעות</item>
+        <item quantity="many">%1$d שעות</item>
+    </plurals>
+    <plurals name="context_menu_sleep_timer_mins">
+        <item quantity="other">נשארו %1$d דקות</item>
+        <item quantity="one">נשארה דקה %1$d</item>
+        <item quantity="two">נשארו %1$d דקות</item>
+        <item quantity="many">נשארו %1$d דקות</item>
+    </plurals>
+    <plurals name="creator_row_content_description">
+        <item quantity="other">המחברים/ות: %1$s</item>
+        <item quantity="one">המחבר/ת: %1$s</item>
+        <item quantity="two">המחברים/ות: %1$s</item>
+        <item quantity="many">המחברים/ות: %1$s</item>
+    </plurals>
+    <plurals name="creators_button_title_counter">
+        <item quantity="other">%1$s +%2$d נוספים</item>
+        <item quantity="one">%1$s +%2$d נוסף</item>
+        <item quantity="two">%1$s +%2$d נוספים</item>
+        <item quantity="many">%1$s +%2$d נוספים</item>
+    </plurals>
+    <plurals name="creators_row_accessibility_hint">
+        <item quantity="other">מציג רשימה שאפשר לעבור אליה של כל %1$s</item>
+        <item quantity="one">עובר לתוכן נוסף של אותם %1$s</item>
+        <item quantity="two">מציג רשימה שאפשר לעבור אליה של כל %1$s</item>
+        <item quantity="many">מציג רשימה שאפשר לעבור אליה של כל %1$s</item>
+    </plurals>
+    <plurals name="days_label">
+        <item quantity="other">%1$s&lt;br/>&lt;b>ימים&lt;/b></item>
+        <item quantity="one">%1$s&lt;br/>&lt;b>יום&lt;/b></item>
+        <item quantity="two">%1$s&lt;br/>&lt;b>ימים&lt;/b></item>
+        <item quantity="many">%1$s&lt;br/>&lt;b>ימים&lt;/b></item>
+    </plurals>
+    <plurals name="days_left_until_release_date">
+        <item quantity="other">יפורסם בעוד %1$d ימים</item>
+        <item quantity="one">יפורסם בעוד %1$d ימים</item>
+        <item quantity="two">יפורסם בעוד %1$d ימים</item>
+        <item quantity="many">יפורסם בעוד %1$d ימים</item>
+    </plurals>
+    <plurals name="days_to_renew">
+        <item quantity="other">יש עוד %1$d ימים עד לחידוש זמן ההאזנה</item>
+        <item quantity="one">יש עוד יום %1$d עד לחידוש זמן ההאזנה</item>
+        <item quantity="two">יש עוד %1$d ימים עד לחידוש זמן ההאזנה</item>
+        <item quantity="many">יש עוד %1$d ימים עד לחידוש זמן ההאזנה</item>
+    </plurals>
+    <plurals name="entity_action_row_downloading_progress_content_description">
+        <item quantity="other">הורדו %1$d אחוזים</item>
+        <item quantity="one">הורד אחוז %1$d</item>
+        <item quantity="two">הורדו %1$d אחוזים</item>
+        <item quantity="many">הורדו %1$d אחוזים</item>
+    </plurals>
+    <plurals name="episode_contents_chapters_expand_button">
+        <item quantity="other">הצגת %1$d פרקים</item>
+        <item quantity="one">הצגת פרק %1$d</item>
+        <item quantity="two">הצגת %1$d פרקים</item>
+        <item quantity="many">הצגת %1$d פרקים</item>
+    </plurals>
+    <plurals name="episodes_added">
+        <item quantity="other">נוספו %1$d פרקים</item>
+        <item quantity="one">נוסף פרק %1$d</item>
+        <item quantity="two">נוספו %1$d פרקים</item>
+        <item quantity="many">נוספו %1$d פרקים</item>
+    </plurals>
+    <plurals name="episodes_played">
+        <item quantity="other">נוגנו %1$d פרקים</item>
+        <item quantity="one">נוגן פרק %1$d</item>
+        <item quantity="two">נוגנו %1$d פרקים</item>
+        <item quantity="many">נוגנו %1$d פרקים</item>
+    </plurals>
+    <plurals name="error_dialog_body_resend_limit">
+        <item quantity="other">חכו %1$d שניות ואז בקשו קוד חדש.</item>
+        <item quantity="one">חכו שנייה %1$d ואז בקשו קוד חדש.</item>
+        <item quantity="two">חכו %1$d שניות ואז בקשו קוד חדש.</item>
+        <item quantity="many">חכו %1$d שניות ואז בקשו קוד חדש.</item>
+    </plurals>
+    <plurals name="error_dialog_title_resend_limit">
+        <item quantity="other">נסו שוב בעוד %1$d שניות</item>
+        <item quantity="one">נסו שוב בעוד שנייה %1$d</item>
+        <item quantity="two">נסו שוב בעוד %1$d שניות</item>
+        <item quantity="many">נסו שוב בעוד %1$d שניות</item>
+    </plurals>
+    <plurals name="event_card_number_of_events_text">
+        <item quantity="other">%1$d אירועים</item>
+        <item quantity="one">אירוע %1$d</item>
+        <item quantity="two">%1$d אירועים</item>
+        <item quantity="many">%1$d אירועים</item>
+    </plurals>
+    <plurals name="find_friends_flow_confirm_desc">
+        <item quantity="other">בטוח שאתם רוצים לעקוב אחר כל %1$,d האנשים?</item>
+        <item quantity="one">בטוח שאתם רוצים לעקוב אחר %1$,d?</item>
+        <item quantity="two">בטוח שאתם רוצים לעקוב אחר כל %1$,d האנשים?</item>
+        <item quantity="many">בטוח שאתם רוצים לעקוב אחר כל %1$,d האנשים?</item>
+    </plurals>
+    <plurals name="header_common_likes_count">
+        <item quantity="other">%1$s שמירות</item>
+        <item quantity="one">שמירה %1$s</item>
+        <item quantity="two">%1$s שמירות</item>
+        <item quantity="many">%1$s שמירות</item>
+    </plurals>
+    <plurals name="hours_label">
+        <item quantity="other">%1$s&lt;br/>&lt;b>שעות&lt;/b></item>
+        <item quantity="one">%1$s&lt;br/>&lt;b>שעה&lt;/b></item>
+        <item quantity="two">%1$s&lt;br/>&lt;b>שעות&lt;/b></item>
+        <item quantity="many">%1$s&lt;br/>&lt;b>שעות&lt;/b></item>
+    </plurals>
+    <plurals name="hours_to_renew">
+        <item quantity="other">יש עוד %1$d שעות עד לחידוש זמן ההאזנה</item>
+        <item quantity="one">יש עוד שעה %1$d עד לחידוש זמן ההאזנה</item>
+        <item quantity="two">יש עוד %1$d שעות עד לחידוש זמן ההאזנה</item>
+        <item quantity="many">יש עוד %1$d שעות עד לחידוש זמן ההאזנה</item>
+    </plurals>
+    <plurals name="ipl_new_joiner_nudge">
+        <item quantity="other">%2$d אנשים נוספים הצטרפו ל-Jam שלכם</item>
+        <item quantity="one">%1$s הצטרף/ה ל-Jam שלכם</item>
+        <item quantity="two">%2$d אנשים נוספים הצטרפו ל-Jam שלכם</item>
+        <item quantity="many">%2$d אנשים נוספים הצטרפו ל-Jam שלכם</item>
+    </plurals>
+    <plurals name="item_description_folder_folders_count">
+        <item quantity="other">%1$s תיקיות</item>
+        <item quantity="one">תיקייה %1$s</item>
+        <item quantity="two">%1$s תיקיות</item>
+        <item quantity="many">%1$s תיקיות</item>
+    </plurals>
+    <plurals name="item_description_folder_playlists_count">
+        <item quantity="other">%1$s פלייליסטים</item>
+        <item quantity="one">פלייליסט %1$s</item>
+        <item quantity="two">%1$s פלייליסטים</item>
+        <item quantity="many">%1$s פלייליסטים</item>
+    </plurals>
+    <plurals name="item_description_liked_songs">
+        <item quantity="other">פלייליסט • %1$s שירים</item>
+        <item quantity="one">פלייליסט • שיר %1$s</item>
+        <item quantity="two">פלייליסט • %1$s שירים</item>
+        <item quantity="many">פלייליסט • %1$s שירים</item>
+    </plurals>
+    <plurals name="item_description_liked_songs_filtered">
+        <item quantity="other">%1$s שירים</item>
+        <item quantity="one">שיר %1$s</item>
+        <item quantity="two">%1$s שירים</item>
+        <item quantity="many">%1$s שירים</item>
+    </plurals>
+    <plurals name="item_description_local_files">
+        <item quantity="other">פלייליסט • %1$s טראקים</item>
+        <item quantity="one">פלייליסט • טראק %1$s</item>
+        <item quantity="two">פלייליסט • %1$s טראקים</item>
+        <item quantity="many">פלייליסט • %1$s טראקים</item>
+    </plurals>
+    <plurals name="item_description_local_files_filtered">
+        <item quantity="other">%1$s טראקים</item>
+        <item quantity="one">טראק %1$s</item>
+        <item quantity="two">%1$s טראקים</item>
+        <item quantity="many">%1$s טראקים</item>
+    </plurals>
+    <plurals name="item_description_show_downloaded">
+        <item quantity="other">הורדו %1$s פרקים • %2$s</item>
+        <item quantity="one">הורד פרק %1$s • %2$s</item>
+        <item quantity="two">הורדו %1$s פרקים • %2$s</item>
+        <item quantity="many">הורדו %1$s פרקים • %2$s</item>
+    </plurals>
+    <plurals name="item_description_show_downloaded_no_creator">
+        <item quantity="other">הורדו %1$s פרקים</item>
+        <item quantity="one">הורד פרק %1$s</item>
+        <item quantity="two">הורדו %1$s פרקים</item>
+        <item quantity="many">הורדו %1$s פרקים</item>
+    </plurals>
+    <plurals name="item_description_your_episodes_downloaded">
+        <item quantity="other">הורדו %1$s פרקים</item>
+        <item quantity="one">הורד פרק %1$s</item>
+        <item quantity="two">הורדו %1$s פרקים</item>
+        <item quantity="many">הורדו %1$s פרקים</item>
+    </plurals>
+    <plurals name="items_added">
+        <item quantity="other">נוספו %1$d פריטים</item>
+        <item quantity="one">נוסף פריט %1$d</item>
+        <item quantity="two">נוספו %1$d פריטים</item>
+        <item quantity="many">נוספו %1$d פריטים</item>
+    </plurals>
+    <plurals name="items_played">
+        <item quantity="other">נוגנו %1$d פריטים</item>
+        <item quantity="one">נוגן פריט %1$d</item>
+        <item quantity="two">נוגנו %1$d פריטים</item>
+        <item quantity="many">נוגנו %1$d פריטים</item>
+    </plurals>
+    <plurals name="jam_host_settings_header_participant_count">
+        <item quantity="other">%1$d משתתפים</item>
+        <item quantity="one">משתתף %1$d</item>
+        <item quantity="two">%1$d משתתפים</item>
+        <item quantity="many">%1$d משתתפים</item>
+    </plurals>
+    <plurals name="library_pinned_section_placeholder_subtitle">
+        <item quantity="other">אפשר גם להחליק שמאלה. אתם יכולים להצמיד עד %1$d פריטים.</item>
+        <item quantity="one">אפשר גם להחליק שמאלה. אתם יכולים להצמיד פריט %1$d.</item>
+        <item quantity="two">אפשר גם להחליק שמאלה. אתם יכולים להצמיד עד %1$d פריטים.</item>
+        <item quantity="many">אפשר גם להחליק שמאלה. אתם יכולים להצמיד עד %1$d פריטים.</item>
+    </plurals>
+    <plurals name="liked_songs_header_subtitle">
+        <item quantity="other">%1$d שירים</item>
+        <item quantity="one">שיר %1$d</item>
+        <item quantity="two">%1$d שירים</item>
+        <item quantity="many">%1$d שירים</item>
+    </plurals>
+    <plurals name="line_selected">
+        <item quantity="other">נבחרו %1$d שורות</item>
+        <item quantity="one">נבחרה שורה %1$d</item>
+        <item quantity="two">נבחרו %1$d שורות</item>
+        <item quantity="many">נבחרו %1$d שורות</item>
+    </plurals>
+    <plurals name="listen_later_header_subtitle">
+        <item quantity="other">%1$d פרקים</item>
+        <item quantity="one">פרק %1$d</item>
+        <item quantity="two">%1$d פרקים</item>
+        <item quantity="many">%1$d פרקים</item>
+    </plurals>
+    <plurals name="listening_hours_card_complete">
+        <item quantity="other">ניצלתם את כל %1$d שעות ההאזנה לספרי אודיו הכלולות בחבילה החודשית.</item>
+        <item quantity="one">ניצלתם במלואה שעה %1$d של האזנה לספרי אודיו הכלולה בחבילה החודשית.</item>
+        <item quantity="two">ניצלתם את כל %1$d שעות ההאזנה לספרי אודיו הכלולות בחבילה החודשית.</item>
+        <item quantity="many">ניצלתם את כל %1$d שעות ההאזנה לספרי אודיו הכלולות בחבילה החודשית.</item>
+    </plurals>
+    <plurals name="listening_hours_card_text">
+        <item quantity="other">האזינו במשך %1$d שעות לספרי אודיו מקטלוג המנויים שלנו, כלולות בחבילה החודשית.</item>
+        <item quantity="one">האזינו במשך שעה %1$d לספרי אודיו מקטלוג המנויים שלנו, כלולה בחבילה החודשית.</item>
+        <item quantity="two">האזינו במשך %1$d שעות לספרי אודיו מקטלוג המנויים שלנו, כלולות בחבילה החודשית.</item>
+        <item quantity="many">האזינו במשך %1$d שעות לספרי אודיו מקטלוג המנויים שלנו, כלולות בחבילה החודשית.</item>
+    </plurals>
+    <plurals name="listening_hours_listened">
+        <item quantity="other">%1$d שעות האזנה</item>
+        <item quantity="one">שעת האזנה %1$d</item>
+        <item quantity="two">%1$d שעות האזנה</item>
+        <item quantity="many">%1$d שעות האזנה</item>
+    </plurals>
+    <plurals name="local_files_subtitle_number_of_tracks">
+        <item quantity="other">%1$,d טראקים</item>
+        <item quantity="one">טראק %1$,d</item>
+        <item quantity="two">%1$,d טראקים</item>
+        <item quantity="many">%1$,d טראקים</item>
+    </plurals>
+    <plurals name="minutes_label">
+        <item quantity="other">%1$s&lt;br/>&lt;b>דקות&lt;/b></item>
+        <item quantity="one">%1$s&lt;br/>&lt;b>דקה&lt;/b></item>
+        <item quantity="two">%1$s&lt;br/>&lt;b>דקות&lt;/b></item>
+        <item quantity="many">%1$s&lt;br/>&lt;b>דקות&lt;/b></item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d התראות חדשות</item>
+        <item quantity="one">התראה חדשה אחת (%d)</item>
+        <item quantity="two">%d התראות חדשות</item>
+        <item quantity="many">%d התראות חדשות</item>
+    </plurals>
+    <plurals name="notification_syncing_text">
+        <item quantity="other">%1$,d מתוך %2$,d (%%%3$,d הסתיימו)</item>
+        <item quantity="one">%1$,d מתוך %2$,d (%%%3$,d הסתיימו)</item>
+        <item quantity="two">%1$,d מתוך %2$,d (%%%3$,d הסתיימו)</item>
+        <item quantity="many">%1$,d מתוך %2$,d (%%%3$,d הסתיימו)</item>
+    </plurals>
+    <plurals name="num_available_downloads">
+        <item quantity="other">%1$s הורדות זמינות</item>
+        <item quantity="one">הורדה זמינה %1$s</item>
+        <item quantity="two">%1$s הורדות זמינות</item>
+        <item quantity="many">%1$s הורדות זמינות</item>
+    </plurals>
+    <plurals name="number_events_from_date">
+        <item quantity="other">%1$s אירועים החל מ-%2$s</item>
+        <item quantity="one">אירוע %1$s החל מ-%2$s</item>
+        <item quantity="two">%1$s אירועים החל מ-%2$s</item>
+        <item quantity="many">%1$s אירועים החל מ-%2$s</item>
+    </plurals>
+    <plurals name="number_of_items">
+        <item quantity="other">%1$s טראקים</item>
+        <item quantity="one">טראק %1$s</item>
+        <item quantity="two">%1$s טראקים</item>
+        <item quantity="many">%1$s טראקים</item>
+    </plurals>
+    <plurals name="number_of_live_events">
+        <item quantity="other">%1$s אירועים</item>
+        <item quantity="one">אירוע %1$s</item>
+        <item quantity="two">%1$s אירועים</item>
+        <item quantity="many">%1$s אירועים</item>
+    </plurals>
+    <plurals name="number_of_live_events_near_you">
+        <item quantity="other">%1$s אירועים בסביבה שלכם</item>
+        <item quantity="one">אירוע %1$s בסביבה שלכם</item>
+        <item quantity="two">%1$s אירועים בסביבה שלכם</item>
+        <item quantity="many">%1$s אירועים בסביבה שלכם</item>
+    </plurals>
+    <plurals name="otp_description">
+        <item quantity="other">שלחנו הודעת SMS עם קוד בן %1$d ספרות אל %2$s.</item>
+        <item quantity="one">שלחנו הודעת SMS עם קוד בן ספרה %1$d אל %2$s.</item>
+        <item quantity="two">שלחנו הודעת SMS עם קוד בן %1$d ספרות אל %2$s.</item>
+        <item quantity="many">שלחנו הודעת SMS עם קוד בן %1$d ספרות אל %2$s.</item>
+    </plurals>
+    <plurals name="otp_description_alt">
+        <item quantity="other">שלחנו קוד בן %1$d ספרות אל %2$s.</item>
+        <item quantity="one">שלחנו קוד בן ספרה %1$d אל %2$s.</item>
+        <item quantity="two">שלחנו קוד בן %1$d ספרות אל %2$s.</item>
+        <item quantity="many">שלחנו קוד בן %1$d ספרות אל %2$s.</item>
+    </plurals>
+    <plurals name="pin_gate_wrong_pin_long_delay_error_message">
+        <item quantity="other">קוד האימות שגוי, נסו שוב בעוד %1$d דקות.</item>
+        <item quantity="one">קוד האימות שגוי, נסו שוב בעוד דקה %1$d.</item>
+        <item quantity="two">קוד האימות שגוי, נסו שוב בעוד %1$d דקות.</item>
+        <item quantity="many">קוד האימות שגוי, נסו שוב בעוד %1$d דקות.</item>
+    </plurals>
+    <plurals name="pin_gate_wrong_pin_short_delay_error_message">
+        <item quantity="other">קוד האימות שגוי, נסו שוב בעוד %1$d שניות.</item>
+        <item quantity="one">קוד האימות שגוי, נסו שוב בעוד שנייה %1$d.</item>
+        <item quantity="two">קוד האימות שגוי, נסו שוב בעוד %1$d שניות.</item>
+        <item quantity="many">קוד האימות שגוי, נסו שוב בעוד %1$d שניות.</item>
+    </plurals>
+    <plurals name="playback_settings_crossfade_slider_seconds_full">
+        <item quantity="other">%1$d שניות</item>
+        <item quantity="one">שנייה %1$d</item>
+        <item quantity="two">%1$d שניות</item>
+        <item quantity="many">%1$d שניות</item>
+    </plurals>
+    <plurals name="playlist_header_collaborators">
+        <item quantity="other">%1$s +%2$d נוספים</item>
+        <item quantity="one">%1$s +%2$d נוסף</item>
+        <item quantity="two">%1$s +%2$d נוספים</item>
+        <item quantity="many">%1$s +%2$d נוספים</item>
+    </plurals>
+    <plurals name="playlist_header_creator_with_collaborators_content_description">
+        <item quantity="other">נוצר על ידי %1$s ועוד %2$d</item>
+        <item quantity="one">נוצר על ידי %1$s ועוד %2$d</item>
+        <item quantity="two">נוצר על ידי %1$s ועוד %2$d</item>
+        <item quantity="many">נוצר על ידי %1$s ועוד %2$d</item>
+    </plurals>
+    <plurals name="playlist_participants_row_subtitle_episodes">
+        <item quantity="other">%1$d פרקים</item>
+        <item quantity="one">פרק %1$d</item>
+        <item quantity="two">%1$d פרקים</item>
+        <item quantity="many">%1$d פרקים</item>
+    </plurals>
+    <plurals name="playlist_participants_row_subtitle_tracks">
+        <item quantity="other">%1$d שירים</item>
+        <item quantity="one">שיר %1$d</item>
+        <item quantity="two">%1$d שירים</item>
+        <item quantity="many">%1$d שירים</item>
+    </plurals>
+    <plurals name="playlist_participants_title">
+        <item quantity="other">%1$d אנשים</item>
+        <item quantity="one">אדם %1$d</item>
+        <item quantity="two">%1$d אנשים</item>
+        <item quantity="many">%1$d אנשים</item>
+    </plurals>
+    <plurals name="playlist_trackcloud_includes_label_episodes">
+        <item quantity="other">%1$,d פרקים</item>
+        <item quantity="one">פרק %1$,d</item>
+        <item quantity="two">%1$,d פרקים</item>
+        <item quantity="many">%1$,d פרקים</item>
+    </plurals>
+    <plurals name="playlist_trackcloud_includes_label_songs">
+        <item quantity="other">%1$,d שירים</item>
+        <item quantity="one">שיר %1$,d</item>
+        <item quantity="two">%1$,d שירים</item>
+        <item quantity="many">%1$,d שירים</item>
+    </plurals>
+    <plurals name="podcast_chapters_bottom_sheet_chapter_count">
+        <item quantity="other">%1$d פרקים</item>
+        <item quantity="one">פרק %1$d</item>
+        <item quantity="two">%1$d פרקים</item>
+        <item quantity="many">%1$d פרקים</item>
+    </plurals>
+    <plurals name="podcast_chapters_expand_button">
+        <item quantity="other">הצגת %1$d פרקים</item>
+        <item quantity="one">הצגת פרק %1$d</item>
+        <item quantity="two">הצגת %1$d פרקים</item>
+        <item quantity="many">הצגת %1$d פרקים</item>
+    </plurals>
+    <plurals name="podcast_poll_days_left_label">
+        <item quantity="other">%1$d ימים</item>
+        <item quantity="one">יום %1$d</item>
+        <item quantity="two">%1$d ימים</item>
+        <item quantity="many">%1$d ימים</item>
+    </plurals>
+    <plurals name="podcast_poll_hours_left_label">
+        <item quantity="other">נשארו %1$d שעות</item>
+        <item quantity="one">נשארה שעה %1$d</item>
+        <item quantity="two">נשארו %1$d שעות</item>
+        <item quantity="many">נשארו %1$d שעות</item>
+    </plurals>
+    <plurals name="podcast_poll_minutes_left_label">
+        <item quantity="other">נותרו %1$d דקות</item>
+        <item quantity="one">נותרה דקה %1$d</item>
+        <item quantity="two">נותרו %1$d דקות</item>
+        <item quantity="many">נותרו %1$d דקות</item>
+    </plurals>
+    <plurals name="podcast_poll_poll_subtitle">
+        <item quantity="other">%1$d הצבעות • %2$s</item>
+        <item quantity="one">הצבעה %1$d • %2$s</item>
+        <item quantity="two">%1$d הצבעות • %2$s</item>
+        <item quantity="many">%1$d הצבעות • %2$s</item>
+    </plurals>
+    <plurals name="premium_mini_playlist_add_song_subtitle">
+        <item quantity="other">נשארו %1$d שירים</item>
+        <item quantity="one">נשאר שיר %1$d</item>
+        <item quantity="two">נשארו %1$d שירים</item>
+        <item quantity="many">נשארו %1$d שירים</item>
+    </plurals>
+    <plurals name="premium_mini_playlist_subtitle">
+        <item quantity="other">%1$d שירים • %2$s</item>
+        <item quantity="one">שיר %1$d • %2$s</item>
+        <item quantity="two">%1$d שירים • %2$s</item>
+        <item quantity="many">%1$d שירים • %2$s</item>
+    </plurals>
+    <plurals name="premium_plan_card_days_remaining">
+        <item quantity="other">%1$d ימים של Premium</item>
+        <item quantity="one">יום %1$d של Premium</item>
+        <item quantity="two">%1$d ימים של Premium</item>
+        <item quantity="many">%1$d ימים של Premium</item>
+    </plurals>
+    <plurals name="premium_plan_card_months_remaining">
+        <item quantity="other">%1$d חודשים של Premium</item>
+        <item quantity="one">חודש %1$d של Premium</item>
+        <item quantity="two">%1$d חודשים של Premium</item>
+        <item quantity="many">%1$d חודשים של Premium</item>
+    </plurals>
+    <plurals name="premium_plan_card_weeks_remaining">
+        <item quantity="other">%1$d שבועות של Premium</item>
+        <item quantity="one">שבוע %1$d של Premium</item>
+        <item quantity="two">%1$d שבועות של Premium</item>
+        <item quantity="many">%1$d שבועות של Premium</item>
+    </plurals>
+    <plurals name="premium_plan_card_years_remaining">
+        <item quantity="other">%1$d שנים של Premium</item>
+        <item quantity="one">שנה %1$d של Premium</item>
+        <item quantity="two">%1$d שנים של Premium</item>
+        <item quantity="many">%1$d שנים של Premium</item>
+    </plurals>
+    <plurals name="profile_followers_count">
+        <item quantity="other">%1$d עוקבים</item>
+        <item quantity="one">%1$d עוקב/ת</item>
+        <item quantity="two">%1$d עוקבים</item>
+        <item quantity="many">%1$d עוקבים</item>
+    </plurals>
+    <plurals name="profile_following_count">
+        <item quantity="other">%1$d במעקב</item>
+        <item quantity="one">%1$d במעקב</item>
+        <item quantity="two">%1$d במעקב</item>
+        <item quantity="many">%1$d במעקב</item>
+    </plurals>
+    <plurals name="profile_list_item_followers_count">
+        <item quantity="other">%1$,d עוקבים</item>
+        <item quantity="one">%1$,d עוקב/ת</item>
+        <item quantity="two">%1$,d עוקבים</item>
+        <item quantity="many">%1$,d עוקבים</item>
+    </plurals>
+    <plurals name="profile_list_see_all_footer_playlists">
+        <item quantity="other">הצגת כל %1$d הפלייליסטים</item>
+        <item quantity="one">הצגת פלייליסט %1$d</item>
+        <item quantity="two">הצגת כל %1$d הפלייליסטים</item>
+        <item quantity="many">הצגת כל %1$d הפלייליסטים</item>
+    </plurals>
+    <plurals name="profile_playlists_subtitle">
+        <item quantity="other">%1$,d שמירות</item>
+        <item quantity="one">שמירה %1$,d</item>
+        <item quantity="two">%1$,d שמירות</item>
+        <item quantity="many">%1$,d שמירות</item>
+    </plurals>
+    <plurals name="profile_recently_played_subtitle">
+        <item quantity="other">%1$,d עוקבים</item>
+        <item quantity="one">עוקב.ת %1$,d</item>
+        <item quantity="two">%1$,d עוקבים</item>
+        <item quantity="many">%1$,d עוקבים</item>
+    </plurals>
+    <plurals name="search_episode_chapters_title_plurals">
+        <item quantity="other">%1$d פרקים</item>
+        <item quantity="one">פרק %1$d</item>
+        <item quantity="two">%1$d פרקים</item>
+        <item quantity="many">%1$d פרקים</item>
+    </plurals>
+    <plurals name="search_saves_album_row_string">
+        <item quantity="other">%1$s שמירות</item>
+        <item quantity="one">שמירה %1$s</item>
+        <item quantity="two">%1$s שמירות</item>
+        <item quantity="many">%1$s שמירות</item>
+    </plurals>
+    <plurals name="search_saves_playlist_row_string">
+        <item quantity="other">%1$s שמירות</item>
+        <item quantity="one">שמירה %1$s</item>
+        <item quantity="two">%1$s שמירות</item>
+        <item quantity="many">%1$s שמירות</item>
+    </plurals>
+    <plurals name="seconds_label">
+        <item quantity="other">%1$s&lt;br/>&lt;b>שניות&lt;/b></item>
+        <item quantity="one">%1$s&lt;br/>&lt;b>שנייה&lt;/b></item>
+        <item quantity="two">%1$s&lt;br/>&lt;b>שניות&lt;/b></item>
+        <item quantity="many">%1$s&lt;br/>&lt;b>שניות&lt;/b></item>
+    </plurals>
+    <plurals name="selection_line_quantity_subtitle">
+        <item quantity="other">נבחרו %1$d שורות</item>
+        <item quantity="one">נבחרה שורה %1$d</item>
+        <item quantity="two">נבחרו %1$d שורות</item>
+        <item quantity="many">נבחרו %1$d שורות</item>
+    </plurals>
+    <plurals name="settings_item_offline_mode_time_left_days">
+        <item quantity="other">חובה להתחבר לאינטרנט בתוך %1$,d ימים</item>
+        <item quantity="one">חובה להתחבר לאינטרנט בתוך יום %1$,d</item>
+        <item quantity="two">חובה להתחבר לאינטרנט בתוך %1$,d ימים</item>
+        <item quantity="many">חובה להתחבר לאינטרנט בתוך %1$,d ימים</item>
+    </plurals>
+    <plurals name="settings_item_plan_overview_description_time_remaining">
+        <item quantity="other">הזמן שנותר: %1$d ימים</item>
+        <item quantity="one">הזמן שנותר: יום %1$d</item>
+        <item quantity="two">הזמן שנותר: %1$d ימים</item>
+        <item quantity="many">הזמן שנותר: %1$d ימים</item>
+    </plurals>
+    <plurals name="shared_by_bottomsheet_title">
+        <item quantity="other">שותף על ידי %1$s חברים</item>
+        <item quantity="one">שותף על ידי חבר/ה %1$s</item>
+        <item quantity="two">שותף על ידי %1$s חברים</item>
+        <item quantity="many">שותף על ידי %1$s חברים</item>
+    </plurals>
+    <plurals name="song_limit_dialog_title">
+        <item quantity="other">הגעתם למגבלת ההורדה של %1$d שירים</item>
+        <item quantity="one">הגעתם למגבלת ההורדה של שיר %1$d</item>
+        <item quantity="two">הגעתם למגבלת ההורדה של %1$d שירים</item>
+        <item quantity="many">הגעתם למגבלת ההורדה של %1$d שירים</item>
+    </plurals>
+    <plurals name="songs_added">
+        <item quantity="other">נוספו %1$d שירים</item>
+        <item quantity="one">נוסף שיר %1$d</item>
+        <item quantity="two">נוספו %1$d שירים</item>
+        <item quantity="many">נוספו %1$d שירים</item>
+    </plurals>
+    <plurals name="songs_played">
+        <item quantity="other">נוגנו %1$d שירים</item>
+        <item quantity="one">נוגן שיר %1$d</item>
+        <item quantity="two">נוגנו %1$d שירים</item>
+        <item quantity="many">נוגנו %1$d שירים</item>
+    </plurals>
+    <plurals name="timestamp_days">
+        <item quantity="other">"%1$d ימ'"</item>
+        <item quantity="one">יום %1$d</item>
+        <item quantity="two">"%1$d ימ'"</item>
+        <item quantity="many">"%1$d ימ'"</item>
+    </plurals>
+    <plurals name="timestamp_hours">
+        <item quantity="other">"%1$dשע'"</item>
+        <item quantity="one">"%1$dשע'"</item>
+        <item quantity="two">"%1$dשע'"</item>
+        <item quantity="many">"%1$dשע'"</item>
+    </plurals>
+    <plurals name="timestamp_minutes">
+        <item quantity="other">"%1$d דק'"</item>
+        <item quantity="one">דקה %1$d</item>
+        <item quantity="two">"%1$d דק'"</item>
+        <item quantity="many">"%1$d דק'"</item>
+    </plurals>
+    <plurals name="timestamp_weeks">
+        <item quantity="other">"%1$d שב'"</item>
+        <item quantity="one">שבוע %1$d</item>
+        <item quantity="two">"%1$d שב'"</item>
+        <item quantity="many">"%1$d שב'"</item>
+    </plurals>
+    <plurals name="top_ups_hours_listened">
+        <item quantity="other">האזנתם במשך %1$s מתוך %2$d שעות</item>
+        <item quantity="one">האזנתם במשך שעה %1$s מתוך %2$d שעות</item>
+        <item quantity="two">האזנתם במשך %1$s מתוך %2$d שעות</item>
+        <item quantity="many">האזנתם במשך %1$s מתוך %2$d שעות</item>
+    </plurals>
+    <plurals name="upcoming_release_pretitle_days">
+        <item quantity="other">יפורסם בעוד %1$d ימים</item>
+        <item quantity="one">יפורסם בעוד יום %1$d</item>
+        <item quantity="two">יפורסם בעוד %1$d ימים</item>
+        <item quantity="many">יפורסם בעוד %1$d ימים</item>
+    </plurals>
+    <plurals name="user_stats_top_entity_position_down">
+        <item quantity="other">זו ירידה של %1$d מקומות מהחודש שעבר</item>
+        <item quantity="one">זו ירידה של מקום %1$d מהחודש שעבר</item>
+        <item quantity="two">זו ירידה של %1$d מקומות מהחודש שעבר</item>
+        <item quantity="many">זו ירידה של %1$d מקומות מהחודש שעבר</item>
+    </plurals>
+    <plurals name="user_stats_top_entity_position_up">
+        <item quantity="other">זו עלייה של %1$d מקומות מהחודש שעבר</item>
+        <item quantity="one">זו עלייה של מקום %1$d מהחודש שעבר</item>
+        <item quantity="two">זו עלייה של %1$d מקומות מהחודש שעבר</item>
+        <item quantity="many">זו עלייה של %1$d מקומות מהחודש שעבר</item>
+    </plurals>
+    <plurals name="ylx_liked_songs_offline_subtitle">
+        <item quantity="other">%1$s שירים שהורדו</item>
+        <item quantity="one">שיר %1$s שהורד</item>
+        <item quantity="two">%1$s שירים שהורדו</item>
+        <item quantity="many">%1$s שירים שהורדו</item>
+    </plurals>
+    <plurals name="your_episodes_header_subtitle">
+        <item quantity="other">%1$d פרקים</item>
+        <item quantity="one">פרק %1$d</item>
+        <item quantity="two">%1$d פרקים</item>
+        <item quantity="many">%1$d פרקים</item>
+    </plurals>
+    <plurals name="your_episodes_settings_option_auto_download_enabled_shows">
+        <item quantity="other">מופעלת ל-%1$s תוכניות</item>
+        <item quantity="one">מופעלת לתוכנית %1$s</item>
+        <item quantity="two">מופעלת ל-%1$s תוכניות</item>
+        <item quantity="many">מופעלת ל-%1$s תוכניות</item>
+    </plurals>
+    <plurals name="your_library_in_progress_progress_status_description">
+        <item quantity="other">בתהליך, %1$d אחוזים הושלמו</item>
+        <item quantity="one">בתהליך, אחוז %1$d הושלם</item>
+        <item quantity="two">בתהליך, %1$d אחוזים הושלמו</item>
+        <item quantity="many">בתהליך, %1$d אחוזים הושלמו</item>
+    </plurals>
+    <plurals name="your_library_pin_failed_body_item_pin_limit_reached">
+        <item quantity="other">ניתן להצמיד עד %1$d פריטים בו זמנית.</item>
+        <item quantity="one">ניתן להצמיד עד פריט %1$d בו זמנית.</item>
+        <item quantity="two">ניתן להצמיד עד %1$d פריטים בו זמנית.</item>
+        <item quantity="many">ניתן להצמיד עד %1$d פריטים בו זמנית.</item>
+    </plurals>
+    <plurals name="your_library_pinning_failed_body_item_pin_limit_reached">
+        <item quantity="other">ניתן להצמיד עד %1$d פריטים בו זמנית.</item>
+        <item quantity="one">ניתן להצמיד עד פריט %1$d בו זמנית.</item>
+        <item quantity="two">ניתן להצמיד עד %1$d פריטים בו זמנית.</item>
+        <item quantity="many">ניתן להצמיד עד %1$d פריטים בו זמנית.</item>
+    </plurals>
+</resources>

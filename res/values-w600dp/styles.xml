@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="BottomNavigationItem.Adaptive" parent="@style/BottomNavigationItem">
+        <item name="android:gravity">start|center</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:paddingLeft">0.0dip</item>
+        <item name="android:paddingTop">8.0dip</item>
+        <item name="android:paddingRight">0.0dip</item>
+        <item name="android:paddingBottom">8.0dip</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">0.0</item>
+        <item name="android:paddingStart">0.0dip</item>
+        <item name="android:paddingEnd">0.0dip</item>
+    </style>
+    <style name="BottomNavigationItemIcon.Adaptive" parent="@style/BottomNavigationItemIcon">
+        <item name="android:layout_marginLeft">8.0dip</item>
+        <item name="android:layout_marginStart">8.0dip</item>
+    </style>
+    <style name="BottomNavigationItemTitle.Adaptive" parent="@style/BottomNavigationItemTitle">
+        <item name="android:textAppearance">?pasteTextAppearanceBodySmall</item>
+        <item name="android:textSize">13.0sp</item>
+        <item name="android:gravity">start</item>
+        <item name="android:visibility">visible</item>
+        <item name="android:layout_marginLeft">4.0dip</item>
+        <item name="android:layout_marginStart">4.0dip</item>
+    </style>
+    <style name="TransparentBottomNavigationBar.Adaptive" parent="@style/TransparentBottomNavigationBar">
+        <item name="android:gravity">start</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+</resources>

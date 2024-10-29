@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:background="@color/gray_30" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/image_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="240.0dip" android:contentDescription="@null" />
+    <TextView android:textAppearance="@style/TextAppearance.Encore.TitleMedium" android:textColor="@color/white" android:gravity="center" android:layout_gravity="center" android:id="@id/title" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:layout_marginBottom="2.0dip" app:autoSizeTextType="uniform" />
+    <TextView android:textAppearance="@style/TextAppearance.Encore.BodyMedium" android:textColor="@color/white" android:gravity="center" android:id="@id/sub_title" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="24.0dip" android:maxLines="4" android:minLines="2" app:autoSizeTextType="uniform" />
+    <FrameLayout android:id="@id/action_button_container" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <Button android:layout_gravity="center" android:id="@id/action_button" android:layout_width="200.0dip" android:layout_height="wrap_content" android:filterTouchesWhenObscured="true" style="?glueButtonPrimaryWhite" />
+        <ProgressBar android:layout_gravity="center" android:id="@id/progress" android:visibility="gone" android:layout_width="24.0dip" android:layout_height="24.0dip" style="@style/indeterminateProgressBar" />
+    </FrameLayout>
+</LinearLayout>

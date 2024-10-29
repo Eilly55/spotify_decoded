@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.spotify.navigation.bottomnavigationbar.BottomNavigationItemView style="@style/BottomNavigationItem.Adaptive"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/bottom_navigation_item_indicator" style="@style/BottomNavigationItemIndicator.Adaptive" />
+    <ImageView android:id="@id/bottom_navigation_item_icon" android:contentDescription="@null" style="@style/BottomNavigationItemIcon.Adaptive" />
+    <TextView android:id="@id/bottom_navigation_item_title" style="@style/BottomNavigationItemTitle.Adaptive" />
+</com.spotify.navigation.bottomnavigationbar.BottomNavigationItemView>

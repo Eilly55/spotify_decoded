@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/star_1" android:layout_width="@dimen/spacer_32" android:layout_height="@dimen/spacer_32" android:src="@drawable/encore_icon_star_alt_24" android:contentDescription="@string/review_1_star" android:layout_marginEnd="@dimen/spacer_16" app:tint="@color/white" />
+    <ImageView android:id="@id/star_2" android:layout_width="@dimen/spacer_32" android:layout_height="@dimen/spacer_32" android:src="@drawable/encore_icon_star_24" android:contentDescription="@string/review_2_stars" android:layout_marginEnd="@dimen/spacer_16" app:tint="@color/white" />
+    <ImageView android:id="@id/star_3" android:layout_width="@dimen/spacer_32" android:layout_height="@dimen/spacer_32" android:src="@drawable/encore_icon_star_24" android:contentDescription="@string/review_3_stars" android:layout_marginEnd="@dimen/spacer_16" app:tint="@color/white" />
+    <ImageView android:id="@id/star_4" android:layout_width="@dimen/spacer_32" android:layout_height="@dimen/spacer_32" android:src="@drawable/encore_icon_star_24" android:contentDescription="@string/review_4_stars" android:layout_marginEnd="@dimen/spacer_16" app:tint="@color/white" />
+    <ImageView android:id="@id/star_5" android:layout_width="@dimen/spacer_32" android:layout_height="@dimen/spacer_32" android:src="@drawable/encore_icon_star_24" android:contentDescription="@string/review_5_stars" app:layout_constraintStart_toEndOf="@id/star_4" app:tint="@color/white" />
+</LinearLayout>

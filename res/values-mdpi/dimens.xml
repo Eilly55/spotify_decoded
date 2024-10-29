@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="scannable_image_height">300.0dip</dimen>
+    <dimen name="scannable_image_width">200.0dip</dimen>
+    <dimen name="onboarding_header_tagline_margin">16.0dip</dimen>
+</resources>

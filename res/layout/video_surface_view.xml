@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextureView android:id="@id/texture_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ProgressBar android:id="@id/throbber" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/indeterminateProgressBar" />
+    <ImageView android:id="@id/seek_frame" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@null" android:scaleType="fitCenter" android:contentDescription="@null" />
+    <com.spotify.betamax.player.SubtitlesView android:textSize="@dimen/subtitle_text_size" android:gravity="center" android:layout_gravity="bottom|center" android:id="@id/subtitle_view" android:background="@color/opacity_black_90" android:padding="0.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</merge>

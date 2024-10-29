@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/text_sentence_root_view" android:paddingBottom="@dimen/spacer_8" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.spotify.encoremobile.component.textview.EncoreTextView android:textAppearance="@style/TextAppearance.Encore.TitleMedium" android:id="@id/line_text_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:lineSpacingExtra="8.0sp" />
+</LinearLayout>

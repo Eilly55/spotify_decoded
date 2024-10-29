@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:padding="@dimen/encore_spacer_base" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/encore_spacer_looser"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="@style/TextAppearance.Encore.TitleSmall" android:gravity="center_horizontal" android:id="@id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/timeline_title_note" />
+    <TextView android:textAppearance="@style/TextAppearance.Encore.BodyMedium" android:textColor="@color/highlight_light_gray" android:gravity="center_horizontal" android:id="@id/body" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/encore_spacer_tighter" android:text="@string/timeline_body_note" />
+</LinearLayout>

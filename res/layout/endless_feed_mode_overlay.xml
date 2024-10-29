@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="@drawable/nowplaying_overlay_gradient" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:layout_gravity="top" android:id="@id/player_overlay_header" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/header_top_margin" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" layout="@layout/newplaying_player_overlay_header" />
+    <androidx.constraintlayout.widget.Barrier android:id="@id/carousel_item_safe_barrier_top" android:layout_width="wrap_content" android:layout_height="wrap_content" app:barrierDirection="bottom" app:constraint_referenced_ids="player_overlay_header" />
+    <androidx.constraintlayout.widget.Barrier android:id="@id/carousel_item_safe_barrier_bottom" android:layout_width="wrap_content" android:layout_height="wrap_content" app:barrierDirection="top" app:constraint_referenced_ids="player_overlay_footer" />
+    <LinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:id="@id/player_overlay_footer" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/player_controls_bottom_margin" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/playback_controls_margin" android:layout_marginRight="@dimen/playback_controls_margin" android:layout_marginHorizontal="@dimen/playback_controls_margin">
+            <com.spotify.encoremobile.viewstub.EncoreViewStub android:id="@id/track_info_view" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_margin="@dimen/track_info_padding" android:layout_weight="1.0" />
+            <com.spotify.encoremobile.viewstub.EncoreViewStub android:layout_gravity="center_vertical" android:id="@id/add_to_button" android:layout_width="@dimen/secondary_button_size" android:layout_height="@dimen/secondary_button_size" />
+        </LinearLayout>
+        <com.spotify.encoremobile.viewstub.EncoreViewStub android:id="@id/track_seekbar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/seekbar_margin_horizontal" android:layout_marginTop="@dimen/seekbar_margin_vertical" android:layout_marginRight="@dimen/seekbar_margin_horizontal" android:layout_marginBottom="@dimen/seekbar_margin_vertical" android:layout_marginHorizontal="@dimen/seekbar_margin_horizontal" android:layout_marginVertical="@dimen/seekbar_margin_vertical" />
+        <include android:id="@id/playback_controls_container" layout="@layout/endless_feed_mode_playback_controls" />
+        <include layout="@layout/endless_feed_overlay_footer" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

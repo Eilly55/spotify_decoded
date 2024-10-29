@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@color/gray_15" />
+            <size android:height="@dimen/floating_now_playing_bar_content_size" android:width="@dimen/floating_now_playing_bar_content_size" />
+            <corners android:radius="4.0dip" />
+        </shape>
+    </item>
+    <item android:left="1.0dip" android:top="1.0dip" android:right="1.0dip" android:bottom="1.0dip">
+        <shape android:shape="ring" android:useLevel="false" android:innerRadius="4.0dip" android:thickness="8.0dip">
+            <solid android:color="#26ffffff" />
+        </shape>
+    </item>
+    <item android:left="11.199982dip" android:top="11.199982dip" android:right="11.199982dip" android:bottom="11.199982dip">
+        <shape android:shape="ring" android:useLevel="false" android:innerRadius="1.0dip" android:thickness="2.1999817dip">
+            <solid android:color="#26ffffff" />
+        </shape>
+    </item>
+</layer-list>

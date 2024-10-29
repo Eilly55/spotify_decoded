@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="bottom_navigation_text_padding_left_right">1.0dip</dimen>
+    <dimen name="empty_state_top_margin">44.0dip</dimen>
+    <dimen name="find_inline_empty_padding">64.0dip</dimen>
+    <dimen name="find_inline_empty_with_button_padding">32.0dip</dimen>
+    <dimen name="mtrl_alert_dialog_background_inset_bottom">24.0dip</dimen>
+    <dimen name="mtrl_alert_dialog_background_inset_top">24.0dip</dimen>
+</resources>

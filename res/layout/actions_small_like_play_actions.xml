@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.spotify.encoreconsumermobile.elements.addtobutton.AddToButtonView android:id="@id/actions_small_add_to_btn" android:visibility="gone" android:layout_width="@dimen/std_24dp" android:layout_height="@dimen/std_24dp" android:scaleType="centerCrop" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <com.spotify.encoreconsumermobile.elements.playbutton.PlayButtonView android:id="@id/actions_small_play_btn" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

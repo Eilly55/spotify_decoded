@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:background="@color/gray_7" android:layout_width="fill_parent" android:layout_height="?actionBarSize">
+        <ImageView android:id="@id/basic_webview_dismiss" android:visibility="visible" android:layout_width="@dimen/dismiss_icon_width" android:layout_height="fill_parent" android:src="@drawable/encore_icon_x" android:scaleType="centerInside" android:contentDescription="@null" android:layout_marginEnd="@dimen/spacer_16" app:iconSize="@dimen/spacer_16" app:tint="@color/white" />
+        <Space android:layout_width="@dimen/webview_space_width" android:layout_height="fill_parent" />
+    </LinearLayout>
+    <include android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/fragment_webview" />
+</LinearLayout>

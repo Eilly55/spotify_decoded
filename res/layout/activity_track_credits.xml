@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/toolbar_container" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <com.spotify.appendix.contentviewstate.view.LoadingView android:gravity="center" android:id="@id/track_credits_loading_view" android:background="?android:windowBackground" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ProgressBar android:layout_gravity="center" android:id="@id/progress" style="@style/indeterminateProgressBar" />
+    </com.spotify.appendix.contentviewstate.view.LoadingView>
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/track_credits_recycler_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</LinearLayout>

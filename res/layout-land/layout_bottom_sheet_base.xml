@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="@null" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.Guideline android:orientation="vertical" android:id="@id/sheet_start" android:layout_width="0.0dip" android:layout_height="fill_parent" app:layout_constraintGuide_percent="0.2" />
+    <androidx.constraintlayout.widget.Guideline android:orientation="vertical" android:id="@id/sheet_end" android:layout_width="0.0dip" android:layout_height="fill_parent" app:layout_constraintGuide_percent="0.8" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:background="@drawable/bottom_sheet_background" android:paddingTop="@dimen/std_16dp" android:layout_width="0.0dip" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toStartOf="@id/sheet_end" app:layout_constraintStart_toStartOf="@id/sheet_start" app:layout_constraintTop_toTopOf="parent">
+        <View android:id="@id/grabber_icon" android:background="@drawable/ic_grabber" android:layout_width="@dimen/social_grabber_width" android:layout_height="@dimen/social_grabber_height" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/bottom_sheet_content" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/grabber_icon">
+            <androidx.constraintlayout.widget.Guideline android:orientation="vertical" android:id="@id/gutter_start" android:layout_width="wrap_content" android:layout_height="fill_parent" app:layout_constraintGuide_begin="@dimen/std_24dp" />
+            <androidx.constraintlayout.widget.Guideline android:orientation="vertical" android:id="@id/gutter_end" android:layout_width="wrap_content" android:layout_height="fill_parent" app:layout_constraintGuide_end="@dimen/std_24dp" />
+            <androidx.constraintlayout.widget.Guideline android:orientation="horizontal" android:id="@id/gutter_bottom" android:layout_width="wrap_content" android:layout_height="fill_parent" app:layout_constraintGuide_end="@dimen/std_24dp" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

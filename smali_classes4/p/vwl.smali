@@ -1,0 +1,39 @@
+.class public final Lp/vwl;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# instance fields
+.field public final a:Lp/ov20;
+
+.field public final b:Lp/f330;
+
+
+# direct methods
+.method public constructor <init>(Lp/ywl;)V
+    .locals 1
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 2
+    .line 3
+    .line 4
+    iget-object v0, p1, Lp/ywl;->h:Lp/ov20;
+
+    .line 5
+    .line 6
+    iput-object v0, p0, Lp/vwl;->a:Lp/ov20;
+
+    .line 7
+    .line 8
+    iget-object p1, p1, Lp/ywl;->d:Lp/f330;
+
+    .line 9
+    .line 10
+    iput-object p1, p0, Lp/vwl;->b:Lp/f330;
+
+    .line 11
+    .line 12
+    return-void
+.end method

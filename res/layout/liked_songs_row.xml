@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingLeft="@dimen/spacer_16" android:paddingRight="@dimen/spacer_16" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/spacer_12"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/img_picture" android:duplicateParentState="true" android:layout_width="@dimen/liked_songs_avatar_size" android:layout_height="@dimen/liked_songs_avatar_size" android:layout_marginTop="@dimen/spacer_8" android:layout_marginRight="@dimen/spacer_12" android:layout_marginBottom="@dimen/spacer_8" android:scaleType="centerCrop" android:layout_marginEnd="@dimen/spacer_12" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/labels" android:duplicateParentState="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toRightOf="@id/img_picture" android:layout_centerVertical="true">
+        <TextView android:textAppearance="?pasteTextAppearanceBodyMedium" android:textColor="?glueRowTitleColor" android:ellipsize="end" android:id="@id/txt_title" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:textAlignment="gravity" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/subtitle_container" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.spotify.encoreconsumermobile.elements.badge.download.DownloadBadgeView android:id="@id/download_badge" android:layout_width="@dimen/encore_badge_size" android:layout_height="@dimen/encore_badge_size" android:layout_marginRight="@dimen/encore_badge_size" android:layout_marginEnd="@dimen/encore_badge_margin" />
+            <TextView android:textAppearance="?pasteTextAppearanceBodySmall" android:textColor="?glueRowSubtitleColor" android:ellipsize="end" android:id="@id/txt_subtitle" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:background="@drawable/liked_songs_background" android:layout_width="@dimen/std_24dp" android:layout_height="@dimen/std_24dp" android:layout_alignRight="@id/img_picture" android:layout_alignParentBottom="true">
+        <com.spotify.encoreconsumermobile.elements.heart.HeartButton android:layout_gravity="center" android:id="@id/heart_button" android:layout_width="14.0dip" android:layout_height="14.0dip" />
+    </LinearLayout>
+    <com.spotify.legacyglue.icons.SpotifyIconView android:id="@id/chevron_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true" app:iconColor="#ffa7a7a7" app:iconSize="@dimen/std_16dp" app:iconType="icon_chevron_right" />
+</RelativeLayout>

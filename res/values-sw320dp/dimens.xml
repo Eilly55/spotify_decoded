@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="audiobook_nudge_container_padding_bottom">24.0dip</dimen>
+    <dimen name="home_episode_card_progress_width">48.0dip</dimen>
+    <dimen name="library_chip_vertical_margin">4.0dip</dimen>
+</resources>

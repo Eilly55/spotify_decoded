@@ -1,0 +1,3 @@
+.class public abstract Lp/pnn0;
+.super Ljava/lang/Object;
+.source "SourceFile"

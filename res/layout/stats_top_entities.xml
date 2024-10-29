@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/stats_top_entity_container" android:paddingTop="@dimen/encore_spacer_tighter" android:paddingBottom="@dimen/encore_spacer_tighter" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingVertical="@dimen/encore_spacer_tighter"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/top_entity_item_1" layout="@layout/stats_top_entity_item" />
+    <include android:id="@id/top_entity_item_2" layout="@layout/stats_top_entity_item" />
+    <include android:id="@id/top_entity_item_3" layout="@layout/stats_top_entity_item" />
+    <include android:id="@id/top_entity_item_4" layout="@layout/stats_top_entity_item" />
+    <include android:id="@id/top_entity_item_5" layout="@layout/stats_top_entity_item" />
+</LinearLayout>

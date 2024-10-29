@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<allowed_callers>
+    <signature allowedResources="com.spotify.externalintegration.service.provider.MediaProvider,com.spotify.music.libs.mediabrowserservice.SpotifyMediaBrowserService" name="Meta Stella" package="com.facebook.stella">
+        <key release="true"> 81:B0:48:87:E8:EB:8A:20:9F:2E:5E:40:42:AD:CF:69:6B:F7:51:E9:9A:BD:BD:A1:32:B6:61:67:FD:CA:94:31 </key>
+    </signature>
+    <signature allowedResources="com.spotify.externalintegration.service.provider.MediaProvider,com.spotify.music.libs.mediabrowserservice.SpotifyMediaBrowserService" name="Meta Stella Debug" package="com.facebook.stella_debug">
+        <key release="false"> FA:C6:17:45:DC:09:03:78:6F:B9:ED:E6:2A:96:2B:39:9F:73:48:F0:BB:6F:89:9B:83:32:66:75:91:03:3B:9C </key>
+    </signature>
+</allowed_callers>

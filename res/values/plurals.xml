@@ -1,0 +1,578 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="ad_header_title_sponsored_session_end_card">
+        <item quantity="other">Enjoy %1$d minutes of uninterrupted listening</item>
+        <item quantity="one">Enjoy %1$d minute of uninterrupted listening</item>
+    </plurals>
+    <plurals name="ad_header_title_sponsored_session_video_ad">
+        <item quantity="other">"You'll get %1$d minutes of uninterrupted listening after this short video"</item>
+        <item quantity="one">"You'll get %1$d minute of uninterrupted listening after this short video"</item>
+    </plurals>
+    <plurals name="add_to_playlist_filter_items_count_changed_announcement">
+        <item quantity="other">Found %1$d items</item>
+        <item quantity="one">Found %1$d item</item>
+    </plurals>
+    <plurals name="add_to_playlist_subtitle_audiobooks_count">
+        <item quantity="other">%1$s audiobooks</item>
+        <item quantity="one">%1$s audiobook</item>
+    </plurals>
+    <plurals name="add_to_playlist_subtitle_episodes_count">
+        <item quantity="other">%1$s episodes</item>
+        <item quantity="one">%1$s episode</item>
+    </plurals>
+    <plurals name="add_to_playlist_subtitle_songs_count">
+        <item quantity="other">%1$s songs</item>
+        <item quantity="one">%1$s song</item>
+    </plurals>
+    <plurals name="add_to_playlist_subtitle_tracks_count">
+        <item quantity="other">%1$s tracks</item>
+        <item quantity="one">%1$s track</item>
+    </plurals>
+    <plurals name="album_track_count_and_duration">
+        <item quantity="other">%1$d songs • %2$s</item>
+        <item quantity="one">%1$d song • %2$s</item>
+    </plurals>
+    <plurals name="allboarding_selected_nb_label">
+        <item quantity="other">%1$d selected</item>
+        <item quantity="one">%1$d selected</item>
+    </plurals>
+    <plurals name="allboarding_selection_summary_content_desc">
+        <item quantity="other">%1$d selected</item>
+        <item quantity="one">%1$d selected</item>
+    </plurals>
+    <plurals name="allboarding_selection_summary_with_requirement_content_desc">
+        <item quantity="other">%1$d selected. Select at least %2$d more to continue.</item>
+        <item quantity="one">%1$d selected. Select at least %2$d more to continue.</item>
+    </plurals>
+    <plurals name="android_auto_podcast_episode_time_format_hours">
+        <item quantity="other">%1$d hrs</item>
+        <item quantity="one">%1$d hr</item>
+    </plurals>
+    <plurals name="android_auto_podcast_episode_time_format_min">
+        <item quantity="other">%1$d mins</item>
+        <item quantity="one">%1$d min</item>
+    </plurals>
+    <plurals name="artist_number_of_liked_releases">
+        <item quantity="other">%1$,d releases</item>
+        <item quantity="one">%1$,d release</item>
+    </plurals>
+    <plurals name="artist_number_of_liked_songs">
+        <item quantity="other">%1$,d songs</item>
+        <item quantity="one">%1$,d song</item>
+    </plurals>
+    <plurals name="artist_saved_songs_subtitle">
+        <item quantity="other">%1$d songs • %2$s</item>
+        <item quantity="one">%1$d song • %2$s</item>
+    </plurals>
+    <plurals name="assisted_curation_search_filter_items_count_changed_announcement">
+        <item quantity="other">Found %1$d items</item>
+        <item quantity="one">Found %1$d item</item>
+    </plurals>
+    <plurals name="auto_download_limit_option">
+        <item quantity="other">%1$s new episodes per show</item>
+        <item quantity="one">%1$s new episode per show</item>
+    </plurals>
+    <plurals name="bidget_info_course_lessons">
+        <item quantity="other">%1$d free lessons</item>
+        <item quantity="one">%1$d free lesson</item>
+    </plurals>
+    <plurals name="campfire_chats_preview_days_content_description">
+        <item quantity="other">%1$s days ago</item>
+        <item quantity="one">%1$s day ago</item>
+    </plurals>
+    <plurals name="campfire_chats_preview_hours_content_description">
+        <item quantity="other">%1$s hours ago</item>
+        <item quantity="one">%1$s hour ago</item>
+    </plurals>
+    <plurals name="campfire_chats_preview_minutes_content_description">
+        <item quantity="other">%1$s minutes ago</item>
+        <item quantity="one">%1$s minute ago</item>
+    </plurals>
+    <plurals name="campfire_sharedbychip_label_multiple">
+        <item quantity="other">%1$s friends</item>
+        <item quantity="one">%1$s friend</item>
+    </plurals>
+    <plurals name="chapters_added">
+        <item quantity="other">%1$d chapters added</item>
+        <item quantity="one">%1$d chapter added</item>
+    </plurals>
+    <plurals name="chapters_played">
+        <item quantity="other">%1$d chapters played</item>
+        <item quantity="one">%1$d chapter played</item>
+    </plurals>
+    <plurals name="charts_header_new_entry_count">
+        <item quantity="other">%1$,d New Entries</item>
+        <item quantity="one">%1$,d New Entry</item>
+    </plurals>
+    <plurals name="comment_days_ago">
+        <item quantity="other">%1$d days ago</item>
+        <item quantity="one">%1$d day ago</item>
+    </plurals>
+    <plurals name="comment_hours_ago">
+        <item quantity="other">%1$d hours ago</item>
+        <item quantity="one">%1$d hour ago</item>
+    </plurals>
+    <plurals name="comment_minutes_ago">
+        <item quantity="other">%1$d minutes ago</item>
+        <item quantity="one">%1$d minute ago</item>
+    </plurals>
+    <plurals name="comment_months_ago">
+        <item quantity="other">%1$d months ago</item>
+        <item quantity="one">%1$d month ago</item>
+    </plurals>
+    <plurals name="comment_reply_preview">
+        <item quantity="other">%1$s replies</item>
+        <item quantity="one">%1$s reply</item>
+    </plurals>
+    <plurals name="comment_weeks_ago">
+        <item quantity="other">%1$d weeks ago</item>
+        <item quantity="one">%1$d week ago</item>
+    </plurals>
+    <plurals name="comment_years_ago">
+        <item quantity="other">%1$d years ago</item>
+        <item quantity="one">%1$d year ago</item>
+    </plurals>
+    <plurals name="complex_playlist_number_of_songs">
+        <item quantity="other">%1$,d songs</item>
+        <item quantity="one">%1$,d song</item>
+    </plurals>
+    <plurals name="connect_device_multiple_listeners">
+        <item quantity="other">%1$d listeners</item>
+        <item quantity="one">%1$d listener</item>
+    </plurals>
+    <plurals name="content_feed_timestamp_days_ago">
+        <item quantity="other">%d days ago</item>
+        <item quantity="one">%d day ago</item>
+    </plurals>
+    <plurals name="content_feed_timestamp_hours_ago">
+        <item quantity="other">%d hrs ago</item>
+        <item quantity="one">%d hr ago</item>
+    </plurals>
+    <plurals name="content_feed_timestamp_minutes_ago">
+        <item quantity="other">%d mins ago</item>
+        <item quantity="one">%d min ago</item>
+    </plurals>
+    <plurals name="context_menu_sleep_timer_hours">
+        <item quantity="other">%1$d hours</item>
+        <item quantity="one">%1$d hour</item>
+    </plurals>
+    <plurals name="context_menu_sleep_timer_mins">
+        <item quantity="other">%1$d minutes</item>
+        <item quantity="one">%1$d minute</item>
+    </plurals>
+    <plurals name="creator_row_content_description">
+        <item quantity="other">Authors: %1$s</item>
+        <item quantity="one">Author: %1$s</item>
+    </plurals>
+    <plurals name="creators_button_title_counter">
+        <item quantity="other">%1$s +%2$d others</item>
+        <item quantity="one">%1$s +%2$d other</item>
+    </plurals>
+    <plurals name="creators_row_accessibility_hint">
+        <item quantity="other">Shows a navigable list of all %1$s</item>
+        <item quantity="one">Navigates to more content from this %1$s</item>
+    </plurals>
+    <plurals name="data_download_preparation_time">
+        <item quantity="other">Preparation time %d days</item>
+        <item quantity="one">Preparation time %d day</item>
+    </plurals>
+    <plurals name="days_label">
+        <item quantity="other">%1$s&lt;br/>&lt;b>Days&lt;/b></item>
+        <item quantity="one">%1$s&lt;br/>&lt;b>Day&lt;/b></item>
+    </plurals>
+    <plurals name="days_left_until_release_date">
+        <item quantity="other">Releases in %d days</item>
+    </plurals>
+    <plurals name="days_to_renew">
+        <item quantity="other">%d days until listening hours renew</item>
+        <item quantity="one">%d day until listening hours renew</item>
+    </plurals>
+    <plurals name="debug_service_idle_timeout_toast">
+        <item quantity="other">Idle shutdown timeout: %1$d seconds</item>
+        <item quantity="one">Idle shutdown timeout: %1$d second</item>
+    </plurals>
+    <plurals name="entity_action_row_downloading_progress_content_description">
+        <item quantity="other">%1$d percent downloaded</item>
+        <item quantity="one">%1$d percent downloaded</item>
+    </plurals>
+    <plurals name="episode_contents_chapters_expand_button">
+        <item quantity="other">View %d chapters</item>
+        <item quantity="one">View %d chapter</item>
+    </plurals>
+    <plurals name="episodes_added">
+        <item quantity="other">%1$d episodes added</item>
+        <item quantity="one">%1$d episode added</item>
+    </plurals>
+    <plurals name="episodes_played">
+        <item quantity="other">%1$d episodes played</item>
+        <item quantity="one">%1$d episode played</item>
+    </plurals>
+    <plurals name="error_dialog_body_resend_limit">
+        <item quantity="other">Wait %1$d seconds, then request a new code.</item>
+        <item quantity="one">Wait %1$d second, then request a new code.</item>
+    </plurals>
+    <plurals name="error_dialog_title_resend_limit">
+        <item quantity="other">Try again in %1$d seconds</item>
+        <item quantity="one">Try again in %1$d second</item>
+    </plurals>
+    <plurals name="event_card_number_of_events_text">
+        <item quantity="other">%d events</item>
+        <item quantity="one">%d event</item>
+    </plurals>
+    <plurals name="find_friends_flow_confirm_desc">
+        <item quantity="other">Are you sure you want to follow all %1$,d people?</item>
+        <item quantity="one">Are you sure you want to follow %1$,d person?</item>
+    </plurals>
+    <plurals name="header_common_likes_count">
+        <item quantity="other">%1$s saves</item>
+        <item quantity="one">%1$s save</item>
+    </plurals>
+    <plurals name="hours_label">
+        <item quantity="other">%1$s&lt;br/>&lt;b>Hours&lt;/b></item>
+        <item quantity="one">%1$s&lt;br/>&lt;b>Hour&lt;/b></item>
+    </plurals>
+    <plurals name="hours_to_renew">
+        <item quantity="other">%d hours until listening hours renew</item>
+        <item quantity="one">%d hour until listening hours renews</item>
+    </plurals>
+    <plurals name="ipl_new_joiner_nudge">
+        <item quantity="other">%2$d others joined your Jam</item>
+        <item quantity="one">%1$s joined your Jam</item>
+    </plurals>
+    <plurals name="item_description_folder_folders_count">
+        <item quantity="other">%1$s folders</item>
+        <item quantity="one">%1$s folder</item>
+    </plurals>
+    <plurals name="item_description_folder_playlists_count">
+        <item quantity="other">%1$s playlists</item>
+        <item quantity="one">%1$s playlist</item>
+    </plurals>
+    <plurals name="item_description_liked_songs">
+        <item quantity="other">Playlist • %1$s songs</item>
+        <item quantity="one">Playlist • %1$s song</item>
+    </plurals>
+    <plurals name="item_description_liked_songs_filtered">
+        <item quantity="other">%1$s songs</item>
+        <item quantity="one">%1$s song</item>
+    </plurals>
+    <plurals name="item_description_local_files">
+        <item quantity="other">Playlist • %1$s tracks</item>
+        <item quantity="one">Playlist • %1$s track</item>
+    </plurals>
+    <plurals name="item_description_local_files_filtered">
+        <item quantity="other">%1$s tracks</item>
+        <item quantity="one">%1$s track</item>
+    </plurals>
+    <plurals name="item_description_show_downloaded">
+        <item quantity="other">%1$s downloaded episodes • %2$s</item>
+        <item quantity="one">%1$s downloaded episode • %2$s</item>
+    </plurals>
+    <plurals name="item_description_show_downloaded_no_creator">
+        <item quantity="other">%1$s downloaded episodes</item>
+        <item quantity="one">%1$s downloaded episode</item>
+    </plurals>
+    <plurals name="item_description_your_episodes_downloaded">
+        <item quantity="other">%1$s downloaded episodes</item>
+        <item quantity="one">%1$s downloaded episode</item>
+    </plurals>
+    <plurals name="items_added">
+        <item quantity="other">%1$d items added</item>
+        <item quantity="one">%1$d item added</item>
+    </plurals>
+    <plurals name="items_played">
+        <item quantity="other">%1$d items played</item>
+        <item quantity="one">%1$d item played</item>
+    </plurals>
+    <plurals name="jam_host_settings_header_participant_count">
+        <item quantity="other">%1$d participants</item>
+        <item quantity="one">%1$d participant</item>
+    </plurals>
+    <plurals name="library_pinned_section_placeholder_subtitle">
+        <item quantity="other">Or swipe right. You can have up to %1$d items pinned.</item>
+        <item quantity="one">Or swipe right. You can have up to %1$d item pinned.</item>
+    </plurals>
+    <plurals name="liked_songs_header_subtitle">
+        <item quantity="other">%d songs</item>
+        <item quantity="one">%d song</item>
+    </plurals>
+    <plurals name="line_selected">
+        <item quantity="other">%d lines selected</item>
+        <item quantity="one">%d line selected</item>
+    </plurals>
+    <plurals name="listen_later_header_subtitle">
+        <item quantity="other">%d episodes</item>
+        <item quantity="one">%d episode</item>
+    </plurals>
+    <plurals name="listening_hours_card_complete">
+        <item quantity="other">You’ve listened to all %d hours of audiobooks included in your monthly plan.</item>
+        <item quantity="one">You’ve listened to all %d hour of audiobooks included in your monthly plan.</item>
+    </plurals>
+    <plurals name="listening_hours_card_text">
+        <item quantity="other">Listen to %d hours of audiobooks from our subscriber catalog, included in your monthly plan.</item>
+        <item quantity="one">Listen to %d hour of audiobooks from our subscriber catalog, included in your monthly plan.</item>
+    </plurals>
+    <plurals name="listening_hours_listened">
+        <item quantity="other">%d-hour of listening time</item>
+        <item quantity="one">%d-hour of listening time</item>
+    </plurals>
+    <plurals name="local_files_subtitle_number_of_tracks">
+        <item quantity="other">%1$,d tracks</item>
+        <item quantity="one">%1$,d track</item>
+    </plurals>
+    <plurals name="minutes_label">
+        <item quantity="other">%1$s&lt;br/>&lt;b>Minutes&lt;/b></item>
+        <item quantity="one">%1$s&lt;br/>&lt;b>Minute&lt;/b></item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d new notifications</item>
+        <item quantity="one">%d new notification</item>
+    </plurals>
+    <plurals name="notification_syncing_text">
+        <item quantity="other">%1$,d out of %2$,d (%3$,d%% complete)</item>
+        <item quantity="one">%1$,d out of %2$,d (%3$,d%% complete)</item>
+    </plurals>
+    <plurals name="num_available_downloads">
+        <item quantity="other">%1$s downloads available</item>
+        <item quantity="one">%1$s download available</item>
+    </plurals>
+    <plurals name="number_events_from_date">
+        <item quantity="other">%1$s events from %2$s</item>
+        <item quantity="one">%1$s event from %2$s</item>
+    </plurals>
+    <plurals name="number_of_items">
+        <item quantity="other">%s tracks</item>
+        <item quantity="one">%s track</item>
+    </plurals>
+    <plurals name="number_of_live_events">
+        <item quantity="other">%1$s events</item>
+        <item quantity="one">%1$s event</item>
+    </plurals>
+    <plurals name="number_of_live_events_near_you">
+        <item quantity="other">%1$s events near you</item>
+        <item quantity="one">%1$s event near you</item>
+    </plurals>
+    <plurals name="number_of_songs">
+        <item quantity="other">%1$,d songs</item>
+        <item quantity="one">%1$,d song</item>
+    </plurals>
+    <plurals name="otp_description">
+        <item quantity="other">We sent an SMS with a %1$d-digit code to %2$s.</item>
+        <item quantity="one">We sent an SMS with a %1$d-digit code to %2$s.</item>
+    </plurals>
+    <plurals name="otp_description_alt">
+        <item quantity="other">We sent a %1$d-digit code to %2$s.</item>
+        <item quantity="one">We sent a %1$d-digit code to %2$s.</item>
+    </plurals>
+    <plurals name="pin_gate_wrong_pin_long_delay_error_message">
+        <item quantity="other">Wrong PIN, try again in %1$d minutes.</item>
+        <item quantity="one">Wrong PIN, try again in %1$d minute.</item>
+    </plurals>
+    <plurals name="pin_gate_wrong_pin_short_delay_error_message">
+        <item quantity="other">Wrong PIN, try again in %1$d seconds.</item>
+        <item quantity="one">Wrong PIN, try again in %1$d second.</item>
+    </plurals>
+    <plurals name="playback_settings_crossfade_slider_seconds_full">
+        <item quantity="other">%1$d seconds</item>
+        <item quantity="one">%1$d second</item>
+    </plurals>
+    <plurals name="playlist_header_collaborators">
+        <item quantity="other">%1$s +%2$d others</item>
+        <item quantity="one">%1$s +%2$d other</item>
+    </plurals>
+    <plurals name="playlist_header_creator_with_collaborators_content_description">
+        <item quantity="other">Created by %1$s and %2$d others</item>
+        <item quantity="one">Created by %1$s and %2$d other</item>
+    </plurals>
+    <plurals name="playlist_participants_row_subtitle_episodes">
+        <item quantity="other">%d episodes</item>
+        <item quantity="one">%d episode</item>
+    </plurals>
+    <plurals name="playlist_participants_row_subtitle_tracks">
+        <item quantity="other">%d songs</item>
+        <item quantity="one">%d song</item>
+    </plurals>
+    <plurals name="playlist_participants_title">
+        <item quantity="other">%d people</item>
+        <item quantity="one">%d person</item>
+    </plurals>
+    <plurals name="playlist_trackcloud_includes_label_episodes">
+        <item quantity="other">%1$,d EPISODES</item>
+        <item quantity="one">%1$,d EPISODE</item>
+    </plurals>
+    <plurals name="playlist_trackcloud_includes_label_songs">
+        <item quantity="other">%1$,d SONGS</item>
+        <item quantity="one">%1$,d SONG</item>
+    </plurals>
+    <plurals name="podcast_chapters_bottom_sheet_chapter_count">
+        <item quantity="other">%1$d chapters</item>
+        <item quantity="one">%1$d chapter</item>
+    </plurals>
+    <plurals name="podcast_chapters_expand_button">
+        <item quantity="other">View %d chapters</item>
+        <item quantity="one">View %d chapter</item>
+    </plurals>
+    <plurals name="podcast_poll_days_left_label">
+        <item quantity="other">%1$d days</item>
+        <item quantity="one">%1$d day</item>
+    </plurals>
+    <plurals name="podcast_poll_hours_left_label">
+        <item quantity="other">%1$d hours left</item>
+        <item quantity="one">%1$d hour left</item>
+    </plurals>
+    <plurals name="podcast_poll_minutes_left_label">
+        <item quantity="other">%1$d minutes left</item>
+        <item quantity="one">%1$d minute left</item>
+    </plurals>
+    <plurals name="podcast_poll_poll_subtitle">
+        <item quantity="other">%1$d votes • %2$s</item>
+        <item quantity="one">%1$d vote • %2$s</item>
+    </plurals>
+    <plurals name="premium_mini_playlist_add_song_subtitle">
+        <item quantity="other">%1$d songs left</item>
+        <item quantity="one">%1$d song left</item>
+    </plurals>
+    <plurals name="premium_mini_playlist_subtitle">
+        <item quantity="other">%1$d songs • %2$s</item>
+        <item quantity="one">%1$d song • %2$s</item>
+    </plurals>
+    <plurals name="premium_plan_card_days_remaining">
+        <item quantity="other">%d days of Premium</item>
+        <item quantity="one">%d day of Premium</item>
+    </plurals>
+    <plurals name="premium_plan_card_months_remaining">
+        <item quantity="other">%d months of Premium</item>
+        <item quantity="one">%d month of Premium</item>
+    </plurals>
+    <plurals name="premium_plan_card_weeks_remaining">
+        <item quantity="other">%d weeks of Premium</item>
+        <item quantity="one">%d week of Premium</item>
+    </plurals>
+    <plurals name="premium_plan_card_years_remaining">
+        <item quantity="other">%d years of Premium</item>
+        <item quantity="one">%d year of Premium</item>
+    </plurals>
+    <plurals name="profile_followers_count">
+        <item quantity="other">%1$d followers</item>
+        <item quantity="one">%1$d follower</item>
+    </plurals>
+    <plurals name="profile_following_count">
+        <item quantity="other">%1$d following</item>
+        <item quantity="one">%1$d following</item>
+    </plurals>
+    <plurals name="profile_list_item_followers_count">
+        <item quantity="other">%1$,d followers</item>
+        <item quantity="one">%1$,d follower</item>
+    </plurals>
+    <plurals name="profile_list_see_all_footer_playlists">
+        <item quantity="other">See all %1$d playlists</item>
+        <item quantity="one">See %1$d playlist</item>
+    </plurals>
+    <plurals name="profile_playlists_subtitle">
+        <item quantity="other">%1$,d saves</item>
+        <item quantity="one">%1$,d save</item>
+    </plurals>
+    <plurals name="profile_recently_played_subtitle">
+        <item quantity="other">%1$,d followers</item>
+        <item quantity="one">%1$,d follower</item>
+    </plurals>
+    <plurals name="search_episode_chapters_title_plurals">
+        <item quantity="other">%d Chapters</item>
+        <item quantity="one">%d Chapter</item>
+    </plurals>
+    <plurals name="search_saves_album_row_string">
+        <item quantity="other">%1$s saves</item>
+        <item quantity="one">%1$s save</item>
+    </plurals>
+    <plurals name="search_saves_playlist_row_string">
+        <item quantity="other">%1$s saves</item>
+        <item quantity="one">%1$s save</item>
+    </plurals>
+    <plurals name="seconds_label">
+        <item quantity="other">%1$s&lt;br/>&lt;b>Seconds&lt;/b></item>
+        <item quantity="one">%1$s&lt;br/>&lt;b>Second&lt;/b></item>
+    </plurals>
+    <plurals name="selection_line_quantity_subtitle">
+        <item quantity="other">%1$d lines selected</item>
+        <item quantity="one">%1$d line selected</item>
+    </plurals>
+    <plurals name="settings_item_offline_mode_time_left_days">
+        <item quantity="other">Must go back online in: %1$,d days</item>
+        <item quantity="one">Must go back online in: %1$,d day</item>
+    </plurals>
+    <plurals name="settings_item_plan_overview_description_time_remaining">
+        <item quantity="other">Time remaining: %d days</item>
+        <item quantity="one">Time remaining: %d day</item>
+    </plurals>
+    <plurals name="shared_by_bottomsheet_title">
+        <item quantity="other">Shared by %1$s friends</item>
+        <item quantity="one">Shared by %1$s friend</item>
+    </plurals>
+    <plurals name="song_limit_dialog_title">
+        <item quantity="other">"You've reached the limit of %1$d downloaded songs"</item>
+        <item quantity="one">"You've reached the limit of %1$d downloaded song"</item>
+    </plurals>
+    <plurals name="songs_added">
+        <item quantity="other">%1$d songs added</item>
+        <item quantity="one">%1$d song added</item>
+    </plurals>
+    <plurals name="songs_played">
+        <item quantity="other">%1$d songs played</item>
+        <item quantity="one">%1$d song played</item>
+    </plurals>
+    <plurals name="timestamp_days">
+        <item quantity="other">%1$dd</item>
+        <item quantity="one">%1$dd</item>
+    </plurals>
+    <plurals name="timestamp_hours">
+        <item quantity="other">%1$dh</item>
+        <item quantity="one">%1$dh</item>
+    </plurals>
+    <plurals name="timestamp_minutes">
+        <item quantity="other">%1$dm</item>
+        <item quantity="one">%1$dm</item>
+    </plurals>
+    <plurals name="timestamp_weeks">
+        <item quantity="other">%1$dw</item>
+        <item quantity="one">%1$dw</item>
+    </plurals>
+    <plurals name="top_ups_hours_listened">
+        <item quantity="other">%1$s/%2$d hours listened</item>
+        <item quantity="one">%1$s/%2$d hour listened</item>
+    </plurals>
+    <plurals name="upcoming_release_pretitle_days">
+        <item quantity="other">Releases in %d days</item>
+        <item quantity="one">Releases in %d day</item>
+    </plurals>
+    <plurals name="user_stats_top_entity_position_down">
+        <item quantity="other">This has moved down %d positions since the previous month</item>
+        <item quantity="one">This has moved down %d position since the previous month</item>
+    </plurals>
+    <plurals name="user_stats_top_entity_position_up">
+        <item quantity="other">This has moved up %d positions since the previous month</item>
+        <item quantity="one">This has moved up %d position since the previous month</item>
+    </plurals>
+    <plurals name="ylx_liked_songs_offline_subtitle">
+        <item quantity="other">%1$s downloaded songs</item>
+        <item quantity="one">%1$s downloaded song</item>
+    </plurals>
+    <plurals name="your_episodes_header_subtitle">
+        <item quantity="other">%d episodes</item>
+        <item quantity="one">%d episode</item>
+    </plurals>
+    <plurals name="your_episodes_settings_option_auto_download_enabled_shows">
+        <item quantity="other">Turned on for %1$s shows</item>
+        <item quantity="one">Turned on for %1$s show</item>
+    </plurals>
+    <plurals name="your_library_in_progress_progress_status_description">
+        <item quantity="other">In progress, %1$d percent completed</item>
+        <item quantity="one">In progress, %1$d percent completed</item>
+    </plurals>
+    <plurals name="your_library_pin_failed_body_item_pin_limit_reached">
+        <item quantity="other">You can only have %d items pinned at once.</item>
+        <item quantity="one">You can only have %d item pinned at once.</item>
+    </plurals>
+    <plurals name="your_library_pinning_failed_body_item_pin_limit_reached">
+        <item quantity="other">You can only have %d items pinned at once.</item>
+        <item quantity="one">You can only have %d item pinned at once.</item>
+    </plurals>
+</resources>

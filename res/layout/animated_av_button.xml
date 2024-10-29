@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/av_container" android:clipChildren="true" android:layout_width="wrap_content" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center_vertical" android:id="@id/av_icon" android:padding="@dimen/spacer_8" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="centerCrop" android:contentDescription="@string/av_content_desc" />
+    <androidx.appcompat.widget.AppCompatTextView android:textAppearance="@style/TextAppearance.Encore.BodySmallBold" android:textColor="@color/av_btn_white" android:ellipsize="end" android:layout_gravity="center_vertical" android:id="@id/av_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:layout_marginEnd="@dimen/spacer_8" />
+</LinearLayout>

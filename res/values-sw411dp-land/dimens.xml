@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="audiobook_nudge_action_button_margin_top">8.0dip</dimen>
+    <dimen name="audiobook_nudge_artwork_margin_top">12.0dip</dimen>
+    <dimen name="audiobook_nudge_container_padding_bottom">12.0dip</dimen>
+    <dimen name="audiobook_nudge_title_margin_top">12.0dip</dimen>
+</resources>

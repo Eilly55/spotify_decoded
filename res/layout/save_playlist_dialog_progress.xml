@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ProgressBar android:layout_gravity="center" android:id="@id/save_dialog_progress" android:visibility="visible" android:layout_width="120.0dip" android:layout_height="120.0dip" android:max="100" android:indeterminate="true" android:progressDrawable="@drawable/save_playlist_progress" />
+    <com.spotify.encoremobile.component.buttons.EncoreButton android:textColor="?brightAccentTextBase" android:id="@id/save_dialog_progress_cancel_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/std_16dp" android:layout_marginBottom="@dimen/std_16dp" android:text="@string/edit_playlist_save_dialog_cancel_button" android:filterTouchesWhenObscured="false" style="@style/Encore.Button.Tertiary.Medium" />
+</LinearLayout>

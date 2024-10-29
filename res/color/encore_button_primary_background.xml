@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:state_selected="true" android:color="?backgroundHighlight" />
+    <item android:state_focused="true" android:color="?backgroundHighlight" />
+    <item android:state_pressed="true" android:color="?backgroundPress" />
+    <item android:state_enabled="false" android:color="?backgroundBase" />
+    <item android:color="?decorativeSubdued" app:state_progress_indicator_visible="true" />
+    <item android:color="?backgroundBase" />
+</selector>

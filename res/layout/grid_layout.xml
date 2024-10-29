@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout android:id="@id/grid_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" android:rowCount="1" android:columnCount="5"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/recommendation_artwork_0" android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_column="0" android:layout_row="0" android:layout_rowWeight="1.0" android:layout_columnWeight="1.0" style="@style/GridItem.SingleRow.Start" />
+    <ImageView android:id="@id/recommendation_artwork_1" android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_column="1" android:layout_row="0" android:layout_rowWeight="1.0" android:layout_columnWeight="1.0" style="@style/GridItem.SingleRow" />
+    <ImageView android:id="@id/recommendation_artwork_2" android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_column="2" android:layout_row="0" android:layout_rowWeight="1.0" android:layout_columnWeight="1.0" style="@style/GridItem.SingleRow" />
+    <ImageView android:id="@id/recommendation_artwork_3" android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_column="3" android:layout_row="0" android:layout_rowWeight="1.0" android:layout_columnWeight="1.0" style="@style/GridItem.SingleRow" />
+    <ImageView android:id="@id/recommendation_artwork_4" android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_column="4" android:layout_row="0" android:layout_rowWeight="1.0" android:layout_columnWeight="1.0" style="@style/GridItem.SingleRow.End" />
+</GridLayout>

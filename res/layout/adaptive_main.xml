@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.spotify.musicappplatform.main.MainLayout android:id="@id/content" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <androidx.coordinatorlayout.widget.CoordinatorLayout android:id="@id/coordinator_layout" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toBottomOf="@id/main_content_top_barrier">
+            <FrameLayout android:id="@id/fragment_container" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="com.spotify.musicappplatform.main.AdjustBottomGradientBasedOnScrollPositionBehavior" />
+        </androidx.coordinatorlayout.widget.CoordinatorLayout>
+        <FrameLayout android:id="@id/bannerContainer" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintTop_toTopOf="parent" />
+        <Space android:id="@id/status_bar_placeholder" android:layout_width="0.0dip" android:layout_height="0.0dip" app:layout_constraintTop_toTopOf="parent" />
+        <androidx.constraintlayout.widget.Barrier android:id="@id/main_content_top_barrier" android:layout_width="0.0dip" android:layout_height="0.0dip" app:barrierDirection="bottom" app:constraint_referenced_ids="status_bar_placeholder,bannerContainer" />
+        <View android:id="@id/bottom_gradient" android:background="@drawable/bottom_gradient" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintBottom_toTopOf="@id/limited_experience_indicator_container" app:layout_constraintTop_toTopOf="@id/bottom_gradient_space" />
+        <Space android:id="@id/bottom_gradient_space" android:layout_width="0.0dip" android:layout_height="48.0dip" app:layout_constraintBottom_toTopOf="@id/offline_bar_container" />
+        <FrameLayout android:id="@id/offline_bar_container" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintBottom_toTopOf="@id/now_playing_bar_container" />
+        <FrameLayout android:id="@id/now_playing_bar_container" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintBottom_toTopOf="@id/navigation_bar" />
+        <FrameLayout android:id="@id/navigation_bar" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bottom_navigation_bar_top_margin" app:layout_constraintBottom_toBottomOf="@id/navigation_bar_bottom_barrier" />
+        <androidx.constraintlayout.widget.Barrier android:id="@id/navigation_bar_bottom_barrier" android:layout_width="0.0dip" android:layout_height="0.0dip" app:barrierDirection="top" app:constraint_referenced_ids="limited_experience_indicator_container,navigation_bar_windows_insets_space" />
+        <FrameLayout android:id="@id/limited_experience_indicator_container" android:background="@color/black" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" />
+        <FrameLayout android:id="@id/navigation_bar_windows_insets_space" android:layout_width="0.0dip" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="parent" />
+        <FrameLayout android:id="@id/now_playing_mini_container" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="wrap_content" />
+        <FrameLayout android:id="@id/fragment_overlay_container" android:layout_width="fill_parent" android:layout_height="0.0dip" android:importantForAccessibility="no" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toBottomOf="@id/toolbar_wrapper" />
+        <androidx.coordinatorlayout.widget.CoordinatorLayout android:id="@id/snackbarContainer" android:layout_width="0.0dip" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="@id/coordinator_layout" app:layout_constraintStart_toStartOf="@id/coordinator_layout" />
+        <com.spotify.encoremobile.tooltip.TooltipContainer android:id="@id/tooltip_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <FrameLayout android:id="@id/toolbar_wrapper" android:layout_width="0.0dip" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="@id/coordinator_layout" app:layout_constraintStart_toStartOf="@id/coordinator_layout" app:layout_constraintTop_toBottomOf="@id/main_content_top_barrier" />
+        <androidx.constraintlayout.widget.Barrier android:id="@id/bottom_barrier" android:layout_width="wrap_content" android:layout_height="wrap_content" app:barrierDirection="top" app:constraint_referenced_ids="snackbarContainer, now_playing_bar_container" />
+    </com.spotify.musicappplatform.main.MainLayout>
+    <include layout="@layout/cmp_message_views" />
+    <include layout="@layout/quicksilver_views_main_activity" />
+</merge>

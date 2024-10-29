@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/root" android:background="@drawable/encore_header_background_gradient" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ViewStub android:id="@id/compose_view_container" android:inflatedId="@id/compose_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="?actionBarSize" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <androidx.constraintlayout.widget.Guideline android:orientation="horizontal" android:id="@id/venue_toolbar_fade_range" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintGuide_begin="@dimen/toolbar_content_inset" />
+    <androidx.constraintlayout.widget.Barrier android:id="@id/venue_toolbar_fade_reference" android:layout_width="0.0dip" android:layout_height="0.0dip" app:barrierDirection="bottom" app:constraint_referenced_ids="venue_toolbar_fade_range" />
+</androidx.constraintlayout.widget.ConstraintLayout>

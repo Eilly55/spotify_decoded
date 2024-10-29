@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/titled_checkbox_row_container" android:background="@drawable/titled_checkbox_row_background" android:padding="@dimen/std_24dp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/titled_checkbox_row_margin"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatCheckBox android:id="@id/check_box" android:background="@drawable/titled_checkbox_row_checkbox" android:clickable="false" android:saveEnabled="false" android:layout_width="@dimen/titled_checkbox_row_checkbox_size" android:layout_height="@dimen/titled_checkbox_row_checkbox_size" android:button="@null" android:backgroundTint="@color/titled_checkbox_row_checkbox" />
+    <com.spotify.encoremobile.component.textview.EncoreTextView android:textAppearance="@style/TextAppearance.Encore.BodyMedium" android:ellipsize="end" android:id="@id/text_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:layout_marginStart="@dimen/std_24dp" />
+</LinearLayout>

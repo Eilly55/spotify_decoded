@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="bottom" android:orientation="horizontal" android:id="@id/monthly_listeners_view" android:paddingLeft="@dimen/spacer_16" android:paddingRight="@dimen/spacer_16" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.spotify.encoremobile.component.textview.EncoreTextView android:textAppearance="@style/TextAppearance.Encore.HeadlineMedium" android:id="@id/monthly_listeners" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="@dimen/spacer_4" />
+    <TextView android:textAppearance="@style/TextAppearance.Encore.BodySmall" android:id="@id/monthly_listeners_title" android:paddingBottom="@dimen/spacer_4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/creator_artist_monthly_listeners_title" android:maxLines="1" />
+</LinearLayout>

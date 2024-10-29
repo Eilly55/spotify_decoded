@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:focusable="false" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_gravity="center_vertical" android:paddingLeft="@dimen/seekbar_padding" android:paddingRight="@dimen/seekbar_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/spacer_8" android:paddingHorizontal="@dimen/seekbar_padding" app:layout_constraintBottom_toTopOf="@id/center_guideline">
+        <com.spotify.nowplaying.uiusecases.seekbar.SuppressLayoutTextView android:textAppearance="@style/TextAppearance.NowPlayingTimestamps.VideoFirst" android:layout_gravity="left" android:id="@id/position_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" />
+        <TextView android:textAppearance="@style/TextAppearance.NowPlayingTimestamps.VideoFirst" android:layout_gravity="right" android:id="@id/duration_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" />
+    </FrameLayout>
+    <androidx.constraintlayout.widget.Guideline android:orientation="horizontal" android:id="@id/center_guideline" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintGuide_percent="0.5" />
+    <com.spotify.encoremobile.widgets.CancellableSeekBar android:id="@id/seekbar" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:contentDescription="@string/np_content_desc_seekbar" android:layoutDirection="ltr" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/VideoFirstNowPlayingSeekBar" />
+</androidx.constraintlayout.widget.ConstraintLayout>

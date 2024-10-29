@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ViewStub android:id="@id/content_layout_stub" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.spotify.watchfeed.uiusecases.element.videothumbnail.VideoThumbnailView android:id="@id/thumbnail" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ImageView android:id="@id/overlay" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitXY" android:contentDescription="@null" app:srcCompat="@drawable/watch_feed_video_card_overlay" />
+</FrameLayout>

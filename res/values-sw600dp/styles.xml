@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="LoginInputFieldsContainer">
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_width">416.0dip</item>
+    </style>
+    <style name="ReinventFreeTooltip">
+        <item name="android:paddingTop">@dimen/spacer_12</item>
+        <item name="android:paddingBottom">@dimen/spacer_12</item>
+        <item name="android:layout_width">320.0dip</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingStart">@dimen/spacer_16</item>
+        <item name="android:paddingEnd">@dimen/spacer_16</item>
+    </style>
+    <style name="Widget.Design.TabLayout" parent="@style/Base.Widget.Design.TabLayout">
+        <item name="tabGravity">center</item>
+        <item name="tabMode">fixed</item>
+    </style>
+</resources>

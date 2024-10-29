@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.spotify.messaging.inappmessagingsdk.display.TouchBoundaryFrameLayout android:id="@id/webview_container" android:background="@color/opacity_white_0" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <WebView android:id="@id/iam_webview" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</com.spotify.messaging.inappmessagingsdk.display.TouchBoundaryFrameLayout>

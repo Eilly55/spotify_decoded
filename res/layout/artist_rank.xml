@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/rank" android:background="@drawable/creatorartist_rank_shape" android:visibility="gone" android:layout_width="@dimen/artistbio_rank_circle_diameter" android:layout_height="@dimen/artistbio_rank_circle_diameter"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.spotify.encoremobile.component.textview.EncoreTextView android:textAppearance="?pasteTextAppearanceHeaderSmall" android:textSize="22.0sp" android:textColor="@color/black" android:gravity="center" android:id="@id/rankText" android:paddingLeft="@dimen/spacer_8" android:paddingRight="@dimen/spacer_8" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:layout_marginBottom="-3.0dip" />
+    <com.spotify.encoremobile.component.textview.EncoreTextView android:textAppearance="?pasteTextAppearanceMicro" android:textColor="@color/black" android:gravity="center_horizontal" android:id="@id/rankLabel" android:paddingLeft="@dimen/spacer_8" android:paddingRight="@dimen/spacer_8" android:paddingBottom="15.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="-3.0dip" android:text="@string/creator_artist_rank_label" />
+</LinearLayout>

@@ -1,0 +1,563 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="ad_header_title_sponsored_session_end_card">
+        <item quantity="other">Nyt %1$d minutter med lytting uten avbrudd</item>
+        <item quantity="one">Nyt %1$d minutt med lytting uten avbrudd</item>
+    </plurals>
+    <plurals name="ad_header_title_sponsored_session_video_ad">
+        <item quantity="other">Du får %1$d minutter med lytting uten avbrudd etter denne korte videoen.</item>
+        <item quantity="one">Du får %1$d minutt med lytting uten avbrudd etter denne korte videoen.</item>
+    </plurals>
+    <plurals name="add_to_playlist_filter_items_count_changed_announcement">
+        <item quantity="other">Fant %1$d elementer</item>
+        <item quantity="one">Fant %1$d element</item>
+    </plurals>
+    <plurals name="add_to_playlist_subtitle_audiobooks_count">
+        <item quantity="other">%1$s lydbøker</item>
+        <item quantity="one">%1$s lydbok</item>
+    </plurals>
+    <plurals name="add_to_playlist_subtitle_episodes_count">
+        <item quantity="other">%1$s episoder</item>
+        <item quantity="one">%1$s episode</item>
+    </plurals>
+    <plurals name="add_to_playlist_subtitle_songs_count">
+        <item quantity="other">%1$s låter</item>
+        <item quantity="one">%1$s låt</item>
+    </plurals>
+    <plurals name="add_to_playlist_subtitle_tracks_count">
+        <item quantity="other">%1$s spor</item>
+        <item quantity="one">%1$s spor</item>
+    </plurals>
+    <plurals name="album_track_count_and_duration">
+        <item quantity="other">%1$d låter • %2$s</item>
+        <item quantity="one">%1$d låt • %2$s</item>
+    </plurals>
+    <plurals name="allboarding_selected_nb_label">
+        <item quantity="other">%1$d valgt</item>
+        <item quantity="one">%1$d valgt</item>
+    </plurals>
+    <plurals name="allboarding_selection_summary_content_desc">
+        <item quantity="other">%1$d valgt</item>
+        <item quantity="one">%1$d valgt</item>
+    </plurals>
+    <plurals name="allboarding_selection_summary_with_requirement_content_desc">
+        <item quantity="other">%1$d er valgt. Velg minst %2$d til for å fortsette.</item>
+        <item quantity="one">%1$d er valgt. Velg minst %2$d til for å fortsette.</item>
+    </plurals>
+    <plurals name="android_auto_podcast_episode_time_format_hours">
+        <item quantity="other">%1$d t</item>
+        <item quantity="one">%1$d t</item>
+    </plurals>
+    <plurals name="android_auto_podcast_episode_time_format_min">
+        <item quantity="other">%1$d min</item>
+        <item quantity="one">%1$d min</item>
+    </plurals>
+    <plurals name="artist_number_of_liked_releases">
+        <item quantity="other">%1$,d utgivelser</item>
+        <item quantity="one">%1$,d utgivelse</item>
+    </plurals>
+    <plurals name="artist_number_of_liked_songs">
+        <item quantity="other">%1$,d låter</item>
+        <item quantity="one">%1$,d låt</item>
+    </plurals>
+    <plurals name="artist_saved_songs_subtitle">
+        <item quantity="other">%1$d låter • %2$s</item>
+        <item quantity="one">%1$d låt • %2$s</item>
+    </plurals>
+    <plurals name="assisted_curation_search_filter_items_count_changed_announcement">
+        <item quantity="other">Fant %1$d elementer</item>
+        <item quantity="one">Fant %1$d element</item>
+    </plurals>
+    <plurals name="auto_download_limit_option">
+        <item quantity="other">%1$s nye episoder per program</item>
+        <item quantity="one">%1$s ny episode per program</item>
+    </plurals>
+    <plurals name="campfire_chats_preview_days_content_description">
+        <item quantity="other">%1$s dager siden</item>
+        <item quantity="one">%1$s dag siden</item>
+    </plurals>
+    <plurals name="campfire_chats_preview_hours_content_description">
+        <item quantity="other">%1$s timer siden</item>
+        <item quantity="one">%1$s time siden</item>
+    </plurals>
+    <plurals name="campfire_chats_preview_minutes_content_description">
+        <item quantity="other">%1$s minutter siden</item>
+        <item quantity="one">%1$s minutt siden</item>
+    </plurals>
+    <plurals name="campfire_sharedbychip_label_multiple">
+        <item quantity="other">%1$s venner</item>
+        <item quantity="one">%1$s venn</item>
+    </plurals>
+    <plurals name="chapters_added">
+        <item quantity="other">%1$d kapitler er lagt til</item>
+        <item quantity="one">%1$d kapittel er lagt til</item>
+    </plurals>
+    <plurals name="chapters_played">
+        <item quantity="other">%1$d kapitler er spilt av</item>
+        <item quantity="one">%1$d kapittel er spilt av</item>
+    </plurals>
+    <plurals name="charts_header_new_entry_count">
+        <item quantity="other">%1$,d nye oppføringer</item>
+        <item quantity="one">%1$,d ny oppføring</item>
+    </plurals>
+    <plurals name="comment_days_ago">
+        <item quantity="other">%1$d dager siden</item>
+        <item quantity="one">%1$d dag siden</item>
+    </plurals>
+    <plurals name="comment_hours_ago">
+        <item quantity="other">%1$d timer siden</item>
+        <item quantity="one">%1$d time siden</item>
+    </plurals>
+    <plurals name="comment_minutes_ago">
+        <item quantity="other">%1$d minutter siden</item>
+        <item quantity="one">%1$d minutt siden</item>
+    </plurals>
+    <plurals name="comment_months_ago">
+        <item quantity="other">%1$d måneder siden</item>
+        <item quantity="one">%1$d måned siden</item>
+    </plurals>
+    <plurals name="comment_reply_preview">
+        <item quantity="other">%1$s svar</item>
+        <item quantity="one">%1$s svar</item>
+    </plurals>
+    <plurals name="comment_weeks_ago">
+        <item quantity="other">%1$d uker siden</item>
+        <item quantity="one">%1$d uke siden</item>
+    </plurals>
+    <plurals name="comment_years_ago">
+        <item quantity="other">%1$d år siden</item>
+        <item quantity="one">%1$d år siden</item>
+    </plurals>
+    <plurals name="complex_playlist_number_of_songs">
+        <item quantity="other">%1$,d låter</item>
+        <item quantity="one">%1$,d låt</item>
+    </plurals>
+    <plurals name="connect_device_multiple_listeners">
+        <item quantity="other">%1$d lyttere</item>
+        <item quantity="one">%1$d lytter</item>
+    </plurals>
+    <plurals name="content_feed_timestamp_days_ago">
+        <item quantity="other">%1$d dager siden</item>
+        <item quantity="one">%1$d dag siden</item>
+    </plurals>
+    <plurals name="content_feed_timestamp_hours_ago">
+        <item quantity="other">%1$d timer siden</item>
+        <item quantity="one">%1$d time siden</item>
+    </plurals>
+    <plurals name="content_feed_timestamp_minutes_ago">
+        <item quantity="other">%1$d min siden</item>
+        <item quantity="one">%1$d min siden</item>
+    </plurals>
+    <plurals name="context_menu_sleep_timer_hours">
+        <item quantity="other">%1$d timer</item>
+        <item quantity="one">%1$d time</item>
+    </plurals>
+    <plurals name="context_menu_sleep_timer_mins">
+        <item quantity="other">%1$d minutter</item>
+        <item quantity="one">%1$d minutt</item>
+    </plurals>
+    <plurals name="creator_row_content_description">
+        <item quantity="other">Forfattere: %1$s</item>
+        <item quantity="one">Forfatter: %1$s</item>
+    </plurals>
+    <plurals name="creators_button_title_counter">
+        <item quantity="other">%1$s + %2$d andre</item>
+        <item quantity="one">%1$s + %2$d annen</item>
+    </plurals>
+    <plurals name="creators_row_accessibility_hint">
+        <item quantity="other">Viser en navigerbar liste over alle %1$s</item>
+        <item quantity="one">Navigerer til mer innhold fra denne %1$s</item>
+    </plurals>
+    <plurals name="days_label">
+        <item quantity="other">%1$s&lt;br/>&lt;b>dager&lt;/b></item>
+        <item quantity="one">%1$s&lt;br/>&lt;b>dag&lt;/b></item>
+    </plurals>
+    <plurals name="days_left_until_release_date">
+        <item quantity="other">Utgis om %1$d dager</item>
+        <item quantity="one">Utgis om %1$d dager</item>
+    </plurals>
+    <plurals name="days_to_renew">
+        <item quantity="other">%1$d dager til timene med lytting fornyes</item>
+        <item quantity="one">%1$d dag til timene med lytting fornyes</item>
+    </plurals>
+    <plurals name="entity_action_row_downloading_progress_content_description">
+        <item quantity="other">%1$d prosent lastet ned</item>
+        <item quantity="one">%1$d prosent lastet ned</item>
+    </plurals>
+    <plurals name="episode_contents_chapters_expand_button">
+        <item quantity="other">Se %1$d kapitler</item>
+        <item quantity="one">Se %1$d kapittel</item>
+    </plurals>
+    <plurals name="episodes_added">
+        <item quantity="other">%1$d episoder er lagt til</item>
+        <item quantity="one">%1$d episode er lagt til</item>
+    </plurals>
+    <plurals name="episodes_played">
+        <item quantity="other">%1$d episoder er avspilt</item>
+        <item quantity="one">%1$d episode er avspilt</item>
+    </plurals>
+    <plurals name="error_dialog_body_resend_limit">
+        <item quantity="other">Vent %1$d sekunder, og be om en ny kode.</item>
+        <item quantity="one">Vent %1$d sekund, og be om en ny kode.</item>
+    </plurals>
+    <plurals name="error_dialog_title_resend_limit">
+        <item quantity="other">Prøv igjen om %1$d sekunder</item>
+        <item quantity="one">Prøv igjen om %1$d sekund</item>
+    </plurals>
+    <plurals name="event_card_number_of_events_text">
+        <item quantity="other">%1$d arrangementer</item>
+        <item quantity="one">%1$d arrangement</item>
+    </plurals>
+    <plurals name="find_friends_flow_confirm_desc">
+        <item quantity="other">Er du sikker på at du vil følge %1$,d personer?</item>
+        <item quantity="one">Er du sikker på at du vil følge %1$,d person?</item>
+    </plurals>
+    <plurals name="header_common_likes_count">
+        <item quantity="other">%1$s lagringer</item>
+        <item quantity="one">%1$s lagring</item>
+    </plurals>
+    <plurals name="hours_label">
+        <item quantity="other">%1$s&lt;br/>&lt;b>timer&lt;/b></item>
+        <item quantity="one">%1$s&lt;br/>&lt;b>time&lt;/b></item>
+    </plurals>
+    <plurals name="hours_to_renew">
+        <item quantity="other">%1$d timer til timene med lytting fornyes</item>
+        <item quantity="one">%1$d time til timene med lytting fornyes</item>
+    </plurals>
+    <plurals name="ipl_new_joiner_nudge">
+        <item quantity="other">%2$d andre ble med i Jam</item>
+        <item quantity="one">%1$s ble med i Jam</item>
+    </plurals>
+    <plurals name="item_description_folder_folders_count">
+        <item quantity="other">%1$s mapper</item>
+        <item quantity="one">%1$s mappe</item>
+    </plurals>
+    <plurals name="item_description_folder_playlists_count">
+        <item quantity="other">%1$s spillelister</item>
+        <item quantity="one">%1$s spilleliste</item>
+    </plurals>
+    <plurals name="item_description_liked_songs">
+        <item quantity="other">Spilleliste • %1$s låter</item>
+        <item quantity="one">Spilleliste • %1$s låt</item>
+    </plurals>
+    <plurals name="item_description_liked_songs_filtered">
+        <item quantity="other">%1$s låter</item>
+        <item quantity="one">%1$s låt</item>
+    </plurals>
+    <plurals name="item_description_local_files">
+        <item quantity="other">Spilleliste • %1$s spor</item>
+        <item quantity="one">Spilleliste • %1$s spor</item>
+    </plurals>
+    <plurals name="item_description_local_files_filtered">
+        <item quantity="other">%1$s spor</item>
+        <item quantity="one">%1$s spor</item>
+    </plurals>
+    <plurals name="item_description_show_downloaded">
+        <item quantity="other">%1$s nedlastede episoder • %2$s</item>
+        <item quantity="one">%1$s nedlastet episode • %2$s</item>
+    </plurals>
+    <plurals name="item_description_show_downloaded_no_creator">
+        <item quantity="other">%1$s nedlastede episoder</item>
+        <item quantity="one">%1$s nedlastet episode</item>
+    </plurals>
+    <plurals name="item_description_your_episodes_downloaded">
+        <item quantity="other">%1$s nedlastede episoder</item>
+        <item quantity="one">%1$s nedlastet episode</item>
+    </plurals>
+    <plurals name="items_added">
+        <item quantity="other">%1$d elementer er lagt til</item>
+        <item quantity="one">%1$d element er lagt til</item>
+    </plurals>
+    <plurals name="items_played">
+        <item quantity="other">%1$d elementer er spilt av</item>
+        <item quantity="one">%1$d element er spilt av</item>
+    </plurals>
+    <plurals name="jam_host_settings_header_participant_count">
+        <item quantity="other">%1$d deltakere</item>
+        <item quantity="one">%1$d deltaker</item>
+    </plurals>
+    <plurals name="library_pinned_section_placeholder_subtitle">
+        <item quantity="other">Eller sveip til høyre. Du kan ha opptil %1$d ting festet.</item>
+        <item quantity="one">Eller sveip til høyre. Du kan ha opptil %1$d ting festet.</item>
+    </plurals>
+    <plurals name="liked_songs_header_subtitle">
+        <item quantity="other">%1$d låter</item>
+        <item quantity="one">%1$d låt</item>
+    </plurals>
+    <plurals name="line_selected">
+        <item quantity="other">%1$d linjer valgt</item>
+        <item quantity="one">%1$d linje valgt</item>
+    </plurals>
+    <plurals name="listen_later_header_subtitle">
+        <item quantity="other">%1$d episoder</item>
+        <item quantity="one">%1$d episode</item>
+    </plurals>
+    <plurals name="listening_hours_card_complete">
+        <item quantity="other">Du har brukt opp %1$d timer med lyttetid for lydbøker som er inkludert i det månedlige abonnementet ditt.</item>
+        <item quantity="one">Du har brukt opp %1$d time med lyttetid for lydbøker som er inkludert i det månedlige abonnementet ditt.</item>
+    </plurals>
+    <plurals name="listening_hours_card_text">
+        <item quantity="other">Lytt til %1$d timer med lydbøker fra abonnentkatalogen, inkludert i det månedlige abonnementet ditt.</item>
+        <item quantity="one">Lytt til %1$d time med lydbøker fra abonnentkatalogen, inkludert i det månedlige abonnementet ditt.</item>
+    </plurals>
+    <plurals name="listening_hours_listened">
+        <item quantity="other">%1$d timer med lyttetid</item>
+        <item quantity="one">%1$d time med lyttetid</item>
+    </plurals>
+    <plurals name="local_files_subtitle_number_of_tracks">
+        <item quantity="other">%1$,d spor</item>
+        <item quantity="one">%1$,d spor</item>
+    </plurals>
+    <plurals name="minutes_label">
+        <item quantity="other">%1$s&lt;br/>&lt;b>minutter&lt;/b></item>
+        <item quantity="one">%1$s&lt;br/>&lt;b>minutt&lt;/b></item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d nye varsler</item>
+        <item quantity="one">%d nytt varsel</item>
+    </plurals>
+    <plurals name="notification_syncing_text">
+        <item quantity="other">%1$,d av %2$,d (%3$,d %% fullført)</item>
+        <item quantity="one">%1$,d av %2$,d (%3$,d %% fullført)</item>
+    </plurals>
+    <plurals name="num_available_downloads">
+        <item quantity="other">%1$s nedlastinger er tilgjengelig</item>
+        <item quantity="one">%1$s nedlasting er tilgjengelig</item>
+    </plurals>
+    <plurals name="number_events_from_date">
+        <item quantity="other">%1$s arrangementer fra %2$s</item>
+        <item quantity="one">%1$s arrangement fra %2$s</item>
+    </plurals>
+    <plurals name="number_of_items">
+        <item quantity="other">%1$s spor</item>
+        <item quantity="one">%1$s spor</item>
+    </plurals>
+    <plurals name="number_of_live_events">
+        <item quantity="other">%1$s arrangementer</item>
+        <item quantity="one">%1$s arrangement</item>
+    </plurals>
+    <plurals name="number_of_live_events_near_you">
+        <item quantity="other">%1$s arrangementer i nærheten av deg</item>
+        <item quantity="one">%1$s arrangement i nærheten av deg</item>
+    </plurals>
+    <plurals name="otp_description">
+        <item quantity="other">Vi sendte en SMS med en kode på %1$d sifre til %2$s.</item>
+        <item quantity="one">Vi sendte en SMS med en kode på %1$d sifre til %2$s.</item>
+    </plurals>
+    <plurals name="otp_description_alt">
+        <item quantity="other">Vi sendte en kode på %1$d sifre til %2$s.</item>
+        <item quantity="one">Vi sendte en kode på %1$d siffer til %2$s.</item>
+    </plurals>
+    <plurals name="pin_gate_wrong_pin_long_delay_error_message">
+        <item quantity="other">Feil PIN-kode, prøv igjen om %1$d minutter.</item>
+        <item quantity="one">Feil PIN-kode, prøv igjen om %1$d minutt.</item>
+    </plurals>
+    <plurals name="pin_gate_wrong_pin_short_delay_error_message">
+        <item quantity="other">Feil PIN-kode, prøv igjen om %1$d sekunder.</item>
+        <item quantity="one">Feil PIN-kode, prøv igjen om %1$d sekund.</item>
+    </plurals>
+    <plurals name="playback_settings_crossfade_slider_seconds_full">
+        <item quantity="other">%1$d sekunder</item>
+        <item quantity="one">%1$d sekund</item>
+    </plurals>
+    <plurals name="playlist_header_collaborators">
+        <item quantity="other">%1$s + %2$d andre</item>
+        <item quantity="one">%1$s + %2$d annen</item>
+    </plurals>
+    <plurals name="playlist_header_creator_with_collaborators_content_description">
+        <item quantity="other">Laget av %1$s og %2$d til</item>
+        <item quantity="one">Laget av %1$s og %2$d til</item>
+    </plurals>
+    <plurals name="playlist_participants_row_subtitle_episodes">
+        <item quantity="other">%1$d episoder</item>
+        <item quantity="one">%1$d episode</item>
+    </plurals>
+    <plurals name="playlist_participants_row_subtitle_tracks">
+        <item quantity="other">%1$d låter</item>
+        <item quantity="one">%1$d låt</item>
+    </plurals>
+    <plurals name="playlist_participants_title">
+        <item quantity="other">%1$d personer</item>
+        <item quantity="one">%1$d person</item>
+    </plurals>
+    <plurals name="playlist_trackcloud_includes_label_episodes">
+        <item quantity="other">%1$,d EPISODER</item>
+        <item quantity="one">%1$,d EPISODE</item>
+    </plurals>
+    <plurals name="playlist_trackcloud_includes_label_songs">
+        <item quantity="other">%1$,d LÅTER</item>
+        <item quantity="one">%1$,d LÅT</item>
+    </plurals>
+    <plurals name="podcast_chapters_bottom_sheet_chapter_count">
+        <item quantity="other">%1$d kapitler</item>
+        <item quantity="one">%1$d kapittel</item>
+    </plurals>
+    <plurals name="podcast_chapters_expand_button">
+        <item quantity="other">Se %1$d kapitler</item>
+        <item quantity="one">Se %1$d kapittel</item>
+    </plurals>
+    <plurals name="podcast_poll_days_left_label">
+        <item quantity="other">%1$d dager</item>
+        <item quantity="one">%1$d dag</item>
+    </plurals>
+    <plurals name="podcast_poll_hours_left_label">
+        <item quantity="other">%1$d timer igjen</item>
+        <item quantity="one">%1$d time igjen</item>
+    </plurals>
+    <plurals name="podcast_poll_minutes_left_label">
+        <item quantity="other">%1$d minutter igjen</item>
+        <item quantity="one">%1$d minutt igjen</item>
+    </plurals>
+    <plurals name="podcast_poll_poll_subtitle">
+        <item quantity="other">%1$d stemmer • %2$s</item>
+        <item quantity="one">%1$d stemme • %2$s</item>
+    </plurals>
+    <plurals name="premium_mini_playlist_add_song_subtitle">
+        <item quantity="other">%1$d låter igjen</item>
+        <item quantity="one">%1$d låt igjen</item>
+    </plurals>
+    <plurals name="premium_mini_playlist_subtitle">
+        <item quantity="other">%1$d låter • %2$s</item>
+        <item quantity="one">%1$d låt • %2$s</item>
+    </plurals>
+    <plurals name="premium_plan_card_days_remaining">
+        <item quantity="other">%1$d dager med Premium</item>
+        <item quantity="one">%1$d dag med Premium</item>
+    </plurals>
+    <plurals name="premium_plan_card_months_remaining">
+        <item quantity="other">%1$d måneder med Premium</item>
+        <item quantity="one">%1$d måned med Premium</item>
+    </plurals>
+    <plurals name="premium_plan_card_weeks_remaining">
+        <item quantity="other">%1$d uker med Premium</item>
+        <item quantity="one">%1$d uke med Premium</item>
+    </plurals>
+    <plurals name="premium_plan_card_years_remaining">
+        <item quantity="other">%1$d år med Premium</item>
+        <item quantity="one">%1$d år med Premium</item>
+    </plurals>
+    <plurals name="profile_followers_count">
+        <item quantity="other">%1$d følgere</item>
+        <item quantity="one">%1$d følger</item>
+    </plurals>
+    <plurals name="profile_following_count">
+        <item quantity="other">følger %1$d</item>
+        <item quantity="one">følger %1$d</item>
+    </plurals>
+    <plurals name="profile_list_item_followers_count">
+        <item quantity="other">%1$,d følgere</item>
+        <item quantity="one">%1$,d følger</item>
+    </plurals>
+    <plurals name="profile_list_see_all_footer_playlists">
+        <item quantity="other">Se alle %1$d spillelister</item>
+        <item quantity="one">Se %1$d spilleliste</item>
+    </plurals>
+    <plurals name="profile_playlists_subtitle">
+        <item quantity="other">%1$,d lagringer</item>
+        <item quantity="one">%1$,d lagring</item>
+    </plurals>
+    <plurals name="profile_recently_played_subtitle">
+        <item quantity="other">%1$,d følgere</item>
+        <item quantity="one">%1$,d følger</item>
+    </plurals>
+    <plurals name="search_episode_chapters_title_plurals">
+        <item quantity="other">%1$d kapitler</item>
+        <item quantity="one">%1$d kapittel</item>
+    </plurals>
+    <plurals name="search_saves_album_row_string">
+        <item quantity="other">%1$s lagringer</item>
+        <item quantity="one">%1$s lagring</item>
+    </plurals>
+    <plurals name="search_saves_playlist_row_string">
+        <item quantity="other">%1$s lagringer</item>
+        <item quantity="one">%1$s lagring</item>
+    </plurals>
+    <plurals name="seconds_label">
+        <item quantity="other">%1$s&lt;br/>&lt;b>sekunder&lt;/b></item>
+        <item quantity="one">%1$s&lt;br/>&lt;b>sekund&lt;/b></item>
+    </plurals>
+    <plurals name="selection_line_quantity_subtitle">
+        <item quantity="other">%1$d linjer valgt</item>
+        <item quantity="one">%1$d linje valgt</item>
+    </plurals>
+    <plurals name="settings_item_offline_mode_time_left_days">
+        <item quantity="other">Må koble til internett igjen om %1$,d dager</item>
+        <item quantity="one">Må koble til internett igjen om %1$,d dag</item>
+    </plurals>
+    <plurals name="settings_item_plan_overview_description_time_remaining">
+        <item quantity="other">Tid som gjenstår: %1$d dager</item>
+        <item quantity="one">Tid som gjenstår: %1$d dag</item>
+    </plurals>
+    <plurals name="shared_by_bottomsheet_title">
+        <item quantity="other">Delt av %1$s venner</item>
+        <item quantity="one">Delt av %1$s venn</item>
+    </plurals>
+    <plurals name="song_limit_dialog_title">
+        <item quantity="other">Du har nådd grensen på %1$d nedlastede låter</item>
+        <item quantity="one">Du har nådd grensen på %1$d nedlastet låt</item>
+    </plurals>
+    <plurals name="songs_added">
+        <item quantity="other">%1$d låter lagt til</item>
+        <item quantity="one">%1$d låt lagt til</item>
+    </plurals>
+    <plurals name="songs_played">
+        <item quantity="other">%1$d låter er spilt av</item>
+        <item quantity="one">%1$d låt er spilt av</item>
+    </plurals>
+    <plurals name="timestamp_days">
+        <item quantity="other">%1$d dager</item>
+        <item quantity="one">%1$d dag</item>
+    </plurals>
+    <plurals name="timestamp_hours">
+        <item quantity="other">%1$d t</item>
+        <item quantity="one">%1$d t</item>
+    </plurals>
+    <plurals name="timestamp_minutes">
+        <item quantity="other">%1$d minutter</item>
+        <item quantity="one">%1$d minutt</item>
+    </plurals>
+    <plurals name="timestamp_weeks">
+        <item quantity="other">%1$d uker</item>
+        <item quantity="one">%1$d uke</item>
+    </plurals>
+    <plurals name="top_ups_hours_listened">
+        <item quantity="other">%1$s/%2$d timer lyttet</item>
+        <item quantity="one">%1$s/%2$d time lyttet</item>
+    </plurals>
+    <plurals name="upcoming_release_pretitle_days">
+        <item quantity="other">Utgis om %1$d dager</item>
+        <item quantity="one">Utgis om %1$d dag</item>
+    </plurals>
+    <plurals name="user_stats_top_entity_position_down">
+        <item quantity="other">Dette elementet har gått ned %1$d plasseringer siden forrige måned</item>
+        <item quantity="one">Dette elementet har gått ned %1$d plassering siden forrige måned</item>
+    </plurals>
+    <plurals name="user_stats_top_entity_position_up">
+        <item quantity="other">Dette elementet har gått opp %1$d plasseringer siden forrige måned</item>
+        <item quantity="one">Dette elementet har gått opp %1$d plassering siden forrige måned</item>
+    </plurals>
+    <plurals name="ylx_liked_songs_offline_subtitle">
+        <item quantity="other">%1$s nedlastede låter</item>
+        <item quantity="one">%1$s nedlastet låt</item>
+    </plurals>
+    <plurals name="your_episodes_header_subtitle">
+        <item quantity="other">%1$d episoder</item>
+        <item quantity="one">%1$d episode</item>
+    </plurals>
+    <plurals name="your_episodes_settings_option_auto_download_enabled_shows">
+        <item quantity="other">Slått på for %1$s programmer</item>
+        <item quantity="one">Slått på for %1$s program</item>
+    </plurals>
+    <plurals name="your_library_in_progress_progress_status_description">
+        <item quantity="other">Pågår, %1$d prosent fullført</item>
+        <item quantity="one">Pågår, %1$d prosent fullført</item>
+    </plurals>
+    <plurals name="your_library_pin_failed_body_item_pin_limit_reached">
+        <item quantity="other">Du kan bare ha %1$d ting festet samtidig.</item>
+        <item quantity="one">Du kan bare ha %1$d ting festet samtidig.</item>
+    </plurals>
+    <plurals name="your_library_pinning_failed_body_item_pin_limit_reached">
+        <item quantity="other">Du kan bare ha %1$d ting festet samtidig.</item>
+        <item quantity="one">Du kan bare ha %1$d ting festet samtidig.</item>
+    </plurals>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/duration_container" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textAppearance="@style/TextAppearance.Encore.BodySmall" android:textColor="?textSubdued" android:id="@id/duration_text" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <com.spotify.encoremobile.component.icons.IconCheckAltFill android:id="@id/duration_img_played" android:visibility="gone" android:layout_width="12.0dip" android:layout_height="12.0dip" android:layout_marginStart="8.0dip" app:iconActive="true" />
+    <ProgressBar android:id="@id/duration_progress_bar" android:visibility="gone" android:layout_width="88.0dip" android:layout_height="4.0dip" android:indeterminate="false" android:progressDrawable="@drawable/progress_bar" android:layout_marginStart="8.0dip" android:mirrorForRtl="false" style="?pasteProgressBarStyleHorizontal" />
+</LinearLayout>

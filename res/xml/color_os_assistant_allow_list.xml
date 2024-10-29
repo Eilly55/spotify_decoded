@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<allowed-callers>
+    <signature allowedResources="com.spotify.externalintegration.service.provider.MediaProvider,com.spotify.music.libs.mediabrowserservice.SpotifyMediaBrowserService" name="OPlus Shelf" package="com.coloros.assistantscreen">
+        <key release="true"> 64:AA:FA:F1:D5:BC:91:55:A9:E4:17:A8:49:E4:F8:ED:A1:D0:D1:34:16:67:C2:8E:D7:C4:43:C7:6F:82:0B:9A </key>
+    </signature>
+    <signature allowedResources="com.spotify.externalintegration.service.provider.MediaProvider,com.spotify.music.libs.mediabrowserservice.SpotifyMediaBrowserService" name="OnePlus Shelf" package="com.oneplus.opshelf">
+        <key release="true"> B0:A9:BB:FC:05:EE:E5:E7:D0:A2:C9:7C:03:05:86:E1:5B:B3:30:11:52:07:8F:54:47:3B:B8:2D:F6:D8:C8:18 </key>
+    </signature>
+    <signature allowedResources="com.spotify.externalintegration.service.provider.MediaProvider,com.spotify.music.libs.mediabrowserservice.SpotifyMediaBrowserService" name="OnePlus Shelf" package="com.oneplus.opshelf">
+        <key release="false"> AB:13:F3:80:53:CE:FE:34:8D:A8:8F:9D:44:79:29:46:7A:C7:D2:8D:7F:05:E6:32:03:F3:BF:A0:4E:85:BB:61 </key>
+    </signature>
+</allowed-callers>

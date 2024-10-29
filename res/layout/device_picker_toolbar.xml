@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/device_picker_close_button" android:paddingTop="@dimen/std_16dp" android:paddingBottom="@dimen/std_16dp" android:layout_width="@dimen/device_picker_close_icon_width" android:layout_height="@dimen/device_picker_close_icon_height" android:contentDescription="@string/connect_close_button_accessibility" android:paddingStart="@dimen/std_16dp" android:paddingEnd="@dimen/std_16dp" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" app:tint="@color/white" />
+</merge>

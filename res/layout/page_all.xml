@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:orientation="vertical" android:id="@id/your_library_root" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:id="@id/header" android:background="@color/your_library_background" android:layout_width="0.0dip" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <View android:id="@id/filter_row" android:background="@color/your_library_background" android:layout_width="0.0dip" android:layout_height="wrap_content" app:layout_constraintBottom_toTopOf="@id/container" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/header" app:layout_goneMarginBottom="10.0dip" />
+    <FrameLayout android:id="@id/container" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toBottomOf="@id/filter_row">
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/recycler_view" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <FrameLayout android:id="@id/quickscroll_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <View android:id="@id/empty_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </FrameLayout>
+    <View android:id="@id/filter_shadow" android:background="@drawable/your_library_header_shadow" android:layout_width="fill_parent" android:layout_height="4.0dip" app:layout_constraintTop_toBottomOf="@id/filter_row" />
+</androidx.constraintlayout.widget.ConstraintLayout>

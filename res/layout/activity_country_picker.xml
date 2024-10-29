@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.coordinatorlayout.widget.CoordinatorLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/countries" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+        <com.google.android.material.appbar.AppBarLayout android:id="@id/appBar" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <androidx.appcompat.widget.Toolbar android:id="@id/toolbar" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_scrollFlags="enterAlways|scroll" app:titleTextAppearance="@style/TextAppearance.Encore.BodyMediumBold" />
+            <TextView android:id="@id/description" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/std_16dp" android:textDirection="locale" android:paddingStart="@dimen/std_16dp" android:paddingEnd="@dimen/std_16dp" app:layout_scrollFlags="enterAlways|scroll" />
+            <androidx.appcompat.widget.SearchView android:id="@id/filter" android:background="@drawable/background_country_filter" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/std_16dp" android:textDirection="locale" app:iconifiedByDefault="false" app:layout_scrollFlags="noScroll" app:queryBackground="@null" />
+        </com.google.android.material.appbar.AppBarLayout>
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+</FrameLayout>

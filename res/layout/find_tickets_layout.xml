@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/find_tickets_bg_bottom_sheet" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:layout_gravity="center" android:id="@id/handle" android:background="@drawable/bg_bottom_sheet_handle" android:layout_width="36.0dip" android:layout_height="4.0dip" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip" android:contentDescription="@null" android:layout_marginVertical="10.0dip" />
+    <TextView android:textAppearance="@style/TextAppearance.Encore.TitleSmall" android:textColor="?textBase" android:gravity="center_horizontal" android:id="@id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/spacer_16" android:layout_marginBottom="@dimen/spacer_4" android:text="@string/find_tickets_sheet_title" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/find_tickets_recycler" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+</LinearLayout>

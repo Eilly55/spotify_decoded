@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="@color/gray_15" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.spotify.legacyglue.icons.SpotifyIconView android:id="@id/close_button" android:background="@null" android:padding="@dimen/spacer_8" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/spacer_8" android:layout_marginBottom="@dimen/spacer_8" android:contentDescription="@string/generic_content_description_close" android:layout_marginStart="@dimen/spacer_8" android:layout_marginVertical="@dimen/spacer_8" app:iconColor="@drawable/close_button_icon_color" app:iconSize="24.0dip" app:iconType="icon_x" />
+    <TextView android:textAppearance="@style/TextAppearance.Encore.BodyMediumBold" android:ellipsize="end" android:layout_gravity="center" android:id="@id/toolbar_title" android:paddingLeft="@dimen/spacer_16" android:paddingRight="@dimen/spacer_16" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" android:paddingHorizontal="@dimen/spacer_16" />
+</LinearLayout>

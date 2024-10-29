@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/root" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textAppearance="@style/TextAppearance.Encore.BodyMedium" android:ellipsize="end" android:id="@id/nav_row_title" android:paddingLeft="@dimen/spacer_16" android:paddingTop="@dimen/spacer_12" android:paddingRight="@dimen/spacer_16" android:paddingBottom="@dimen/spacer_12" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" android:textAlignment="viewStart" android:paddingHorizontal="@dimen/spacer_16" android:paddingVertical="@dimen/spacer_12" />
+    <com.spotify.legacyglue.icons.SpotifyIconView android:id="@id/chevron_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/spacer_16" android:layout_marginEnd="@dimen/spacer_16" app:iconColor="@color/gray_70" app:iconSize="16.0dip" app:iconType="icon_chevron_right" app:layout_constraintBottom_toBottomOf="@id/nav_row_title" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="@id/nav_row_title" />
+</androidx.constraintlayout.widget.ConstraintLayout>

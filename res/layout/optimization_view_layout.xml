@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:paddingTop="@dimen/spacer_16" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.spotify.puffin.contextmenu.optimization.ui.OnboardingCardView android:id="@id/onboarding_card" android:background="@drawable/puffin_gradient_card_background" android:padding="@dimen/spacer_16" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <com.spotify.puffin.contextmenu.optimization.ui.OptimizationErrorView android:id="@id/core_error" android:background="@drawable/puffin_card_background" android:padding="@dimen/spacer_16" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <com.spotify.puffin.contextmenu.optimization.ui.OptimizationTogglesView android:id="@id/main_toggles" android:background="@drawable/puffin_card_background" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</FrameLayout>

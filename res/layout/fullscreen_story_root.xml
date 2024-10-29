@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/top_gradient" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/gradient_playlist_story_header" />
+    <ImageView android:layout_gravity="bottom" android:id="@id/bottom_gradient" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="230.0dip" android:src="@drawable/gradient_story_footer" />
+    <include android:layout_gravity="top" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/fullscreen_story_header" />
+    <FrameLayout android:layout_gravity="bottom" android:id="@id/pivot_root" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <include android:layout_gravity="bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/fullscreen_story_footer" />
+</FrameLayout>

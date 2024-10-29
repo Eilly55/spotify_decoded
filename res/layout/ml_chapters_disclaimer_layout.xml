@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/ml_chapters_disclaimer_layout" android:paddingTop="@dimen/spacer_8" android:paddingBottom="@dimen/spacer_8" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/spacer_12" android:paddingEnd="@dimen/spacer_12"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.spotify.encoremobile.component.textview.EncoreTextView android:textAppearance="@style/TextAppearance.Encore.BodySmall" android:textColor="@color/dark_base_text_base" android:id="@id/ml_chapters_disclaimer_message" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ml_chapters_disclaimer_short_message" />
+</LinearLayout>

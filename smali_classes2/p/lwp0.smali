@@ -1,0 +1,116 @@
+.class public final Lp/lwp0;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Lcom/spotify/mobius/Connection;
+
+
+# instance fields
+.field public final synthetic a:I
+
+.field public final synthetic b:Lio/reactivex/rxjava3/disposables/Disposable;
+
+
+# direct methods
+.method public synthetic constructor <init>(ILio/reactivex/rxjava3/disposables/Disposable;)V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 2
+    .line 3
+    .line 4
+    iput p1, p0, Lp/lwp0;->a:I
+
+    .line 5
+    .line 6
+    iput-object p2, p0, Lp/lwp0;->b:Lio/reactivex/rxjava3/disposables/Disposable;
+
+    .line 7
+    .line 8
+    return-void
+.end method
+
+
+# virtual methods
+.method public final bridge synthetic accept(Ljava/lang/Object;)V
+    .locals 1
+
+    .line 1
+    iget v0, p0, Lp/lwp0;->a:I
+
+    .line 2
+    .line 3
+    packed-switch v0, :pswitch_data_0
+
+    .line 4
+    .line 5
+    .line 6
+    check-cast p1, Lp/e22;
+
+    .line 7
+    .line 8
+    return-void
+
+    .line 9
+    :pswitch_0
+    check-cast p1, Lp/vup0;
+
+    .line 10
+    .line 11
+    return-void
+
+    .line 12
+    nop
+
+    .line 13
+    :pswitch_data_0
+    .packed-switch 0x0
+        :pswitch_0
+    .end packed-switch
+.end method
+
+.method public final dispose()V
+    .locals 2
+
+    .line 1
+    iget v0, p0, Lp/lwp0;->a:I
+
+    .line 2
+    .line 3
+    iget-object v1, p0, Lp/lwp0;->b:Lio/reactivex/rxjava3/disposables/Disposable;
+
+    .line 4
+    .line 5
+    packed-switch v0, :pswitch_data_0
+
+    .line 6
+    .line 7
+    .line 8
+    invoke-interface {v1}, Lio/reactivex/rxjava3/disposables/Disposable;->dispose()V
+
+    .line 9
+    .line 10
+    .line 11
+    return-void
+
+    .line 12
+    :pswitch_0
+    invoke-interface {v1}, Lio/reactivex/rxjava3/disposables/Disposable;->dispose()V
+
+    .line 13
+    .line 14
+    .line 15
+    return-void
+
+    .line 16
+    nop
+
+    .line 17
+    :pswitch_data_0
+    .packed-switch 0x0
+        :pswitch_0
+    .end packed-switch
+.end method

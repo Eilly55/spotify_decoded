@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.spotify.encoremobile.roundedcorner.RoundedConstraintLayout android:background="?baseBackgroundBase" android:layout_width="fill_parent" android:layout_height="fill_parent" app:cornerRadius="@dimen/spacer_16"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.spotify.transcript.uiusecases.zoomimageview.ZoomViewArea android:id="@id/zoom_view_area" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.spotify.transcript.uiusecases.transcriptheader.TranscriptHeaderView android:layout_gravity="top" android:id="@id/gallery_header" android:background="?baseBackgroundBase" android:layout_width="fill_parent" android:layout_height="wrap_content" android:elevation="@dimen/spacer_16" />
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/image_gallery" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <androidx.constraintlayout.widget.ConstraintLayout android:layout_gravity="bottom" android:orientation="vertical" android:id="@id/gallery_footer" android:background="?backgroundBase" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/thumbnails_recycler_view" android:clipToPadding="false" android:layout_width="0.0dip" android:layout_height="@dimen/full_thumbnail_size" android:layout_marginLeft="@dimen/spacer_8" android:layout_marginTop="@dimen/spacer_8" android:layout_marginRight="@dimen/spacer_8" android:overScrollMode="never" android:layout_marginHorizontal="@dimen/spacer_8" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+            <com.spotify.transcript.commons.views.ElementContainer android:id="@id/play_from_element_holder_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/spacer_16" android:layout_marginBottom="@dimen/spacer_20" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/thumbnails_recycler_view" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </com.spotify.transcript.uiusecases.zoomimageview.ZoomViewArea>
+</com.spotify.encoremobile.roundedcorner.RoundedConstraintLayout>

@@ -1,0 +1,563 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="ad_header_title_sponsored_session_end_card">
+        <item quantity="other">%1$d dakikalık kesintisiz dinlemenin tadını çıkar</item>
+        <item quantity="one">%1$d dakikalık kesintisiz dinlemenin tadını çıkar</item>
+    </plurals>
+    <plurals name="ad_header_title_sponsored_session_video_ad">
+        <item quantity="other">Bu kısa videodan sonra %1$d dakika boyunca kesintisiz dinleyebileceksin</item>
+        <item quantity="one">Bu kısa videodan sonra %1$d dakika boyunca kesintisiz dinleyebileceksin</item>
+    </plurals>
+    <plurals name="add_to_playlist_filter_items_count_changed_announcement">
+        <item quantity="other">%1$d öğe bulundu</item>
+        <item quantity="one">%1$d öğe bulundu</item>
+    </plurals>
+    <plurals name="add_to_playlist_subtitle_audiobooks_count">
+        <item quantity="other">%1$s sesli kitap</item>
+        <item quantity="one">%1$s sesli kitap</item>
+    </plurals>
+    <plurals name="add_to_playlist_subtitle_episodes_count">
+        <item quantity="other">%1$s bölüm</item>
+        <item quantity="one">%1$s bölüm</item>
+    </plurals>
+    <plurals name="add_to_playlist_subtitle_songs_count">
+        <item quantity="other">%1$s şarkı</item>
+        <item quantity="one">%1$s şarkı</item>
+    </plurals>
+    <plurals name="add_to_playlist_subtitle_tracks_count">
+        <item quantity="other">%1$s parça</item>
+        <item quantity="one">%1$s parça</item>
+    </plurals>
+    <plurals name="album_track_count_and_duration">
+        <item quantity="other">%1$d şarkı • %2$s</item>
+        <item quantity="one">%1$d şarkı • %2$s</item>
+    </plurals>
+    <plurals name="allboarding_selected_nb_label">
+        <item quantity="other">%1$d seçildi</item>
+        <item quantity="one">%1$d seçildi</item>
+    </plurals>
+    <plurals name="allboarding_selection_summary_content_desc">
+        <item quantity="other">%1$d seçildi</item>
+        <item quantity="one">%1$d seçildi</item>
+    </plurals>
+    <plurals name="allboarding_selection_summary_with_requirement_content_desc">
+        <item quantity="other">%1$d seçildi. Devam etmek için en az %2$d seçenek daha belirle.</item>
+        <item quantity="one">%1$d seçildi. Devam etmek için en az %2$d seçenek daha belirle.</item>
+    </plurals>
+    <plurals name="android_auto_podcast_episode_time_format_hours">
+        <item quantity="other">%1$d sa.</item>
+        <item quantity="one">%1$d sa.</item>
+    </plurals>
+    <plurals name="android_auto_podcast_episode_time_format_min">
+        <item quantity="other">%1$d dk.</item>
+        <item quantity="one">%1$d dk.</item>
+    </plurals>
+    <plurals name="artist_number_of_liked_releases">
+        <item quantity="other">%1$,d müzik</item>
+        <item quantity="one">%1$,d müzik</item>
+    </plurals>
+    <plurals name="artist_number_of_liked_songs">
+        <item quantity="other">%1$,d şarkı</item>
+        <item quantity="one">%1$,d şarkı</item>
+    </plurals>
+    <plurals name="artist_saved_songs_subtitle">
+        <item quantity="other">%1$d şarkı • %2$s</item>
+        <item quantity="one">%1$d şarkı • %2$s</item>
+    </plurals>
+    <plurals name="assisted_curation_search_filter_items_count_changed_announcement">
+        <item quantity="other">%1$d öğe bulundu</item>
+        <item quantity="one">%1$d öğe bulundu</item>
+    </plurals>
+    <plurals name="auto_download_limit_option">
+        <item quantity="other">Her program için %1$s yeni bölüm</item>
+        <item quantity="one">Her program için %1$s yeni bölüm</item>
+    </plurals>
+    <plurals name="campfire_chats_preview_days_content_description">
+        <item quantity="other">%1$s gün önce</item>
+        <item quantity="one">%1$s gün önce</item>
+    </plurals>
+    <plurals name="campfire_chats_preview_hours_content_description">
+        <item quantity="other">%1$s saat önce</item>
+        <item quantity="one">%1$s saat önce</item>
+    </plurals>
+    <plurals name="campfire_chats_preview_minutes_content_description">
+        <item quantity="other">%1$s dakika önce</item>
+        <item quantity="one">%1$s dakika önce</item>
+    </plurals>
+    <plurals name="campfire_sharedbychip_label_multiple">
+        <item quantity="other">%1$s arkadaşından</item>
+        <item quantity="one">%1$s arkadaşından</item>
+    </plurals>
+    <plurals name="chapters_added">
+        <item quantity="other">%1$d kısım eklendi</item>
+        <item quantity="one">%1$d kısım eklendi</item>
+    </plurals>
+    <plurals name="chapters_played">
+        <item quantity="other">%1$d kısım çalındı</item>
+        <item quantity="one">%1$d kısım çalındı</item>
+    </plurals>
+    <plurals name="charts_header_new_entry_count">
+        <item quantity="other">%1$,d Yeni Kayıt</item>
+        <item quantity="one">%1$,d Yeni Kayıt</item>
+    </plurals>
+    <plurals name="comment_days_ago">
+        <item quantity="other">%1$d gün önce</item>
+        <item quantity="one">%1$d gün önce</item>
+    </plurals>
+    <plurals name="comment_hours_ago">
+        <item quantity="other">%1$d saat önce</item>
+        <item quantity="one">%1$d saat önce</item>
+    </plurals>
+    <plurals name="comment_minutes_ago">
+        <item quantity="other">%1$d dakika önce</item>
+        <item quantity="one">%1$d dakika önce</item>
+    </plurals>
+    <plurals name="comment_months_ago">
+        <item quantity="other">%1$d ay önce</item>
+        <item quantity="one">%1$d ay önce</item>
+    </plurals>
+    <plurals name="comment_reply_preview">
+        <item quantity="other">%1$s yanıt</item>
+        <item quantity="one">%1$s yanıt</item>
+    </plurals>
+    <plurals name="comment_weeks_ago">
+        <item quantity="other">%1$d hafta önce</item>
+        <item quantity="one">%1$d hafta önce</item>
+    </plurals>
+    <plurals name="comment_years_ago">
+        <item quantity="other">%1$d yıl önce</item>
+        <item quantity="one">%1$d yıl önce</item>
+    </plurals>
+    <plurals name="complex_playlist_number_of_songs">
+        <item quantity="other">%1$,d şarkı</item>
+        <item quantity="one">%1$,d şarkı</item>
+    </plurals>
+    <plurals name="connect_device_multiple_listeners">
+        <item quantity="other">%1$d dinleyici</item>
+        <item quantity="one">%1$d dinleyici</item>
+    </plurals>
+    <plurals name="content_feed_timestamp_days_ago">
+        <item quantity="other">%1$d gün önce</item>
+        <item quantity="one">%1$d gün önce</item>
+    </plurals>
+    <plurals name="content_feed_timestamp_hours_ago">
+        <item quantity="other">%1$d sa önce</item>
+        <item quantity="one">%1$d sa önce</item>
+    </plurals>
+    <plurals name="content_feed_timestamp_minutes_ago">
+        <item quantity="other">%1$d dk önce</item>
+        <item quantity="one">%1$d dk önce</item>
+    </plurals>
+    <plurals name="context_menu_sleep_timer_hours">
+        <item quantity="other">%1$d saat</item>
+        <item quantity="one">%1$d saat</item>
+    </plurals>
+    <plurals name="context_menu_sleep_timer_mins">
+        <item quantity="other">%1$d dakika</item>
+        <item quantity="one">%1$d dakika</item>
+    </plurals>
+    <plurals name="creator_row_content_description">
+        <item quantity="other">Yazarlar: %1$s</item>
+        <item quantity="one">Yazar: %1$s</item>
+    </plurals>
+    <plurals name="creators_button_title_counter">
+        <item quantity="other">%1$s + %2$d kişi</item>
+        <item quantity="one">%1$s + %2$d kişi</item>
+    </plurals>
+    <plurals name="creators_row_accessibility_hint">
+        <item quantity="other">Gezinilebilen bir listeyi gösterir (listede tüm %1$s yer alır)</item>
+        <item quantity="one">Bu %1$s tarafından hazırlanan diğer içeriklere gider</item>
+    </plurals>
+    <plurals name="days_label">
+        <item quantity="other">%1$s&lt;br/>&lt;b>Gün&lt;/b></item>
+        <item quantity="one">%1$s&lt;br/>&lt;b>Gün&lt;/b></item>
+    </plurals>
+    <plurals name="days_left_until_release_date">
+        <item quantity="other">%1$d gün içinde yayınlanıyor</item>
+        <item quantity="one">%1$d gün içinde yayınlanıyor</item>
+    </plurals>
+    <plurals name="days_to_renew">
+        <item quantity="other">Dinleme süresi (saatlik) yenilenene kadar %1$d gün</item>
+        <item quantity="one">Dinleme süresi (saatlik) yenilenene kadar %1$d gün</item>
+    </plurals>
+    <plurals name="entity_action_row_downloading_progress_content_description">
+        <item quantity="other">Yüzde %1$d indirildi</item>
+        <item quantity="one">Yüzde %1$d indirildi</item>
+    </plurals>
+    <plurals name="episode_contents_chapters_expand_button">
+        <item quantity="other">%1$d kısmı görüntüle</item>
+        <item quantity="one">%1$d kısmı görüntüle</item>
+    </plurals>
+    <plurals name="episodes_added">
+        <item quantity="other">%1$d bölüm eklendi</item>
+        <item quantity="one">%1$d bölüm eklendi</item>
+    </plurals>
+    <plurals name="episodes_played">
+        <item quantity="other">%1$d bölüm çalındı</item>
+        <item quantity="one">%1$d bölüm çalındı</item>
+    </plurals>
+    <plurals name="error_dialog_body_resend_limit">
+        <item quantity="other">%1$d saniye bekle sonra yeni bir kod iste.</item>
+        <item quantity="one">%1$d saniye bekle sonra yeni bir kod iste.</item>
+    </plurals>
+    <plurals name="error_dialog_title_resend_limit">
+        <item quantity="other">%1$d saniye sonra tekrar dene</item>
+        <item quantity="one">%1$d saniye sonra tekrar dene</item>
+    </plurals>
+    <plurals name="event_card_number_of_events_text">
+        <item quantity="other">%1$d etkinlik</item>
+        <item quantity="one">%1$d etkinlik</item>
+    </plurals>
+    <plurals name="find_friends_flow_confirm_desc">
+        <item quantity="other">%1$,d kişinin tümünü takip etmek istediğinden emin misin?</item>
+        <item quantity="one">%1$,d kişiyi takip etmek istediğinden emin misin?</item>
+    </plurals>
+    <plurals name="header_common_likes_count">
+        <item quantity="other">%1$s kaydetme</item>
+        <item quantity="one">%1$s kaydetme</item>
+    </plurals>
+    <plurals name="hours_label">
+        <item quantity="other">%1$s&lt;br/>&lt;b>Saat&lt;/b></item>
+        <item quantity="one">%1$s&lt;br/>&lt;b>Saat&lt;/b></item>
+    </plurals>
+    <plurals name="hours_to_renew">
+        <item quantity="other">Dinleme süresi (saatlik) yenilenene kadar %1$d saat</item>
+        <item quantity="one">Dinleme süresi (saatlik) yenilenene kadar %1$d saat</item>
+    </plurals>
+    <plurals name="ipl_new_joiner_nudge">
+        <item quantity="other">"%2$d kişi daha Jam'ine katıldı"</item>
+        <item quantity="one">"%1$s Jam'ine katıldı"</item>
+    </plurals>
+    <plurals name="item_description_folder_folders_count">
+        <item quantity="other">%1$s klasör</item>
+        <item quantity="one">%1$s klasör</item>
+    </plurals>
+    <plurals name="item_description_folder_playlists_count">
+        <item quantity="other">%1$s çalma listesi</item>
+        <item quantity="one">%1$s çalma listesi</item>
+    </plurals>
+    <plurals name="item_description_liked_songs">
+        <item quantity="other">Çalma listesi • %1$s şarkı</item>
+        <item quantity="one">Çalma listesi • %1$s şarkı</item>
+    </plurals>
+    <plurals name="item_description_liked_songs_filtered">
+        <item quantity="other">%1$s şarkı</item>
+        <item quantity="one">%1$s şarkı</item>
+    </plurals>
+    <plurals name="item_description_local_files">
+        <item quantity="other">Çalma listesi • %1$s parça</item>
+        <item quantity="one">Çalma listesi • %1$s parça</item>
+    </plurals>
+    <plurals name="item_description_local_files_filtered">
+        <item quantity="other">%1$s parça</item>
+        <item quantity="one">%1$s parça</item>
+    </plurals>
+    <plurals name="item_description_show_downloaded">
+        <item quantity="other">%1$s bölüm indirildi • %2$s</item>
+        <item quantity="one">%1$s bölüm indirildi • %2$s</item>
+    </plurals>
+    <plurals name="item_description_show_downloaded_no_creator">
+        <item quantity="other">%1$s bölüm indirildi</item>
+        <item quantity="one">%1$s bölüm indirildi</item>
+    </plurals>
+    <plurals name="item_description_your_episodes_downloaded">
+        <item quantity="other">%1$s bölüm indirildi</item>
+        <item quantity="one">%1$s bölüm indirildi</item>
+    </plurals>
+    <plurals name="items_added">
+        <item quantity="other">%1$d içerik eklendi</item>
+        <item quantity="one">%1$d içerik eklendi</item>
+    </plurals>
+    <plurals name="items_played">
+        <item quantity="other">%1$d içerik çalındı</item>
+        <item quantity="one">%1$d içerik çalındı</item>
+    </plurals>
+    <plurals name="jam_host_settings_header_participant_count">
+        <item quantity="other">%1$d katılımcı</item>
+        <item quantity="one">%1$d katılımcı</item>
+    </plurals>
+    <plurals name="library_pinned_section_placeholder_subtitle">
+        <item quantity="other">Alternatif olarak sağa kaydırabilirsin. En fazla %1$d öğe sabitleyebilirsin.</item>
+        <item quantity="one">Alternatif olarak sağa kaydırabilirsin. En fazla %1$d öğe sabitleyebilirsin.</item>
+    </plurals>
+    <plurals name="liked_songs_header_subtitle">
+        <item quantity="other">%1$d şarkı</item>
+        <item quantity="one">%1$d şarkı</item>
+    </plurals>
+    <plurals name="line_selected">
+        <item quantity="other">%1$d satır seçildi</item>
+        <item quantity="one">%1$d satır seçildi</item>
+    </plurals>
+    <plurals name="listen_later_header_subtitle">
+        <item quantity="other">%1$d bölüm</item>
+        <item quantity="one">%1$d bölüm</item>
+    </plurals>
+    <plurals name="listening_hours_card_complete">
+        <item quantity="other">Aylık planına dahil olan %1$d saatlik sesli kitap dinleme süresinin tamamını kullandın.</item>
+        <item quantity="one">Aylık planına dahil olan %1$d saatlik sesli kitap dinleme süresinin tamamını kullandın.</item>
+    </plurals>
+    <plurals name="listening_hours_card_text">
+        <item quantity="other">Üyelere özel kataloğumuzdan, aylık planına dahil olan %1$d saatlik sesli kitap dinleme süresini kullan.</item>
+        <item quantity="one">Üyelere özel kataloğumuzdan, aylık planına dahil olan %1$d saatlik sesli kitap dinleme süresini kullan.</item>
+    </plurals>
+    <plurals name="listening_hours_listened">
+        <item quantity="other">%1$d saatlik dinleme süresi</item>
+        <item quantity="one">%1$d saatlik dinleme süresi</item>
+    </plurals>
+    <plurals name="local_files_subtitle_number_of_tracks">
+        <item quantity="other">%1$,d parça</item>
+        <item quantity="one">%1$,d parça</item>
+    </plurals>
+    <plurals name="minutes_label">
+        <item quantity="other">%1$s&lt;br/>&lt;b>Dakika&lt;/b></item>
+        <item quantity="one">%1$s&lt;br/>&lt;b>Dakika&lt;/b></item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d yeni bildirim</item>
+        <item quantity="one">%d yeni bildirim</item>
+    </plurals>
+    <plurals name="notification_syncing_text">
+        <item quantity="other">%1$,d / %2$,d (%%%3$,d tamamlandı)</item>
+        <item quantity="one">%1$,d / %2$,d (%%%3$,d tamamlandı)</item>
+    </plurals>
+    <plurals name="num_available_downloads">
+        <item quantity="other">%1$s içerik indirilebilir</item>
+        <item quantity="one">%1$s içerik indirilebilir</item>
+    </plurals>
+    <plurals name="number_events_from_date">
+        <item quantity="other">%2$s tarihinde %1$s etkinlik</item>
+        <item quantity="one">%2$s tarihinde %1$s etkinlik</item>
+    </plurals>
+    <plurals name="number_of_items">
+        <item quantity="other">%1$s parça</item>
+        <item quantity="one">%1$s parça</item>
+    </plurals>
+    <plurals name="number_of_live_events">
+        <item quantity="other">%1$s etkinlik</item>
+        <item quantity="one">%1$s etkinlik</item>
+    </plurals>
+    <plurals name="number_of_live_events_near_you">
+        <item quantity="other">Yakınında %1$s etkinlik</item>
+        <item quantity="one">Yakınında %1$s etkinlik</item>
+    </plurals>
+    <plurals name="otp_description">
+        <item quantity="other">%1$d basamaklı kod içeren kısa mesajı %2$s numarasına gönderdik.</item>
+        <item quantity="one">%1$d basamaklı kod içeren kısa mesajı %2$s numarasına gönderdik.</item>
+    </plurals>
+    <plurals name="otp_description_alt">
+        <item quantity="other">%2$s numaralı telefona %1$d basamaklı bir kod gönderdik.</item>
+        <item quantity="one">%2$s numaralı telefona %1$d basamaklı bir kod gönderdik.</item>
+    </plurals>
+    <plurals name="pin_gate_wrong_pin_long_delay_error_message">
+        <item quantity="other">PIN yanlış. Lütfen %1$d dakika içinde tekrar dene.</item>
+        <item quantity="one">PIN yanlış. Lütfen %1$d dakika içinde tekrar dene.</item>
+    </plurals>
+    <plurals name="pin_gate_wrong_pin_short_delay_error_message">
+        <item quantity="other">PIN yanlış. Lütfen %1$d saniye içinde tekrar dene.</item>
+        <item quantity="one">PIN yanlış. Lütfen %1$d saniye içinde tekrar dene.</item>
+    </plurals>
+    <plurals name="playback_settings_crossfade_slider_seconds_full">
+        <item quantity="other">%1$d saniye</item>
+        <item quantity="one">%1$d saniye</item>
+    </plurals>
+    <plurals name="playlist_header_collaborators">
+        <item quantity="other">%1$s + %2$d kişi</item>
+        <item quantity="one">%1$s + %2$d kişi</item>
+    </plurals>
+    <plurals name="playlist_header_creator_with_collaborators_content_description">
+        <item quantity="other">Oluşturan: %1$s ve diğer %2$d kişi</item>
+        <item quantity="one">Oluşturan: %1$s ve diğer %2$d kişi</item>
+    </plurals>
+    <plurals name="playlist_participants_row_subtitle_episodes">
+        <item quantity="other">%1$d bölüm</item>
+        <item quantity="one">%1$d bölüm</item>
+    </plurals>
+    <plurals name="playlist_participants_row_subtitle_tracks">
+        <item quantity="other">%1$d şarkı</item>
+        <item quantity="one">%1$d şarkı</item>
+    </plurals>
+    <plurals name="playlist_participants_title">
+        <item quantity="other">%1$d kişi</item>
+        <item quantity="one">%1$d kişi</item>
+    </plurals>
+    <plurals name="playlist_trackcloud_includes_label_episodes">
+        <item quantity="other">%1$,d BÖLÜM</item>
+        <item quantity="one">%1$,d BÖLÜM</item>
+    </plurals>
+    <plurals name="playlist_trackcloud_includes_label_songs">
+        <item quantity="other">%1$,d ŞARKI</item>
+        <item quantity="one">%1$,d ŞARKI</item>
+    </plurals>
+    <plurals name="podcast_chapters_bottom_sheet_chapter_count">
+        <item quantity="other">%1$d kısım</item>
+        <item quantity="one">%1$d kısım</item>
+    </plurals>
+    <plurals name="podcast_chapters_expand_button">
+        <item quantity="other">%1$d kısmı görüntüle</item>
+        <item quantity="one">%1$d kısmı görüntüle</item>
+    </plurals>
+    <plurals name="podcast_poll_days_left_label">
+        <item quantity="other">%1$d gün</item>
+        <item quantity="one">%1$d gün</item>
+    </plurals>
+    <plurals name="podcast_poll_hours_left_label">
+        <item quantity="other">%1$d saat kaldı</item>
+        <item quantity="one">%1$d saat kaldı</item>
+    </plurals>
+    <plurals name="podcast_poll_minutes_left_label">
+        <item quantity="other">%1$d dakika kaldı</item>
+        <item quantity="one">%1$d dakika kaldı</item>
+    </plurals>
+    <plurals name="podcast_poll_poll_subtitle">
+        <item quantity="other">%1$d oy • %2$s</item>
+        <item quantity="one">%1$d oy • %2$s</item>
+    </plurals>
+    <plurals name="premium_mini_playlist_add_song_subtitle">
+        <item quantity="other">%1$d şarkı kaldı</item>
+        <item quantity="one">%1$d şarkı kaldı</item>
+    </plurals>
+    <plurals name="premium_mini_playlist_subtitle">
+        <item quantity="other">%1$d şarkı • %2$s</item>
+        <item quantity="one">%1$d şarkı • %2$s</item>
+    </plurals>
+    <plurals name="premium_plan_card_days_remaining">
+        <item quantity="other">%1$d günlük Premium</item>
+        <item quantity="one">%1$d günlük Premium</item>
+    </plurals>
+    <plurals name="premium_plan_card_months_remaining">
+        <item quantity="other">%1$d aylık Premium</item>
+        <item quantity="one">%1$d aylık Premium</item>
+    </plurals>
+    <plurals name="premium_plan_card_weeks_remaining">
+        <item quantity="other">%1$d haftalık Premium</item>
+        <item quantity="one">%1$d haftalık Premium</item>
+    </plurals>
+    <plurals name="premium_plan_card_years_remaining">
+        <item quantity="other">%1$d yıllık Premium</item>
+        <item quantity="one">%1$d yıllık Premium</item>
+    </plurals>
+    <plurals name="profile_followers_count">
+        <item quantity="other">%1$d takipçi</item>
+        <item quantity="one">%1$d takipçi</item>
+    </plurals>
+    <plurals name="profile_following_count">
+        <item quantity="other">%1$d takip ediliyor</item>
+        <item quantity="one">%1$d takip ediliyor</item>
+    </plurals>
+    <plurals name="profile_list_item_followers_count">
+        <item quantity="other">%1$,d takipçi</item>
+        <item quantity="one">%1$,d takipçi</item>
+    </plurals>
+    <plurals name="profile_list_see_all_footer_playlists">
+        <item quantity="other">%1$d çalma listesinin tümünü gör</item>
+        <item quantity="one">%1$d çalma listesinin tümünü gör</item>
+    </plurals>
+    <plurals name="profile_playlists_subtitle">
+        <item quantity="other">%1$,d kaydetme</item>
+        <item quantity="one">%1$,d kaydetme</item>
+    </plurals>
+    <plurals name="profile_recently_played_subtitle">
+        <item quantity="other">%1$,d takipçi</item>
+        <item quantity="one">%1$,d takipçi</item>
+    </plurals>
+    <plurals name="search_episode_chapters_title_plurals">
+        <item quantity="other">%1$d Kısım</item>
+        <item quantity="one">%1$d Kısım</item>
+    </plurals>
+    <plurals name="search_saves_album_row_string">
+        <item quantity="other">%1$s kaydetme</item>
+        <item quantity="one">%1$s kaydetme</item>
+    </plurals>
+    <plurals name="search_saves_playlist_row_string">
+        <item quantity="other">%1$s kaydetme</item>
+        <item quantity="one">%1$s kaydetme</item>
+    </plurals>
+    <plurals name="seconds_label">
+        <item quantity="other">%1$s&lt;br/>&lt;b>Saniye&lt;/b></item>
+        <item quantity="one">%1$s&lt;br/>&lt;b>Saniye&lt;/b></item>
+    </plurals>
+    <plurals name="selection_line_quantity_subtitle">
+        <item quantity="other">%1$d satır seçildi</item>
+        <item quantity="one">%1$d satır seçildi</item>
+    </plurals>
+    <plurals name="settings_item_offline_mode_time_left_days">
+        <item quantity="other">%1$,d gün içinde tekrar çevrimiçi olman gerekiyor</item>
+        <item quantity="one">%1$,d gün içinde tekrar çevrimiçi olman gerekiyor</item>
+    </plurals>
+    <plurals name="settings_item_plan_overview_description_time_remaining">
+        <item quantity="other">Kalan süre: %1$d gün</item>
+        <item quantity="one">Kalan süre: %1$d gün</item>
+    </plurals>
+    <plurals name="shared_by_bottomsheet_title">
+        <item quantity="other">%1$s arkadaşın paylaştı</item>
+        <item quantity="one">%1$s arkadaşın paylaştı</item>
+    </plurals>
+    <plurals name="song_limit_dialog_title">
+        <item quantity="other">%1$d şarkı indirme sınırına ulaştın</item>
+        <item quantity="one">%1$d şarkı indirme sınırına ulaştın</item>
+    </plurals>
+    <plurals name="songs_added">
+        <item quantity="other">%1$d şarkı eklendi</item>
+        <item quantity="one">%1$d şarkı eklendi</item>
+    </plurals>
+    <plurals name="songs_played">
+        <item quantity="other">%1$d şarkı çalındı</item>
+        <item quantity="one">%1$d şarkı çalındı</item>
+    </plurals>
+    <plurals name="timestamp_days">
+        <item quantity="other">%1$d gün</item>
+        <item quantity="one">%1$d gün</item>
+    </plurals>
+    <plurals name="timestamp_hours">
+        <item quantity="other">%1$d sa.</item>
+        <item quantity="one">%1$d sa.</item>
+    </plurals>
+    <plurals name="timestamp_minutes">
+        <item quantity="other">%1$d dk.</item>
+        <item quantity="one">%1$d dk.</item>
+    </plurals>
+    <plurals name="timestamp_weeks">
+        <item quantity="other">%1$d hafta</item>
+        <item quantity="one">%1$d hafta</item>
+    </plurals>
+    <plurals name="top_ups_hours_listened">
+        <item quantity="other">%1$s/%2$d saat dinlendi</item>
+        <item quantity="one">%1$s/%2$d saat dinlendi</item>
+    </plurals>
+    <plurals name="upcoming_release_pretitle_days">
+        <item quantity="other">%1$d gün içinde yayınlanıyor</item>
+        <item quantity="one">%1$d gün içinde yayınlanıyor</item>
+    </plurals>
+    <plurals name="user_stats_top_entity_position_down">
+        <item quantity="other">Geçen aydan bu yana %1$d konum aşağı indi</item>
+        <item quantity="one">Geçen aydan bu yana %1$d konum aşağı indi</item>
+    </plurals>
+    <plurals name="user_stats_top_entity_position_up">
+        <item quantity="other">Geçen aydan bu yana %1$d konum yukarı çıktı</item>
+        <item quantity="one">Geçen aydan bu yana %1$d konum yukarı çıktı</item>
+    </plurals>
+    <plurals name="ylx_liked_songs_offline_subtitle">
+        <item quantity="other">%1$s şarkı indirildi</item>
+        <item quantity="one">%1$s şarkı indirildi</item>
+    </plurals>
+    <plurals name="your_episodes_header_subtitle">
+        <item quantity="other">%1$d bölüm</item>
+        <item quantity="one">%1$d bölüm</item>
+    </plurals>
+    <plurals name="your_episodes_settings_option_auto_download_enabled_shows">
+        <item quantity="other">%1$s program için açıldı</item>
+        <item quantity="one">%1$s program için açıldı</item>
+    </plurals>
+    <plurals name="your_library_in_progress_progress_status_description">
+        <item quantity="other">Devam ediyor, yüzde %1$d tamamlandı</item>
+        <item quantity="one">Devam ediyor, yüzde %1$d tamamlandı</item>
+    </plurals>
+    <plurals name="your_library_pin_failed_body_item_pin_limit_reached">
+        <item quantity="other">Aynı anda sadece %1$d öğeyi sabitleyebilirsin.</item>
+        <item quantity="one">Aynı anda sadece %1$d öğeyi sabitleyebilirsin.</item>
+    </plurals>
+    <plurals name="your_library_pinning_failed_body_item_pin_limit_reached">
+        <item quantity="other">Aynı anda sadece %1$d öğeyi sabitleyebilirsin.</item>
+        <item quantity="one">Aynı anda sadece %1$d öğeyi sabitleyebilirsin.</item>
+    </plurals>
+</resources>

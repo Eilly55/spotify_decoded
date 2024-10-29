@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:id="@id/course_info_layout"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/course_info_recycler_view" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <TextView android:textAppearance="@style/TextAppearance.Encore.MarginalBold" android:textColor="@color/black" android:layout_gravity="end" android:id="@id/trailing_accessory" android:background="@drawable/trailing_accessory_background" android:paddingLeft="@dimen/encore_spacer_tighter_4" android:paddingRight="@dimen/encore_spacer_tighter_4" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textAllCaps="true" android:paddingHorizontal="@dimen/encore_spacer_tighter_4" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" />
+</merge>

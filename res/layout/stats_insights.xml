@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/stats_insights_container" android:paddingTop="@dimen/encore_spacer_tighter" android:paddingBottom="@dimen/encore_spacer_tighter" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingVertical="@dimen/encore_spacer_tighter"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/insights_graph_container" layout="@layout/stats_insights_graph" />
+    <androidx.compose.ui.platform.ComposeView android:id="@id/insights_highlights_container" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:focusable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:importantForAccessibility="yes" style="@style/ScrollWidget"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textAppearance="@style/TextAppearance.Encore.BodyMediumBold" android:id="@id/track_credits_card_header" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/track_credits_title" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <TextView android:textAppearance="@style/TextAppearance.Encore.BodySmallBold" android:textColor="@color/encore_accent_color" android:id="@id/track_credits_show_all" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/track_credits_show_all" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <LinearLayout android:orientation="vertical" android:id="@id/track_credits_rows_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/spacer_12" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/track_credits_card_header" />
+</androidx.constraintlayout.widget.ConstraintLayout>

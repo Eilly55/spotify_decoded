@@ -1,0 +1,424 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="ad_header_title_sponsored_session_end_card">
+        <item quantity="other">%1$d분 동안 방해 없이 감상해보세요</item>
+    </plurals>
+    <plurals name="ad_header_title_sponsored_session_video_ad">
+        <item quantity="other">이 짧은 동영상을 모두 시청하면 %1$d분 동안 방해 없이 감상할 수 있습니다</item>
+    </plurals>
+    <plurals name="add_to_playlist_filter_items_count_changed_announcement">
+        <item quantity="other">%1$d개 항목 찾음</item>
+    </plurals>
+    <plurals name="add_to_playlist_subtitle_audiobooks_count">
+        <item quantity="other">오디오북 %1$s개</item>
+    </plurals>
+    <plurals name="add_to_playlist_subtitle_episodes_count">
+        <item quantity="other">에피소드 %1$s개</item>
+    </plurals>
+    <plurals name="add_to_playlist_subtitle_songs_count">
+        <item quantity="other">곡 %1$s개</item>
+    </plurals>
+    <plurals name="add_to_playlist_subtitle_tracks_count">
+        <item quantity="other">트랙 %1$s개</item>
+    </plurals>
+    <plurals name="album_track_count_and_duration">
+        <item quantity="other">곡 %1$d개 • %2$s</item>
+    </plurals>
+    <plurals name="allboarding_selected_nb_label">
+        <item quantity="other">%1$d개 선택됨</item>
+    </plurals>
+    <plurals name="allboarding_selection_summary_content_desc">
+        <item quantity="other">%1$d개 선택됨</item>
+    </plurals>
+    <plurals name="allboarding_selection_summary_with_requirement_content_desc">
+        <item quantity="other">%1$d개가 선택되었습니다. 계속하려면 최소 %2$d개 더 선택하세요.</item>
+    </plurals>
+    <plurals name="android_auto_podcast_episode_time_format_hours">
+        <item quantity="other">%1$d시간</item>
+    </plurals>
+    <plurals name="android_auto_podcast_episode_time_format_min">
+        <item quantity="other">%1$d분</item>
+    </plurals>
+    <plurals name="artist_number_of_liked_releases">
+        <item quantity="other">발매 %1$,d건</item>
+    </plurals>
+    <plurals name="artist_number_of_liked_songs">
+        <item quantity="other">곡 %1$,d개</item>
+    </plurals>
+    <plurals name="artist_saved_songs_subtitle">
+        <item quantity="other">%1$d곡 • %2$s</item>
+    </plurals>
+    <plurals name="assisted_curation_search_filter_items_count_changed_announcement">
+        <item quantity="other">%1$d개 항목 찾음</item>
+    </plurals>
+    <plurals name="auto_download_limit_option">
+        <item quantity="other">프로그램당 새로운 에피소드 %1$s개</item>
+    </plurals>
+    <plurals name="campfire_chats_preview_days_content_description">
+        <item quantity="other">%1$s일 전</item>
+    </plurals>
+    <plurals name="campfire_chats_preview_hours_content_description">
+        <item quantity="other">%1$s시간 전</item>
+    </plurals>
+    <plurals name="campfire_chats_preview_minutes_content_description">
+        <item quantity="other">%1$s분 전</item>
+    </plurals>
+    <plurals name="campfire_sharedbychip_label_multiple">
+        <item quantity="other">친구 %1$s명</item>
+    </plurals>
+    <plurals name="chapters_added">
+        <item quantity="other">챕터 %1$d개 추가됨</item>
+    </plurals>
+    <plurals name="chapters_played">
+        <item quantity="other">챕터 %1$d개 재생됨</item>
+    </plurals>
+    <plurals name="charts_header_new_entry_count">
+        <item quantity="other">새 항목 %1$,d개</item>
+    </plurals>
+    <plurals name="comment_days_ago">
+        <item quantity="other">%1$d일 전</item>
+    </plurals>
+    <plurals name="comment_hours_ago">
+        <item quantity="other">%1$d시간 전</item>
+    </plurals>
+    <plurals name="comment_minutes_ago">
+        <item quantity="other">%1$d분 전</item>
+    </plurals>
+    <plurals name="comment_months_ago">
+        <item quantity="other">%1$d개월 전</item>
+    </plurals>
+    <plurals name="comment_reply_preview">
+        <item quantity="other">답변 %1$s개</item>
+    </plurals>
+    <plurals name="comment_weeks_ago">
+        <item quantity="other">%1$d주 전</item>
+    </plurals>
+    <plurals name="comment_years_ago">
+        <item quantity="other">%1$d년 전</item>
+    </plurals>
+    <plurals name="complex_playlist_number_of_songs">
+        <item quantity="other">곡 %1$,d개</item>
+    </plurals>
+    <plurals name="connect_device_multiple_listeners">
+        <item quantity="other">리스너 %1$d명</item>
+    </plurals>
+    <plurals name="content_feed_timestamp_days_ago">
+        <item quantity="other">%1$d일 전</item>
+    </plurals>
+    <plurals name="content_feed_timestamp_hours_ago">
+        <item quantity="other">%1$d시간 전</item>
+    </plurals>
+    <plurals name="content_feed_timestamp_minutes_ago">
+        <item quantity="other">%1$d분 전</item>
+    </plurals>
+    <plurals name="context_menu_sleep_timer_hours">
+        <item quantity="other">%1$d시간</item>
+    </plurals>
+    <plurals name="context_menu_sleep_timer_mins">
+        <item quantity="other">%1$d분</item>
+    </plurals>
+    <plurals name="creator_row_content_description">
+        <item quantity="other">크리에이터: %1$s</item>
+    </plurals>
+    <plurals name="creators_button_title_counter">
+        <item quantity="other">%1$s 외 %2$d명</item>
+    </plurals>
+    <plurals name="creators_row_accessibility_hint">
+        <item quantity="other">확인 가능한 모든 %1$s 목록을 모두 표시합니다.</item>
+    </plurals>
+    <plurals name="days_label">
+        <item quantity="other">%1$s&lt;br/>&lt;b>일&lt;/b></item>
+    </plurals>
+    <plurals name="days_left_until_release_date">
+        <item quantity="other">%1$d일 후 발매</item>
+    </plurals>
+    <plurals name="days_to_renew">
+        <item quantity="other">청취 시간 갱신까지 %1$d일 남음</item>
+    </plurals>
+    <plurals name="entity_action_row_downloading_progress_content_description">
+        <item quantity="other">%1$d%% 다운로드됨</item>
+    </plurals>
+    <plurals name="episode_contents_chapters_expand_button">
+        <item quantity="other">챕터 %1$d개 보기</item>
+    </plurals>
+    <plurals name="episodes_added">
+        <item quantity="other">에피소드 %1$d개 추가됨</item>
+    </plurals>
+    <plurals name="episodes_played">
+        <item quantity="other">재생한 에피소드 %1$d개</item>
+    </plurals>
+    <plurals name="error_dialog_body_resend_limit">
+        <item quantity="other">%1$d초 기다린 다음 새 코드를 요청하세요.</item>
+    </plurals>
+    <plurals name="error_dialog_title_resend_limit">
+        <item quantity="other">%1$d초 후에 다시 시도하세요.</item>
+    </plurals>
+    <plurals name="event_card_number_of_events_text">
+        <item quantity="other">이벤트 %1$d개</item>
+    </plurals>
+    <plurals name="find_friends_flow_confirm_desc">
+        <item quantity="other">%1$,d명을 모두 팔로우하시겠어요?</item>
+    </plurals>
+    <plurals name="header_common_likes_count">
+        <item quantity="other">저장 횟수: %1$s</item>
+    </plurals>
+    <plurals name="hours_label">
+        <item quantity="other">%1$s&lt;br/>&lt;b>시간&lt;/b></item>
+    </plurals>
+    <plurals name="hours_to_renew">
+        <item quantity="other">청취 시간 갱신까지 %1$d시간 남음</item>
+    </plurals>
+    <plurals name="ipl_new_joiner_nudge">
+        <item quantity="other">%2$d명이 잼에 참여했습니다</item>
+    </plurals>
+    <plurals name="item_description_folder_folders_count">
+        <item quantity="other">폴더 %1$s개</item>
+    </plurals>
+    <plurals name="item_description_folder_playlists_count">
+        <item quantity="other">플레이리스트 %1$s개</item>
+    </plurals>
+    <plurals name="item_description_liked_songs">
+        <item quantity="other">플레이리스트 • 곡 %1$s개</item>
+    </plurals>
+    <plurals name="item_description_liked_songs_filtered">
+        <item quantity="other">곡 %1$s개</item>
+    </plurals>
+    <plurals name="item_description_local_files">
+        <item quantity="other">플레이리스트 • 트랙 %1$s개</item>
+    </plurals>
+    <plurals name="item_description_local_files_filtered">
+        <item quantity="other">트랙 %1$s개</item>
+    </plurals>
+    <plurals name="item_description_show_downloaded">
+        <item quantity="other">다운로드한 에피소드 %1$s개 • %2$s</item>
+    </plurals>
+    <plurals name="item_description_show_downloaded_no_creator">
+        <item quantity="other">다운로드한 에피소드 %1$s개</item>
+    </plurals>
+    <plurals name="item_description_your_episodes_downloaded">
+        <item quantity="other">다운로드한 에피소드 %1$s개</item>
+    </plurals>
+    <plurals name="items_added">
+        <item quantity="other">항목 %1$d개 추가됨</item>
+    </plurals>
+    <plurals name="items_played">
+        <item quantity="other">항목 %1$d개 재생됨</item>
+    </plurals>
+    <plurals name="jam_host_settings_header_participant_count">
+        <item quantity="other">참여자 %1$d명</item>
+    </plurals>
+    <plurals name="library_pinned_section_placeholder_subtitle">
+        <item quantity="other">또는 오른쪽으로 스와이프하세요. 최대 %1$d개까지 고정할 수 있습니다.</item>
+    </plurals>
+    <plurals name="liked_songs_header_subtitle">
+        <item quantity="other">곡 %1$d개</item>
+    </plurals>
+    <plurals name="line_selected">
+        <item quantity="other">%1$d줄 선택됨</item>
+    </plurals>
+    <plurals name="listen_later_header_subtitle">
+        <item quantity="other">에피소드 %1$d개</item>
+    </plurals>
+    <plurals name="listening_hours_card_complete">
+        <item quantity="other">월간 요금제에 포함된 오디오북 청취 시간인 %1$d시간을 모두 사용했습니다.</item>
+    </plurals>
+    <plurals name="listening_hours_card_text">
+        <item quantity="other">구독자 카탈로그에서 오디오북을 %1$d시간 동안 들어보세요. 이 청취 시간은 월간 요금제에 포함되어 있습니다.</item>
+    </plurals>
+    <plurals name="listening_hours_listened">
+        <item quantity="other">청취 시간 %1$d시간</item>
+    </plurals>
+    <plurals name="local_files_subtitle_number_of_tracks">
+        <item quantity="other">트랙 %1$,d개</item>
+    </plurals>
+    <plurals name="minutes_label">
+        <item quantity="other">%1$s&lt;br/>&lt;b>분&lt;/b></item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">새 알림 %d개</item>
+        <item quantity="one">새 알림 %d개</item>
+    </plurals>
+    <plurals name="notification_syncing_text">
+        <item quantity="other">%1$,d/%2$,d(%3$,d%% 완료)</item>
+    </plurals>
+    <plurals name="num_available_downloads">
+        <item quantity="other">%1$s개 다운로드 가능</item>
+    </plurals>
+    <plurals name="number_events_from_date">
+        <item quantity="other">%2$s부터 시작하는 이벤트: %1$s개</item>
+    </plurals>
+    <plurals name="number_of_items">
+        <item quantity="other">트랙 %1$s개</item>
+    </plurals>
+    <plurals name="number_of_live_events">
+        <item quantity="other">이벤트 %1$s개</item>
+    </plurals>
+    <plurals name="number_of_live_events_near_you">
+        <item quantity="other">내 주변의 이벤트 %1$s개</item>
+    </plurals>
+    <plurals name="otp_description">
+        <item quantity="other">%1$d자리 코드가 포함된 SMS를 %2$s번으로 전송했습니다.</item>
+    </plurals>
+    <plurals name="otp_description_alt">
+        <item quantity="other">%2$s번으로 %1$d자리 코드를 보내드렸습니다.</item>
+    </plurals>
+    <plurals name="pin_gate_wrong_pin_long_delay_error_message">
+        <item quantity="other">잘못된 PIN입니다. %1$d분 후 다시 시도하세요.</item>
+    </plurals>
+    <plurals name="pin_gate_wrong_pin_short_delay_error_message">
+        <item quantity="other">잘못된 PIN입니다. %1$d초 후에 다시 시도하세요.</item>
+    </plurals>
+    <plurals name="playback_settings_crossfade_slider_seconds_full">
+        <item quantity="other">%1$d초</item>
+    </plurals>
+    <plurals name="playlist_header_collaborators">
+        <item quantity="other">%1$s 외 %2$d명</item>
+    </plurals>
+    <plurals name="playlist_header_creator_with_collaborators_content_description">
+        <item quantity="other">만든 사람: %1$s 님 및 %2$d명</item>
+    </plurals>
+    <plurals name="playlist_participants_row_subtitle_episodes">
+        <item quantity="other">에피소드 %1$d개</item>
+    </plurals>
+    <plurals name="playlist_participants_row_subtitle_tracks">
+        <item quantity="other">곡 %1$d개</item>
+    </plurals>
+    <plurals name="playlist_participants_title">
+        <item quantity="other">%1$d명</item>
+    </plurals>
+    <plurals name="playlist_trackcloud_includes_label_episodes">
+        <item quantity="other">%1$,d개 에피소드</item>
+    </plurals>
+    <plurals name="playlist_trackcloud_includes_label_songs">
+        <item quantity="other">%1$,d곡</item>
+    </plurals>
+    <plurals name="podcast_chapters_bottom_sheet_chapter_count">
+        <item quantity="other">챕터 %1$d개</item>
+    </plurals>
+    <plurals name="podcast_chapters_expand_button">
+        <item quantity="other">챕터 %1$d개 보기</item>
+    </plurals>
+    <plurals name="podcast_poll_days_left_label">
+        <item quantity="other">%1$d일</item>
+    </plurals>
+    <plurals name="podcast_poll_hours_left_label">
+        <item quantity="other">%1$d시간 남음</item>
+    </plurals>
+    <plurals name="podcast_poll_minutes_left_label">
+        <item quantity="other">%1$d분 남음</item>
+    </plurals>
+    <plurals name="podcast_poll_poll_subtitle">
+        <item quantity="other">투표수 %1$d • %2$s</item>
+    </plurals>
+    <plurals name="premium_mini_playlist_add_song_subtitle">
+        <item quantity="other">%1$d곡 남음</item>
+    </plurals>
+    <plurals name="premium_mini_playlist_subtitle">
+        <item quantity="other">%1$d곡 • %2$s</item>
+    </plurals>
+    <plurals name="premium_plan_card_days_remaining">
+        <item quantity="other">Premium %1$d일 요금제</item>
+    </plurals>
+    <plurals name="premium_plan_card_months_remaining">
+        <item quantity="other">Premium %1$d개월 요금제</item>
+    </plurals>
+    <plurals name="premium_plan_card_weeks_remaining">
+        <item quantity="other">Premium %1$d주 요금제</item>
+    </plurals>
+    <plurals name="premium_plan_card_years_remaining">
+        <item quantity="other">Premium %1$d년 요금제</item>
+    </plurals>
+    <plurals name="profile_followers_count">
+        <item quantity="other">팔로워 %1$d명</item>
+    </plurals>
+    <plurals name="profile_following_count">
+        <item quantity="other">팔로잉 %1$d명</item>
+    </plurals>
+    <plurals name="profile_list_item_followers_count">
+        <item quantity="other">팔로워 %1$,d명</item>
+    </plurals>
+    <plurals name="profile_list_see_all_footer_playlists">
+        <item quantity="other">%1$d개 플레이리스트 모두 보기</item>
+    </plurals>
+    <plurals name="profile_playlists_subtitle">
+        <item quantity="other">저장 횟수: %1$,d</item>
+    </plurals>
+    <plurals name="profile_recently_played_subtitle">
+        <item quantity="other">팔로워 %1$,d명</item>
+    </plurals>
+    <plurals name="search_episode_chapters_title_plurals">
+        <item quantity="other">챕터 %1$d개</item>
+    </plurals>
+    <plurals name="search_saves_album_row_string">
+        <item quantity="other">저장 횟수: %1$s</item>
+    </plurals>
+    <plurals name="search_saves_playlist_row_string">
+        <item quantity="other">저장 횟수: %1$s</item>
+    </plurals>
+    <plurals name="seconds_label">
+        <item quantity="other">%1$s&lt;br/>&lt;b>초&lt;/b></item>
+    </plurals>
+    <plurals name="selection_line_quantity_subtitle">
+        <item quantity="other">%1$d줄 선택됨</item>
+    </plurals>
+    <plurals name="settings_item_offline_mode_time_left_days">
+        <item quantity="other">%1$,d일 이내에 온라인으로 전환해야 합니다</item>
+    </plurals>
+    <plurals name="settings_item_plan_overview_description_time_remaining">
+        <item quantity="other">남은 기간: %1$d일</item>
+    </plurals>
+    <plurals name="shared_by_bottomsheet_title">
+        <item quantity="other">%1$s명의 친구에게 공유됨</item>
+    </plurals>
+    <plurals name="song_limit_dialog_title">
+        <item quantity="other">다운로드 한도(%1$d곡)에 도달했습니다</item>
+    </plurals>
+    <plurals name="songs_added">
+        <item quantity="other">%1$d곡이 추가되었습니다.</item>
+    </plurals>
+    <plurals name="songs_played">
+        <item quantity="other">%1$d곡 재생됨</item>
+    </plurals>
+    <plurals name="timestamp_days">
+        <item quantity="other">%1$d일</item>
+    </plurals>
+    <plurals name="timestamp_hours">
+        <item quantity="other">%1$d시간</item>
+    </plurals>
+    <plurals name="timestamp_minutes">
+        <item quantity="other">%1$d분</item>
+    </plurals>
+    <plurals name="timestamp_weeks">
+        <item quantity="other">%1$d주</item>
+    </plurals>
+    <plurals name="top_ups_hours_listened">
+        <item quantity="other">%1$s/%2$d시간 청취함</item>
+    </plurals>
+    <plurals name="upcoming_release_pretitle_days">
+        <item quantity="other">%1$d일 후 발매</item>
+    </plurals>
+    <plurals name="user_stats_top_entity_position_down">
+        <item quantity="other">지난달 이후로 순위가 %1$d단계 하락했습니다</item>
+    </plurals>
+    <plurals name="user_stats_top_entity_position_up">
+        <item quantity="other">지난달 이후로 순위가 %1$d단계 상승했습니다</item>
+    </plurals>
+    <plurals name="ylx_liked_songs_offline_subtitle">
+        <item quantity="other">다운로드한 곡 %1$s개</item>
+    </plurals>
+    <plurals name="your_episodes_header_subtitle">
+        <item quantity="other">에피소드 %1$d개</item>
+    </plurals>
+    <plurals name="your_episodes_settings_option_auto_download_enabled_shows">
+        <item quantity="other">이 기능이 활성화된 프로그램 수: %1$s</item>
+    </plurals>
+    <plurals name="your_library_in_progress_progress_status_description">
+        <item quantity="other">듣는 중, %1$d%% 들었습니다.</item>
+    </plurals>
+    <plurals name="your_library_pin_failed_body_item_pin_limit_reached">
+        <item quantity="other">한 번에 최대 %1$d개만 고정할 수 있습니다.</item>
+    </plurals>
+    <plurals name="your_library_pinning_failed_body_item_pin_limit_reached">
+        <item quantity="other">한 번에 최대 %1$d개만 고정할 수 있습니다.</item>
+    </plurals>
+</resources>

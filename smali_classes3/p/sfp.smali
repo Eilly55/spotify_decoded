@@ -1,0 +1,256 @@
+.class public final Lp/sfp;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# instance fields
+.field public final a:Lp/n1j;
+
+.field public final b:Lp/eqz;
+
+.field public final c:Lp/q3d0;
+
+
+# direct methods
+.method public constructor <init>(Lp/n1j;Lp/eqz;Lp/q3d0;)V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 2
+    .line 3
+    .line 4
+    iput-object p1, p0, Lp/sfp;->a:Lp/n1j;
+
+    .line 5
+    .line 6
+    iput-object p2, p0, Lp/sfp;->b:Lp/eqz;
+
+    .line 7
+    .line 8
+    iput-object p3, p0, Lp/sfp;->c:Lp/q3d0;
+
+    .line 9
+    .line 10
+    return-void
+.end method
+
+
+# virtual methods
+.method public final equals(Ljava/lang/Object;)Z
+    .locals 4
+
+    .line 1
+    const/4 v0, 0x1
+
+    if-ne p0, p1, :cond_0
+
+    return v0
+
+    :cond_0
+    instance-of v1, p1, Lp/sfp;
+
+    const/4 v2, 0x0
+
+    if-nez v1, :cond_1
+
+    return v2
+
+    :cond_1
+    check-cast p1, Lp/sfp;
+
+    iget-object v1, p1, Lp/sfp;->a:Lp/n1j;
+
+    iget-object v3, p0, Lp/sfp;->a:Lp/n1j;
+
+    invoke-static {v3, v1}, Lp/mgj;->j(Ljava/lang/Object;Ljava/lang/Object;)Z
+
+    move-result v1
+
+    if-nez v1, :cond_2
+
+    return v2
+
+    :cond_2
+    const-string v1, "dynamic-sessions"
+
+    invoke-static {v1, v1}, Lp/mgj;->j(Ljava/lang/Object;Ljava/lang/Object;)Z
+
+    move-result v1
+
+    if-nez v1, :cond_3
+
+    return v2
+
+    :cond_3
+    iget-object v1, p0, Lp/sfp;->b:Lp/eqz;
+
+    iget-object v3, p1, Lp/sfp;->b:Lp/eqz;
+
+    invoke-static {v1, v3}, Lp/mgj;->j(Ljava/lang/Object;Ljava/lang/Object;)Z
+
+    move-result v1
+
+    if-nez v1, :cond_4
+
+    return v2
+
+    :cond_4
+    iget-object v1, p0, Lp/sfp;->c:Lp/q3d0;
+
+    iget-object p1, p1, Lp/sfp;->c:Lp/q3d0;
+
+    invoke-static {v1, p1}, Lp/mgj;->j(Ljava/lang/Object;Ljava/lang/Object;)Z
+
+    move-result p1
+
+    if-nez p1, :cond_5
+
+    return v2
+
+    :cond_5
+    return v0
+.end method
+
+.method public final hashCode()I
+    .locals 3
+
+    .line 1
+    iget-object v0, p0, Lp/sfp;->a:Lp/n1j;
+
+    .line 2
+    .line 3
+    invoke-virtual {v0}, Ljava/lang/Object;->hashCode()I
+
+    .line 4
+    .line 5
+    .line 6
+    move-result v0
+
+    .line 7
+    mul-int/lit8 v0, v0, 0x1f
+
+    .line 8
+    .line 9
+    const v1, 0x3740ca6b
+
+    .line 10
+    .line 11
+    .line 12
+    add-int/2addr v0, v1
+
+    .line 13
+    mul-int/lit8 v0, v0, 0x1f
+
+    .line 14
+    .line 15
+    const/4 v1, 0x0
+
+    .line 16
+    iget-object v2, p0, Lp/sfp;->b:Lp/eqz;
+
+    .line 17
+    .line 18
+    if-nez v2, :cond_0
+
+    .line 19
+    .line 20
+    move v2, v1
+
+    .line 21
+    goto :goto_0
+
+    .line 22
+    :cond_0
+    iget-object v2, v2, Lp/eqz;->a:Ljava/lang/String;
+
+    .line 23
+    .line 24
+    invoke-virtual {v2}, Ljava/lang/String;->hashCode()I
+
+    .line 25
+    .line 26
+    .line 27
+    move-result v2
+
+    .line 28
+    :goto_0
+    add-int/2addr v0, v2
+
+    .line 29
+    mul-int/lit8 v0, v0, 0x1f
+
+    .line 30
+    .line 31
+    iget-object v2, p0, Lp/sfp;->c:Lp/q3d0;
+
+    .line 32
+    .line 33
+    if-nez v2, :cond_1
+
+    .line 34
+    .line 35
+    goto :goto_1
+
+    .line 36
+    :cond_1
+    iget-object v1, v2, Lp/q3d0;->a:Ljava/lang/String;
+
+    .line 37
+    .line 38
+    invoke-virtual {v1}, Ljava/lang/String;->hashCode()I
+
+    .line 39
+    .line 40
+    .line 41
+    move-result v1
+
+    .line 42
+    :goto_1
+    add-int/2addr v0, v1
+
+    .line 43
+    return v0
+.end method
+
+.method public final toString()Ljava/lang/String;
+    .locals 2
+
+    .line 1
+    new-instance v0, Ljava/lang/StringBuilder;
+
+    const-string v1, "EndlessPlayCommand(endlessContext="
+
+    invoke-direct {v0, v1}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+
+    iget-object v1, p0, Lp/sfp;->a:Lp/n1j;
+
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+
+    const-string v1, ", featureIdentifierName=dynamic-sessions, interactionId="
+
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    iget-object v1, p0, Lp/sfp;->b:Lp/eqz;
+
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+
+    const-string v1, ", pageInstanceId="
+
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    iget-object v1, p0, Lp/sfp;->c:Lp/q3d0;
+
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+
+    const/16 v1, 0x29
+
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object v0
+
+    return-object v0
+.end method

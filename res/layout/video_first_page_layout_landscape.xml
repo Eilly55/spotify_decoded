@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:id="@id/content" android:background="?pasteColorBackground" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.spotify.nowplaying.uiusecases.overlay.OverlayHidingGradientBackgroundView android:id="@id/overlay_controls_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.spotify.encoremobile.viewstub.EncoreViewStub android:id="@id/video_first_track_carousel" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <include android:id="@id/video_first_overlay_land" layout="@layout/legacy_video_first_overlay_land" />
+    </com.spotify.nowplaying.uiusecases.overlay.OverlayHidingGradientBackgroundView>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

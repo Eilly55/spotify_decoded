@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <padding android:left="@dimen/clips_content_frame_radius_negative" android:top="@dimen/clips_content_frame_radius_negative" android:right="@dimen/clips_content_frame_radius_negative" android:bottom="@dimen/clips_content_frame_radius_negative" />
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="rectangle">
+            <corners android:radius="0.0dip" android:bottomLeftRadius="@dimen/clips_content_frame_radius_times_two" android:bottomRightRadius="@dimen/clips_content_frame_radius_times_two" />
+            <stroke android:width="@dimen/clips_content_frame_radius" android:color="@color/gray_7" />
+        </shape>
+    </item>
+</layer-list>

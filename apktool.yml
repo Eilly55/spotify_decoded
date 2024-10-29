@@ -1,0 +1,62 @@
+version: 2.10.0
+apkFileName: spotify.apk
+isFrameworkApk: false
+usesFramework:
+  ids:
+  - 1
+  tag: null
+sdkInfo:
+  minSdkVersion: 23
+  targetSdkVersion: 35
+packageInfo:
+  forcedPackageId: 127
+  renameManifestPackage: null
+versionInfo:
+  versionCode: 120327953
+  versionName: 8.9.86.551
+resourcesAreCompressed: false
+sharedLibrary: false
+sparseResources: false
+unknownFiles:
+  billing.properties: 8
+  builddef.lst: 8
+  core-common.properties: 8
+  engage-core.properties: 8
+  feature-delivery.properties: 8
+  firebase-encoders-proto.properties: 8
+  integrity.properties: 8
+  isoparser-default.properties: 8
+  meet-addons.properties: 8
+  play-services-ads-identifier.properties: 8
+  play-services-auth-api-phone.properties: 8
+  play-services-auth-base.properties: 8
+  play-services-auth.properties: 8
+  play-services-base.properties: 8
+  play-services-basement.properties: 8
+  play-services-cast-framework.properties: 8
+  play-services-cast.properties: 8
+  play-services-flags.properties: 8
+  play-services-location.properties: 8
+  play-services-maps.properties: 8
+  play-services-places-placereport.properties: 8
+  play-services-stats.properties: 8
+  play-services-tasks.properties: 8
+  play-services-wearable.properties: 8
+  recaptcha.properties: 8
+  version.txt: 0
+  org/threeten/bp/format/ChronologyText.properties: 8
+doNotCompress:
+- resources.arsc
+- META-INF/services/com.fasterxml.jackson.core.JsonFactory
+- META-INF/services/com.fasterxml.jackson.core.ObjectCodec
+- META-INF/services/reactor.blockhound.integration.BlockHoundIntegration
+- assets/rcs_overrides.json
+- assets/dexopt/baseline.prof
+- assets/dexopt/baseline.profm
+- png
+- webp
+- res/raw/alexa_media_player_metadata.json
+- res/raw/plus_selected_confetti_subdued_transparent.lottie
+- res/raw/puffin_animation_autodetect.lottie
+- res/raw/puffin_animation_intro.lottie
+- res/raw/rectangular_entry_point_grey.lottie

@@ -1,0 +1,94 @@
+.class public final Lp/p8c0;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Lp/zxi;
+
+
+# instance fields
+.field public final a:Lp/s18;
+
+.field public final b:Lokhttp3/Call$Factory;
+
+.field public c:Ljava/lang/String;
+
+.field public d:Lp/qdy0;
+
+
+# direct methods
+.method public constructor <init>(Lokhttp3/Call$Factory;)V
+    .locals 1
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 2
+    .line 3
+    .line 4
+    iput-object p1, p0, Lp/p8c0;->b:Lokhttp3/Call$Factory;
+
+    .line 5
+    .line 6
+    new-instance p1, Lp/s18;
+
+    .line 7
+    .line 8
+    const/4 v0, 0x4
+
+    .line 9
+    invoke-direct {p1, v0}, Lp/s18;-><init>(I)V
+
+    .line 10
+    .line 11
+    .line 12
+    iput-object p1, p0, Lp/p8c0;->a:Lp/s18;
+
+    .line 13
+    .line 14
+    return-void
+.end method
+
+
+# virtual methods
+.method public final a()Lp/cyi;
+    .locals 4
+
+    .line 1
+    new-instance v0, Lp/r8c0;
+
+    .line 2
+    .line 3
+    iget-object v1, p0, Lp/p8c0;->c:Ljava/lang/String;
+
+    .line 4
+    .line 5
+    iget-object v2, p0, Lp/p8c0;->a:Lp/s18;
+
+    .line 6
+    .line 7
+    iget-object v3, p0, Lp/p8c0;->b:Lokhttp3/Call$Factory;
+
+    .line 8
+    .line 9
+    invoke-direct {v0, v3, v1, v2}, Lp/r8c0;-><init>(Lokhttp3/Call$Factory;Ljava/lang/String;Lp/s18;)V
+
+    .line 10
+    .line 11
+    .line 12
+    iget-object v1, p0, Lp/p8c0;->d:Lp/qdy0;
+
+    .line 13
+    .line 14
+    if-eqz v1, :cond_0
+
+    .line 15
+    .line 16
+    invoke-virtual {v0, v1}, Lp/tw6;->a(Lp/qdy0;)V
+
+    .line 17
+    .line 18
+    .line 19
+    :cond_0
+    return-object v0
+.end method

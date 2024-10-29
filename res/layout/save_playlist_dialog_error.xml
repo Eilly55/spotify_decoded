@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="@style/TextAppearance.Encore.TitleMedium" android:textColor="?brightAccentTextBase" android:gravity="center_horizontal" android:id="@id/save_dialog_error_body" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="30.0sp" android:text="@string/edit_playlist_save_dialog_error_body" />
+    <com.spotify.encoremobile.component.buttons.EncoreButton android:layout_gravity="center" android:id="@id/save_dialog_error_save_others_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/std_32dp" android:text="@string/edit_playlist_save_dialog_save_button" android:filterTouchesWhenObscured="false" style="@style/Encore.Button.Primary.Medium" />
+    <com.spotify.encoremobile.component.buttons.EncoreButton android:textColor="?brightAccentTextBase" android:id="@id/save_dialog_error_cancel_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/std_16dp" android:layout_marginBottom="@dimen/std_16dp" android:text="@string/edit_playlist_save_dialog_cancel_button" android:filterTouchesWhenObscured="false" style="@style/Encore.Button.Tertiary.Medium" />
+</LinearLayout>

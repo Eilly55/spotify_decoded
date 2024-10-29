@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="#ff121212" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:id="@id/gradient" android:background="@drawable/page_background" android:layout_width="fill_parent" android:layout_height="340.0dip" />
+    <ScrollView android:id="@id/scroll_container" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true">
+        <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:id="@id/intro_container" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toTopOf="parent">
+                <TextView android:textAppearance="@style/TextAppearance.Encore.TitleLarge" android:textSize="32.0sp" android:gravity="center" android:layout_gravity="center" android:id="@id/animated_title" android:paddingLeft="40.0dip" android:paddingRight="40.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/kid_account_creation_submit_animated_title" android:textDirection="locale" android:accessibilityLiveRegion="polite" android:paddingHorizontal="40.0dip" />
+                <TextView android:textAppearance="@style/TextAppearance.Encore.BodySmall" android:textSize="13.0sp" android:gravity="center" android:layout_gravity="center" android:id="@id/animated_subtitle" android:paddingLeft="40.0dip" android:paddingRight="40.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/spacer_16" android:text="@string/kid_account_creation_submit_animated_subtitle" android:textDirection="locale" android:accessibilityLiveRegion="polite" android:paddingHorizontal="40.0dip" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/main_container" android:paddingLeft="@dimen/spacer_16" android:paddingRight="@dimen/spacer_16" android:paddingBottom="@dimen/spacer_32" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingHorizontal="@dimen/spacer_16" app:layout_constraintTop_toTopOf="parent">
+                <com.spotify.encoremobile.viewstub.EncoreViewStub android:id="@id/qr_code_card_stub" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                <TextView android:textSize="16.0sp" android:textColor="?baseTextSubdued" android:id="@id/divider" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/spacer_16" android:text="@string/kid_account_creation_submit_login_options_divider" style="@style/TextAppearance.Encore.BodyMedium" />
+                <com.spotify.encoremobile.viewstub.EncoreViewStub android:id="@id/your_details_card_stub" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/spacer_16" />
+            </LinearLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/toolbar_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <View android:id="@id/toolbar" android:background="@color/opacity_black_30" android:layout_width="fill_parent" android:layout_height="0.0dip" android:alpha="0.0" android:importantForAccessibility="no" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        <View android:id="@id/toolbar_placeholder" android:layout_width="fill_parent" android:layout_height="?android:actionBarSize" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" />
+        <ImageButton android:layout_gravity="end" android:id="@id/submit_close_button" android:background="@null" android:layout_width="48.0dip" android:layout_height="48.0dip" android:src="@drawable/encore_icon_x" android:contentDescription="@string/close_button_content_description" app:layout_constraintBottom_toBottomOf="@id/toolbar_placeholder" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="@id/toolbar_placeholder" app:tint="@color/white" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

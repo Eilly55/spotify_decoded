@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/container" android:clickable="true" android:clipChildren="true" android:layout_width="wrap_content" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.spotify.encoremobile.facepile.FacePileView android:layout_gravity="center_vertical" android:id="@id/face_pile" android:visibility="gone" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="@dimen/std_8dp" app:border_mask_thickness="2.0dip" app:face_size="24.0dip" app:face_view_count="2" />
+    <ImageView android:layout_gravity="center_vertical" android:id="@id/queue_image" android:background="@null" android:padding="@dimen/np_btn_padding" android:duplicateParentState="true" android:layout_width="@dimen/quaternary_button_size" android:layout_height="@dimen/quaternary_button_size" android:scaleType="centerCrop" android:contentDescription="@string/np_content_desc_queue" />
+    <androidx.appcompat.widget.AppCompatTextView android:textAppearance="@style/TextAppearance.Encore.BodySmallBold" android:ellipsize="end" android:layout_gravity="center_vertical" android:id="@id/queue_text" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/queue_label" android:maxLines="1" android:layout_marginEnd="@dimen/spacer_8" />
+</LinearLayout>

@@ -1,0 +1,56 @@
+.class public final Lp/ag60;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Lp/r3v;
+
+
+# static fields
+.field public static final a:Lp/ag60;
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 1
+
+    .line 1
+    new-instance v0, Lp/ag60;
+
+    .line 2
+    .line 3
+    invoke-direct {v0}, Ljava/lang/Object;-><init>()V
+
+    .line 4
+    .line 5
+    .line 6
+    sput-object v0, Lp/ag60;->a:Lp/ag60;
+
+    .line 7
+    .line 8
+    return-void
+.end method
+
+
+# virtual methods
+.method public final apply(Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 0
+
+    .line 1
+    check-cast p1, Lcom/spotify/player/model/ContextTrack;
+
+    .line 2
+    .line 3
+    const/4 p1, 0x1
+
+    .line 4
+    invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+
+    .line 5
+    .line 6
+    .line 7
+    move-result-object p1
+
+    .line 8
+    return-object p1
+.end method

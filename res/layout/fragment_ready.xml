@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.spotify.superbird.setup.SetupView android:id="@id/ready_setup_view" android:layout_width="fill_parent" android:layout_height="fill_parent" app:buttonText="@string/all_close"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textAppearance="@style/TextAppearance.Encore.BodyMedium" android:textColor="@color/black" android:gravity="center" android:layout_gravity="center" android:id="@id/disclaimer" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/std_16dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" />
+</com.spotify.superbird.setup.SetupView>

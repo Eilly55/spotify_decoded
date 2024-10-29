@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="@color/dark_base_background_base" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/delete_background_container" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="0.0dip" android:importantForAccessibility="noHideDescendants" app:layout_constraintBottom_toBottomOf="@id/encore_list_row" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="@id/encore_list_row" app:layout_constraintTop_toTopOf="@id/encore_list_row">
+        <View android:background="@color/remove_track_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <com.spotify.encoremobile.component.icons.IconDelete android:layout_gravity="center" android:id="@id/delete_icon" android:layout_width="@dimen/std_24dp" android:layout_height="@dimen/std_24dp" android:tint="@color/white" />
+    </FrameLayout>
+    <com.spotify.encoremobile.component.listrow.EncoreListRow android:id="@id/encore_list_row" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/spacer_4" android:stateListAnimator="@null" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:subtitle="Subtitle" app:title="Title" style="@style/Encore.ListRow.Naked">
+        <com.spotify.playlistcreation.promptcreation.presentation.tracklist.PlayIndicatorView android:id="@id/media_slot" android:layout_width="wrap_content" android:layout_height="wrap_content" app:slot="media" />
+        <com.spotify.encoremobile.component.textview.EncoreTextView android:textAppearance="@style/TextAppearance.Encore.BodyMedium" android:ellipsize="end" android:id="@id/title_slot" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" app:slot="title" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/subtitle_slot" android:layout_width="0.0dip" android:layout_height="0.0dip" app:slot="subtitle">
+            <com.spotify.encoremobile.component.icons.IconEnhanceBadge android:id="@id/subtitle_slot_enhance_icon" android:layout_width="12.0dip" android:layout_height="12.0dip" android:layout_marginRight="@dimen/spacer_4" android:tint="@color/spotify_green_157" />
+            <com.spotify.encoremobile.component.textview.EncoreTextView android:textAppearance="@style/TextAppearance.Encore.BodySmall" android:textColor="#ffa7a7a7" android:ellipsize="end" android:id="@id/subtitle_slot_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@id/trailing_slot" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" app:slot="trailing">
+            <com.spotify.playlistcreation.promptcreation.presentation.tracklist.IconRemoveBadgeView android:id="@id/trailing_slot_remove" android:padding="@dimen/encore_spacer_tighter_2" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <com.spotify.playlistcreation.promptcreation.presentation.tracklist.IconAddBadgeView android:id="@id/trailing_slot_add" android:padding="@dimen/encore_spacer_tighter_2" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </com.spotify.encoremobile.component.listrow.EncoreListRow>
+</androidx.constraintlayout.widget.ConstraintLayout>

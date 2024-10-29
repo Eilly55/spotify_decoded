@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/image_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@null" />
+    <RelativeLayout android:background="@drawable/smart_shuffle_introduction_dialog_background" android:padding="16.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textAppearance="@style/TextAppearance.Encore.TitleMedium" android:textColor="?textBase" android:gravity="center|top" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+        <ImageView android:layout_width="@dimen/smart_shuffle_intro_dialog_icon_size" android:layout_height="@dimen/smart_shuffle_intro_dialog_icon_size" android:layout_marginBottom="41.0dip" android:scaleType="fitCenter" android:layout_above="@id/title" android:layout_centerHorizontal="true" android:contentDescription="@null" app:srcCompat="@drawable/smart_shuffle_introduction_dialog_icon" />
+        <TextView android:textAppearance="@style/TextAppearance.Encore.BodyMedium" android:textColor="?textBase" android:gravity="center" android:id="@id/subtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:maxLines="5" android:layout_below="@id/title" />
+        <com.spotify.encoremobile.buttons.PrimaryButtonView android:theme="@style/ThemeOverlay.Encore.Inverted" android:id="@id/action_button" android:layout_width="wrap_content" android:layout_height="@dimen/encore_action_button_height_large" android:layout_marginTop="20.0dip" android:minHeight="@dimen/spacer_32" android:layout_below="@id/subtitle" android:layout_centerHorizontal="true" android:filterTouchesWhenObscured="true" app:actionButtonSize="large" />
+    </RelativeLayout>
+</RelativeLayout>

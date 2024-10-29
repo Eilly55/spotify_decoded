@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.spotify.encoreconsumermobile.elements.artwork.ArtworkView android:id="@id/artwork_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" app:iconInsetRatio="0.45"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

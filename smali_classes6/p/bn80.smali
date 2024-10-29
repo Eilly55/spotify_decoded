@@ -1,0 +1,291 @@
+.class public final Lp/bn80;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Lp/zwy0;
+
+
+# instance fields
+.field public final a:Lp/rwy0;
+
+.field public final b:Lp/bxy0;
+
+
+# direct methods
+.method public constructor <init>(Lp/rwy0;)V
+    .locals 1
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 2
+    .line 3
+    .line 4
+    iput-object p1, p0, Lp/bn80;->a:Lp/rwy0;
+
+    .line 5
+    .line 6
+    sget-object p1, Lp/bxy0;->i:Lp/bxy0;
+
+    .line 7
+    .line 8
+    invoke-static {}, Lp/rti;->O()Lp/axy0;
+
+    .line 9
+    .line 10
+    .line 11
+    move-result-object p1
+
+    .line 12
+    const-string v0, "music"
+
+    .line 13
+    .line 14
+    iput-object v0, p1, Lp/axy0;->h:Ljava/lang/String;
+
+    .line 15
+    .line 16
+    const-string v0, "mobile-shuffle-button"
+
+    .line 17
+    .line 18
+    iput-object v0, p1, Lp/axy0;->a:Ljava/lang/String;
+
+    .line 19
+    .line 20
+    const-string v0, "1.0.0"
+
+    .line 21
+    .line 22
+    iput-object v0, p1, Lp/axy0;->f:Ljava/lang/String;
+
+    .line 23
+    .line 24
+    const-string v0, "16.1.3"
+
+    .line 25
+    .line 26
+    iput-object v0, p1, Lp/axy0;->g:Ljava/lang/String;
+
+    .line 27
+    .line 28
+    invoke-virtual {p1}, Lp/axy0;->a()Lp/bxy0;
+
+    .line 29
+    .line 30
+    .line 31
+    move-result-object p1
+
+    .line 32
+    iput-object p1, p0, Lp/bn80;->b:Lp/bxy0;
+
+    .line 33
+    .line 34
+    return-void
+.end method
+
+
+# virtual methods
+.method public final b(II)Lp/dyy0;
+    .locals 3
+
+    .line 1
+    new-instance v0, Lp/cyy0;
+
+    .line 2
+    .line 3
+    invoke-direct {v0}, Lp/pwy0;-><init>()V
+
+    .line 4
+    .line 5
+    .line 6
+    iget-object v1, p0, Lp/bn80;->b:Lp/bxy0;
+
+    .line 7
+    .line 8
+    iput-object v1, v0, Lp/pwy0;->a:Lp/bxy0;
+
+    .line 9
+    .line 10
+    iget-object v1, p0, Lp/bn80;->a:Lp/rwy0;
+
+    .line 11
+    .line 12
+    iput-object v1, v0, Lp/pwy0;->b:Lp/rwy0;
+
+    .line 13
+    .line 14
+    invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
+
+    .line 15
+    .line 16
+    .line 17
+    move-result-wide v1
+
+    .line 18
+    invoke-static {v1, v2}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
+
+    .line 19
+    .line 20
+    .line 21
+    move-result-object v1
+
+    .line 22
+    iput-object v1, v0, Lp/pwy0;->c:Ljava/lang/Long;
+
+    .line 23
+    .line 24
+    sget-object v1, Lp/twy0;->e:Lp/twy0;
+
+    .line 25
+    .line 26
+    invoke-static {}, Lp/o731;->b()Lp/swy0;
+
+    .line 27
+    .line 28
+    .line 29
+    move-result-object v1
+
+    .line 30
+    const-string v2, "select_shuffle_mode"
+
+    .line 31
+    .line 32
+    iput-object v2, v1, Lp/swy0;->a:Ljava/lang/String;
+
+    .line 33
+    .line 34
+    const-string v2, "hit"
+
+    .line 35
+    .line 36
+    iput-object v2, v1, Lp/swy0;->c:Ljava/lang/String;
+
+    .line 37
+    .line 38
+    const/4 v2, 0x1
+
+    .line 39
+    iput v2, v1, Lp/swy0;->b:I
+
+    .line 40
+    .line 41
+    invoke-static {p1}, Lp/pi80;->e(I)Ljava/lang/String;
+
+    .line 42
+    .line 43
+    .line 44
+    move-result-object p1
+
+    .line 45
+    const-string v2, "previous_mode"
+
+    .line 46
+    .line 47
+    invoke-virtual {v1, p1, v2}, Lp/swy0;->b(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 48
+    .line 49
+    .line 50
+    invoke-static {p2}, Lp/pi80;->f(I)Ljava/lang/String;
+
+    .line 51
+    .line 52
+    .line 53
+    move-result-object p1
+
+    .line 54
+    const-string p2, "selected_mode"
+
+    .line 55
+    .line 56
+    invoke-virtual {v1, p1, p2}, Lp/swy0;->b(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 57
+    .line 58
+    .line 59
+    invoke-virtual {v1}, Lp/swy0;->a()Lp/twy0;
+
+    .line 60
+    .line 61
+    .line 62
+    move-result-object p1
+
+    .line 63
+    iput-object p1, v0, Lp/cyy0;->e:Lp/twy0;
+
+    .line 64
+    .line 65
+    invoke-virtual {v0}, Lp/pwy0;->a()Lp/qwy0;
+
+    .line 66
+    .line 67
+    .line 68
+    move-result-object p1
+
+    .line 69
+    check-cast p1, Lp/dyy0;
+
+    .line 70
+    .line 71
+    return-object p1
+.end method
+
+.method public final f()Lp/rwy0;
+    .locals 3
+
+    .line 1
+    sget-object v0, Lp/rwy0;->b:Lp/rwy0;
+
+    .line 2
+    .line 3
+    new-instance v0, Ljava/util/ArrayList;
+
+    .line 4
+    .line 5
+    invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
+
+    .line 6
+    .line 7
+    .line 8
+    iget-object v1, p0, Lp/bn80;->a:Lp/rwy0;
+
+    .line 9
+    .line 10
+    if-eqz v1, :cond_0
+
+    .line 11
+    .line 12
+    iget-object v1, v1, Lp/rwy0;->a:Ljava/util/List;
+
+    .line 13
+    .line 14
+    check-cast v1, Ljava/util/Collection;
+
+    .line 15
+    .line 16
+    invoke-virtual {v0, v1}, Ljava/util/ArrayList;->addAll(Ljava/util/Collection;)Z
+
+    .line 17
+    .line 18
+    .line 19
+    :cond_0
+    iget-object v1, p0, Lp/bn80;->b:Lp/bxy0;
+
+    .line 20
+    .line 21
+    const-string v2, "location"
+
+    .line 22
+    .line 23
+    invoke-static {v1, v2, v0, v1, v0}, Lp/v45;->t(Lp/bxy0;Ljava/lang/String;Ljava/util/ArrayList;Lp/bxy0;Ljava/util/ArrayList;)Lp/rwy0;
+
+    .line 24
+    .line 25
+    .line 26
+    move-result-object v0
+
+    .line 27
+    return-object v0
+.end method

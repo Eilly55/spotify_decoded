@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_enabled="false" android:color="?baseTextBase" android:alpha="@dimen/opacity_50" />
+    <item android:color="?baseTextBrightAccent" android:state_activated="true" />
+    <item android:color="?baseTextBase" />
+</selector>

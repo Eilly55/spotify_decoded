@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.spotify.encoreconsumermobile.elements.roundexpandbutton.RoundExpandButtonView android:id="@id/expand_button" android:visibility="gone" android:layout_width="@dimen/translation_button_size" android:layout_height="@dimen/translation_button_size" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <com.spotify.encoreconsumermobile.elements.roundsharebutton.RoundShareButtonView android:id="@id/share_button" android:visibility="gone" android:layout_width="@dimen/translation_button_size" android:layout_height="@dimen/translation_button_size" android:layout_marginEnd="@dimen/widget_button_margin" app:layout_constraintEnd_toStartOf="@id/expand_button" app:layout_constraintTop_toTopOf="parent" />
+    <com.spotify.encoreconsumermobile.elements.roundtranslationbutton.RoundTranslationButtonView android:id="@id/translation_button" android:visibility="gone" android:layout_width="@dimen/translation_button_size" android:layout_height="@dimen/translation_button_size" android:layout_marginEnd="@dimen/widget_button_margin" app:layout_constraintEnd_toStartOf="@id/share_button" app:layout_constraintTop_toTopOf="parent" />
+</merge>

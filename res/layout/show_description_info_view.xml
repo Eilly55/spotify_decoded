@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:orientation="vertical" android:padding="@dimen/std_16dp" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/ScrollWidget"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.AppCompatTextView android:textAppearance="@style/TextAppearance.Encore.BodyMediumBold" android:id="@id/show_description_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/scroll_widget_podcast_description_title" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/show_description_title">
+        <com.spotify.encoreconsumermobile.elements.seemoretextview.SeeMoreTextView android:textAppearance="@style/TextAppearance.Encore.BodySmall" android:textColor="@color/see_more_text_color" android:textColorLink="@color/white" android:id="@id/textview_show_description" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/std_24dp" android:maxLines="3" android:textIsSelectable="false" android:textDirection="locale" android:textAlignment="viewStart" />
+        <include android:id="@id/follow_layout_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/std_16dp" layout="@layout/show_description_info_follow_view" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

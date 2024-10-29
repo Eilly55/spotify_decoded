@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@color/white" />
+            <corners android:topLeftRadius="8.0dip" android:topRightRadius="8.0dip" />
+            <padding android:top="24.0dip" />
+        </shape>
+    </item>
+    <item android:gravity="center|top" android:drawable="@drawable/bottom_sheet_grapple" android:top="-14.0dip" />
+</layer-list>

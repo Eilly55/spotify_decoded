@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="layout" name="marquee">@layout/fragment_marquee_overlay_container_tablet</item>
+</resources>

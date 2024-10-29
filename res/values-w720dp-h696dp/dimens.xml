@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="cover_art_max_size">224.0dip</dimen>
+    <dimen name="mini_primary_button_size">56.0dip</dimen>
+    <dimen name="mini_secondary_button_size">32.0dip</dimen>
+    <dimen name="track_placeholder">56.0dip</dimen>
+</resources>

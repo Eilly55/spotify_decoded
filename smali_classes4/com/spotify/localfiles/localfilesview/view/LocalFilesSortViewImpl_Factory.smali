@@ -1,0 +1,144 @@
+.class public final Lcom/spotify/localfiles/localfilesview/view/LocalFilesSortViewImpl_Factory;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Lp/cus;
+
+
+# annotations
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Ljava/lang/Object;",
+        "Lp/cus;"
+    }
+.end annotation
+
+
+# instance fields
+.field private final contextProvider:Lp/njj0;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Lp/njj0;"
+        }
+    .end annotation
+.end field
+
+.field private final filterAndSortViewProvider:Lp/njj0;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Lp/njj0;"
+        }
+    .end annotation
+.end field
+
+
+# direct methods
+.method public constructor <init>(Lp/njj0;Lp/njj0;)V
+    .locals 0
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Lp/njj0;",
+            "Lp/njj0;",
+            ")V"
+        }
+    .end annotation
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 2
+    .line 3
+    .line 4
+    iput-object p1, p0, Lcom/spotify/localfiles/localfilesview/view/LocalFilesSortViewImpl_Factory;->contextProvider:Lp/njj0;
+
+    .line 5
+    .line 6
+    iput-object p2, p0, Lcom/spotify/localfiles/localfilesview/view/LocalFilesSortViewImpl_Factory;->filterAndSortViewProvider:Lp/njj0;
+
+    .line 7
+    .line 8
+    return-void
+.end method
+
+.method public static create(Lp/njj0;Lp/njj0;)Lcom/spotify/localfiles/localfilesview/view/LocalFilesSortViewImpl_Factory;
+    .locals 1
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Lp/njj0;",
+            "Lp/njj0;",
+            ")",
+            "Lcom/spotify/localfiles/localfilesview/view/LocalFilesSortViewImpl_Factory;"
+        }
+    .end annotation
+
+    .line 1
+    new-instance v0, Lcom/spotify/localfiles/localfilesview/view/LocalFilesSortViewImpl_Factory;
+
+    .line 2
+    .line 3
+    invoke-direct {v0, p0, p1}, Lcom/spotify/localfiles/localfilesview/view/LocalFilesSortViewImpl_Factory;-><init>(Lp/njj0;Lp/njj0;)V
+
+    .line 4
+    .line 5
+    .line 6
+    return-object v0
+.end method
+
+.method public static newInstance(Landroid/content/Context;Lp/qdt;)Lcom/spotify/localfiles/localfilesview/view/LocalFilesSortViewImpl;
+    .locals 1
+
+    .line 1
+    new-instance v0, Lcom/spotify/localfiles/localfilesview/view/LocalFilesSortViewImpl;
+
+    .line 2
+    .line 3
+    invoke-direct {v0, p0, p1}, Lcom/spotify/localfiles/localfilesview/view/LocalFilesSortViewImpl;-><init>(Landroid/content/Context;Lp/qdt;)V
+
+    .line 4
+    .line 5
+    .line 6
+    return-object v0
+.end method
+
+
+# virtual methods
+.method public get()Lcom/spotify/localfiles/localfilesview/view/LocalFilesSortViewImpl;
+    .locals 2
+
+    iget-object v0, p0, Lcom/spotify/localfiles/localfilesview/view/LocalFilesSortViewImpl_Factory;->contextProvider:Lp/njj0;
+
+    .line 2
+    invoke-interface {v0}, Lp/njj0;->get()Ljava/lang/Object;
+
+    move-result-object v0
+
+    check-cast v0, Landroid/content/Context;
+
+    iget-object v1, p0, Lcom/spotify/localfiles/localfilesview/view/LocalFilesSortViewImpl_Factory;->filterAndSortViewProvider:Lp/njj0;
+
+    invoke-interface {v1}, Lp/njj0;->get()Ljava/lang/Object;
+
+    move-result-object v1
+
+    check-cast v1, Lp/qdt;
+
+    invoke-static {v0, v1}, Lcom/spotify/localfiles/localfilesview/view/LocalFilesSortViewImpl_Factory;->newInstance(Landroid/content/Context;Lp/qdt;)Lcom/spotify/localfiles/localfilesview/view/LocalFilesSortViewImpl;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method public bridge synthetic get()Ljava/lang/Object;
+    .locals 1
+
+    .line 1
+    invoke-virtual {p0}, Lcom/spotify/localfiles/localfilesview/view/LocalFilesSortViewImpl_Factory;->get()Lcom/spotify/localfiles/localfilesview/view/LocalFilesSortViewImpl;
+
+    move-result-object v0
+
+    return-object v0
+.end method

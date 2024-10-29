@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ProgressBar android:layout_gravity="center" android:id="@id/progress_bar" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <androidx.recyclerview.widget.RecyclerView android:orientation="vertical" android:id="@id/timeline_list" android:paddingTop="@dimen/encore_spacer_base" android:paddingBottom="@dimen/encore_spacer_base" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/encore_spacer_base" android:layout_marginRight="@dimen/encore_spacer_base" android:layout_marginHorizontal="@dimen/encore_spacer_base" android:paddingVertical="@dimen/encore_spacer_base" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior" />
+    <com.spotify.quickscroll.legacyquickscroll.QuickScrollView android:id="@id/quickscroll_view" android:layout_width="fill_parent" android:layout_height="fill_parent" app:quickscroll_initialIndicatorPadding="@dimen/highlight_quickscroll_initial_indicator_padding" app:quickscroll_initiallyVisible="false" />
+    <androidx.compose.ui.platform.ComposeView android:layout_gravity="center" android:id="@id/error_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <include android:id="@id/user_listening_status" android:visibility="gone" layout="@layout/user_listening_status" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

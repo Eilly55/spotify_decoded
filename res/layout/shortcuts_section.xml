@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/heading_container" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <androidx.gridlayout.widget.GridLayout android:id="@id/shortcuts_grid" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingHorizontal="16.0dip" app:columnCount="2" app:rowCount="5" app:useDefaultMargins="true" />
+</LinearLayout>

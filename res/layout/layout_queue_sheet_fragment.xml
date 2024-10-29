@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:id="@id/queue_sheet" android:background="@drawable/core_bottom_sheet_background" android:layout_width="fill_parent" android:layout_height="fill_parent" android:maxWidth="@dimen/core_bottom_sheet_max_width" app:layout_behavior="com.google.android.material.bottomsheet.BottomSheetBehavior">
+        <View android:layout_gravity="center_horizontal" android:background="@drawable/core_bottom_sheet_grapple" android:layout_width="@dimen/core_bottom_sheet_grapple_width" android:layout_height="@dimen/core_bottom_sheet_grapple_height" android:layout_marginTop="@dimen/core_bottom_sheet_grapple_margin_vertical" android:layout_marginBottom="@dimen/core_bottom_sheet_grapple_margin_vertical" android:layout_marginVertical="@dimen/core_bottom_sheet_grapple_margin_vertical" />
+        <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/queue_header_container" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/queue_recycler_view" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+    </LinearLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_gravity="bottom|center" android:id="@id/session_controls_container" android:background="?backgroundElevatedBase" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxWidth="@dimen/core_bottom_sheet_max_width" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

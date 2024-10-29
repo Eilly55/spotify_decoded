@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="@color/gray_7" android:layout_width="fill_parent" android:layout_height="?actionBarSize"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:paste="http://schemas.android.com/apk/res-auto">
+    <com.spotify.legacyglue.icons.SpotifyIconView android:id="@id/btn_close" android:background="?android:selectableItemBackground" android:layout_width="40.0dip" android:layout_height="fill_parent" android:contentDescription="@string/generic_content_description_close" paste:iconSize="@dimen/toolbar_icon_size" paste:iconType="icon_x" />
+</LinearLayout>

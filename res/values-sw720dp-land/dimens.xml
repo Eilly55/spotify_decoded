@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="footer_button_margin">232.0dip</dimen>
+    <dimen name="mme_seek_bar_margin_horizontal">232.0dip</dimen>
+    <dimen name="mme_track_list_margin_horizontal">232.0dip</dimen>
+    <dimen name="onboarding_settings_info_margin_bottom">64.0dip</dimen>
+    <dimen name="playback_controls_margin">232.0dip</dimen>
+    <dimen name="seekbar_margin_horizontal">224.0dip</dimen>
+    <dimen name="social_listening_v2_onboarding_host_title_text_size">64.0sp</dimen>
+    <dimen name="widgets_container_horizontal_padding">240.0dip</dimen>
+    <dimen name="footer_bottom_padding">24.0dip</dimen>
+    <dimen name="peek_height">40.0dip</dimen>
+</resources>

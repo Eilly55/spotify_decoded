@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="@color/lime_green" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/small_circle" android:layout_width="@dimen/google_meet_dialog_small_circle_diameter" android:layout_height="@dimen/google_meet_dialog_small_circle_diameter" android:layout_marginTop="36.0dip" android:src="@drawable/circle" android:translationX="48.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <ImageView android:layout_width="130.0dip" android:layout_height="wrap_content" android:layout_marginTop="110.0dip" android:tint="@color/black" android:contentDescription="@null" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:srcCompat="@drawable/glue_logo" />
+    <ImageView android:id="@id/big_circle" android:layout_width="@dimen/google_meet_dialog_big_circle_diameter" android:layout_height="@dimen/google_meet_dialog_big_circle_diameter" android:layout_marginTop="36.0dip" android:src="@drawable/circle" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/small_circle" />
+</androidx.constraintlayout.widget.ConstraintLayout>

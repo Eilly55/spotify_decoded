@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.spotify.nowplaying.commonviews.carousel.adapter.viewholder.video.ZoomableView android:id="@id/content_area" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.spotify.betamax.player.VideoSurfaceView android:id="@id/video_surface" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        <com.spotify.nowplaying.uiusecases.videodisabledrow.VideoDisabledRowNowPlaying android:id="@id/video_disabled_row" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="fill_parent" app:layout_constraintBottom_toBottomOf="@id/video_surface" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="@id/video_surface" />
+        <com.spotify.encoremobile.viewstub.EncoreViewStub android:id="@id/music_video_disabled_row" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="fill_parent" app:layout_constraintBottom_toBottomOf="@id/video_surface" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="@id/video_surface" />
+        <FrameLayout android:id="@id/video_overlay" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/primary_button_size" app:layout_constraintBottom_toBottomOf="@id/video_surface">
+            <com.spotify.encoremobile.viewstub.EncoreViewStub android:layout_gravity="end|bottom|center" android:id="@id/fullscreen_button" android:layout_width="@dimen/tertiary_button_size" android:layout_height="@dimen/tertiary_button_size" />
+        </FrameLayout>
+    </com.spotify.nowplaying.commonviews.carousel.adapter.viewholder.video.ZoomableView>
+</FrameLayout>

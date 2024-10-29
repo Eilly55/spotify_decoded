@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/entity_header_solid_color">
+        <shape>
+            <solid android:color="@color/entity_header_background_default" />
+        </shape>
+    </item>
+    <item android:id="@id/entity_header_gradient">
+        <shape>
+            <gradient android:startColor="#00121212" android:endColor="#ff121212" android:angle="270.0" android:type="linear" />
+        </shape>
+    </item>
+</layer-list>

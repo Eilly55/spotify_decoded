@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:background="#bf000000" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/bottom_sheet_dialog" android:layout_width="fill_parent" android:layout_height="wrap_content" app:behavior_hideable="true" app:layout_behavior="com.google.android.material.bottomsheet.BottomSheetBehavior" style="@style/DiscoveryFeedCTABottomSheetDialogStyle">
+        <LinearLayout android:orientation="vertical" android:id="@id/header_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" app:layout_constraintBottom_toTopOf="@id/cta_recycler_view" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+            <com.spotify.encoremobile.viewstub.EncoreViewStub android:id="@id/bottom_sheet_header" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <View android:background="@color/white_10" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+        </LinearLayout>
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/cta_recycler_view" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layoutManager="LinearLayoutManager" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/header_layout" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

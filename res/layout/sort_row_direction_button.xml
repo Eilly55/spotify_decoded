@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.spotify.listuxplatform.uiusecases.sortrow.SortRowDirectionButton android:layout_width="@dimen/track_row_button_size" android:layout_height="@dimen/track_row_button_size" style="@style/Encore.Elements.Action"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

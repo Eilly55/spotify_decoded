@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/root" android:background="@drawable/encore_header_background_gradient" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ViewStub android:id="@id/compose_view_container" android:inflatedId="@id/compose_view" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintTop_toTopOf="parent" />
+    <androidx.constraintlayout.widget.Guideline android:orientation="horizontal" android:id="@id/artist_tour_toolbar_fade_range" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintGuide_percent="0.6" />
+    <androidx.constraintlayout.widget.Barrier android:id="@id/artist_toolbar_fade_reference" android:layout_width="0.0dip" android:layout_height="0.0dip" app:barrierDirection="bottom" app:constraint_referenced_ids="artist_tour_toolbar_fade_range" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView android:id="@id/empty_state_container" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_behavior="@string/appbar_scrolling_view_behavior"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/empty_state_top_margin" android:layout_marginBottom="32.0dip" android:layout_marginStart="32.0dip" android:layout_marginEnd="32.0dip">
+        <TextView android:textAppearance="@style/TextAppearance.Encore.TitleSmall" android:textColor="?baseTextBase" android:id="@id/empty_state_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:textAlignment="center" />
+        <TextView android:textAppearance="@style/TextAppearance.Encore.BodySmall" android:textColor="?baseTextSubdued" android:id="@id/empty_state_description" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:textAlignment="center" />
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

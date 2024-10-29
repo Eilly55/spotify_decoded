@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:theme="@style/Theme.Material3.DynamicColors.DayNight" android:orientation="vertical" android:background="?colorPrimaryContainer" android:padding="@dimen/widget_padding" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/widget_spotify_logo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_spotify_logo_text" android:tint="?colorAccent" android:contentDescription="@string/npv_widget_nonauth_logo_desc" />
+    <RelativeLayout android:paddingTop="@dimen/widget_padding" android:paddingBottom="@dimen/widget_padding" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="0.65" android:paddingVertical="@dimen/widget_padding">
+        <Button android:textColor="?colorSurface" android:id="@id/btn_login" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/npv_widget_nonauth_button" android:layout_centerVertical="true" android:filterTouchesWhenObscured="true" android:paddingStart="@dimen/widget_padding" android:paddingEnd="@dimen/widget_padding" android:layout_alignParentEnd="true" android:backgroundTint="?colorPrimaryDark" style="@style/ButtonWidgetEncoreReplica" />
+        <TextView android:textColor="?colorAccent" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/widget_padding" android:layout_marginBottom="@dimen/widget_padding" android:text="@string/npv_widget_nonauth_body" android:layout_centerVertical="true" android:layout_marginEnd="@dimen/widget_padding" android:layout_toStartOf="@id/btn_login" style="@style/WidgetBodyText" />
+    </RelativeLayout>
+    <FrameLayout android:id="@id/placeholder_grid" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="0.35" />
+</LinearLayout>

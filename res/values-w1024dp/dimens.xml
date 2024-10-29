@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="adaptive_ui_content_area_horizontal_margin">144.0dip</dimen>
+    <dimen name="adaptive_ui_header_play_button_end_margin">60.0dip</dimen>
+    <dimen name="content_area_horizontal_margin">48.0dip</dimen>
+    <dimen name="entity_header_end_margin">64.0dip</dimen>
+    <dimen name="entity_header_start_margin">64.0dip</dimen>
+    <dimen name="full_width_content_area_horizontal_margin">176.0dip</dimen>
+    <dimen name="header_action_row_end_margin">56.0dip</dimen>
+    <dimen name="header_action_row_start_margin">52.0dip</dimen>
+    <dimen name="header_content_end_margin">64.0dip</dimen>
+    <dimen name="header_content_start_margin">64.0dip</dimen>
+</resources>

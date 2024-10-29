@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MotionScene
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:motion="http://schemas.android.com/apk/res-auto">
+    <ConstraintSet android:id="@id/start">
+        <Constraint android:id="@id/search_slot">
+            <PropertySet motion:applyMotionScene="false" motion:visibilityMode="ignore" />
+        </Constraint>
+    </ConstraintSet>
+    <ConstraintSet android:id="@id/end" motion:deriveConstraintsFrom="@id/start" />
+    <Transition android:id="@id/expanded_transition" motion:constraintSetEnd="@id/end" motion:constraintSetStart="@id/start">
+        <KeyFrameSet>
+            <KeyAttribute android:alpha="0.0" motion:framePosition="0" motion:motionTarget="@id/navbar_background" />
+            <KeyAttribute android:alpha="0.0" motion:framePosition="80" motion:motionTarget="@id/navbar_background" />
+            <KeyAttribute android:alpha="1.0" motion:framePosition="90" motion:motionTarget="@id/navbar_background" />
+            <KeyAttribute android:alpha="1.0" motion:framePosition="0" motion:motionTarget="@id/search_slot" />
+            <KeyAttribute android:alpha="0.0" motion:framePosition="5" motion:motionTarget="@id/search_slot" />
+            <KeyAttribute android:alpha="0.0" motion:framePosition="100" motion:motionTarget="@id/search_slot" />
+            <KeyAttribute android:alpha="0.0" motion:framePosition="0" motion:motionTarget="@id/title_slot" />
+            <KeyAttribute android:alpha="0.0" motion:framePosition="95" motion:motionTarget="@id/title_slot" />
+            <KeyAttribute android:alpha="1.0" motion:framePosition="100" motion:motionTarget="@id/title_slot" />
+        </KeyFrameSet>
+    </Transition>
+    <Transition android:id="@id/condensed_transition" motion:constraintSetEnd="@id/end" motion:constraintSetStart="@id/start">
+        <KeyFrameSet>
+            <KeyAttribute android:alpha="0.0" motion:framePosition="0" motion:motionTarget="@id/navbar_background" />
+            <KeyAttribute android:alpha="1.0" motion:framePosition="20" motion:motionTarget="@id/navbar_background" />
+            <KeyAttribute android:alpha="1.0" motion:framePosition="0" motion:motionTarget="@id/search_slot" />
+            <KeyAttribute android:alpha="0.0" motion:framePosition="40" motion:motionTarget="@id/search_slot" />
+            <KeyAttribute android:alpha="0.0" motion:framePosition="100" motion:motionTarget="@id/search_slot" />
+            <KeyAttribute android:alpha="0.0" motion:framePosition="0" motion:motionTarget="@id/title_slot" />
+            <KeyAttribute android:alpha="0.0" motion:framePosition="60" motion:motionTarget="@id/title_slot" />
+            <KeyAttribute android:alpha="1.0" motion:framePosition="100" motion:motionTarget="@id/title_slot" />
+        </KeyFrameSet>
+    </Transition>
+</MotionScene>

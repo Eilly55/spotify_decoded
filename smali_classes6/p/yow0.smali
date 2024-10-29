@@ -1,0 +1,75 @@
+.class public final Lp/yow0;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Lp/xow0;
+
+
+# instance fields
+.field public final a:Landroid/view/View;
+
+.field public final b:Lcom/spotify/encoremobile/component/textview/EncoreTextView;
+
+
+# direct methods
+.method public constructor <init>(Landroid/content/Context;Landroid/view/ViewGroup;)V
+    .locals 2
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 2
+    .line 3
+    .line 4
+    invoke-static {p1}, Landroid/view/LayoutInflater;->from(Landroid/content/Context;)Landroid/view/LayoutInflater;
+
+    .line 5
+    .line 6
+    .line 7
+    move-result-object p1
+
+    .line 8
+    const v0, 0x7f0e0635
+
+    .line 9
+    .line 10
+    .line 11
+    const/4 v1, 0x0
+
+    .line 12
+    invoke-virtual {p1, v0, p2, v1}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
+
+    .line 13
+    .line 14
+    .line 15
+    move-result-object p1
+
+    .line 16
+    iput-object p1, p0, Lp/yow0;->a:Landroid/view/View;
+
+    .line 17
+    .line 18
+    const p2, 0x7f0b0bc1
+
+    .line 19
+    .line 20
+    .line 21
+    invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
+
+    .line 22
+    .line 23
+    .line 24
+    move-result-object p1
+
+    .line 25
+    check-cast p1, Lcom/spotify/encoremobile/component/textview/EncoreTextView;
+
+    .line 26
+    .line 27
+    iput-object p1, p0, Lp/yow0;->b:Lcom/spotify/encoremobile/component/textview/EncoreTextView;
+
+    .line 28
+    .line 29
+    return-void
+.end method

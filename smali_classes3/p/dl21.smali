@@ -1,0 +1,25 @@
+.class public final Lp/dl21;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# instance fields
+.field public final synthetic a:Lp/il21;
+
+
+# direct methods
+.method public constructor <init>(Lp/il21;)V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 2
+    .line 3
+    .line 4
+    iput-object p1, p0, Lp/dl21;->a:Lp/il21;
+
+    .line 5
+    .line 6
+    return-void
+.end method

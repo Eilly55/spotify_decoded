@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.spotify.betamax.player.VideoSurfaceView android:id="@id/immersive_card_preview_surface" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.spotify.encoreconsumermobile.elements.artwork.ArtworkView android:id="@id/immersive_card_preview_artwork" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+</FrameLayout>

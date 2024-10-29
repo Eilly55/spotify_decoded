@@ -1,0 +1,563 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="ad_header_title_sponsored_session_end_card">
+        <item quantity="other">Jabulela imizuzu engu-%1$d yokulalela okungenaziphazamiso</item>
+        <item quantity="one">Jabulela umzuzu ongu-%1$d wokulalela okungenaziphazamiso</item>
+    </plurals>
+    <plurals name="ad_header_title_sponsored_session_video_ad">
+        <item quantity="other">Uzothola imizuzu engu-%1$d yokulalela okungenaziphazamiso ngemva kwale vidiyo emfushane</item>
+        <item quantity="one">Uzothola umzuzu ongu-%1$d wokulalela okungenaziphazamiso ngemva kwale vidiyo emfushane</item>
+    </plurals>
+    <plurals name="add_to_playlist_filter_items_count_changed_announcement">
+        <item quantity="other">Ithole izinto ezingu-%1$d</item>
+        <item quantity="one">Ithole into engu-%1$d</item>
+    </plurals>
+    <plurals name="add_to_playlist_subtitle_audiobooks_count">
+        <item quantity="other">Ama-audiobook angu-%1$s</item>
+        <item quantity="one">I-audiobook engu-%1$s</item>
+    </plurals>
+    <plurals name="add_to_playlist_subtitle_episodes_count">
+        <item quantity="other">%1$s iziqephu</item>
+        <item quantity="one">%1$s isiqephu</item>
+    </plurals>
+    <plurals name="add_to_playlist_subtitle_songs_count">
+        <item quantity="other">%1$s izingoma</item>
+        <item quantity="one">%1$s ingoma</item>
+    </plurals>
+    <plurals name="add_to_playlist_subtitle_tracks_count">
+        <item quantity="other">%1$s amathrekhi</item>
+        <item quantity="one">%1$s ithrekhi</item>
+    </plurals>
+    <plurals name="album_track_count_and_duration">
+        <item quantity="other">%1$d izingoma • %2$s</item>
+        <item quantity="one">%1$d ingoma • %2$s</item>
+    </plurals>
+    <plurals name="allboarding_selected_nb_label">
+        <item quantity="other">Kukhethwe okungu-%1$d</item>
+        <item quantity="one">Kukhethwe okungu-%1$d</item>
+    </plurals>
+    <plurals name="allboarding_selection_summary_content_desc">
+        <item quantity="other">Kukhethwe okungu-%1$d</item>
+        <item quantity="one">Kukhethwe okungu-%1$d</item>
+    </plurals>
+    <plurals name="allboarding_selection_summary_with_requirement_content_desc">
+        <item quantity="other">Kukhethwe okungu-%1$d. Khetha okungenani okunye okungu-%2$d ukuze uqhubeke.</item>
+        <item quantity="one">Kukhethwe okungu-%1$d. Khetha okungenani okunye okungu-%2$d ukuze uqhubeke.</item>
+    </plurals>
+    <plurals name="android_auto_podcast_episode_time_format_hours">
+        <item quantity="other">%1$d hrs</item>
+        <item quantity="one">%1$d hr</item>
+    </plurals>
+    <plurals name="android_auto_podcast_episode_time_format_min">
+        <item quantity="other">%1$d imiz</item>
+        <item quantity="one">%1$d mzu</item>
+    </plurals>
+    <plurals name="artist_number_of_liked_releases">
+        <item quantity="other">Okukhishiwe okungu-%1$,d</item>
+        <item quantity="one">Okukhishiwe okungu-%1$,d</item>
+    </plurals>
+    <plurals name="artist_number_of_liked_songs">
+        <item quantity="other">%1$,d izingoma</item>
+        <item quantity="one">%1$,d ingoma</item>
+    </plurals>
+    <plurals name="artist_saved_songs_subtitle">
+        <item quantity="other">%1$d izingoma • %2$s</item>
+        <item quantity="one">%1$d ingoma • %2$s</item>
+    </plurals>
+    <plurals name="assisted_curation_search_filter_items_count_changed_announcement">
+        <item quantity="other">Ithole izinto ezingu-%1$d</item>
+        <item quantity="one">Ithole into engu-%1$d</item>
+    </plurals>
+    <plurals name="auto_download_limit_option">
+        <item quantity="other">Iziqephu ezintsha ezingu-%1$s umbukiso ngamunye</item>
+        <item quantity="one">Isiqephu esisha esingu-%1$s umbukiso ngamunye</item>
+    </plurals>
+    <plurals name="campfire_chats_preview_days_content_description">
+        <item quantity="other">Izinsuku ezingu-%1$s ezidlule</item>
+        <item quantity="one">Usuku olungu-%1$s olwedlule</item>
+    </plurals>
+    <plurals name="campfire_chats_preview_hours_content_description">
+        <item quantity="other">Amahora angu-%1$s adlule</item>
+        <item quantity="one">Ihora elingu-%1$s elidlule</item>
+    </plurals>
+    <plurals name="campfire_chats_preview_minutes_content_description">
+        <item quantity="other">Imizuzu engu-%1$s edlule</item>
+        <item quantity="one">Umzuzu ongu-%1$s odlule</item>
+    </plurals>
+    <plurals name="campfire_sharedbychip_label_multiple">
+        <item quantity="other">Abangane abangu-%1$s</item>
+        <item quantity="one">Umngane ongu-%1$s</item>
+    </plurals>
+    <plurals name="chapters_added">
+        <item quantity="other">Kunezelwe izahluko ezingu-%1$d</item>
+        <item quantity="one">Kunezelwe isahluko esingu-%1$d</item>
+    </plurals>
+    <plurals name="chapters_played">
+        <item quantity="other">Kudlalwe izahluko ezingu-%1$d</item>
+        <item quantity="one">Kudlalwe isahluko esingu-%1$d</item>
+    </plurals>
+    <plurals name="charts_header_new_entry_count">
+        <item quantity="other">%1$,d Okufakiwe Okusha</item>
+        <item quantity="one">%1$,d Ukufakwa Okusha</item>
+    </plurals>
+    <plurals name="comment_days_ago">
+        <item quantity="other">Izinsuku ezingu-%1$d ezidlule</item>
+        <item quantity="one">Usuku olungu-%1$d olwedlule</item>
+    </plurals>
+    <plurals name="comment_hours_ago">
+        <item quantity="other">Amahora angu-%1$d adlule</item>
+        <item quantity="one">Ihora elingu-%1$d elidlule</item>
+    </plurals>
+    <plurals name="comment_minutes_ago">
+        <item quantity="other">Imizuzu engu-%1$d edlule</item>
+        <item quantity="one">Umzuzu ongu-%1$d odlule</item>
+    </plurals>
+    <plurals name="comment_months_ago">
+        <item quantity="other">Izinyanga ezingu-%1$d ezedlule</item>
+        <item quantity="one">Inganga engu-%1$d edlule</item>
+    </plurals>
+    <plurals name="comment_reply_preview">
+        <item quantity="other">Izimpendulo ezingu-%1$s</item>
+        <item quantity="one">Impendulo engu-%1$s</item>
+    </plurals>
+    <plurals name="comment_weeks_ago">
+        <item quantity="other">Amaviki angu-%1$d edlule</item>
+        <item quantity="one">Iviki elingu-%1$d eledlule</item>
+    </plurals>
+    <plurals name="comment_years_ago">
+        <item quantity="other">Iminyakeni engu-%1$d edlule</item>
+        <item quantity="one">Onyakeni ongu-%1$d odlule</item>
+    </plurals>
+    <plurals name="complex_playlist_number_of_songs">
+        <item quantity="other">%1$,d izingoma</item>
+        <item quantity="one">%1$,d ingoma</item>
+    </plurals>
+    <plurals name="connect_device_multiple_listeners">
+        <item quantity="other">%1$d abalaleli</item>
+        <item quantity="one">%1$d umlaleli</item>
+    </plurals>
+    <plurals name="content_feed_timestamp_days_ago">
+        <item quantity="other">Izinsuku ezingu-%1$d ezidlule</item>
+        <item quantity="one">Usuku olungu-%1$d olwedlule</item>
+    </plurals>
+    <plurals name="content_feed_timestamp_hours_ago">
+        <item quantity="other">Amahora angu-%1$d edlule</item>
+        <item quantity="one">Ihora elingu-%1$d eledlule</item>
+    </plurals>
+    <plurals name="content_feed_timestamp_minutes_ago">
+        <item quantity="other">Imizuzu engu-%1$d edlule</item>
+        <item quantity="one">Umzuzu ongu-%1$d odlule</item>
+    </plurals>
+    <plurals name="context_menu_sleep_timer_hours">
+        <item quantity="other">%1$d amahora</item>
+        <item quantity="one">%1$d ihora</item>
+    </plurals>
+    <plurals name="context_menu_sleep_timer_mins">
+        <item quantity="other">%1$d imizuzu</item>
+        <item quantity="one">%1$d umzuzu</item>
+    </plurals>
+    <plurals name="creator_row_content_description">
+        <item quantity="other">Ababhali: %1$s</item>
+        <item quantity="one">Umbhali: %1$s</item>
+    </plurals>
+    <plurals name="creators_button_title_counter">
+        <item quantity="other">%1$s + nabanye abangu-%2$d</item>
+        <item quantity="one">%1$s + nomunye oyi-%2$d</item>
+    </plurals>
+    <plurals name="creators_row_accessibility_hint">
+        <item quantity="other">Ibonisa uhlu olufunekayo lwabo bonke %1$s</item>
+        <item quantity="one">Iya kokuqukethwe okwengeziwe okusuka kulo %1$s</item>
+    </plurals>
+    <plurals name="days_label">
+        <item quantity="other">%1$s&lt;br/>&lt;b>Izinsuku&lt;/b></item>
+        <item quantity="one">%1$s&lt;br/>&lt;b>Usuku&lt;/b></item>
+    </plurals>
+    <plurals name="days_left_until_release_date">
+        <item quantity="other">Izokhishwa ezinsukwini ezingu-%1$d</item>
+        <item quantity="one">Izokhishwa ezinsukwini ezingu-%1$d</item>
+    </plurals>
+    <plurals name="days_to_renew">
+        <item quantity="other">Izinsuku ezingu-%1$d kuze kube yilapho kuvuselelwa amahora</item>
+        <item quantity="one">Usuku olungu-%1$d kuze kube yilapho kuvuselelwa amahora okulalela</item>
+    </plurals>
+    <plurals name="entity_action_row_downloading_progress_content_description">
+        <item quantity="other">Kudawunilodwe iphesenti elingu-%1$d</item>
+        <item quantity="one">Kudawunilodwe iphesenti elingu-%1$d</item>
+    </plurals>
+    <plurals name="episode_contents_chapters_expand_button">
+        <item quantity="other">Buka izahluko ezingu-%1$d</item>
+        <item quantity="one">Buka isahluko esingu-%1$d</item>
+    </plurals>
+    <plurals name="episodes_added">
+        <item quantity="other">Kunezelwe iziqephu ezingu-%1$d</item>
+        <item quantity="one">Kunezelwe isiqephu esingu-%1$d</item>
+    </plurals>
+    <plurals name="episodes_played">
+        <item quantity="other">Kudlalwe iziqephu ezingu-%1$d</item>
+        <item quantity="one">Kudlalwe isiqephu esingu-%1$d</item>
+    </plurals>
+    <plurals name="error_dialog_body_resend_limit">
+        <item quantity="other">Linda imizuzwana engu-%1$d, bese ucela ikhodi entsha.</item>
+        <item quantity="one">Linda umzuzwana ongu-%1$d , bese ucela ikhodi entsha.</item>
+    </plurals>
+    <plurals name="error_dialog_title_resend_limit">
+        <item quantity="other">Zama futhi kumizuzwana engu-%1$d</item>
+        <item quantity="one">Zama futhi kumzuzwana ongu-%1$d</item>
+    </plurals>
+    <plurals name="event_card_number_of_events_text">
+        <item quantity="other">Imicimbi engu-%1$d</item>
+        <item quantity="one">Umcimbi ongu-%1$d</item>
+    </plurals>
+    <plurals name="find_friends_flow_confirm_desc">
+        <item quantity="other">Uqinisekile ufuna ukulandela abantu abangu- %1$,d?</item>
+        <item quantity="one">Uqinisekile ufuna ukulandela abantu abangu- %1$,d?</item>
+    </plurals>
+    <plurals name="header_common_likes_count">
+        <item quantity="other">Ukulondoloza okungu-%1$s</item>
+        <item quantity="one">Ukulondoloza okungu-%1$s</item>
+    </plurals>
+    <plurals name="hours_label">
+        <item quantity="other">%1$s&lt;br/>&lt;b>Amahora&lt;/b></item>
+        <item quantity="one">%1$s&lt;br/>&lt;b>Ihora&lt;/b></item>
+    </plurals>
+    <plurals name="hours_to_renew">
+        <item quantity="other">Amahora angu-%1$d kuze kube yilapho kuvuselelwa amahora okulalela</item>
+        <item quantity="one">Ihora elingu-%1$d kuze kube yilapho kuvuselelwa amahora okulalela</item>
+    </plurals>
+    <plurals name="ipl_new_joiner_nudge">
+        <item quantity="other">Abanye abangu-%2$d bajoyine i-Jam yakho</item>
+        <item quantity="one">U-%1$s ujoyine i-Jam yakho</item>
+    </plurals>
+    <plurals name="item_description_folder_folders_count">
+        <item quantity="other">%1$s amafolda</item>
+        <item quantity="one">%1$s ifolda</item>
+    </plurals>
+    <plurals name="item_description_folder_playlists_count">
+        <item quantity="other">%1$s izinhlu zokudlalayo</item>
+        <item quantity="one">%1$s uhlu lokudlalayo</item>
+    </plurals>
+    <plurals name="item_description_liked_songs">
+        <item quantity="other">Uhlu lokudlalayo • %1$s izingoma</item>
+        <item quantity="one">Uhlu lokudlalayo • %1$s ingoma</item>
+    </plurals>
+    <plurals name="item_description_liked_songs_filtered">
+        <item quantity="other">%1$s izingoma</item>
+        <item quantity="one">%1$s ingoma</item>
+    </plurals>
+    <plurals name="item_description_local_files">
+        <item quantity="other">Uhlu lokudlalayo • Amathrekhi angu-%1$s</item>
+        <item quantity="one">Uhlu lokudlalayo • Ithrekhi engu-%1$s</item>
+    </plurals>
+    <plurals name="item_description_local_files_filtered">
+        <item quantity="other">%1$s amathrekhi</item>
+        <item quantity="one">%1$s ithrekhi</item>
+    </plurals>
+    <plurals name="item_description_show_downloaded">
+        <item quantity="other">Iziqephu ezidawunilodiwe ezingu-%1$s • %2$s</item>
+        <item quantity="one">Isiqephu esidawunilodiwe esingu-%1$s • %2$s</item>
+    </plurals>
+    <plurals name="item_description_show_downloaded_no_creator">
+        <item quantity="other">Iziqephu ezidawunilodiwe ezingu-%1$s</item>
+        <item quantity="one">Isiqephu esidawunilodiwe esingu-%1$s</item>
+    </plurals>
+    <plurals name="item_description_your_episodes_downloaded">
+        <item quantity="other">Iziqephu ezidawunilodiwe ezingu-%1$s</item>
+        <item quantity="one">Isiqephu esidawunilodiwe esingu-%1$s</item>
+    </plurals>
+    <plurals name="items_added">
+        <item quantity="other">Kunezelwe izinto ezingu-%1$d</item>
+        <item quantity="one">Kunezelwe into engu-%1$d</item>
+    </plurals>
+    <plurals name="items_played">
+        <item quantity="other">Kudlalwe izinto ezingu-%1$d</item>
+        <item quantity="one">Kudlalwe into engu-%1$d</item>
+    </plurals>
+    <plurals name="jam_host_settings_header_participant_count">
+        <item quantity="other">Ababambiqhaza abangu-%1$d</item>
+        <item quantity="one">Umbambiqhaza ongu-%1$d</item>
+    </plurals>
+    <plurals name="library_pinned_section_placeholder_subtitle">
+        <item quantity="other">Noma swayipha kwesokudla. Ungakwazi ukuba nezinto ezifika ku-%1$d eziphiniwe.</item>
+        <item quantity="one">Noma swayipha kwesokudla. Ungakwazi ukuba nento efika ku-%1$d ephiniwe.</item>
+    </plurals>
+    <plurals name="liked_songs_header_subtitle">
+        <item quantity="other">%1$d izingoma</item>
+        <item quantity="one">%1$d ingoma</item>
+    </plurals>
+    <plurals name="line_selected">
+        <item quantity="other">Kukhethwe imigqa engu-%1$d</item>
+        <item quantity="one">Kukhethwe umugqa ongu-%1$d</item>
+    </plurals>
+    <plurals name="listen_later_header_subtitle">
+        <item quantity="other">%1$d iziqephu</item>
+        <item quantity="one">%1$d isiqephu</item>
+    </plurals>
+    <plurals name="listening_hours_card_complete">
+        <item quantity="other">Usulalele wonke amahora angu-%1$d ama-audiobook afakwe kupulani yakho yanyanga zonke.</item>
+        <item quantity="one">Usulalele lonke ihora elingu-%1$d lama-audiobook afakwe kupulani yakho yanyanga zonke.</item>
+    </plurals>
+    <plurals name="listening_hours_card_text">
+        <item quantity="other">Lalela amahora angu-%1$d ama-audiobook asuka kukhathalogi yethu yobhalisile, afakwa kupulani yakho yanyanga zonke.</item>
+        <item quantity="one">Lalela ihora elingu-%1$d lama-audiobook asuka kukhathalogi yethu yobhalisile, afakwa kupulani yakho yanyanga zonke.</item>
+    </plurals>
+    <plurals name="listening_hours_listened">
+        <item quantity="other">Ihora elingu-%1$d lesikhathi sokulalela</item>
+        <item quantity="one">Ihora elingu-%1$d lesikhathi sokulalela</item>
+    </plurals>
+    <plurals name="local_files_subtitle_number_of_tracks">
+        <item quantity="other">%1$,d amathrekhi</item>
+        <item quantity="one">%1$,d ithrekhi</item>
+    </plurals>
+    <plurals name="minutes_label">
+        <item quantity="other">%1$s&lt;br/>&lt;b>Imizuzu&lt;/b></item>
+        <item quantity="one">%1$s&lt;br/>&lt;b>Umzuzu&lt;/b></item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d izaziso ezintsha</item>
+        <item quantity="one">%d izaziso ezintsha</item>
+    </plurals>
+    <plurals name="notification_syncing_text">
+        <item quantity="other">%1$,d kokungu- %2$,d (%3$,d%% kuphele)</item>
+        <item quantity="one">%1$,d kokungu- %2$,d (%3$,d%% kuphele)</item>
+    </plurals>
+    <plurals name="num_available_downloads">
+        <item quantity="other">Okudawunilodiwe okungu-%1$s kuyatholakala</item>
+        <item quantity="one">Okudawunilodiwe okungu-%1$s kuyatholakala</item>
+    </plurals>
+    <plurals name="number_events_from_date">
+        <item quantity="other">Imicimbi engu-%1$s ukusuka ku-%2$s</item>
+        <item quantity="one">Umcimbi ongu-%1$s ukusuka ku-%2$s</item>
+    </plurals>
+    <plurals name="number_of_items">
+        <item quantity="other">%1$s amathrekhi</item>
+        <item quantity="one">%1$s ithrekhi</item>
+    </plurals>
+    <plurals name="number_of_live_events">
+        <item quantity="other">Imicimbi engu-%1$s</item>
+        <item quantity="one">Umcimbi ongu-%1$s</item>
+    </plurals>
+    <plurals name="number_of_live_events_near_you">
+        <item quantity="other">Imicimbi engu-%1$s eduze kwakho</item>
+        <item quantity="one">Umcimbi ongu-%1$s eduze kwakho</item>
+    </plurals>
+    <plurals name="otp_description">
+        <item quantity="other">Sithumele i-SMS enekhodi enamadijithi angu-%1$d ku-%2$s.</item>
+        <item quantity="one">Sithumele i-SMS enekhodi enamadijithi angu-%1$d ku-%2$s.</item>
+    </plurals>
+    <plurals name="otp_description_alt">
+        <item quantity="other">Sithumele ikhodi enamadijithi angu-%1$d kokuthi %2$s.</item>
+        <item quantity="one">Sithumele ikhodi enamadijithi angu-%1$d kokuthi %2$s.</item>
+    </plurals>
+    <plurals name="pin_gate_wrong_pin_long_delay_error_message">
+        <item quantity="other">I-PIN engalungile, zama futhi emizuzwini engu-%1$d.</item>
+        <item quantity="one">I-PIN engalungile, zama futhi kumzuzu ongu-%1$d.</item>
+    </plurals>
+    <plurals name="pin_gate_wrong_pin_short_delay_error_message">
+        <item quantity="other">I-PIN engalungile, zama futhi emizuzwaneni engu-%1$d.</item>
+        <item quantity="one">I-PIN engalungile, zama futhi kumzuzwana ongu-%1$d.</item>
+    </plurals>
+    <plurals name="playback_settings_crossfade_slider_seconds_full">
+        <item quantity="other">%1$d imizuzwana</item>
+        <item quantity="one">%1$d umzuzwana</item>
+    </plurals>
+    <plurals name="playlist_header_collaborators">
+        <item quantity="other">%1$s + nabanye abangu-%2$d</item>
+        <item quantity="one">%1$s + nomunye oyi-%2$d</item>
+    </plurals>
+    <plurals name="playlist_header_creator_with_collaborators_content_description">
+        <item quantity="other">Yenziwe ngu-%1$s nabanye abangu-%2$d</item>
+        <item quantity="one">Yenziwe ngu-%1$s nomunye ongu-%2$d</item>
+    </plurals>
+    <plurals name="playlist_participants_row_subtitle_episodes">
+        <item quantity="other">%1$d iziqephu</item>
+        <item quantity="one">%1$d isiqephu</item>
+    </plurals>
+    <plurals name="playlist_participants_row_subtitle_tracks">
+        <item quantity="other">%1$d izingoma</item>
+        <item quantity="one">%1$d ingoma</item>
+    </plurals>
+    <plurals name="playlist_participants_title">
+        <item quantity="other">Abantu abangu-%1$d</item>
+        <item quantity="one">Abangu abangu-%1$d</item>
+    </plurals>
+    <plurals name="playlist_trackcloud_includes_label_episodes">
+        <item quantity="other">%1$,d IZIQEPHU</item>
+        <item quantity="one">%1$,d ISIQEPHU</item>
+    </plurals>
+    <plurals name="playlist_trackcloud_includes_label_songs">
+        <item quantity="other">%1$,d IZINGOMA</item>
+        <item quantity="one">%1$,d INGOMA</item>
+    </plurals>
+    <plurals name="podcast_chapters_bottom_sheet_chapter_count">
+        <item quantity="other">Izahluko ezingu-%1$d</item>
+        <item quantity="one">Isahluko esingu-%1$d</item>
+    </plurals>
+    <plurals name="podcast_chapters_expand_button">
+        <item quantity="other">Buka izahluko ezingu-%1$d</item>
+        <item quantity="one">Buka isahluko esingu-%1$d</item>
+    </plurals>
+    <plurals name="podcast_poll_days_left_label">
+        <item quantity="other">%1$d izinsuku</item>
+        <item quantity="one">%1$d usuku</item>
+    </plurals>
+    <plurals name="podcast_poll_hours_left_label">
+        <item quantity="other">Amahora angu-%1$d asele</item>
+        <item quantity="one">Ihora eli-%1$d elisele</item>
+    </plurals>
+    <plurals name="podcast_poll_minutes_left_label">
+        <item quantity="other">Imizuzu engu-%1$d esele</item>
+        <item quantity="one">Umzuzu ongu-%1$d osele</item>
+    </plurals>
+    <plurals name="podcast_poll_poll_subtitle">
+        <item quantity="other">%1$d amavoti • %2$s</item>
+        <item quantity="one">%1$d ivoti • %2$s</item>
+    </plurals>
+    <plurals name="premium_mini_playlist_add_song_subtitle">
+        <item quantity="other">%1$d izingoma ezisele</item>
+        <item quantity="one">%1$d ingoma esele</item>
+    </plurals>
+    <plurals name="premium_mini_playlist_subtitle">
+        <item quantity="other">%1$d izingoma • %2$s</item>
+        <item quantity="one">%1$d ingoma • %2$s</item>
+    </plurals>
+    <plurals name="premium_plan_card_days_remaining">
+        <item quantity="other">Izinsuku ezingu-%1$d Zekhokhelwayo</item>
+        <item quantity="one">Usuku olungu-%1$d Lwekhokhelwayo</item>
+    </plurals>
+    <plurals name="premium_plan_card_months_remaining">
+        <item quantity="other">Izinyanga ezingu-%1$d Zekhokhelwayo</item>
+        <item quantity="one">Inyanga engu-%1$d Yekhokhelwayo</item>
+    </plurals>
+    <plurals name="premium_plan_card_weeks_remaining">
+        <item quantity="other">Amaviki angu-%1$d Ekhokhelwayo</item>
+        <item quantity="one">Iviki elingu-%1$d Lekhokhelwayo</item>
+    </plurals>
+    <plurals name="premium_plan_card_years_remaining">
+        <item quantity="other">Iminyaka engu-%1$d Yekhokhelwayo</item>
+        <item quantity="one">Unyaka ongu-%1$d Wekhokhelwayo</item>
+    </plurals>
+    <plurals name="profile_followers_count">
+        <item quantity="other">Abalandeli abangu-%1$d</item>
+        <item quantity="one">Umlandeli oyi-%1$d</item>
+    </plurals>
+    <plurals name="profile_following_count">
+        <item quantity="other">Ulandela abangu-%1$d</item>
+        <item quantity="one">Ulandela abangu-%1$d</item>
+    </plurals>
+    <plurals name="profile_list_item_followers_count">
+        <item quantity="other">Abalandeli abangu-%1$,d</item>
+        <item quantity="one">Umlandeli oyi-%1$,d</item>
+    </plurals>
+    <plurals name="profile_list_see_all_footer_playlists">
+        <item quantity="other">Bona zonke izinhlu zokudlalayo ezingu-%1$d</item>
+        <item quantity="one">Bona uhlu lokudlalayo olungu-%1$d</item>
+    </plurals>
+    <plurals name="profile_playlists_subtitle">
+        <item quantity="other">Ukulondoloza okungu-%1$,d</item>
+        <item quantity="one">Ukulondoloza okungu-%1$,d</item>
+    </plurals>
+    <plurals name="profile_recently_played_subtitle">
+        <item quantity="other">Abalandeli abangu-%1$,d</item>
+        <item quantity="one">Umlandeli oyi-%1$,d</item>
+    </plurals>
+    <plurals name="search_episode_chapters_title_plurals">
+        <item quantity="other">Izahluko ezingu-%1$d</item>
+        <item quantity="one">Isahluko esingu-%1$d</item>
+    </plurals>
+    <plurals name="search_saves_album_row_string">
+        <item quantity="other">Ukulondoloza okungu-%1$s</item>
+        <item quantity="one">Ukulondoloza okungu-%1$s</item>
+    </plurals>
+    <plurals name="search_saves_playlist_row_string">
+        <item quantity="other">Ukulondoloza okungu-%1$s</item>
+        <item quantity="one">Ukulondoloza okungu-%1$s</item>
+    </plurals>
+    <plurals name="seconds_label">
+        <item quantity="other">%1$s&lt;br/>&lt;b>Imizuzwana&lt;/b></item>
+        <item quantity="one">%1$s&lt;br/>&lt;b>Umzuzwana&lt;/b></item>
+    </plurals>
+    <plurals name="selection_line_quantity_subtitle">
+        <item quantity="other">Kukhethwe imigqa engu-%1$d</item>
+        <item quantity="one">Kukhethwe umugqa ongu-%1$d</item>
+    </plurals>
+    <plurals name="settings_item_offline_mode_time_left_days">
+        <item quantity="other">Kufanele ubuyele ku-inthanethi: Ezinsukwini ezingu-%1$,d</item>
+        <item quantity="one">Kufanele ubuyele ku-inthanethi: Osukwini olungu-%1$,d</item>
+    </plurals>
+    <plurals name="settings_item_plan_overview_description_time_remaining">
+        <item quantity="other">Isikhathi esisele: Izinsuku ezingu-%1$d</item>
+        <item quantity="one">Isikhathi esisele: Usuku olungu-%1$d</item>
+    </plurals>
+    <plurals name="shared_by_bottomsheet_title">
+        <item quantity="other">Kwabelwe abangane abangu-%1$s</item>
+        <item quantity="one">Kwabelwe abangane abangu-%1$s</item>
+    </plurals>
+    <plurals name="song_limit_dialog_title">
+        <item quantity="other">Ufinyelele umkhawulo ongu-%1$d wezingoma ezidawunilodiwe</item>
+        <item quantity="one">Ufinyelele umkhawulo ongu-%1$d wezingoma ezidawunilodiwe</item>
+    </plurals>
+    <plurals name="songs_added">
+        <item quantity="other">Nezela izingoma %1$d</item>
+        <item quantity="one">Nezela izingoma %1$d</item>
+    </plurals>
+    <plurals name="songs_played">
+        <item quantity="other">Kudlalwe izingoma ezingu-%1$d</item>
+        <item quantity="one">Kudlalwe ingoma engu-%1$d</item>
+    </plurals>
+    <plurals name="timestamp_days">
+        <item quantity="other">%1$dd</item>
+        <item quantity="one">%1$dd</item>
+    </plurals>
+    <plurals name="timestamp_hours">
+        <item quantity="other">%1$dh</item>
+        <item quantity="one">%1$dh</item>
+    </plurals>
+    <plurals name="timestamp_minutes">
+        <item quantity="other">%1$dm</item>
+        <item quantity="one">%1$dm</item>
+    </plurals>
+    <plurals name="timestamp_weeks">
+        <item quantity="other">%1$dw</item>
+        <item quantity="one">%1$dw</item>
+    </plurals>
+    <plurals name="top_ups_hours_listened">
+        <item quantity="other">Amahora angu-%1$s/%2$d alalelwe</item>
+        <item quantity="one">Ihora elingu-%1$s/%2$d elilalelwe</item>
+    </plurals>
+    <plurals name="upcoming_release_pretitle_days">
+        <item quantity="other">Izokhishwa ezinsukwini ezingu-%1$d</item>
+        <item quantity="one">Izokhishwa ezinsukwini ezingu-%1$d</item>
+    </plurals>
+    <plurals name="user_stats_top_entity_position_down">
+        <item quantity="other">Lena yehle ngezindawo ezingu-%1$d kusukela ngenyanga edlule</item>
+        <item quantity="one">Lena yehle ngendawo engu-%1$d kusukela ngenyanga edlule</item>
+    </plurals>
+    <plurals name="user_stats_top_entity_position_up">
+        <item quantity="other">Lena yenyuke ngezindawo ezingu-%1$d kusukela ngenyanga edlule</item>
+        <item quantity="one">Lena yenyuke ngendawo engu-%1$d kusukela ngenyanga edlule</item>
+    </plurals>
+    <plurals name="ylx_liked_songs_offline_subtitle">
+        <item quantity="other">Izingoma ezidawunilodiwe ezingu-%1$s</item>
+        <item quantity="one">Ingoma edawunilodiwe engu-%1$s</item>
+    </plurals>
+    <plurals name="your_episodes_header_subtitle">
+        <item quantity="other">%1$d iziqephu</item>
+        <item quantity="one">%1$d isiqephu</item>
+    </plurals>
+    <plurals name="your_episodes_settings_option_auto_download_enabled_shows">
+        <item quantity="other">Kuvuliwe emibukisweni engu-%1$s</item>
+        <item quantity="one">Kuvuliwe kumbukiso ongu-%1$s</item>
+    </plurals>
+    <plurals name="your_library_in_progress_progress_status_description">
+        <item quantity="other">Kuyaqhubeka, amaphesenti angu-%1$d aqediwe</item>
+        <item quantity="one">Kuyaqhubeka, amaphesenti angu-%1$d aqediwe</item>
+    </plurals>
+    <plurals name="your_library_pin_failed_body_item_pin_limit_reached">
+        <item quantity="other">Ungakwazi ukuba nezinto ezingu-%1$d eziphiniwe ngesikhathi esisodwa.</item>
+        <item quantity="one">Ungakwazi ukuba nento engu-%1$d kuphela ephiniwe ngesikhathi esisodwa.</item>
+    </plurals>
+    <plurals name="your_library_pinning_failed_body_item_pin_limit_reached">
+        <item quantity="other">Ungakwazi ukuba nezinto ezingu-%1$d eziphiniwe ngesikhathi esisodwa.</item>
+        <item quantity="one">Ungakwazi ukuba nento engu-%1$d kuphela ephiniwe ngesikhathi esisodwa.</item>
+    </plurals>
+</resources>

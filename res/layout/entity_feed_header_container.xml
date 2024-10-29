@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ViewStub android:id="@id/header_view_stub" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/spacer_56" android:layout_marginRight="@dimen/spacer_56" android:layout_marginHorizontal="@dimen/spacer_56" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <FrameLayout android:id="@id/action_button_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/spacer_16" android:layout_marginBottom="@dimen/spacer_16" android:layout_marginVertical="@dimen/spacer_16" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="@id/action_toolbar_parent_center_guide" app:layout_constraintStart_toStartOf="@id/action_toolbar_parent_center_guide" app:layout_constraintTop_toTopOf="parent" />
+    <androidx.constraintlayout.widget.Guideline android:orientation="vertical" android:id="@id/action_toolbar_parent_center_guide" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintGuide_end="32.0dip" />
+</androidx.constraintlayout.widget.ConstraintLayout>

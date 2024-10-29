@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="square_cover_art_min_bottom_vertical_margin">12.0dip</dimen>
+    <dimen name="square_cover_art_min_horizontal_margin">72.0dip</dimen>
+    <dimen name="square_cover_art_min_top_vertical_margin">16.0dip</dimen>
+</resources>

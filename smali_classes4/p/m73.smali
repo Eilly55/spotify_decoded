@@ -1,0 +1,60 @@
+.class public final Lp/m73;
+.super Lp/q910;
+.source "SourceFile"
+
+# interfaces
+.implements Lp/j3v;
+
+
+# static fields
+.field public static final a:Lp/m73;
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 2
+
+    .line 1
+    new-instance v0, Lp/m73;
+
+    .line 2
+    .line 3
+    const/4 v1, 0x1
+
+    .line 4
+    invoke-direct {v0, v1}, Lp/q910;-><init>(I)V
+
+    .line 5
+    .line 6
+    .line 7
+    sput-object v0, Lp/m73;->a:Lp/m73;
+
+    .line 8
+    .line 9
+    return-void
+.end method
+
+
+# virtual methods
+.method public final invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 1
+
+    .line 1
+    check-cast p1, Lp/nbp0;
+
+    .line 2
+    .line 3
+    const/4 v0, 0x0
+
+    .line 4
+    invoke-static {p1, v0}, Lp/lbp0;->k(Lp/nbp0;I)V
+
+    .line 5
+    .line 6
+    .line 7
+    sget-object p1, Lp/r7z0;->a:Lp/r7z0;
+
+    .line 8
+    .line 9
+    return-object p1
+.end method

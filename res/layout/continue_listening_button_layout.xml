@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Button android:layout_gravity="center" android:id="@id/continue_listening_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/continue_listening_button" android:maxLines="1" android:filterTouchesWhenObscured="false" style="@style/Widget.Glue.Button.Primary.White"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

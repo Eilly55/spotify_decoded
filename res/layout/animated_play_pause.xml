@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_gravity="center" android:layout_width="@dimen/animated_play_view_size" android:layout_height="@dimen/animated_play_view_size"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.airbnb.lottie.LottieAnimationView android:layout_gravity="center" android:id="@id/play_pause_anim" android:visibility="gone" android:layout_width="@dimen/play_btn_anim_size" android:layout_height="@dimen/play_btn_anim_size" android:scaleType="fitCenter" app:lottie_autoPlay="false" />
+    <androidx.appcompat.widget.AppCompatImageButton android:layout_gravity="center" android:id="@id/play_pause" android:background="@null" android:layout_width="@dimen/play_btn_icon_size" android:layout_height="@dimen/play_btn_icon_size" android:scaleType="fitCenter" />
+</FrameLayout>

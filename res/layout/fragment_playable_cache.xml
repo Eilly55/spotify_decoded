@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:id="@id/container" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.compose.ui.platform.ComposeView android:id="@id/offline_listening_disabled_state" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+    <include android:id="@id/empty_state" layout="@layout/layout_empty" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/recycler_view" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+    <include android:id="@id/loading_state" layout="@layout/layout_loading" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

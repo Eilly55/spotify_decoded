@@ -1,0 +1,703 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="ad_header_title_sponsored_session_end_card">
+        <item quantity="other">Uživajte u neometanom slušanju %1$d minuta</item>
+        <item quantity="one">Uživajte u neometanom slušanju %1$d minutu</item>
+        <item quantity="few">Uživajte u neometanom slušanju %1$d minute</item>
+    </plurals>
+    <plurals name="ad_header_title_sponsored_session_video_ad">
+        <item quantity="other">Dobit ćete %1$d minutu neometanog slušanja nakon ovog kratkog videozapisa</item>
+        <item quantity="one">Dobit ćete %1$d minutu neometanog slušanja nakon ovog kratkog videozapisa</item>
+        <item quantity="few">Dobit ćete %1$d minute neometanog slušanja nakon ovog kratkog videozapisa</item>
+    </plurals>
+    <plurals name="add_to_playlist_filter_items_count_changed_announcement">
+        <item quantity="other">Pronađeno je %1$d stavki</item>
+        <item quantity="one">Pronađena je %1$d stavka</item>
+        <item quantity="few">Pronađene su %1$d stavke</item>
+    </plurals>
+    <plurals name="add_to_playlist_subtitle_audiobooks_count">
+        <item quantity="other">%1$s audio knjiga</item>
+        <item quantity="one">%1$s audio knjiga</item>
+        <item quantity="few">%1$s audio knjige</item>
+    </plurals>
+    <plurals name="add_to_playlist_subtitle_episodes_count">
+        <item quantity="other">%1$s epizoda</item>
+        <item quantity="one">%1$s epizoda</item>
+        <item quantity="few">%1$s epizode</item>
+    </plurals>
+    <plurals name="add_to_playlist_subtitle_songs_count">
+        <item quantity="other">%1$s pjesama</item>
+        <item quantity="one">%1$s pjesma</item>
+        <item quantity="few">%1$s pjesme</item>
+    </plurals>
+    <plurals name="add_to_playlist_subtitle_tracks_count">
+        <item quantity="other">%1$s numera</item>
+        <item quantity="one">%1$s numera</item>
+        <item quantity="few">%1$s numere</item>
+    </plurals>
+    <plurals name="album_track_count_and_duration">
+        <item quantity="other">%1$d pjesama • %2$s</item>
+        <item quantity="one">%1$d pjesma • %2$s</item>
+        <item quantity="few">%1$d pjesme • %2$s</item>
+    </plurals>
+    <plurals name="allboarding_selected_nb_label">
+        <item quantity="other">Odabrano je %1$d stavki</item>
+        <item quantity="one">Odabrana je %1$d stavka</item>
+        <item quantity="few">Odabrane su %1$d stavke</item>
+    </plurals>
+    <plurals name="allboarding_selection_summary_content_desc">
+        <item quantity="other">Odabrano je %1$d stavki</item>
+        <item quantity="one">Odabrana je %1$d stavka</item>
+        <item quantity="few">Odabrane su %1$d stavke</item>
+    </plurals>
+    <plurals name="allboarding_selection_summary_with_requirement_content_desc">
+        <item quantity="other">Odabrane stavke: %1$d. Odabir još najmanje %2$d radi nastavka.</item>
+        <item quantity="one">Odabrane stavke: %1$d. Odabir još najmanje %2$d radi nastavka.</item>
+        <item quantity="few">Odabrane stavke: %1$d. Odabir još najmanje %2$d radi nastavka.</item>
+    </plurals>
+    <plurals name="android_auto_podcast_episode_time_format_hours">
+        <item quantity="other">%1$d h</item>
+        <item quantity="one">%1$d h</item>
+        <item quantity="few">%1$d h</item>
+    </plurals>
+    <plurals name="android_auto_podcast_episode_time_format_min">
+        <item quantity="other">%1$d min</item>
+        <item quantity="one">%1$d min</item>
+        <item quantity="few">%1$d min</item>
+    </plurals>
+    <plurals name="artist_number_of_liked_releases">
+        <item quantity="other">%1$,d izdanja</item>
+        <item quantity="one">%1$,d izdanje</item>
+        <item quantity="few">%1$,d izdanja</item>
+    </plurals>
+    <plurals name="artist_number_of_liked_songs">
+        <item quantity="other">%1$,d pjesama</item>
+        <item quantity="one">%1$,d pjesma</item>
+        <item quantity="few">%1$,d pjesme</item>
+    </plurals>
+    <plurals name="artist_saved_songs_subtitle">
+        <item quantity="other">%1$d pjesama • %2$s</item>
+        <item quantity="one">%1$d pjesma • %2$s</item>
+        <item quantity="few">%1$d pjesme • %2$s</item>
+    </plurals>
+    <plurals name="assisted_curation_search_filter_items_count_changed_announcement">
+        <item quantity="other">Pronađeno je %1$d stavki</item>
+        <item quantity="one">Pronađena je %1$d stavka</item>
+        <item quantity="few">Pronađene su %1$d stavke</item>
+    </plurals>
+    <plurals name="auto_download_limit_option">
+        <item quantity="other">%1$s novih epizoda po emisiji</item>
+        <item quantity="one">%1$s nova epizoda po emisiji</item>
+        <item quantity="few">%1$s nove epizode po emisiji</item>
+    </plurals>
+    <plurals name="campfire_chats_preview_days_content_description">
+        <item quantity="other">Prije %1$s dana</item>
+        <item quantity="one">Prije %1$s dan</item>
+        <item quantity="few">Prije %1$s dana</item>
+    </plurals>
+    <plurals name="campfire_chats_preview_hours_content_description">
+        <item quantity="other">Prije %1$s sati</item>
+        <item quantity="one">Prije %1$s sat</item>
+        <item quantity="few">Prije %1$s sata</item>
+    </plurals>
+    <plurals name="campfire_chats_preview_minutes_content_description">
+        <item quantity="other">Prije %1$s minuta</item>
+        <item quantity="one">Prije %1$s minutu</item>
+        <item quantity="few">Prije %1$s minute</item>
+    </plurals>
+    <plurals name="campfire_sharedbychip_label_multiple">
+        <item quantity="other">%1$s prijatelja</item>
+        <item quantity="one">%1$s prijatelja</item>
+        <item quantity="few">%1$s prijatelja</item>
+    </plurals>
+    <plurals name="chapters_added">
+        <item quantity="other">Dodano je %1$d poglavlja</item>
+        <item quantity="one">Dodano je %1$d poglavlje</item>
+        <item quantity="few">Dodana su %1$d poglavlja</item>
+    </plurals>
+    <plurals name="chapters_played">
+        <item quantity="other">Reproducirano je %1$d poglavlja</item>
+        <item quantity="one">Reproducirano je %1$d poglavlje</item>
+        <item quantity="few">Reproducirana su %1$d poglavlja</item>
+    </plurals>
+    <plurals name="charts_header_new_entry_count">
+        <item quantity="other">%1$,d novih unosa</item>
+        <item quantity="one">%1$,d novi unos</item>
+        <item quantity="few">%1$,d nova unosa</item>
+    </plurals>
+    <plurals name="comment_days_ago">
+        <item quantity="other">Prije %1$d dana</item>
+        <item quantity="one">Prije %1$d dan</item>
+        <item quantity="few">Prije %1$d dana</item>
+    </plurals>
+    <plurals name="comment_hours_ago">
+        <item quantity="other">Prije %1$d sati</item>
+        <item quantity="one">Prije %1$d sat</item>
+        <item quantity="few">Prije %1$d sata</item>
+    </plurals>
+    <plurals name="comment_minutes_ago">
+        <item quantity="other">Prije %1$d minuta</item>
+        <item quantity="one">Prije %1$d minutu</item>
+        <item quantity="few">Prije %1$d minute</item>
+    </plurals>
+    <plurals name="comment_months_ago">
+        <item quantity="other">Prije %1$d mjeseci</item>
+        <item quantity="one">Prije %1$d mjesec</item>
+        <item quantity="few">Prije %1$d mjeseca</item>
+    </plurals>
+    <plurals name="comment_reply_preview">
+        <item quantity="other">%1$s odgovora</item>
+        <item quantity="one">%1$s odgovor</item>
+        <item quantity="few">%1$s odgovora</item>
+    </plurals>
+    <plurals name="comment_weeks_ago">
+        <item quantity="other">Prije %1$d sedmica</item>
+        <item quantity="one">Prije %1$d sedmicu</item>
+        <item quantity="few">Prije %1$d sedmice</item>
+    </plurals>
+    <plurals name="comment_years_ago">
+        <item quantity="other">Prije %1$d godina</item>
+        <item quantity="one">Prije %1$d godine</item>
+        <item quantity="few">Prije %1$d godine</item>
+    </plurals>
+    <plurals name="complex_playlist_number_of_songs">
+        <item quantity="other">%1$,d pjesama</item>
+        <item quantity="one">%1$,d pjesma</item>
+        <item quantity="few">%1$,d pjesme</item>
+    </plurals>
+    <plurals name="connect_device_multiple_listeners">
+        <item quantity="other">%1$d slušalaca</item>
+        <item quantity="one">%1$d slušalac</item>
+        <item quantity="few">%1$d slušaoca</item>
+    </plurals>
+    <plurals name="content_feed_timestamp_days_ago">
+        <item quantity="other">Prije %1$d dana</item>
+        <item quantity="one">Prije %1$d dan</item>
+        <item quantity="few">Prije %1$d dana</item>
+    </plurals>
+    <plurals name="content_feed_timestamp_hours_ago">
+        <item quantity="other">Prije %1$d h</item>
+        <item quantity="one">Prije %1$d h</item>
+        <item quantity="few">Prije %1$d h</item>
+    </plurals>
+    <plurals name="content_feed_timestamp_minutes_ago">
+        <item quantity="other">Prije %1$d min</item>
+        <item quantity="one">Prije %1$d min</item>
+        <item quantity="few">Prije %1$d min</item>
+    </plurals>
+    <plurals name="context_menu_sleep_timer_hours">
+        <item quantity="other">%1$d sati</item>
+        <item quantity="one">%1$d sat</item>
+        <item quantity="few">%1$d sata</item>
+    </plurals>
+    <plurals name="context_menu_sleep_timer_mins">
+        <item quantity="other">%1$d minuta</item>
+        <item quantity="one">%1$d minuta</item>
+        <item quantity="few">%1$d minute</item>
+    </plurals>
+    <plurals name="creator_row_content_description">
+        <item quantity="other">Autori: %1$s</item>
+        <item quantity="one">Autor: %1$s</item>
+        <item quantity="few">Autori: %1$s</item>
+    </plurals>
+    <plurals name="creators_button_title_counter">
+        <item quantity="other">%1$s i još %2$d osoba</item>
+        <item quantity="one">%1$s i još %2$d osoba</item>
+        <item quantity="few">%1$s i još %2$d osobe</item>
+    </plurals>
+    <plurals name="creators_row_accessibility_hint">
+        <item quantity="other">Prikaz liste svih %1$s kojom se može kretati</item>
+        <item quantity="one">Odlazak na više sadržaja ovog %1$s</item>
+        <item quantity="few">Prikaz liste svih %1$s kojom se može kretati</item>
+    </plurals>
+    <plurals name="days_label">
+        <item quantity="other">%1$s&lt;br/>&lt;b>dana&lt;/b></item>
+        <item quantity="one">%1$s&lt;br/>&lt;b>dan&lt;/b></item>
+        <item quantity="few">%1$s&lt;br/>&lt;b>dana&lt;/b></item>
+    </plurals>
+    <plurals name="days_left_until_release_date">
+        <item quantity="other">Izlazi za %1$d dana</item>
+        <item quantity="one">Izlazi za %1$d dan</item>
+        <item quantity="few">Izlazi za %1$d dana</item>
+    </plurals>
+    <plurals name="days_to_renew">
+        <item quantity="other">%1$d dana do obnove vremena slušanja</item>
+        <item quantity="one">%1$d dan do obnove vremena slušanja</item>
+        <item quantity="few">%1$d dana do obnove vremena slušanja</item>
+    </plurals>
+    <plurals name="entity_action_row_downloading_progress_content_description">
+        <item quantity="other">Preuzeto je %1$d posto</item>
+        <item quantity="one">Preuzeto je %1$d posto</item>
+        <item quantity="few">Preuzeto je %1$d posto</item>
+    </plurals>
+    <plurals name="episode_contents_chapters_expand_button">
+        <item quantity="other">Prikaži %1$d poglavlja</item>
+        <item quantity="one">Prikaži %1$d poglavlje</item>
+        <item quantity="few">Prikaži %1$d poglavlja</item>
+    </plurals>
+    <plurals name="episodes_added">
+        <item quantity="other">Dodano je %1$d epizoda</item>
+        <item quantity="one">Dodana je %1$d epizoda</item>
+        <item quantity="few">Dodane su %1$d epizode</item>
+    </plurals>
+    <plurals name="episodes_played">
+        <item quantity="other">Reproducirano je %1$d epizoda</item>
+        <item quantity="one">Reproducirana je %1$d epizoda</item>
+        <item quantity="few">Reproducirane su %1$d epizode</item>
+    </plurals>
+    <plurals name="error_dialog_body_resend_limit">
+        <item quantity="other">Pričekajte %1$d sekundi, a zatim zatražite novi kôd.</item>
+        <item quantity="one">Pričekajte %1$d sekundu, a zatim zatražite novi kôd.</item>
+        <item quantity="few">Pričekajte %1$d sekunde, a zatim zatražite novi kôd.</item>
+    </plurals>
+    <plurals name="error_dialog_title_resend_limit">
+        <item quantity="other">Pokušajte ponovo za %1$d sekundi</item>
+        <item quantity="one">Pokušajte ponovo za %1$d sekundu</item>
+        <item quantity="few">Pokušajte ponovo za %1$d sekunde</item>
+    </plurals>
+    <plurals name="event_card_number_of_events_text">
+        <item quantity="other">%1$d događaja</item>
+        <item quantity="one">%1$d događaj</item>
+        <item quantity="few">%1$d događaja</item>
+    </plurals>
+    <plurals name="find_friends_flow_confirm_desc">
+        <item quantity="other">Jeste li sigurni da želite pratiti %1$,d osoba?</item>
+        <item quantity="one">Jeste li sigurni da želite pratiti %1$,d osobu?</item>
+        <item quantity="few">Jeste li sigurni da želite pratiti %1$,d osobe?</item>
+    </plurals>
+    <plurals name="header_common_likes_count">
+        <item quantity="other">%1$s pohranjivanja</item>
+        <item quantity="one">%1$s pohranjivanje</item>
+        <item quantity="few">%1$s pohranjivanja</item>
+    </plurals>
+    <plurals name="hours_label">
+        <item quantity="other">%1$s&lt;br/>&lt;b>sati&lt;/b></item>
+        <item quantity="one">%1$s&lt;br/>&lt;b>sat&lt;/b></item>
+        <item quantity="few">%1$s&lt;br/>&lt;b>sata&lt;/b></item>
+    </plurals>
+    <plurals name="hours_to_renew">
+        <item quantity="other">%1$d sati do obnove sati slušanja</item>
+        <item quantity="one">%1$d sat do obnove sati slušanja</item>
+        <item quantity="few">%1$d sata do obnove sati slušanja</item>
+    </plurals>
+    <plurals name="ipl_new_joiner_nudge">
+        <item quantity="other">%2$d osoba se pridružilo vašem Džemanju</item>
+        <item quantity="one">%1$s se pridružio/la vašem Džemanju</item>
+        <item quantity="few">%2$d osobe su se pridružile vašem Džemanju</item>
+    </plurals>
+    <plurals name="item_description_folder_folders_count">
+        <item quantity="other">%1$s foldera</item>
+        <item quantity="one">%1$s folder</item>
+        <item quantity="few">%1$s foldera</item>
+    </plurals>
+    <plurals name="item_description_folder_playlists_count">
+        <item quantity="other">%1$s plejlista</item>
+        <item quantity="one">%1$s plejlista</item>
+        <item quantity="few">%1$s plejliste</item>
+    </plurals>
+    <plurals name="item_description_liked_songs">
+        <item quantity="other">Plejlista • %1$s pjesama</item>
+        <item quantity="one">Plejlista • %1$s pjesma</item>
+        <item quantity="few">Plejlista • %1$s pjesme</item>
+    </plurals>
+    <plurals name="item_description_liked_songs_filtered">
+        <item quantity="other">%1$s pjesama</item>
+        <item quantity="one">%1$s pjesma</item>
+        <item quantity="few">%1$s pjesme</item>
+    </plurals>
+    <plurals name="item_description_local_files">
+        <item quantity="other">Plejlista • %1$s numera</item>
+        <item quantity="one">Plejlista • %1$s numera</item>
+        <item quantity="few">Plejlista • %1$s numere</item>
+    </plurals>
+    <plurals name="item_description_local_files_filtered">
+        <item quantity="other">%1$s numera</item>
+        <item quantity="one">%1$s numera</item>
+        <item quantity="few">%1$s numere</item>
+    </plurals>
+    <plurals name="item_description_show_downloaded">
+        <item quantity="other">%1$s preuzetih epizoda • %2$s</item>
+        <item quantity="one">%1$s preuzeta epizoda • %2$s</item>
+        <item quantity="few">%1$s preuzete epizode • %2$s</item>
+    </plurals>
+    <plurals name="item_description_show_downloaded_no_creator">
+        <item quantity="other">%1$s preuzetih epizoda</item>
+        <item quantity="one">%1$s preuzeta epizoda</item>
+        <item quantity="few">%1$s preuzete epizode</item>
+    </plurals>
+    <plurals name="item_description_your_episodes_downloaded">
+        <item quantity="other">%1$s preuzetih epizoda</item>
+        <item quantity="one">%1$s preuzeta epizoda</item>
+        <item quantity="few">%1$s preuzete epizode</item>
+    </plurals>
+    <plurals name="items_added">
+        <item quantity="other">Dodano je %1$d stavki</item>
+        <item quantity="one">Dodana je %1$d stavka</item>
+        <item quantity="few">Dodane su %1$d stavke</item>
+    </plurals>
+    <plurals name="items_played">
+        <item quantity="other">Reproducirano je %1$d stavki</item>
+        <item quantity="one">Reproducirana je %1$d stavka</item>
+        <item quantity="few">Reproducirane su %1$d stavke</item>
+    </plurals>
+    <plurals name="jam_host_settings_header_participant_count">
+        <item quantity="other">%1$d učesnika</item>
+        <item quantity="one">%1$d učesnik</item>
+        <item quantity="few">%1$d učesnika</item>
+    </plurals>
+    <plurals name="library_pinned_section_placeholder_subtitle">
+        <item quantity="other">Ili prevucite udesno. Možete imati do %1$d zakačenih stavki.</item>
+        <item quantity="one">Ili prevucite udesno. Možete imati do %1$d zakačenu stavku.</item>
+        <item quantity="few">Ili prevucite udesno. Možete imati do %1$d zakačene stavke.</item>
+    </plurals>
+    <plurals name="liked_songs_header_subtitle">
+        <item quantity="other">%1$d pjesama</item>
+        <item quantity="one">%1$d pjesma</item>
+        <item quantity="few">%1$d pjesme</item>
+    </plurals>
+    <plurals name="line_selected">
+        <item quantity="other">Odabrano je %1$d redova</item>
+        <item quantity="one">Odabran je %1$d red</item>
+        <item quantity="few">Odabrana su %1$d reda</item>
+    </plurals>
+    <plurals name="listen_later_header_subtitle">
+        <item quantity="other">%1$d epizoda</item>
+        <item quantity="one">%1$d epizoda</item>
+        <item quantity="few">%1$d epizode</item>
+    </plurals>
+    <plurals name="listening_hours_card_complete">
+        <item quantity="other">Slušali ste svih %1$d sati audio knjiga koji su uključeni u vaš mjesečni paket.</item>
+        <item quantity="one">Slušali ste cijeli %1$d sat audio knjiga koji je uključen u vaš mjesečni paket.</item>
+        <item quantity="few">Slušali ste sva %1$d sata audio knjiga koja su uključena u vaš mjesečni paket.</item>
+    </plurals>
+    <plurals name="listening_hours_card_text">
+        <item quantity="other">U vaš mjesečni paket je uključeno %1$d sati slušanja audio knjiga iz našeg pretplatničkog kataloga.</item>
+        <item quantity="one">U vaš mjesečni paket je uključen %1$d sat slušanja audio knjiga iz našeg pretplatničkog kataloga.</item>
+        <item quantity="few">U vaš mjesečni paket su uključena %1$d sata slušanja audio knjiga iz našeg pretplatničkog kataloga.</item>
+    </plurals>
+    <plurals name="listening_hours_listened">
+        <item quantity="other">%1$d h slušanja</item>
+        <item quantity="one">%1$d h slušanja</item>
+        <item quantity="few">%1$d h slušanja</item>
+    </plurals>
+    <plurals name="local_files_subtitle_number_of_tracks">
+        <item quantity="other">%1$,d numera</item>
+        <item quantity="one">%1$,d numera</item>
+        <item quantity="few">%1$,d numere</item>
+    </plurals>
+    <plurals name="minutes_label">
+        <item quantity="other">%1$s&lt;br/>&lt;b>minuta&lt;/b></item>
+        <item quantity="one">%1$s&lt;br/>&lt;b>minuta&lt;/b></item>
+        <item quantity="few">%1$s&lt;br/>&lt;b>minute&lt;/b></item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d novih obavještenja</item>
+        <item quantity="one">%d novo obavještenje</item>
+        <item quantity="few">%d nova obavještenja</item>
+    </plurals>
+    <plurals name="notification_syncing_text">
+        <item quantity="other">%1$,d od %2$,d (%3$,d%% završeno)</item>
+        <item quantity="one">%1$,d od %2$,d (%3$,d%% završeno)</item>
+        <item quantity="few">%1$,d od %2$,d (%3$,d%% završeno)</item>
+    </plurals>
+    <plurals name="num_available_downloads">
+        <item quantity="other">Dostupno je %1$s preuzimanja</item>
+        <item quantity="one">Dostupno je %1$s preuzimanje</item>
+        <item quantity="few">Dostupna su %1$s preuzimanja</item>
+    </plurals>
+    <plurals name="number_events_from_date">
+        <item quantity="other">%1$s događaja od %2$s</item>
+        <item quantity="one">%1$s događaj od %2$s</item>
+        <item quantity="few">%1$s događaja od %2$s</item>
+    </plurals>
+    <plurals name="number_of_items">
+        <item quantity="other">%1$s numera</item>
+        <item quantity="one">%1$s numera</item>
+        <item quantity="few">%1$s numere</item>
+    </plurals>
+    <plurals name="number_of_live_events">
+        <item quantity="other">%1$s događaja</item>
+        <item quantity="one">%1$s događaj</item>
+        <item quantity="few">%1$s događaja</item>
+    </plurals>
+    <plurals name="number_of_live_events_near_you">
+        <item quantity="other">%1$s događaja u vašoj blizini</item>
+        <item quantity="one">%1$s događaj u vašoj blizini</item>
+        <item quantity="few">%1$s događaja u vašoj blizini</item>
+    </plurals>
+    <plurals name="otp_description">
+        <item quantity="other">Poslali smo SMS sa %1$d-cifrenim kodom na %2$s.</item>
+        <item quantity="one">Poslali smo SMS s %1$d-cifrenim kodom na %2$s.</item>
+        <item quantity="few">Poslali smo SMS s %1$d-cifrenim kodom na %2$s.</item>
+    </plurals>
+    <plurals name="otp_description_alt">
+        <item quantity="other">Poslali smo %1$d-cifreni kôd na %2$s.</item>
+        <item quantity="one">Poslali smo %1$d-cifreni kôd na %2$s.</item>
+        <item quantity="few">Poslali smo %1$d-cifreni kôd na %2$s.</item>
+    </plurals>
+    <plurals name="pin_gate_wrong_pin_long_delay_error_message">
+        <item quantity="other">Pogrešan PIN. Pokušajte ponovo za %1$d min.</item>
+        <item quantity="one">Pogrešan PIN. Pokušajte ponovo za %1$d min.</item>
+        <item quantity="few">Pogrešan PIN. Pokušajte ponovo za %1$d min.</item>
+    </plurals>
+    <plurals name="pin_gate_wrong_pin_short_delay_error_message">
+        <item quantity="other">Pogrešan PIN. Pokušajte ponovo za %1$d s.</item>
+        <item quantity="one">Pogrešan PIN. Pokušajte ponovo za %1$d s.</item>
+        <item quantity="few">Pogrešan PIN. Pokušajte ponovo za %1$d s.</item>
+    </plurals>
+    <plurals name="playback_settings_crossfade_slider_seconds_full">
+        <item quantity="other">%1$d sekundi</item>
+        <item quantity="one">%1$d sekunda</item>
+        <item quantity="few">%1$d sekunde</item>
+    </plurals>
+    <plurals name="playlist_header_collaborators">
+        <item quantity="other">%1$s i još %2$d osoba</item>
+        <item quantity="one">%1$s i još %2$d osoba</item>
+        <item quantity="few">%1$s i još %2$d osobe</item>
+    </plurals>
+    <plurals name="playlist_header_creator_with_collaborators_content_description">
+        <item quantity="other">Kreirao/la %1$s i još %2$d</item>
+        <item quantity="one">Kreirao/la %1$s i još %2$d</item>
+        <item quantity="few">Kreirao/la %1$s i još %2$d</item>
+    </plurals>
+    <plurals name="playlist_participants_row_subtitle_episodes">
+        <item quantity="other">%1$d epizoda</item>
+        <item quantity="one">%1$d epizoda</item>
+        <item quantity="few">%1$d epizode</item>
+    </plurals>
+    <plurals name="playlist_participants_row_subtitle_tracks">
+        <item quantity="other">%1$d pjesama</item>
+        <item quantity="one">%1$d pjesma</item>
+        <item quantity="few">%1$d pjesme</item>
+    </plurals>
+    <plurals name="playlist_participants_title">
+        <item quantity="other">%1$d osoba</item>
+        <item quantity="one">%1$d osoba</item>
+        <item quantity="few">%1$d osobe</item>
+    </plurals>
+    <plurals name="playlist_trackcloud_includes_label_episodes">
+        <item quantity="other">%1$,d EPIZODA</item>
+        <item quantity="one">%1$,d EPIZODA</item>
+        <item quantity="few">%1$,d EPIZODE</item>
+    </plurals>
+    <plurals name="playlist_trackcloud_includes_label_songs">
+        <item quantity="other">%1$,d PJESAMA</item>
+        <item quantity="one">%1$,d PJESMA</item>
+        <item quantity="few">%1$,d PJESME</item>
+    </plurals>
+    <plurals name="podcast_chapters_bottom_sheet_chapter_count">
+        <item quantity="other">%1$d poglavlja</item>
+        <item quantity="one">%1$d poglavlje</item>
+        <item quantity="few">%1$d poglavlja</item>
+    </plurals>
+    <plurals name="podcast_chapters_expand_button">
+        <item quantity="other">Prikaži %1$d poglavlja</item>
+        <item quantity="one">Prikaži %1$d poglavlje</item>
+        <item quantity="few">Prikaži %1$d poglavlja</item>
+    </plurals>
+    <plurals name="podcast_poll_days_left_label">
+        <item quantity="other">%1$d dana</item>
+        <item quantity="one">%1$d dan</item>
+        <item quantity="few">%1$d dana</item>
+    </plurals>
+    <plurals name="podcast_poll_hours_left_label">
+        <item quantity="other">Preostalo je još %1$d sati</item>
+        <item quantity="one">Preostao je još %1$d sat</item>
+        <item quantity="few">Preostala su još %1$d sata</item>
+    </plurals>
+    <plurals name="podcast_poll_minutes_left_label">
+        <item quantity="other">Preostalo je %1$d minuta</item>
+        <item quantity="one">Preostala je %1$d minuta</item>
+        <item quantity="few">Preostale su %1$d minute</item>
+    </plurals>
+    <plurals name="podcast_poll_poll_subtitle">
+        <item quantity="other">%1$d glasova • %2$s</item>
+        <item quantity="one">%1$d glas • %2$s</item>
+        <item quantity="few">%1$d glasa • %2$s</item>
+    </plurals>
+    <plurals name="premium_mini_playlist_add_song_subtitle">
+        <item quantity="other">Preostalo je %1$d pjesama</item>
+        <item quantity="one">Preostala je %1$d pjesma</item>
+        <item quantity="few">Preostale su %1$d pjesme</item>
+    </plurals>
+    <plurals name="premium_mini_playlist_subtitle">
+        <item quantity="other">%1$d pjesama • %2$s</item>
+        <item quantity="one">%1$d pjesma • %2$s</item>
+        <item quantity="few">%1$d pjesme • %2$s</item>
+    </plurals>
+    <plurals name="premium_plan_card_days_remaining">
+        <item quantity="other">%1$d dana Premium usluge</item>
+        <item quantity="one">%1$d dan Premium usluge</item>
+        <item quantity="few">%1$d dana Premium usluge</item>
+    </plurals>
+    <plurals name="premium_plan_card_months_remaining">
+        <item quantity="other">%1$d mjeseci Premium usluge</item>
+        <item quantity="one">%1$d mjesec Premium usluge</item>
+        <item quantity="few">%1$d mjeseca Premium usluge</item>
+    </plurals>
+    <plurals name="premium_plan_card_weeks_remaining">
+        <item quantity="other">%1$d sedmica Premium usluge</item>
+        <item quantity="one">%1$d sedmica Premium usluge</item>
+        <item quantity="few">%1$d sedmice Premium usluge</item>
+    </plurals>
+    <plurals name="premium_plan_card_years_remaining">
+        <item quantity="other">%1$d godina Premium usluge</item>
+        <item quantity="one">%1$d godina Premium usluge</item>
+        <item quantity="few">%1$d godine Premium usluge</item>
+    </plurals>
+    <plurals name="profile_followers_count">
+        <item quantity="other">%1$d pratilaca</item>
+        <item quantity="one">%1$d pratilac</item>
+        <item quantity="few">%1$d pratioca</item>
+    </plurals>
+    <plurals name="profile_following_count">
+        <item quantity="other">%1$d praćenja</item>
+        <item quantity="one">%1$d praćenje</item>
+        <item quantity="few">%1$d praćenja</item>
+    </plurals>
+    <plurals name="profile_list_item_followers_count">
+        <item quantity="other">%1$,d pratilaca</item>
+        <item quantity="one">%1$,d pratilac</item>
+        <item quantity="few">%1$,d pratioca</item>
+    </plurals>
+    <plurals name="profile_list_see_all_footer_playlists">
+        <item quantity="other">Prikaži svih %1$d plejlista</item>
+        <item quantity="one">Prikaži %1$d plejlistu</item>
+        <item quantity="few">Prikaži sve %1$d plejliste</item>
+    </plurals>
+    <plurals name="profile_playlists_subtitle">
+        <item quantity="other">%1$,d pohranjivanja</item>
+        <item quantity="one">%1$,d pohranjivanje</item>
+        <item quantity="few">%1$,d pohranjivanja</item>
+    </plurals>
+    <plurals name="profile_recently_played_subtitle">
+        <item quantity="other">%1$,d pratilaca</item>
+        <item quantity="one">%1$,d pratilac</item>
+        <item quantity="few">%1$,d pratioca</item>
+    </plurals>
+    <plurals name="search_episode_chapters_title_plurals">
+        <item quantity="other">%1$d poglavlja</item>
+        <item quantity="one">%1$d poglavlje</item>
+        <item quantity="few">%1$d poglavlja</item>
+    </plurals>
+    <plurals name="search_saves_album_row_string">
+        <item quantity="other">%1$s pohranjivanja</item>
+        <item quantity="one">%1$s pohranjivanje</item>
+        <item quantity="few">%1$s pohranjivanja</item>
+    </plurals>
+    <plurals name="search_saves_playlist_row_string">
+        <item quantity="other">%1$s pohranjivanja</item>
+        <item quantity="one">%1$s pohranjivanje</item>
+        <item quantity="few">%1$s pohranjivanja</item>
+    </plurals>
+    <plurals name="seconds_label">
+        <item quantity="other">%1$s&lt;br/>&lt;b>sekundi&lt;/b></item>
+        <item quantity="one">%1$s&lt;br/>&lt;b>sekunda&lt;/b></item>
+        <item quantity="few">%1$s&lt;br/>&lt;b>sekunde&lt;/b></item>
+    </plurals>
+    <plurals name="selection_line_quantity_subtitle">
+        <item quantity="other">Odabrano je %1$d redova</item>
+        <item quantity="one">Odabran je %1$d red</item>
+        <item quantity="few">Odabrana su %1$d reda</item>
+    </plurals>
+    <plurals name="settings_item_offline_mode_time_left_days">
+        <item quantity="other">Morate se vratiti online za %1$,d dana</item>
+        <item quantity="one">Morate se vratiti online za %1$,d dan</item>
+        <item quantity="few">Morate se vratiti online za %1$,d dana</item>
+    </plurals>
+    <plurals name="settings_item_plan_overview_description_time_remaining">
+        <item quantity="other">Preostalo vrijeme: %1$d dana</item>
+        <item quantity="one">Preostalo vrijeme: %1$d dan</item>
+        <item quantity="few">Preostalo vrijeme: %1$d dana</item>
+    </plurals>
+    <plurals name="shared_by_bottomsheet_title">
+        <item quantity="other">Dijeli %1$s prijatelja</item>
+        <item quantity="one">Dijeli %1$s prijatelj</item>
+        <item quantity="few">Dijele %1$s prijatelja</item>
+    </plurals>
+    <plurals name="song_limit_dialog_title">
+        <item quantity="other">Dostigli ste ograničenje od %1$d preuzetih pjesama</item>
+        <item quantity="one">Dostigli ste ograničenje od %1$d preuzete pjesme</item>
+        <item quantity="few">Dostigli ste ograničenje od %1$d preuzete pjesme</item>
+    </plurals>
+    <plurals name="songs_added">
+        <item quantity="other">Dodano je %1$d pjesama</item>
+        <item quantity="one">Dodana je %1$d pjesma</item>
+        <item quantity="few">Dodane su %1$d pjesme</item>
+    </plurals>
+    <plurals name="songs_played">
+        <item quantity="other">Reproducirano je %1$d pjesama</item>
+        <item quantity="one">Reproducirana je %1$d pjesma</item>
+        <item quantity="few">Reproducirane su %1$d pjesme</item>
+    </plurals>
+    <plurals name="timestamp_days">
+        <item quantity="other">%1$d d</item>
+        <item quantity="one">%1$d d.</item>
+        <item quantity="few">%1$d d.</item>
+    </plurals>
+    <plurals name="timestamp_hours">
+        <item quantity="other">%1$d h</item>
+        <item quantity="one">%1$d h</item>
+        <item quantity="few">%1$d h</item>
+    </plurals>
+    <plurals name="timestamp_minutes">
+        <item quantity="other">%1$d min</item>
+        <item quantity="one">%1$d min</item>
+        <item quantity="few">%1$d min</item>
+    </plurals>
+    <plurals name="timestamp_weeks">
+        <item quantity="other">%1$d sed.</item>
+        <item quantity="one">%1$d sed.</item>
+        <item quantity="few">%1$d sed.</item>
+    </plurals>
+    <plurals name="top_ups_hours_listened">
+        <item quantity="other">Slušali ste %1$s/%2$d sati</item>
+        <item quantity="one">Slušali ste %1$s/%2$d sat</item>
+        <item quantity="few">Slušali ste %1$s/%2$d sata</item>
+    </plurals>
+    <plurals name="upcoming_release_pretitle_days">
+        <item quantity="other">Izlazi za %1$d dana</item>
+        <item quantity="one">Izlazi za %1$d dan</item>
+        <item quantity="few">Izlazi za %1$d dana</item>
+    </plurals>
+    <plurals name="user_stats_top_entity_position_down">
+        <item quantity="other">Ostvaren je pad za %1$d mjesta u odnosu na prethodni mjesec</item>
+        <item quantity="one">Ostvaren je pad za %1$d mjesto u odnosu na prethodni mjesec</item>
+        <item quantity="few">Ostvaren je pad za %1$d mjesta u odnosu na prethodni mjesec</item>
+    </plurals>
+    <plurals name="user_stats_top_entity_position_up">
+        <item quantity="other">Ostvaren je uspon za %1$d mjesta u odnosu na prethodni mjesec</item>
+        <item quantity="one">Ostvaren je uspon za %1$d mjesto u odnosu na prethodni mjesec</item>
+        <item quantity="few">Ostvaren je uspon za %1$d mjesta u odnosu na prethodni mjesec</item>
+    </plurals>
+    <plurals name="ylx_liked_songs_offline_subtitle">
+        <item quantity="other">%1$s preuzetih pjesama</item>
+        <item quantity="one">%1$s preuzeta pjesma</item>
+        <item quantity="few">%1$s preuzete pjesme</item>
+    </plurals>
+    <plurals name="your_episodes_header_subtitle">
+        <item quantity="other">%1$d epizoda</item>
+        <item quantity="one">%1$d epizoda</item>
+        <item quantity="few">%1$d epizode</item>
+    </plurals>
+    <plurals name="your_episodes_settings_option_auto_download_enabled_shows">
+        <item quantity="other">Uključeno je za %1$s emisija</item>
+        <item quantity="one">Uključeno je za %1$s emisiju</item>
+        <item quantity="few">Uključeno je za %1$s emisije</item>
+    </plurals>
+    <plurals name="your_library_in_progress_progress_status_description">
+        <item quantity="other">U toku; završeno je %1$d posto</item>
+        <item quantity="one">U toku; završeno je %1$d posto</item>
+        <item quantity="few">U toku; završeno je %1$d posto</item>
+    </plurals>
+    <plurals name="your_library_pin_failed_body_item_pin_limit_reached">
+        <item quantity="other">Istovremeno možete imati samo %1$d zakačenih stavki.</item>
+        <item quantity="one">Istovremeno možete imati samo %1$d zakačenu stavku.</item>
+        <item quantity="few">Istovremeno možete imati samo %1$d zakačene stavke.</item>
+    </plurals>
+    <plurals name="your_library_pinning_failed_body_item_pin_limit_reached">
+        <item quantity="other">Istovremeno možete imati samo %1$d zakačenih stavki.</item>
+        <item quantity="one">Istovremeno možete imati samo %1$d zakačenu stavku.</item>
+        <item quantity="few">Istovremeno možete imati samo %1$d zakačene stavke.</item>
+    </plurals>
+</resources>

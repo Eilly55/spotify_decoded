@@ -1,0 +1,61 @@
+.class public final synthetic Lp/ay40;
+.super Lp/xej0;
+.source "SourceFile"
+
+
+# static fields
+.field public static final a:Lp/ay40;
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 5
+
+    .line 1
+    new-instance v0, Lp/ay40;
+
+    .line 2
+    .line 3
+    const-class v1, Lp/qz40;
+
+    .line 4
+    .line 5
+    const-string v2, "colors"
+
+    .line 6
+    .line 7
+    const-string v3, "getColors()Lcom/spotify/lyrics/data/model/Lyrics$Colors;"
+
+    .line 8
+    .line 9
+    const/4 v4, 0x0
+
+    .line 10
+    invoke-direct {v0, v1, v2, v3, v4}, Lp/xej0;-><init>(Ljava/lang/Class;Ljava/lang/String;Ljava/lang/String;I)V
+
+    .line 11
+    .line 12
+    .line 13
+    sput-object v0, Lp/ay40;->a:Lp/ay40;
+
+    .line 14
+    .line 15
+    return-void
+.end method
+
+
+# virtual methods
+.method public final get(Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 0
+
+    .line 1
+    check-cast p1, Lp/qz40;
+
+    .line 2
+    .line 3
+    iget-object p1, p1, Lp/qz40;->d:Lp/cx40;
+
+    .line 4
+    .line 5
+    return-object p1
+.end method

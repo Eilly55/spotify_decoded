@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="@dimen/now_playing_bar_tooltip_margin"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="@style/TextAppearance.Encore.BodySmall" android:textSize="@dimen/now_playing_bar_tooltip_font_size" android:textColor="@color/black" android:id="@id/npb_tooltip_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toStartOf="@id/npb_tooltip_action" android:layout_alignParentStart="true" />
+    <TextView android:textAppearance="@style/TextAppearance.Encore.BodySmallBold" android:textSize="@dimen/now_playing_bar_tooltip_font_size" android:textColor="@color/green_dark" android:id="@id/npb_tooltip_action" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentEnd="true" />
+</RelativeLayout>

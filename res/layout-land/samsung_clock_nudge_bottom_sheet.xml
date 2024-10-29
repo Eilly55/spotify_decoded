@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="false">
+            <FrameLayout android:layout_gravity="center" android:id="@id/illustration" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/spacer_24" android:layout_marginRight="@dimen/spacer_24" android:layout_weight="1.0" android:layout_marginHorizontal="@dimen/spacer_24">
+                <com.airbnb.lottie.LottieAnimationView android:layout_gravity="center" android:id="@id/animation" android:layout_width="240.0dip" android:layout_height="152.0dip" android:contentDescription="@null" android:importantForAccessibility="no" app:lottie_loop="true" app:lottie_rawRes="@raw/alarm_clock" />
+            </FrameLayout>
+            <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/spacer_24" android:layout_marginRight="@dimen/spacer_24" android:layout_weight="1.0" android:layout_marginHorizontal="@dimen/spacer_24">
+                <TextView android:textAppearance="@style/TextAppearance.Encore.TitleMedium" android:textColor="@color/gray_7" android:gravity="center" android:id="@id/samsung_nudge_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/spacer_16" android:text="@string/samsung_clock_nudge_bottom_sheet_title_variant_format_agnostic" android:paddingStart="@dimen/spacer_24" android:paddingEnd="@dimen/spacer_24" />
+                <TextView android:textAppearance="@style/TextAppearance.Encore.BodyMedium" android:textColor="@color/gray_7" android:gravity="center" android:id="@id/samsung_nudge_description" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/spacer_8" android:text="@string/samsung_clock_nudge_bottom_sheet_description_variant_format_agnostic" android:paddingStart="@dimen/spacer_24" android:paddingEnd="@dimen/spacer_24" />
+            </LinearLayout>
+        </LinearLayout>
+        <Space android:layout_width="fill_parent" android:layout_height="@dimen/spacer_24" />
+        <Button android:layout_gravity="center_horizontal" android:id="@id/samsung_clock_set_alarm_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/samsung_clock_nudge_bottom_sheet_primary_button_text" android:filterTouchesWhenObscured="false" style="@style/Widget.Glue.Button.Primary.Green" />
+        <Button android:layout_gravity="center_horizontal" android:id="@id/samsung_clock_dismiss_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/spacer_8" android:layout_marginBottom="@dimen/spacer_48" android:text="@string/samsung_clock_nudge_bottom_sheet_secondary_button_text" android:filterTouchesWhenObscured="false" style="@style/Widget.Glue.Button.Primary.White" />
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

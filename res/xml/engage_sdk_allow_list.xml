@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<allowed_callers>
+    <signature allowedResources="com.spotify.externalintegration.service.provider.MediaProvider,com.spotify.music.libs.mediabrowserservice.SpotifyMediaBrowserService" name="Google Engage SDK Verify App" package="com.google.android.engage.verifyapp">
+        <key release="true"> D3:4B:E1:3A:62:50:1F:4E:08:BF:F1:04:83:78:96:09:F2:52:1A:ED:53:EA:47:24:92:59:F7:04:EF:08:30:75 </key>
+    </signature>
+    <signature allowedResources="com.spotify.externalintegration.service.provider.MediaProvider,com.spotify.music.libs.mediabrowserservice.SpotifyMediaBrowserService" name="Android Vending (Release)" package="com.android.vending">
+        <key release="true"> F0:FD:6C:5B:41:0F:25:CB:25:C3:B5:33:46:C8:97:2F:AE:30:F8:EE:74:11:DF:91:04:80:AD:6B:2D:60:DB:83 </key>
+    </signature>
+    <signature allowedResources="com.spotify.externalintegration.service.provider.MediaProvider,com.spotify.music.libs.mediabrowserservice.SpotifyMediaBrowserService" name="Android Vending (Debug)" package="com.android.vending">
+        <key release="false"> 19:75:B2:F1:71:77:BC:89:A5:DF:F3:1F:9E:64:A6:CA:E2:81:A5:3D:C1:D1:D5:9B:1D:14:7F:E1:C8:2A:FA:00 </key>
+    </signature>
+    <signature allowedResources="com.spotify.externalintegration.service.provider.MediaProvider,com.spotify.music.libs.mediabrowserservice.SpotifyMediaBrowserService" name="Google Quick Search Box (Release)" package="com.google.android.googlequicksearchbox">
+        <key release="true"> F0:FD:6C:5B:41:0F:25:CB:25:C3:B5:33:46:C8:97:2F:AE:30:F8:EE:74:11:DF:91:04:80:AD:6B:2D:60:DB:83 </key>
+    </signature>
+    <signature allowedResources="com.spotify.externalintegration.service.provider.MediaProvider,com.spotify.music.libs.mediabrowserservice.SpotifyMediaBrowserService" name="Google Quick Search Box (Debug)" package="com.google.android.googlequicksearchbox">
+        <key release="false"> 19:75:B2:F1:71:77:BC:89:A5:DF:F3:1F:9E:64:A6:CA:E2:81:A5:3D:C1:D1:D5:9B:1D:14:7F:E1:C8:2A:FA:00 </key>
+    </signature>
+    <signature allowedResources="com.spotify.externalintegration.service.provider.MediaProvider,com.spotify.music.libs.mediabrowserservice.SpotifyMediaBrowserService" name="Google Media Home Launcher (Release)" package="com.google.android.apps.mediahome.launcher">
+        <key release="true"> 5E:66:CE:F7:A9:F8:FD:E6:0C:D8:43:B9:4C:15:76:D4:3B:15:34:D3:11:2C:A6:2F:BF:19:0B:0A:0A:ED:02:79 </key>
+    </signature>
+    <signature allowedResources="com.spotify.externalintegration.service.provider.MediaProvider,com.spotify.music.libs.mediabrowserservice.SpotifyMediaBrowserService" name="Google Media Home Launcher  (Debug)" package="com.google.android.apps.mediahome.launcher">
+        <key release="false"> F7:33:26:FE:B1:88:EE:E5:5E:61:E4:AE:0A:83:10:B9:45:A5:4E:B7:8A:DA:18:03:0E:4D:13:5E:14:CA:FA:9F </key>
+    </signature>
+</allowed_callers>

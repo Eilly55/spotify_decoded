@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.spotify.encoreconsumermobile.elements.thumb.ThumbButtonView android:layout_width="fill_parent" android:layout_height="fill_parent" spotify:thumbButton_type="up"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:spotify="http://schemas.android.com/apk/res-auto" />

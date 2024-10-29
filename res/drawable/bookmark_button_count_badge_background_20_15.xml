@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <corners android:radius="@dimen/npv_bookmark_button_badge_radius_20" />
+    <stroke android:width="@dimen/npv_bookmark_button_badge_stroke" android:color="@color/spotify_black_7" />
+    <solid android:color="@color/green" />
+    <size android:height="@dimen/npv_bookmark_button_badge_size_15" android:width="@dimen/npv_bookmark_button_badge_size_20" />
+</shape>

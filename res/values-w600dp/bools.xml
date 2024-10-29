@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="is_adaptive_ui_enabled">true</bool>
+    <bool name="show_bottom_navigation_items_text">true</bool>
+    <bool name="sidedrawer_translate_content">false</bool>
+</resources>

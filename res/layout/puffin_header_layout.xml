@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.spotify.encoremobile.component.icons.IconExclamationCircle android:id="@id/error_icon" android:visibility="gone" android:layout_width="24.0dip" android:layout_height="24.0dip" android:tint="?baseTextSubdued" android:contentDescription="@string/puffin_error_icon_content_description" android:layout_marginStart="@dimen/std_16dp" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <ImageView android:id="@id/headphone_icon" android:visibility="gone" android:layout_width="32.0dip" android:layout_height="32.0dip" android:layout_marginStart="12.0dip" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+</merge>

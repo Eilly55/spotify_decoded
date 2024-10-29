@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/campaign_story_card_root_view" android:layout_width="112.0dip" android:layout_height="wrap_content" android:maxWidth="@dimen/story_card_max_width"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView android:id="@id/story_card" android:duplicateParentState="true" android:layout_width="112.0dip" android:layout_height="wrap_content" app:cardCornerRadius="@dimen/story_card_background_corner_radius" app:layout_constraintBottom_toTopOf="@id/tag_label" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <com.airbnb.lottie.LottieAnimationView android:id="@id/decoration" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+        <TextView android:textAppearance="@style/TextAppearance.Encore.TitleSmall" android:textColor="@color/black" android:ellipsize="end" android:gravity="center" android:layout_gravity="center" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:maxLines="3" android:layout_marginHorizontal="10.0dip" />
+    </androidx.cardview.widget.CardView>
+    <com.spotify.encoreconsumermobile.elements.taglabel.TagLabelView android:ellipsize="end" android:id="@id/tag_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/story_card_margin_between_views" android:maxWidth="112.0dip" android:maxLines="1" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/story_card" />
+</androidx.constraintlayout.widget.ConstraintLayout>

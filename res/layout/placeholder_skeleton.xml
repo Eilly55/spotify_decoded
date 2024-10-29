@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.shimmer.ShimmerFrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:animateLayoutChanges="true" shimmer:shimmer_base_alpha="1.0" shimmer:shimmer_base_color="@color/skeleton_base_color" shimmer:shimmer_colored="true" shimmer:shimmer_duration="1200" shimmer:shimmer_highlight_alpha="1.0" shimmer:shimmer_highlight_color="@color/skeleton_highlight_color"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:shimmer="http://schemas.android.com/apk/res-auto" />

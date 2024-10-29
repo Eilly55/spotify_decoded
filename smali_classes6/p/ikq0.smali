@@ -1,0 +1,175 @@
+.class public final Lp/ikq0;
+.super Lp/zwv0;
+.source "SourceFile"
+
+# interfaces
+.implements Lp/u3v;
+
+
+# instance fields
+.field public final synthetic a:Ljava/lang/String;
+
+.field public final synthetic b:Lp/xxf;
+
+.field public final synthetic c:Lp/dg8;
+
+.field public final synthetic d:Lp/g3v;
+
+
+# direct methods
+.method public constructor <init>(Ljava/lang/String;Lp/xxf;Lp/dg8;Lp/g3v;Lp/lof;)V
+    .locals 0
+
+    .line 1
+    iput-object p1, p0, Lp/ikq0;->a:Ljava/lang/String;
+
+    iput-object p2, p0, Lp/ikq0;->b:Lp/xxf;
+
+    iput-object p3, p0, Lp/ikq0;->c:Lp/dg8;
+
+    iput-object p4, p0, Lp/ikq0;->d:Lp/g3v;
+
+    const/4 p1, 0x2
+
+    invoke-direct {p0, p1, p5}, Lp/zwv0;-><init>(ILp/lof;)V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final create(Ljava/lang/Object;Lp/lof;)Lp/lof;
+    .locals 6
+
+    .line 1
+    new-instance p1, Lp/ikq0;
+
+    iget-object v1, p0, Lp/ikq0;->a:Ljava/lang/String;
+
+    iget-object v2, p0, Lp/ikq0;->b:Lp/xxf;
+
+    iget-object v3, p0, Lp/ikq0;->c:Lp/dg8;
+
+    iget-object v4, p0, Lp/ikq0;->d:Lp/g3v;
+
+    move-object v0, p1
+
+    move-object v5, p2
+
+    invoke-direct/range {v0 .. v5}, Lp/ikq0;-><init>(Ljava/lang/String;Lp/xxf;Lp/dg8;Lp/g3v;Lp/lof;)V
+
+    return-object p1
+.end method
+
+.method public final invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 0
+
+    .line 1
+    check-cast p1, Lp/xxf;
+
+    .line 2
+    .line 3
+    check-cast p2, Lp/lof;
+
+    .line 4
+    .line 5
+    invoke-virtual {p0, p1, p2}, Lp/ikq0;->create(Ljava/lang/Object;Lp/lof;)Lp/lof;
+
+    .line 6
+    .line 7
+    .line 8
+    move-result-object p1
+
+    .line 9
+    check-cast p1, Lp/ikq0;
+
+    .line 10
+    .line 11
+    sget-object p2, Lp/r7z0;->a:Lp/r7z0;
+
+    .line 12
+    .line 13
+    invoke-virtual {p1, p2}, Lp/ikq0;->invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;
+
+    .line 14
+    .line 15
+    .line 16
+    return-object p2
+.end method
+
+.method public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 4
+
+    .line 1
+    invoke-static {p1}, Lp/c2f0;->A0(Ljava/lang/Object;)V
+
+    .line 2
+    .line 3
+    .line 4
+    iget-object p1, p0, Lp/ikq0;->a:Ljava/lang/String;
+
+    .line 5
+    .line 6
+    if-eqz p1, :cond_1
+
+    .line 7
+    .line 8
+    invoke-static {p1}, Lp/fav0;->J(Ljava/lang/CharSequence;)Z
+
+    .line 9
+    .line 10
+    .line 11
+    move-result v0
+
+    .line 12
+    if-eqz v0, :cond_0
+
+    .line 13
+    .line 14
+    goto :goto_0
+
+    .line 15
+    :cond_0
+    new-instance v0, Lp/hkq0;
+
+    .line 16
+    .line 17
+    iget-object v1, p0, Lp/ikq0;->d:Lp/g3v;
+
+    .line 18
+    .line 19
+    iget-object v2, p0, Lp/ikq0;->c:Lp/dg8;
+
+    .line 20
+    .line 21
+    const/4 v3, 0x0
+
+    .line 22
+    invoke-direct {v0, v2, p1, v1, v3}, Lp/hkq0;-><init>(Lp/dg8;Ljava/lang/String;Lp/g3v;Lp/lof;)V
+
+    .line 23
+    .line 24
+    .line 25
+    const/4 p1, 0x3
+
+    .line 26
+    const/4 v1, 0x0
+
+    .line 27
+    iget-object v2, p0, Lp/ikq0;->b:Lp/xxf;
+
+    .line 28
+    .line 29
+    invoke-static {v2, v3, v1, v0, p1}, Lp/uwa0;->B(Lp/xxf;Lp/mxf;ILp/u3v;I)Lp/t8u0;
+
+    .line 30
+    .line 31
+    .line 32
+    :cond_1
+    :goto_0
+    sget-object p1, Lp/r7z0;->a:Lp/r7z0;
+
+    .line 33
+    .line 34
+    return-object p1
+.end method

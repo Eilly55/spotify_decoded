@@ -1,0 +1,563 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="ad_header_title_sponsored_session_end_card">
+        <item quantity="other">Luister %1$d minuten zonder onderbrekingen</item>
+        <item quantity="one">Luister %1$d minuut zonder onderbrekingen</item>
+    </plurals>
+    <plurals name="ad_header_title_sponsored_session_video_ad">
+        <item quantity="other">Na deze korte video kun je %1$d minuten ononderbroken luisteren</item>
+        <item quantity="one">Na deze korte video kun je %1$d minuut ononderbroken luisteren</item>
+    </plurals>
+    <plurals name="add_to_playlist_filter_items_count_changed_announcement">
+        <item quantity="other">%1$d items gevonden</item>
+        <item quantity="one">%1$d item gevonden</item>
+    </plurals>
+    <plurals name="add_to_playlist_subtitle_audiobooks_count">
+        <item quantity="other">%1$s luisterboeken</item>
+        <item quantity="one">%1$s luisterboek</item>
+    </plurals>
+    <plurals name="add_to_playlist_subtitle_episodes_count">
+        <item quantity="other">%1$s afleveringen</item>
+        <item quantity="one">%1$s aflevering</item>
+    </plurals>
+    <plurals name="add_to_playlist_subtitle_songs_count">
+        <item quantity="other">%1$s nummers</item>
+        <item quantity="one">%1$s nummer</item>
+    </plurals>
+    <plurals name="add_to_playlist_subtitle_tracks_count">
+        <item quantity="other">%1$s nummers</item>
+        <item quantity="one">%1$s nummer</item>
+    </plurals>
+    <plurals name="album_track_count_and_duration">
+        <item quantity="other">%1$d nummers • %2$s</item>
+        <item quantity="one">%1$d nummer • %2$s</item>
+    </plurals>
+    <plurals name="allboarding_selected_nb_label">
+        <item quantity="other">%1$d geselecteerd</item>
+        <item quantity="one">%1$d geselecteerd</item>
+    </plurals>
+    <plurals name="allboarding_selection_summary_content_desc">
+        <item quantity="other">%1$d geselecteerd</item>
+        <item quantity="one">%1$d geselecteerd</item>
+    </plurals>
+    <plurals name="allboarding_selection_summary_with_requirement_content_desc">
+        <item quantity="other">%1$d geselecteerd. Selecteer er nog minimaal %2$d om verder te gaan.</item>
+        <item quantity="one">%1$d geselecteerd. Selecteer er nog minimaal %2$d om verder te gaan.</item>
+    </plurals>
+    <plurals name="android_auto_podcast_episode_time_format_hours">
+        <item quantity="other">%1$d uur</item>
+        <item quantity="one">%1$d uur</item>
+    </plurals>
+    <plurals name="android_auto_podcast_episode_time_format_min">
+        <item quantity="other">%1$d minuten</item>
+        <item quantity="one">%1$d minuut</item>
+    </plurals>
+    <plurals name="artist_number_of_liked_releases">
+        <item quantity="other">%1$,d releases</item>
+        <item quantity="one">%1$,d release</item>
+    </plurals>
+    <plurals name="artist_number_of_liked_songs">
+        <item quantity="other">%1$,d nummers</item>
+        <item quantity="one">%1$,d nummer</item>
+    </plurals>
+    <plurals name="artist_saved_songs_subtitle">
+        <item quantity="other">%1$d nummers • %2$s</item>
+        <item quantity="one">%1$d nummer • %2$s</item>
+    </plurals>
+    <plurals name="assisted_curation_search_filter_items_count_changed_announcement">
+        <item quantity="other">%1$d items gevonden</item>
+        <item quantity="one">%1$d item gevonden</item>
+    </plurals>
+    <plurals name="auto_download_limit_option">
+        <item quantity="other">%1$s nieuwe afleveringen per show</item>
+        <item quantity="one">%1$s nieuwe aflevering per show</item>
+    </plurals>
+    <plurals name="campfire_chats_preview_days_content_description">
+        <item quantity="other">%1$s dagen geleden</item>
+        <item quantity="one">%1$s dag geleden</item>
+    </plurals>
+    <plurals name="campfire_chats_preview_hours_content_description">
+        <item quantity="other">%1$s uur geleden</item>
+        <item quantity="one">%1$s uur geleden</item>
+    </plurals>
+    <plurals name="campfire_chats_preview_minutes_content_description">
+        <item quantity="other">%1$s minuten geleden</item>
+        <item quantity="one">%1$s minuut geleden</item>
+    </plurals>
+    <plurals name="campfire_sharedbychip_label_multiple">
+        <item quantity="other">%1$s vrienden</item>
+        <item quantity="one">%1$s vriend</item>
+    </plurals>
+    <plurals name="chapters_added">
+        <item quantity="other">%1$d hoofdstukken toegevoegd</item>
+        <item quantity="one">%1$d hoofdstuk toegevoegd</item>
+    </plurals>
+    <plurals name="chapters_played">
+        <item quantity="other">%1$d hoofdstukken afgespeeld</item>
+        <item quantity="one">%1$d hoofdstuk afgespeeld</item>
+    </plurals>
+    <plurals name="charts_header_new_entry_count">
+        <item quantity="other">%1$,d nieuwe toevoegingen</item>
+        <item quantity="one">%1$,d nieuwe toevoeging</item>
+    </plurals>
+    <plurals name="comment_days_ago">
+        <item quantity="other">%1$d dagen geleden</item>
+        <item quantity="one">%1$d dag geleden</item>
+    </plurals>
+    <plurals name="comment_hours_ago">
+        <item quantity="other">%1$d uur geleden</item>
+        <item quantity="one">%1$d uur geleden</item>
+    </plurals>
+    <plurals name="comment_minutes_ago">
+        <item quantity="other">%1$d minuten geleden</item>
+        <item quantity="one">%1$d minuut geleden</item>
+    </plurals>
+    <plurals name="comment_months_ago">
+        <item quantity="other">%1$d maanden geleden</item>
+        <item quantity="one">%1$d maand geleden</item>
+    </plurals>
+    <plurals name="comment_reply_preview">
+        <item quantity="other">%1$s antwoorden</item>
+        <item quantity="one">%1$s antwoord</item>
+    </plurals>
+    <plurals name="comment_weeks_ago">
+        <item quantity="other">%1$d weken geleden</item>
+        <item quantity="one">%1$d week geleden</item>
+    </plurals>
+    <plurals name="comment_years_ago">
+        <item quantity="other">%1$d jaar geleden</item>
+        <item quantity="one">%1$d jaar geleden</item>
+    </plurals>
+    <plurals name="complex_playlist_number_of_songs">
+        <item quantity="other">%1$,d nummers</item>
+        <item quantity="one">%1$,d nummer</item>
+    </plurals>
+    <plurals name="connect_device_multiple_listeners">
+        <item quantity="other">%1$d luisteraars</item>
+        <item quantity="one">%1$d luisteraar</item>
+    </plurals>
+    <plurals name="content_feed_timestamp_days_ago">
+        <item quantity="other">%1$d dagen geleden</item>
+        <item quantity="one">%1$d dag geleden</item>
+    </plurals>
+    <plurals name="content_feed_timestamp_hours_ago">
+        <item quantity="other">%1$d uur geleden</item>
+        <item quantity="one">%1$d uur geleden</item>
+    </plurals>
+    <plurals name="content_feed_timestamp_minutes_ago">
+        <item quantity="other">%1$d minuten geleden</item>
+        <item quantity="one">%1$d minuut geleden</item>
+    </plurals>
+    <plurals name="context_menu_sleep_timer_hours">
+        <item quantity="other">%1$d uur</item>
+        <item quantity="one">%1$d uur</item>
+    </plurals>
+    <plurals name="context_menu_sleep_timer_mins">
+        <item quantity="other">%1$d minuten</item>
+        <item quantity="one">%1$d minuut</item>
+    </plurals>
+    <plurals name="creator_row_content_description">
+        <item quantity="other">Auteurs: %1$s</item>
+        <item quantity="one">Auteur: %1$s</item>
+    </plurals>
+    <plurals name="creators_button_title_counter">
+        <item quantity="other">%1$s + %2$d anderen</item>
+        <item quantity="one">%1$s + %2$d ander</item>
+    </plurals>
+    <plurals name="creators_row_accessibility_hint">
+        <item quantity="other">Toont een navigeerbare lijst van alle %1$s</item>
+        <item quantity="one">Leidt naar meer content van deze %1$s</item>
+    </plurals>
+    <plurals name="days_label">
+        <item quantity="other">%1$s&lt;br/>&lt;b>dagen&lt;/b></item>
+        <item quantity="one">%1$s&lt;br/>&lt;b>dag&lt;/b></item>
+    </plurals>
+    <plurals name="days_left_until_release_date">
+        <item quantity="other">Komt over %1$d dagen uit</item>
+        <item quantity="one">Komt over %1$d dag uit</item>
+    </plurals>
+    <plurals name="days_to_renew">
+        <item quantity="other">%1$d dagen tot je nieuwe luisteruren krijgt</item>
+        <item quantity="one">%1$d dag tot je nieuwe luisteruren krijgt</item>
+    </plurals>
+    <plurals name="entity_action_row_downloading_progress_content_description">
+        <item quantity="other">%1$d%% gedownload</item>
+        <item quantity="one">%1$d%% gedownload</item>
+    </plurals>
+    <plurals name="episode_contents_chapters_expand_button">
+        <item quantity="other">%1$d hoofdstukken bekijken</item>
+        <item quantity="one">%1$d hoofdstuk bekijken</item>
+    </plurals>
+    <plurals name="episodes_added">
+        <item quantity="other">%1$d afleveringen toegevoegd</item>
+        <item quantity="one">%1$d aflevering toegevoegd</item>
+    </plurals>
+    <plurals name="episodes_played">
+        <item quantity="other">%1$d afleveringen afgespeeld</item>
+        <item quantity="one">%1$d aflevering afgespeeld</item>
+    </plurals>
+    <plurals name="error_dialog_body_resend_limit">
+        <item quantity="other">Wacht %1$d seconden en vraag dan een nieuwe code aan.</item>
+        <item quantity="one">Wacht %1$d seconde en vraag dan een nieuwe code aan.</item>
+    </plurals>
+    <plurals name="error_dialog_title_resend_limit">
+        <item quantity="other">Probeer het over %1$d seconden opnieuw</item>
+        <item quantity="one">Probeer het over %1$d seconde opnieuw</item>
+    </plurals>
+    <plurals name="event_card_number_of_events_text">
+        <item quantity="other">%1$d evenementen</item>
+        <item quantity="one">%1$d evenement</item>
+    </plurals>
+    <plurals name="find_friends_flow_confirm_desc">
+        <item quantity="other">Weet je zeker dat je al je deze %1$,d personen wilt volgen?</item>
+        <item quantity="one">Weet je zeker dat je al je deze %1$,d personen wilt volgen?</item>
+    </plurals>
+    <plurals name="header_common_likes_count">
+        <item quantity="other">%1$s keer opgeslagen</item>
+        <item quantity="one">%1$s keer opgeslagen</item>
+    </plurals>
+    <plurals name="hours_label">
+        <item quantity="other">%1$s&lt;br/>&lt;b>uur&lt;/b></item>
+        <item quantity="one">%1$s&lt;br/>&lt;b>uur&lt;/b></item>
+    </plurals>
+    <plurals name="hours_to_renew">
+        <item quantity="other">%1$d uur tot je nieuwe luisteruren krijgt</item>
+        <item quantity="one">%1$d uur tot je nieuwe luisteruren krijgt</item>
+    </plurals>
+    <plurals name="ipl_new_joiner_nudge">
+        <item quantity="other">%2$d anderen doen nu mee aan je Jam</item>
+        <item quantity="one">%1$s ander persoon doet nu mee aan je Jam</item>
+    </plurals>
+    <plurals name="item_description_folder_folders_count">
+        <item quantity="other">%1$s mappen</item>
+        <item quantity="one">%1$s map</item>
+    </plurals>
+    <plurals name="item_description_folder_playlists_count">
+        <item quantity="other">%1$s playlists</item>
+        <item quantity="one">%1$s playlist</item>
+    </plurals>
+    <plurals name="item_description_liked_songs">
+        <item quantity="other">Playlist • %1$s nummers</item>
+        <item quantity="one">Playlist • %1$s nummer</item>
+    </plurals>
+    <plurals name="item_description_liked_songs_filtered">
+        <item quantity="other">%1$s nummers</item>
+        <item quantity="one">%1$s nummer</item>
+    </plurals>
+    <plurals name="item_description_local_files">
+        <item quantity="other">Playlist • %1$s nummers</item>
+        <item quantity="one">Playlist • %1$s nummer</item>
+    </plurals>
+    <plurals name="item_description_local_files_filtered">
+        <item quantity="other">%1$s nummers</item>
+        <item quantity="one">%1$s nummer</item>
+    </plurals>
+    <plurals name="item_description_show_downloaded">
+        <item quantity="other">%1$s gedownloade afleveringen • %2$s</item>
+        <item quantity="one">%1$s gedownloade aflevering • %2$s</item>
+    </plurals>
+    <plurals name="item_description_show_downloaded_no_creator">
+        <item quantity="other">%1$s gedownloade afleveringen</item>
+        <item quantity="one">%1$s gedownloade aflevering</item>
+    </plurals>
+    <plurals name="item_description_your_episodes_downloaded">
+        <item quantity="other">%1$s gedownloade afleveringen</item>
+        <item quantity="one">%1$s gedownloade aflevering</item>
+    </plurals>
+    <plurals name="items_added">
+        <item quantity="other">%1$d items toegevoegd</item>
+        <item quantity="one">%1$d item toegevoegd</item>
+    </plurals>
+    <plurals name="items_played">
+        <item quantity="other">%1$d items afgespeeld</item>
+        <item quantity="one">%1$d item afgespeeld</item>
+    </plurals>
+    <plurals name="jam_host_settings_header_participant_count">
+        <item quantity="other">%1$d deelnemers</item>
+        <item quantity="one">%1$d deelnemer</item>
+    </plurals>
+    <plurals name="library_pinned_section_placeholder_subtitle">
+        <item quantity="other">Of swipe naar rechts. Je mag %1$d items vastzetten.</item>
+        <item quantity="one">Of swipe naar rechts. Je mag %1$d item vastzetten.</item>
+    </plurals>
+    <plurals name="liked_songs_header_subtitle">
+        <item quantity="other">%1$d nummers</item>
+        <item quantity="one">%1$d nummer</item>
+    </plurals>
+    <plurals name="line_selected">
+        <item quantity="other">%1$d regels geselecteerd</item>
+        <item quantity="one">%1$d regel geselecteerd</item>
+    </plurals>
+    <plurals name="listen_later_header_subtitle">
+        <item quantity="other">%1$d afleveringen</item>
+        <item quantity="one">%1$d aflevering</item>
+    </plurals>
+    <plurals name="listening_hours_card_complete">
+        <item quantity="other">Je hebt de %1$d uur voor luisterboeken van je maandabonnement opgebruikt.</item>
+        <item quantity="one">Je hebt de %1$d uur voor luisterboeken van je maandabonnement opgebruikt.</item>
+    </plurals>
+    <plurals name="listening_hours_card_text">
+        <item quantity="other">Luister %1$d uur naar luisterboeken uit onze catalogus voor abonnees; inbegrepen in je maandabonnement.</item>
+        <item quantity="one">Luister %1$d uur naar luisterboeken uit onze catalogus voor abonnees; inbegrepen in je maandabonnement.</item>
+    </plurals>
+    <plurals name="listening_hours_listened">
+        <item quantity="other">%1$d uur luistertijd</item>
+        <item quantity="one">%1$d uur luistertijd</item>
+    </plurals>
+    <plurals name="local_files_subtitle_number_of_tracks">
+        <item quantity="other">%1$,d nummers</item>
+        <item quantity="one">%1$,d nummer</item>
+    </plurals>
+    <plurals name="minutes_label">
+        <item quantity="other">%1$s&lt;br/>&lt;b>minuten&lt;/b></item>
+        <item quantity="one">%1$s&lt;br/>&lt;b>minuut&lt;/b></item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d nieuwe meldingen</item>
+        <item quantity="one">%d nieuwe melding</item>
+    </plurals>
+    <plurals name="notification_syncing_text">
+        <item quantity="other">%1$,d van %2$,d (%3$,d%% voltooid)</item>
+        <item quantity="one">%1$,d van %2$,d (%3$,d%% voltooid)</item>
+    </plurals>
+    <plurals name="num_available_downloads">
+        <item quantity="other">%1$s downloads beschikbaar</item>
+        <item quantity="one">%1$s download beschikbaar</item>
+    </plurals>
+    <plurals name="number_events_from_date">
+        <item quantity="other">%1$s evenementen vanaf %2$s</item>
+        <item quantity="one">%1$s evenement vanaf %2$s</item>
+    </plurals>
+    <plurals name="number_of_items">
+        <item quantity="other">%1$s nummers</item>
+        <item quantity="one">%1$s nummer</item>
+    </plurals>
+    <plurals name="number_of_live_events">
+        <item quantity="other">%1$s evenementen</item>
+        <item quantity="one">%1$s evenement</item>
+    </plurals>
+    <plurals name="number_of_live_events_near_you">
+        <item quantity="other">%1$s evenementen bij jou in de buurt</item>
+        <item quantity="one">%1$s evenement bij jou in de buurt</item>
+    </plurals>
+    <plurals name="otp_description">
+        <item quantity="other">We hebben een sms met een %1$d-cijferige code verzonden naar %2$s.</item>
+        <item quantity="one">We hebben een sms met een %1$d-cijferige code verzonden naar %2$s.</item>
+    </plurals>
+    <plurals name="otp_description_alt">
+        <item quantity="other">We hebben een %1$d-cijferige code naar %2$s gestuurd.</item>
+        <item quantity="one">We hebben een %1$d-cijferige code naar %2$s gestuurd.</item>
+    </plurals>
+    <plurals name="pin_gate_wrong_pin_long_delay_error_message">
+        <item quantity="other">Verkeerde pincode. Probeer het opnieuw over %1$d minuten.</item>
+        <item quantity="one">Verkeerde pincode. Probeer het opnieuw over %1$d minuut.</item>
+    </plurals>
+    <plurals name="pin_gate_wrong_pin_short_delay_error_message">
+        <item quantity="other">Verkeerde pincode. Probeer het opnieuw over %1$d seconden.</item>
+        <item quantity="one">Verkeerde pincode. Probeer het over %1$d seconde opnieuw.</item>
+    </plurals>
+    <plurals name="playback_settings_crossfade_slider_seconds_full">
+        <item quantity="other">%1$d seconden</item>
+        <item quantity="one">%1$d seconde</item>
+    </plurals>
+    <plurals name="playlist_header_collaborators">
+        <item quantity="other">%1$s + %2$d anderen</item>
+        <item quantity="one">%1$s + %2$d ander</item>
+    </plurals>
+    <plurals name="playlist_header_creator_with_collaborators_content_description">
+        <item quantity="other">Aangemaakt door %1$s en %2$d anderen</item>
+        <item quantity="one">Aangemaakt door %1$s en %2$d andere persoon</item>
+    </plurals>
+    <plurals name="playlist_participants_row_subtitle_episodes">
+        <item quantity="other">%1$d afleveringen</item>
+        <item quantity="one">%1$d aflevering</item>
+    </plurals>
+    <plurals name="playlist_participants_row_subtitle_tracks">
+        <item quantity="other">%1$d nummers</item>
+        <item quantity="one">%1$d nummer</item>
+    </plurals>
+    <plurals name="playlist_participants_title">
+        <item quantity="other">%1$d mensen</item>
+        <item quantity="one">%1$d persoon</item>
+    </plurals>
+    <plurals name="playlist_trackcloud_includes_label_episodes">
+        <item quantity="other">%1$,d AFLEVERINGEN</item>
+        <item quantity="one">%1$,d AFLEVERING</item>
+    </plurals>
+    <plurals name="playlist_trackcloud_includes_label_songs">
+        <item quantity="other">%1$,d NUMMERS</item>
+        <item quantity="one">%1$,d NUMMER</item>
+    </plurals>
+    <plurals name="podcast_chapters_bottom_sheet_chapter_count">
+        <item quantity="other">%1$d hoofdstukken</item>
+        <item quantity="one">%1$d hoofdstuk</item>
+    </plurals>
+    <plurals name="podcast_chapters_expand_button">
+        <item quantity="other">%1$d hoofdstukken bekijken</item>
+        <item quantity="one">%1$d hoofdstuk bekijken</item>
+    </plurals>
+    <plurals name="podcast_poll_days_left_label">
+        <item quantity="other">%1$d dagen</item>
+        <item quantity="one">%1$d dag</item>
+    </plurals>
+    <plurals name="podcast_poll_hours_left_label">
+        <item quantity="other">%1$d uur resterend</item>
+        <item quantity="one">%1$d uur resterend</item>
+    </plurals>
+    <plurals name="podcast_poll_minutes_left_label">
+        <item quantity="other">%1$d minuten resterend</item>
+        <item quantity="one">%1$d minuut resterend</item>
+    </plurals>
+    <plurals name="podcast_poll_poll_subtitle">
+        <item quantity="other">%1$d stemmen • %2$s</item>
+        <item quantity="one">%1$d stem • %2$s</item>
+    </plurals>
+    <plurals name="premium_mini_playlist_add_song_subtitle">
+        <item quantity="other">%1$d nummers over</item>
+        <item quantity="one">%1$d nummer over</item>
+    </plurals>
+    <plurals name="premium_mini_playlist_subtitle">
+        <item quantity="other">%1$d nummers • %2$s</item>
+        <item quantity="one">%1$d nummer • %2$s</item>
+    </plurals>
+    <plurals name="premium_plan_card_days_remaining">
+        <item quantity="other">%1$d dagen Premium</item>
+        <item quantity="one">%1$d dag Premium</item>
+    </plurals>
+    <plurals name="premium_plan_card_months_remaining">
+        <item quantity="other">%1$d maanden Premium</item>
+        <item quantity="one">%1$d maand Premium</item>
+    </plurals>
+    <plurals name="premium_plan_card_weeks_remaining">
+        <item quantity="other">%1$d weken Premium</item>
+        <item quantity="one">%1$d week Premium</item>
+    </plurals>
+    <plurals name="premium_plan_card_years_remaining">
+        <item quantity="other">%1$d jaar Premium</item>
+        <item quantity="one">%1$d jaar Premium</item>
+    </plurals>
+    <plurals name="profile_followers_count">
+        <item quantity="other">%1$d volgers</item>
+        <item quantity="one">%1$d volger</item>
+    </plurals>
+    <plurals name="profile_following_count">
+        <item quantity="other">%1$d volgend</item>
+        <item quantity="one">%1$d volgend</item>
+    </plurals>
+    <plurals name="profile_list_item_followers_count">
+        <item quantity="other">%1$,d volgers</item>
+        <item quantity="one">%1$,d volger</item>
+    </plurals>
+    <plurals name="profile_list_see_all_footer_playlists">
+        <item quantity="other">Alle %1$d playlists weergeven</item>
+        <item quantity="one">%1$d playlist weergeven</item>
+    </plurals>
+    <plurals name="profile_playlists_subtitle">
+        <item quantity="other">%1$,d keer opgeslagen</item>
+        <item quantity="one">%1$,d keer opgeslagen</item>
+    </plurals>
+    <plurals name="profile_recently_played_subtitle">
+        <item quantity="other">%1$,d volgers</item>
+        <item quantity="one">%1$,d volger</item>
+    </plurals>
+    <plurals name="search_episode_chapters_title_plurals">
+        <item quantity="other">%1$d hoofdstukken</item>
+        <item quantity="one">%1$d hoofdstuk</item>
+    </plurals>
+    <plurals name="search_saves_album_row_string">
+        <item quantity="other">%1$s keer opgeslagen</item>
+        <item quantity="one">%1$s keer opgeslagen</item>
+    </plurals>
+    <plurals name="search_saves_playlist_row_string">
+        <item quantity="other">%1$s keer opgeslagen</item>
+        <item quantity="one">%1$s keer opgeslagen</item>
+    </plurals>
+    <plurals name="seconds_label">
+        <item quantity="other">%1$s&lt;br/>&lt;b>seconden&lt;/b></item>
+        <item quantity="one">%1$s&lt;br/>&lt;b>seconde&lt;/b></item>
+    </plurals>
+    <plurals name="selection_line_quantity_subtitle">
+        <item quantity="other">%1$d regels geselecteerd</item>
+        <item quantity="one">%1$d regel geselecteerd</item>
+    </plurals>
+    <plurals name="settings_item_offline_mode_time_left_days">
+        <item quantity="other">Ga binnen %1$,d dagen weer online</item>
+        <item quantity="one">Ga binnen %1$,d dag weer online</item>
+    </plurals>
+    <plurals name="settings_item_plan_overview_description_time_remaining">
+        <item quantity="other">Resterende tijd: %1$d dagen</item>
+        <item quantity="one">Resterende tijd: %1$d dag</item>
+    </plurals>
+    <plurals name="shared_by_bottomsheet_title">
+        <item quantity="other">Gedeeld door %1$s vrienden</item>
+        <item quantity="one">Gedeeld door %1$s vriend</item>
+    </plurals>
+    <plurals name="song_limit_dialog_title">
+        <item quantity="other">Je hebt de limiet van %1$d gedownloade nummers bereikt</item>
+        <item quantity="one">Je hebt de limiet van %1$d gedownloade nummers bereikt</item>
+    </plurals>
+    <plurals name="songs_added">
+        <item quantity="other">%1$d nummers toegevoegd</item>
+        <item quantity="one">%1$d nummer toegevoegd</item>
+    </plurals>
+    <plurals name="songs_played">
+        <item quantity="other">%1$d nummers afgespeeld</item>
+        <item quantity="one">%1$d nummer afgespeeld</item>
+    </plurals>
+    <plurals name="timestamp_days">
+        <item quantity="other">%1$dd</item>
+        <item quantity="one">%1$dd</item>
+    </plurals>
+    <plurals name="timestamp_hours">
+        <item quantity="other">%1$d u.</item>
+        <item quantity="one">%1$d u.</item>
+    </plurals>
+    <plurals name="timestamp_minutes">
+        <item quantity="other">%1$dm.</item>
+        <item quantity="one">%1$dm.</item>
+    </plurals>
+    <plurals name="timestamp_weeks">
+        <item quantity="other">%1$dw</item>
+        <item quantity="one">%1$dw</item>
+    </plurals>
+    <plurals name="top_ups_hours_listened">
+        <item quantity="other">%1$s/%2$d uur geluisterd</item>
+        <item quantity="one">%1$s/%2$d uur geluisterd</item>
+    </plurals>
+    <plurals name="upcoming_release_pretitle_days">
+        <item quantity="other">Komt over %1$d dagen uit</item>
+        <item quantity="one">Komt over %1$d dag uit</item>
+    </plurals>
+    <plurals name="user_stats_top_entity_position_down">
+        <item quantity="other">Deze zijn sinds vorige maand %1$d plekken gedaald</item>
+        <item quantity="one">Deze is sinds vorige maand %1$d plek gedaald</item>
+    </plurals>
+    <plurals name="user_stats_top_entity_position_up">
+        <item quantity="other">Deze zijn sinds vorige maand %1$d plekken gestegen</item>
+        <item quantity="one">Deze is sinds vorige maand %1$d plek gestegen</item>
+    </plurals>
+    <plurals name="ylx_liked_songs_offline_subtitle">
+        <item quantity="other">%1$s gedownloade nummers</item>
+        <item quantity="one">%1$s gedownload nummer</item>
+    </plurals>
+    <plurals name="your_episodes_header_subtitle">
+        <item quantity="other">%1$d afleveringen</item>
+        <item quantity="one">%1$d aflevering</item>
+    </plurals>
+    <plurals name="your_episodes_settings_option_auto_download_enabled_shows">
+        <item quantity="other">Aangezet voor %1$s shows</item>
+        <item quantity="one">Aangezet voor %1$s show</item>
+    </plurals>
+    <plurals name="your_library_in_progress_progress_status_description">
+        <item quantity="other">Gestart, %1$d procent voltooid</item>
+        <item quantity="one">Gestart, %1$d procent voltooid</item>
+    </plurals>
+    <plurals name="your_library_pin_failed_body_item_pin_limit_reached">
+        <item quantity="other">Je kunt maar %1$d items tegelijk vastzetten.</item>
+        <item quantity="one">Je kunt maar %1$d item tegelijk vastzetten.</item>
+    </plurals>
+    <plurals name="your_library_pinning_failed_body_item_pin_limit_reached">
+        <item quantity="other">Je kunt maar %1$d items tegelijk vastzetten.</item>
+        <item quantity="one">Je kunt maar %1$d item tegelijk vastzetten.</item>
+    </plurals>
+</resources>

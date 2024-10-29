@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:id="@id/quickscroll_container" style="@style/QuickScroll.Container"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/quickscroll_indicator" style="@style/QuickScroll.Indicator">
+        <include layout="@layout/quickscroll_indicator" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/quickscroll_handle" style="@style/QuickScroll.Handle">
+        <include layout="@layout/quickscroll_handle" />
+    </FrameLayout>
+</merge>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:layout_marginBottom="16.0dip" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" app:cardBackgroundColor="@color/dark_base_background_highlight" app:cardCornerRadius="8.0dip" app:cardPreventCornerOverlap="false"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/linear_layout_wrapper" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="24.0dip">
+        <TextView android:textAppearance="@style/TextAppearance.Encore.TitleSmall" android:id="@id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="@dimen/std_32dp" android:layout_marginRight="16.0dip" android:layout_marginBottom="@dimen/std_16dp" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" />
+        <View android:background="@color/gray_20" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/recycler_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:nestedScrollingEnabled="false" />
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

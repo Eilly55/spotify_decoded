@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.spotify.allboarding.allboardingimpl.utils.PickerCollapsingTitleBar android:id="@id/single_item_picker_collapsing_title" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/item_list_recycler_view" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/std_8dp" android:layout_marginTop="@dimen/std_8dp" android:layout_marginRight="@dimen/std_8dp" android:layout_marginBottom="@dimen/std_8dp" android:layout_marginHorizontal="@dimen/std_8dp" android:layout_marginVertical="@dimen/std_8dp" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+    <include android:id="@id/single_item_picker_action_buttons" layout="@layout/picker_action_buttons" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

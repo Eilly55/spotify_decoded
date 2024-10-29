@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/check_play_icon" android:visibility="gone" android:layout_width="12.0dip" android:layout_height="12.0dip" android:layout_marginStart="4.0dip" android:layout_marginEnd="4.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toStartOf="@id/play_progress" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <ProgressBar android:id="@id/play_progress" android:visibility="gone" android:layout_width="88.0dip" android:layout_height="4.0dip" android:indeterminate="false" android:progressDrawable="@drawable/bg_play_progress_bar" android:layout_marginStart="4.0dip" android:mirrorForRtl="false" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toEndOf="@id/check_play_icon" app:layout_constraintTop_toTopOf="parent" style="?pasteProgressBarStyleHorizontal" />
+</merge>

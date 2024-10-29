@@ -1,0 +1,255 @@
+.class public final synthetic Lp/cgk0;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Lp/x3v;
+
+
+# instance fields
+.field public final synthetic a:I
+
+.field public final synthetic b:Lp/za6;
+
+
+# direct methods
+.method public synthetic constructor <init>(Lp/za6;I)V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 2
+    .line 3
+    .line 4
+    iput p2, p0, Lp/cgk0;->a:I
+
+    .line 5
+    .line 6
+    iput-object p1, p0, Lp/cgk0;->b:Lp/za6;
+
+    .line 7
+    .line 8
+    return-void
+.end method
+
+
+# virtual methods
+.method public final apply(Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 2
+
+    .line 1
+    iget-object v0, p0, Lp/cgk0;->b:Lp/za6;
+
+    .line 2
+    .line 3
+    iget v1, p0, Lp/cgk0;->a:I
+
+    .line 4
+    .line 5
+    packed-switch v1, :pswitch_data_0
+
+    .line 6
+    .line 7
+    .line 8
+    check-cast p1, Lp/nfk0;
+
+    .line 9
+    .line 10
+    iget-object p1, v0, Lp/za6;->a:Lp/f0n;
+
+    .line 11
+    .line 12
+    invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    .line 13
+    .line 14
+    .line 15
+    instance-of p1, p1, Lp/b340;
+
+    .line 16
+    .line 17
+    if-nez p1, :cond_0
+
+    .line 18
+    .line 19
+    const/4 p1, 0x1
+
+    .line 20
+    new-array p1, p1, [Ljava/lang/Object;
+
+    .line 21
+    .line 22
+    new-instance v0, Lp/kfk0;
+
+    .line 23
+    .line 24
+    invoke-direct {v0}, Ljava/lang/Object;-><init>()V
+
+    .line 25
+    .line 26
+    .line 27
+    const/4 v1, 0x0
+
+    .line 28
+    aput-object v0, p1, v1
+
+    .line 29
+    .line 30
+    invoke-static {p1}, Lcom/spotify/mobius/Effects;->a([Ljava/lang/Object;)Ljava/util/HashSet;
+
+    .line 31
+    .line 32
+    .line 33
+    move-result-object p1
+
+    .line 34
+    invoke-static {p1}, Lcom/spotify/mobius/Next;->a(Ljava/util/Set;)Lcom/spotify/mobius/Next;
+
+    .line 35
+    .line 36
+    .line 37
+    move-result-object p1
+
+    .line 38
+    goto :goto_0
+
+    .line 39
+    :cond_0
+    invoke-static {}, Lcom/spotify/mobius/Next;->j()Lcom/spotify/mobius/Next;
+
+    .line 40
+    .line 41
+    .line 42
+    move-result-object p1
+
+    .line 43
+    :goto_0
+    return-object p1
+
+    .line 44
+    :pswitch_0
+    check-cast p1, Lp/ofk0;
+
+    .line 45
+    .line 46
+    new-instance v1, Lp/u0i;
+
+    .line 47
+    .line 48
+    invoke-direct {v1}, Ljava/lang/Object;-><init>()V
+
+    .line 49
+    .line 50
+    .line 51
+    iget-object v0, v0, Lp/za6;->a:Lp/f0n;
+
+    .line 52
+    .line 53
+    iput-object v0, v1, Lp/u0i;->a:Ljava/lang/Object;
+
+    .line 54
+    .line 55
+    iget-object p1, p1, Lp/ofk0;->a:Lp/z5y;
+
+    .line 56
+    .line 57
+    new-instance v0, Lp/z240;
+
+    .line 58
+    .line 59
+    invoke-direct {v0, p1}, Lp/z240;-><init>(Lp/z5y;)V
+
+    .line 60
+    .line 61
+    .line 62
+    iput-object v0, v1, Lp/u0i;->a:Ljava/lang/Object;
+
+    .line 63
+    .line 64
+    invoke-virtual {v1}, Lp/u0i;->a()Lp/za6;
+
+    .line 65
+    .line 66
+    .line 67
+    move-result-object p1
+
+    .line 68
+    invoke-static {p1}, Lcom/spotify/mobius/Next;->h(Ljava/lang/Object;)Lcom/spotify/mobius/Next;
+
+    .line 69
+    .line 70
+    .line 71
+    move-result-object p1
+
+    .line 72
+    return-object p1
+
+    .line 73
+    :pswitch_1
+    check-cast p1, Lp/pfk0;
+
+    .line 74
+    .line 75
+    new-instance v1, Lp/u0i;
+
+    .line 76
+    .line 77
+    invoke-direct {v1}, Ljava/lang/Object;-><init>()V
+
+    .line 78
+    .line 79
+    .line 80
+    iget-object v0, v0, Lp/za6;->a:Lp/f0n;
+
+    .line 81
+    .line 82
+    iput-object v0, v1, Lp/u0i;->a:Ljava/lang/Object;
+
+    .line 83
+    .line 84
+    iget-object p1, p1, Lp/pfk0;->a:Lp/z5y;
+
+    .line 85
+    .line 86
+    new-instance v0, Lp/b340;
+
+    .line 87
+    .line 88
+    invoke-direct {v0, p1}, Lp/b340;-><init>(Lp/z5y;)V
+
+    .line 89
+    .line 90
+    .line 91
+    iput-object v0, v1, Lp/u0i;->a:Ljava/lang/Object;
+
+    .line 92
+    .line 93
+    invoke-virtual {v1}, Lp/u0i;->a()Lp/za6;
+
+    .line 94
+    .line 95
+    .line 96
+    move-result-object p1
+
+    .line 97
+    invoke-static {p1}, Lcom/spotify/mobius/Next;->h(Ljava/lang/Object;)Lcom/spotify/mobius/Next;
+
+    .line 98
+    .line 99
+    .line 100
+    move-result-object p1
+
+    .line 101
+    return-object p1
+
+    .line 102
+    nop
+
+    .line 103
+    :pswitch_data_0
+    .packed-switch 0x0
+        :pswitch_1
+        :pswitch_0
+    .end packed-switch
+.end method

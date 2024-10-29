@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textAppearance="@style/TextAppearance.NowPlayingBar.SingleLineTitle" android:ellipsize="marquee" android:id="@id/track_info_view_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:marqueeRepeatLimit="marquee_forever" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.spotify.encoreconsumermobile.elements.badge.enhanced.EnhancedBadgeView android:id="@id/enhanced_badge" android:visibility="gone" android:layout_width="11.0dip" android:layout_height="11.0dip" android:layout_marginEnd="4.0dip" />
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/video_available_badge" android:visibility="gone" android:layout_width="@dimen/spacer_12" android:layout_height="@dimen/spacer_12" android:src="@drawable/encore_icon_video" android:contentDescription="@string/content_desc_video_available_badge" android:layout_marginEnd="@dimen/spacer_4" app:tint="?textSubdued" />
+        <TextView android:textAppearance="@style/TextAppearance.NowPlayingBar.SingleLineSubtitle" android:ellipsize="marquee" android:id="@id/track_info_view_subtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:marqueeRepeatLimit="marquee_forever" />
+    </LinearLayout>
+</merge>

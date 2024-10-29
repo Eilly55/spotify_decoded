@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/navbar_solid_color">
+        <shape>
+            <solid android:color="#ff535353" />
+        </shape>
+    </item>
+    <item android:id="@id/navbar_gradient">
+        <shape>
+            <gradient android:startColor="#66121212" android:endColor="#99121212" android:angle="270.0" android:type="linear" />
+        </shape>
+    </item>
+</layer-list>

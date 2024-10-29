@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textColor="@color/selected_streaming_quality_text_color" android:id="@id/streaming_quality_title" android:duplicateParentState="true" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="@dimen/spacer_16" android:drawablePadding="@dimen/spacer_8" app:drawableStartCompat="@drawable/streaming_quality_bullet" app:drawableTint="@color/selected_streaming_quality_text_color" app:layout_constraintEnd_toStartOf="@id/streaming_quality_bitrate" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/streaming_quality" />
+    <TextView android:textColor="@color/selected_streaming_quality_text_color" android:id="@id/streaming_quality_bitrate" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/spacer_8" app:layout_constraintBottom_toBottomOf="@id/streaming_quality_title" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toEndOf="@id/streaming_quality_title" app:layout_constraintTop_toTopOf="@id/streaming_quality_title" />
+</merge>

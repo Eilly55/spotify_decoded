@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<allowed-callers>
+    <signature allowedResources="com.spotify.externalintegration.service.provider.MediaProvider,com.spotify.music.libs.mediabrowserservice.SpotifyMediaBrowserService" name="Motorola Partner Music Dev" package="com.motorola.partner.music">
+        <key release="true"> AB:92:68:15:35:F4:4B:60:2A:9E:7A:38:3A:55:B1:D6:78:22:5B:19:DC:10:39:EB:3D:C4:B9:B8:77:11:D5:A6 </key>
+    </signature>
+    <signature allowedResources="com.spotify.externalintegration.service.provider.MediaProvider,com.spotify.music.libs.mediabrowserservice.SpotifyMediaBrowserService" name="Motorola Partner Music Prod" package="com.motorola.partner.music">
+        <key release="true"> BE:88:04:A5:5E:90:45:A5:80:D2:04:97:9F:6E:FB:15:C0:58:73:1A:A1:02:1B:78:C0:46:FE:AB:8A:E7:6A:26 </key>
+    </signature>
+</allowed-callers>

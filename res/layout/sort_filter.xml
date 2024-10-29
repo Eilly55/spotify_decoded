@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.spotify.encoremobile.component.buttons.EncoreButton android:id="@id/sort_filter" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="@dimen/spacer_16" app:icon="@drawable/encore_icon_filter" style="@style/Encore.Button.Tertiary.Medium"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />
